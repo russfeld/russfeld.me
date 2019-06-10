@@ -1,0 +1,51 @@
+{{ $include_toc := .Params.include_toc}}
+<article>
+  {{ with .Params.header }}
+  <div class="post__header" style="background-image: linear-gradient(rgba(0, 0, 0, {{ .overlay_filter | default 0.5 }}), rgba(0, 0, 0, {{ .overlay_filter  | default 0.5 }})), url('{{ .overlay_image | default "" }}');">
+  {{ else }}
+  <div class="post__header">
+  {{ end }}
+      <header>
+        <h1 class="post__title__russfeld">{{ .Title }}</h1>
+        {{ with .Params.subtitle | markdownify }}
+        <span class="post__subtitle">
+          {{.}}
+        </span>
+        {{else}}
+          {{ with .Params.excerpt | markdownify }}
+          <span class="post__subtitle">
+            {{.}}
+          </span>
+          {{ end }}
+        {{ end }}
+        {{ partial "page-single/post-meta.html" . }}
+      </header>
+      {{ with .Params.header.caption }}
+      <span class="post__header__caption">
+        {{ . | safeHTML | markdownify }}
+      </span>
+      {{ end }}
+    </div>
+  <div class="content container">
+    {{ $tableOfContents := .TableOfContents }}
+    {{ with .Site.Params.toc }}
+    {{ if ne $include_toc false }}
+      <div class="toc-wrapper">
+        <input type="checkbox" id="tocToggle">
+        <label for="tocToggle">Table of Content</label>
+        {{ if eq . "hugo" }}
+            {{ $tableOfContents }}
+        {{ else if eq . "tocbot"}}
+          <div class="toc" id="TableOfContents"></div>
+        {{ end }}
+      </div>
+    {{ end }}
+    {{ end }}
+    <div class="post">
+      {{ .Content }}
+    </div>
+    {{ partial "page-single/post-navigation.html" . }}
+    {{ partial "page-single/post-related.html" . }}
+    {{ partial "page-single/post-comment.html" . }}
+  </div>
+</article>

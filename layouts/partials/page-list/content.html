@@ -1,0 +1,7 @@
+<div class="content container">
+  <h1 class="section__title">{{ .Title | safeHTML }}</h1>
+  {{ .Content }}
+  {{ with .Pages }}
+      {{ partial "posts-list.html" . }}
+  {{ end }}
+</div>

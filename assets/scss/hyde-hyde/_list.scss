@@ -1,0 +1,49 @@
+// for the list of posts
+
+.section__title {
+	font-size: $section__title-font-size;
+	color: $gray-0;
+}
+
+.post-list__item {
+	margin-bottom: 3em;
+}
+
+.item__title--big {
+	display: block;
+	font-size: $item__title-big-font-size;
+	line-height: 1.25;
+}
+
+.item__title--small {
+	font-size: 1rem;
+}
+
+.item__date {
+	color: $item__date-color;
+	display: block;
+	font-size: $item__date-font-size;
+	margin-bottom: .2rem;
+	margin-top: .2rem;
+}
+
+.list__grid {
+	display: grid;
+	grid-template-columns: repeat( 3, minmax(250px, 1fr) );
+	grid-column-gap: 1em;
+	grid-row-gap: 1em;
+}
+
+.list__item {
+
+}
+
+.list__title {
+	font-size: 1.2rem;
+	font-weight: bolder;
+}
+
+.list__meta {
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+}

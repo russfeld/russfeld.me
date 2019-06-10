@@ -1,0 +1,92 @@
+baseURL = "https://russfeld.me"
+languageCode = "en-us"
+title = "Russell Feldhausen"
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+googleAnalytics = "UA-72698101-1"
+# enableRobotsTXT = true
+
+summarylength = 30
+
+#paginate = 5
+
+[frontmatter]
+    date  = [":filename", ":default"]
+
+## Site Settings
+[params]
+    author = "Russell Feldhausen"
+    title = "russfeld.me"
+    description = "The curricula, blog, recipes, projects, research, and random musings of Russell Feldhausen"
+    authorimage = "/img/hugo.png"
+    dateformat = "January 2, 2006"
+    layoutReverse = false
+    bio = "<i class=\"fas fa-fw fa-chalkboard-teacher\"></i> Computer Science Educator <br /><i class=\"fas fa-fw fa-laptop\"></i> Technology Whisperer <br /><i class=\"fas fa-fw fa-graduation-cap\"></i> Lifelong Student <br /><i class=\"fas fa-fw fa-utensils\"></i> Amateur Chef <br /><i class=\"fas fa-fw fa-glasses\"></i> Nerd <br /><i class=\"fas fa-fw fa-map-marker-alt\"></i> Kansas City"
+
+    # sidebar, copyright & license
+    copyright = "russfeld"
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = true
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    # toc = "none" # none, "hugo", or "tocbot"
+
+## Social Accounts
+[params.social]
+    github = "russfeld"
+    instagram = "russfeld"
+    #xing = "<username>"
+    linkedin = "russfeld"
+    twitter = "russfeld"
+    facebook = "russfeld"
+    #stackoverflow = "<username>"
+    #telegram = "<username>"
+    email = "russfeldh@gmail.com"
+    gravatar = "russfeld@ksu.edu"
+    flickr = "russfeld"
+    gpgkey = "russfeldh@gmail.com-public.key"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "Teaching"
+    weight = 200
+    identifier = "teaching"
+    url = "/teaching/"
+[[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    weight = 300
+    url = "/projects/"
+[[menu.main]]
+    name = "Cooking"
+    identifier = "recipes"
+    weight = 400
+    url = "/recipes/"
+[[menu.main]]
+    name = "Talks"
+    identifier = "talks"
+    weight = 500
+    url = "/talks/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 600
+    url = "/about/"

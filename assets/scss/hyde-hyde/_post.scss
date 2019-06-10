@@ -1,0 +1,83 @@
+.post__meta {
+  font-size: $meta-font-size;
+  color: $meta-color;
+  font-weight: $meta-font-weight;
+}
+
+.post__category {
+  font-weight: bold;
+}
+
+.post__tag {
+  background: $tag-background-color;
+  border-radius: 2px;
+  color: $tag-color;
+  font-size: $tag-font-size;
+  font-weight: bold;
+  padding: 2px 6px;
+}
+
+.post__title {
+  background-image: -webkit-linear-gradient(left, $gradient-color-1, $gradient-color-2); /* For Chrome and Safari */
+  background-image:    -moz-linear-gradient(left, $gradient-color-1, $gradient-color-2); /* For old Fx (3.6 to 15) */
+  background-image:     -ms-linear-gradient(left, $gradient-color-1, $gradient-color-2); /* For pre-releases of IE 10*/
+  background-image:      -o-linear-gradient(left, $gradient-color-1, $gradient-color-2); /* For old Opera (11.1 to 12.0) */
+  background-image:         linear-gradient(to right, $gradient-color-1, $gradient-color-2); /* Standard syntax; must be last */
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+ }
+
+.post__subtitle {
+  display: block;
+  font-size: $post__subtitle-font-size;
+  font-style: italic;
+  padding: 0 0 1rem 0;
+}
+
+.post__header {
+  margin-left: $sidebar-width;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  color: $gray-1;
+  position: relative;
+  background-size: cover;
+}
+
+.post__title__russfeld {
+  margin-block-start: 0px;
+  font-weight: bold;
+}
+
+.post__header__caption{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  //margin: 0 auto;
+  //padding: 2px 5px;
+  //color: #fff;
+  //font-family: Georgia,Times,serif;
+  //font-size: .6875em;
+  //background: #000;
+  //text-align: right;
+  //z-index: 5;
+  opacity: 0.5;
+  border-radius: 4px 0 0 0;
+}
+
+.post__header__caption > a {
+  border: none;
+}
+
+.post__header__caption > p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+#references {
+  li {
+    font-size: 0.9rem;
+  }
+}
