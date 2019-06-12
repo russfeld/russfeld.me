@@ -28,18 +28,16 @@
     </div>
   <div class="content container">
     {{ $tableOfContents := .TableOfContents }}
-    {{ with .Site.Params.toc }}
-    {{ if ne $include_toc false }}
+    {{ with .Params.toc }}
       <div class="toc-wrapper">
         <input type="checkbox" id="tocToggle">
-        <label for="tocToggle">Table of Content</label>
+        <label for="tocToggle">Table of Contents</label>
         {{ if eq . "hugo" }}
             {{ $tableOfContents }}
         {{ else if eq . "tocbot"}}
           <div class="toc" id="TableOfContents"></div>
         {{ end }}
       </div>
-    {{ end }}
     {{ end }}
     <div class="post">
       {{ .Content }}

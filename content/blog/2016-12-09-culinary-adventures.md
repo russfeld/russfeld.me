@@ -6,9 +6,9 @@ tags:
 header:
   teaser: /assets/images/headers/tikka_masala-teaser.jpg
   overlay_image: /assets/images/headers/tikka_masala.jpg
-  overlay_filter: 0.5
+  overlay_filter: 0.7
   image_description: "Chicken tikka masala"
-  caption: "Chicken Tikka Masala (recipe: [Bon Appétit](https://www.bonappetit.com/recipe/chicken-tikka-masala))"
+  caption: '<i class="fas fa-camera fa-sm" aria-hidden="true"></i> Chicken Tikka Masala (recipe: [Bon Appétit](https://www.bonappetit.com/recipe/chicken-tikka-masala))'
 ---
 
 Announcing a new feature on my blog - *The Chronicles of my Culinary Adventures* Recipe Archive!

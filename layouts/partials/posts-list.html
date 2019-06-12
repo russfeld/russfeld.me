@@ -1,10 +1,10 @@
-<div class="list__grid">
+<div class="list__grid show-grid list__hidden">
 
   {{ range . }}
   <div class="list__item">
       {{ if .Params.header.teaser }}
       <a href="{{ .RelPermalink }}">
-      <img src="{{ .Params.header.teaser }}">
+      <img class="list__teaser" src="{{ .Params.header.teaser }}">
       </a>
       {{ end }}
       <div class="list__title">
@@ -20,6 +20,39 @@
         </span>
       </div>
       <div class="list__subtitle">
+      {{ with .Params.subtitle | markdownify }}
+      <span>
+      {{ . }}
+      </span>
+      {{ else }}
+        {{ with .Params.excerpt  | markdownify }}
+        <span>
+        {{ . }}
+        </span>
+        {{ end }}
+      {{ end }}
+      </div>
+  </div>
+  {{ end }}
+
+</div>
+
+<div class="list__list show-list">
+
+  {{ range . }}
+  <div class="list__item">
+
+      <div class="list__list__title">
+        <span class="list__title">
+          <a href="{{ .RelPermalink }}" {{if .Draft}}class="draft"{{end}}>{{ .Title }}</a>&nbsp;
+        </span>
+        <span class="list__meta">
+        {{ if not .Date.IsZero }}
+          <i class="fas fa-calendar-alt"></i> {{ .Date.Format (.Site.Params.dateformat | default "Jan 02, 2006") }}<br>
+        {{ end }}
+        </span>
+      </div>
+      <div class="list__list__subtitle">
       {{ with .Params.subtitle | markdownify }}
       <span>
       {{ . }}

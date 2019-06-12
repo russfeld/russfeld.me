@@ -1,5 +1,10 @@
 <div class="content container">
-  <h1 class="section__title">{{ .Title | safeHTML }}</h1>
+  <div>
+    <span class="grid__toggle pull-right">
+      <a id="show-grid-toggle" class="show-list"><i class="fas fa-th fa-2x"></i></a><a id="show-list-toggle" class="show-grid list__hidden"><i class="fas fa-th-list fa-2x"></i></a>
+    </span>
+    <h1 class="section__title">{{ .Title | safeHTML }}</h1>
+  </div>
   {{ .Content }}
   {{ with .Pages }}
       {{ partial "posts-list.html" . }}

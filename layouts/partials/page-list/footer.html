@@ -1,0 +1,8 @@
+{{ if .Site.GoogleAnalytics }}
+  <!-- Google Analytics -->
+  {{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
+{{ partial "footer/font-awesome-js.html" . }}
+{{ $js := resources.Get "js/list-toggle.js" }}
+{{ $secureJS := $js | resources.Fingerprint "sha512" }}
+<script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>

@@ -19,6 +19,7 @@ $blue: #268bd2;
 $brown: #8f5536;
 
 $neongreen: #57cc8a;
+$fancyblue: #5799cc;
 
 //https://www.client9.com/css-system-font-stack-sans-serif-v3
 $root-font-family: "Lato", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Droid Sans", "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";
@@ -36,7 +37,7 @@ $body-bg: #353b43;
 $border-color: #e5e5e5;
 
 $large-breakpoint: 38em;
-$large-font-size: 19px;
+$large-font-size: 18px;
 $font-scale-dot7: .7rem;
 $font-scale-dot8: .8rem;
 //
@@ -54,11 +55,12 @@ $code-fence-font-size: .8rem;
 $code-line-height: 1.4;
 
 // links
-$link-color: $neongreen;
+$link-color: $fancyblue;
 $link-hover-color: $body-color;
 
 // section
 $section__title-font-size: 2.15rem;
+$section__title-font-size-small: 1.9rem;
 
 // post
 $post__subtitle-font-size: 1.25rem;
@@ -76,7 +78,7 @@ $tag-color: #353b43;
 $tag-font-size: .667rem;
 
 // post categories
-$category-background-color: #5799cc;
+$category-background-color: $fancyblue;
 $category-color: #353b43;
 
 // list of posts

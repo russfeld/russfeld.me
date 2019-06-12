@@ -1,0 +1,51 @@
+// Hugo {{ .TableOfContents }}
+$toc-background-color: rgba(255 ,255 ,255, 0.05);
+$toc-font-size: .9rem;
+
+.toc-wrapper {
+  font-size: $toc-font-size;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  background: $toc-background-color;
+  label {
+    background: url(/img/menu-close-dark.svg) no-repeat right center;
+    display: block;
+    cursor: pointer;
+    padding-left: 0em;
+    font-size: 1.5rem;
+  }
+  margin-top: 1.5em;
+  margin-right: 1em;
+}
+
+.toc-wrapper a {
+  color: #57cc8a;
+}
+
+#TableOfContents {
+  overflow: hidden;
+  margin-top: 0;
+  max-height: 100%;
+  > ul {
+    list-style-type: none;
+    padding-left: 0;
+    > li ul {
+      list-style-type: none;
+      padding-left: 1em;
+    }
+  }
+}
+
+input#tocToggle {
+  display: none;
+  + label {
+    font-weight: bold;
+  }
+  &:checked {
+    + label {
+      background-image: url(/img/menu-open-dark.svg);
+    }
+    ~ #TableOfContents {
+      max-height: 0;
+    }
+  }
+}

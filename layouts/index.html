@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{ partial "page-single/variables-init.html" . }}
+    {{ partial "header.html" . }}
+    <body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+      {{ partial "sidebar.html" . }}
+
+      <article>
+        {{ with .Params.header }}
+        <div class="post__header" style="background-image: linear-gradient(rgba(0, 0, 0, {{ .overlay_filter | default 0.5 }}), rgba(0, 0, 0, {{ .overlay_filter  | default 0.5 }})), url('{{ .overlay_image | default "" }}');">
+        {{ else }}
+        <div class="post__header">
+        {{ end }}
+            <header>
+              <h1 class="post__title__russfeld">{{ .Title }}</h1>
+              {{ with .Params.subtitle | markdownify }}
+              <span class="post__subtitle">
+                {{.}}
+              </span>
+              {{else}}
+                {{ with .Params.excerpt | markdownify }}
+                <span class="post__subtitle">
+                  {{.}}
+                </span>
+                {{ end }}
+              {{ end }}
+            </header>
+            {{ with .Params.header.caption }}
+            <span class="post__header__caption">
+              {{ . | safeHTML | markdownify }}
+            </span>
+            {{ end }}
+          </div>
+        <div class="content container">
+          <div class="post">
+            {{ .Content }}
+          </div>
+        </div>
+      </article>
+
+
+      {{ partial "page-single/footer.html" . }}
+      {{ partial "page-single/variables-deinit.html" . }}
+    </body>
+</html>

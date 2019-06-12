@@ -7,9 +7,9 @@ tags:
 header:
   teaser: /assets/images/headers/smashburgers-teaser.jpg
   overlay_image: /assets/images/headers/smashburgers.jpg
-  overlay_filter: 0.5
-  image_description: "Smashburgers"
-  caption: "Smashburgers"
+  overlay_filter: 0.7
+  image_description: 'Smashburgers'
+  caption: '<i class="fas fa-camera fa-sm" aria-hidden="true"></i> Smashburgers'
 ---
 Culinary Adventures #1 - The Perfect Homemade Hamburger.
 
