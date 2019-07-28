@@ -3,12 +3,12 @@ title: K-State CS Open House
 excerpt: Materials for CS Open House
 tags:
 - openhouse
-categories:
+areas:
 - advising
 header:
   teaser: /assets/images/headers/openhouse-teaser.jpg
   overlay_image: /assets/images/headers/openhouse-header.jpg
-  overlay_filter: 0.5
+  overlay_filter: 0.7
   image_description: "Open House Float"
 ---
 

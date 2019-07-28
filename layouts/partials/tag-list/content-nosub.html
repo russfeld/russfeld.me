@@ -1,0 +1,9 @@
+<div class="content container">
+  <div>
+    <h1 class="section__title">{{ .Title | safeHTML }}</h1>
+  </div>
+  {{ .Content }}
+  {{ with .Pages }}
+      {{ partial "tags-list-nosub.html" . }}
+  {{ end }}
+</div>

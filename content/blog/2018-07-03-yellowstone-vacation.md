@@ -6,7 +6,7 @@ tags:
 - travel
 - photography
 - yellowstone
-categories:
+sections:
 - exploring
 header:
   teaser: /assets/images/headers/yellowstone-teaser.jpg

@@ -15,6 +15,12 @@ summarylength = 30
 [frontmatter]
     date  = [":filename", ":default"]
 
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+    section = "sections"
+    area = "areas"
+
 ## Site Settings
 [params]
     author = "Russell Feldhausen"

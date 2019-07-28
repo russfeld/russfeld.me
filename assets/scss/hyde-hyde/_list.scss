@@ -72,9 +72,27 @@
 
 }
 
+.list_taxitem{
+	margin-bottom: 1rem;
+}
+
 .list__title {
 	font-size: 1.2rem;
 	font-weight: bolder;
+}
+
+.list_taxtitle {
+	font-size: 1.2rem;
+	font-weight: bolder;
+}
+
+.list_taxtitle > a {
+	color: $neongreen;
+}
+
+.list__subtitle {
+	font-size: 1rem;
+	font-weight: normal;
 }
 
 .list__meta {
@@ -125,8 +143,20 @@
 	}
 }
 
-
+.tag{
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+}
 
 .list__hidden {
 	display: none;
+}
+
+@for $i from 2 through 100 {
+    @if $i <= 12 {
+			$sizer: 1em + ( 2 / 5 ) * $i;
+			.font_size_#{$i} { font-size: $sizer; }
+		}else{
+			.font_size_#{$i} { font-size: 5em; }
+		}
 }

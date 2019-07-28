@@ -24,10 +24,35 @@ a.badge-tag {
   }
 }
 
+.badge-section,
+a.badge-section {
+  color: $section-color !important;
+  background-color: $section-background-color;
+  &:hover, &:focus {
+    color: $section-background-color !important;
+    background: transparent;
+    background-color: transparent;
+    text-decoration: none;
+    border-bottom: none;
+  }
+}
+
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
   font-size: 0.75rem;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.bigbadge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 1rem;
   font-weight: bold;
   line-height: 1;
   text-align: center;

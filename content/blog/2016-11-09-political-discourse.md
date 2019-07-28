@@ -5,7 +5,7 @@ tags:
 - politics
 - lincoln
 - rogers
-categories:
+sections:
 - introspection
 header:
   teaser: /assets/images/headers/louis-velazquez-588272-unsplash-teaser.jpg
@@ -52,4 +52,4 @@ To this I would add one of my favorite quotes (the source of which I will not di
 
 I pledge to cure my ignorance, educate myself, and engage in healthy political discourse. I hope you will do the same.
 
-<p class="custom__signature">TAKE THE PLEDGE!</p>
+<p class="custom__signature">take the pledge!</p>

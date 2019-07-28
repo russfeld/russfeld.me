@@ -4,7 +4,7 @@ excerpt: My attempt at a (nearly) homemade hamburger
 tags:
 - food
 - homemade
-categories:
+sections:
 - cuisine
 header:
   teaser: /assets/images/headers/smashburgers-teaser.jpg
@@ -24,11 +24,11 @@ So, upon a visit to [BRGR](http://brgrkitchen.com/) in Kansas City, I found myse
 Doesn't that look delicious? (Hint: it totally was!)
 
 The recipes for everything I made are below:  
-[Brioche Burger Buns]({{ site.url }}/recipes/brioche-burger-buns/)  
-[Smashburgers]({{ site.url }}/recipes/smashburgers/)  
-[Twice-Fried Fries]({{ site.url }}/recipes/twice-fried-fries/)  
-[Refrigerator Pickles]({{ site.url }}/recipes/refrigerator-pickles/)  
-[Homemade Mayonnaise]({{ site.url }}/recipes/homemade-mayonnaise/)  
+[Brioche Burger Buns](/recipes/brioche-burger-buns/)  
+[Smashburgers](/recipes/smashburgers/)  
+[Twice-Fried Fries](/recipes/twice-fried-fries/)  
+[Refrigerator Pickles](/recipes/refrigerator-pickles/)  
+[Homemade Mayonnaise](/recipes/homemade-mayonnaise/)  
 
 This was a really fun project, and I will definitely do this again in the future.
 

@@ -3,12 +3,12 @@ title: Project Euler
 excerpt: Coding Practice on Project Euler
 tags:
 - java
-categories:
+areas:
 - programming
 header:
   teaser: /assets/images/headers/euler.png
   overlay_image: /assets/images/headers/euler-header.png
-  overlay_filter: 0.5
+  overlay_filter: 0.7
   image_description: "Java Code"
 ---
 

@@ -1,0 +1,28 @@
+<div class="list__list show-list">
+
+  {{ range .ByTitle }}
+  <div class="list__item">
+
+      <div class="list__list__title">
+        <span class="list_taxtitle">
+          <a href="{{ .RelPermalink }}" {{if .Draft}}class="draft"{{end}}>{{ .Title | title }}</a>&nbsp;
+        </span>
+      </div>
+      <div class="list__list__subtitle">
+        {{ range .Pages.ByTitle }}
+         <div>
+          <span class="list__subtitle">
+            <a href="{{ .RelPermalink }}" {{if .Draft}}class="draft"{{end}}>{{ .Title | title }}</a>&nbsp;
+          </span>
+          <span class="list__meta">
+          {{ if not .Date.IsZero }}
+            <i class="fas fa-calendar-alt"></i> {{ .Date.Format (.Site.Params.dateformat | default "Jan 02, 2006") }}<br>
+          {{ end }}
+          </span>
+         </div>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+</div>

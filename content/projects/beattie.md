@@ -3,12 +3,12 @@ title: Beattie Union Cemetery Website
 excerpt: Personal Web Project
 tags:
 - laravel
-categories:
+areas:
 - programming
 header:
   teaser: /assets/images/headers/beattie-teaser.png
   overlay_image: /assets/images/headers/beattie-header.png
-  overlay_filter: 0.5
+  overlay_filter: 0.7
   image_description: "Beattie Cemetery Website"
   caption: "Beattie Cemetery Website"
 ---

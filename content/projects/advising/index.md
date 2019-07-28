@@ -3,12 +3,12 @@ title: Advising System
 excerpt: Implementation Project for MS Degree
 tags:
 - laravel
-categories:
+areas:
 - programming
 header:
   teaser: /assets/images/headers/advising-teaser.png
   overlay_image: /assets/images/headers/advising-header.png
-  overlay_filter: 0.5
+  overlay_filter: 0.7
   image_description: "Advising System Project"
   caption: "Advising System Project"
 ---

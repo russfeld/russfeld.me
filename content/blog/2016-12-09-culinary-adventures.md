@@ -3,7 +3,7 @@ title: Culinary Adventures
 excerpt: Announcing *The Chronicles of my Culinary Adventures* Recipe Archive!
 tags:
 - food
-categories:
+sections:
 - cuisine
 header:
   teaser: /assets/images/headers/tikka_masala-teaser.jpg
@@ -17,10 +17,10 @@ Announcing a new feature on my blog - *The Chronicles of my Culinary Adventures*
 
 I love to cook, but I'm not always the best about keeping records of what I cook or how I modified the recipes. This is my attempt to change that. I hope to start updating the blog more frequently with recipes, photos, and descriptions of my culinary adventures as they happen. My goal is for this to become a "living cookbook" for me and my family to build upon.
 
-You can find the latest updates posted on the main [Chronicles of my Culinary Adventures]( {{ site.baseurl }}/recipes ) page, or access the fully categorized and tagged [Recipe Archive]( {{ site.baseurl }}/recipes/archive ), which should serve as a very useful cookbook-style interface.
+You can find the latest updates posted on the main [Chronicles of my Culinary Adventures](/recipes ) page, or access the fully categorized and tagged [Recipe Category Archive](/categories/), which should serve as a very useful cookbook-style interface.
 
-Oh, and for my friends who use XML readers to keep up with the world (you know who you are ;^), you can find a new [XML Feed]( {{ site.baseurl }}/recipes.xml ) to keep you updated.
+Oh, and for my friends who use XML readers to keep up with the world (you know who you are ;^), you can find a new [XML Feed](/recipes/index.xml) (link coming soon) to keep you updated.
 
 As a sidenote, I probably should write a post about my adventures working with Jekyll to configure the collections and tagging system to handle all of these new features. I'll try to get on that soon!
 
-<p class="custom__signature">BON APPÉTIT</p>
+<p class="custom__signature">bon appétit!</p>
