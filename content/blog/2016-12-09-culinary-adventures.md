@@ -3,6 +3,8 @@ title: Culinary Adventures
 excerpt: Announcing *The Chronicles of my Culinary Adventures* Recipe Archive!
 tags:
 - food
+categories:
+- cuisine
 header:
   teaser: /assets/images/headers/tikka_masala-teaser.jpg
   overlay_image: /assets/images/headers/tikka_masala.jpg

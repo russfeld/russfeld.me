@@ -76,7 +76,7 @@ summarylength = 30
     weight = 300
     url = "/projects/"
 [[menu.main]]
-    name = "Cooking"
+    name = "Recipes"
     identifier = "recipes"
     weight = 400
     url = "/recipes/"

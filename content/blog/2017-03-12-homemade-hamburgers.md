@@ -4,6 +4,8 @@ excerpt: My attempt at a (nearly) homemade hamburger
 tags:
 - food
 - homemade
+categories:
+- cuisine
 header:
   teaser: /assets/images/headers/smashburgers-teaser.jpg
   overlay_image: /assets/images/headers/smashburgers.jpg

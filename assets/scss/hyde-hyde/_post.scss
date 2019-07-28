@@ -46,6 +46,18 @@
   background-size: cover;
 }
 
+.post__header__noimg {
+  margin-left: $sidebar-width;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  border-bottom: 4px solid $neongreen;
+  color: $gray-1;
+  position: relative;
+  background-size: cover;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .post__header {
     margin-left: 0;

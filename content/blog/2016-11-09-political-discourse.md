@@ -5,6 +5,8 @@ tags:
 - politics
 - lincoln
 - rogers
+categories:
+- introspection
 header:
   teaser: /assets/images/headers/louis-velazquez-588272-unsplash-teaser.jpg
   overlay_image: /assets/images/headers/louis-velazquez-588272-unsplash.jpg
