@@ -2,7 +2,7 @@
     <section class="taxonomy">
         {{ range . }}
         <span class="tag">
-            <a href="/tag/{{ .Title | urlize }}/" class="font_size_{{ cond (le (len .Pages) 12) (len .Pages) 12 }}">
+            <a href="/tags/{{ .Title | urlize }}/" class="font_size_{{ cond (le (len .Pages) 12) (len .Pages) 12 }}">
                 {{ .Title }}
             </a>
         </span>

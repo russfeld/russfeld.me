@@ -1,7 +1,7 @@
 {{ $include_toc := .Params.include_toc}}
 <article>
   {{ if .Params.header.overlay_image }}
-  <div class="post__header" style="background-image: linear-gradient(rgba(0, 0, 0, {{ .Params.header.overlay_filter | default 0.5 }}), rgba(0, 0, 0, {{ .Params.header.overlay_filter  | default 0.5 }})), url('{{ .Params.header.overlay_image | default "" }}');">
+  <div class="post__header" style="background-image: linear-gradient(rgba(0, 0, 0, {{ .Params.header.overlay_filter | default 0.5 }}), rgba(0, 0, 0, {{ .Params.header.overlay_filter  | default 0.5 }})), url('{{ .Params.header.overlay_image | default "" }}'); background-position:center;">
   {{ else }}
   <div class="post__header__noimg">
   {{ end }}

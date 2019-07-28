@@ -1,6 +1,6 @@
 <div class="content container">
   <div>
-    <h1 class="section__title">{{ .Title | safeHTML }}</h1>
+    <h1 class="section__title">{{ .Title | safeHTML | title }}</h1>
   </div>
   {{ .Content }}
   {{ with .Pages }}

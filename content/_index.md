@@ -18,14 +18,14 @@ _Email is my preferred method of communication._
 * **Mobile Phone:** (7 eight 5) 2 nine 2 - 3 one 2 one<br>
 _If I don't answer, please leave a message. I will do my best to respond quickly._ <br>
 _I accept text messages as well. Please include your name in the message._
-* **Other:** I lurk on many chat channels and online communities as @russfeld
+* **Other:** I lurk on many chat channels and online communities as @russfeld or variations on "Spartom 117"
 * **Pronouns:** I use **he/him** pronouns.
 
 Email is definitely my preferred method of contact, but if you need to reach me right away please call or text my mobile number. It's very likely that I won't answer a call from an unknown number, but leave a message or text me and I'll receive it pretty quickly.
 
 ### Current Work
 
-I'm currently working on creating a new [online certificate and BA program for K-State Computer Science](https://global.k-state.edu/engineering/computer-science/). The first course will be available Fall 2019, with many courses online by Fall 2020.
+I'm currently working on creating a new [online certificate and BA program](https://global.k-state.edu/engineering/computer-science/) for K-State Computer Science. The first course will be available Fall 2019, with many courses online by Fall 2020.
 
 I am also teaching a few online courses, including my [Enterprise Systems Administration](https://cis527.russfeld.me/) class once again.
 

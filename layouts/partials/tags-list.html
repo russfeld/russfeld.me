@@ -1,8 +1,9 @@
 <div class="list__list show-list">
 
   {{ range .ByTitle }}
-  <div class="list__item">
 
+    {{ if gt (len .Pages) 0 }}
+    <div class="list__item">
       <div class="list__list__title">
         <span class="list_taxtitle">
           <a href="{{ .RelPermalink }}" {{if .Draft}}class="draft"{{end}}>{{ .Title | title }}</a>&nbsp;
@@ -23,6 +24,20 @@
         {{ end }}
       </div>
     </div>
+    {{ else }}
+      <div class="list__list__subtitle">
+       <div>
+        <span class="list__subtitle">
+          <a href="{{ .RelPermalink }}" {{if .Draft}}class="draft"{{end}}>{{ .Title | title }}</a>&nbsp;
+        </span>
+        <span class="list__meta">
+        {{ if not .Date.IsZero }}
+          <i class="fas fa-calendar-alt"></i> {{ .Date.Format (.Site.Params.dateformat | default "Jan 02, 2006") }}<br>
+        {{ end }}
+        </span>
+       </div>
+      </div>
+    {{ end }}
   {{ end }}
 
 </div>

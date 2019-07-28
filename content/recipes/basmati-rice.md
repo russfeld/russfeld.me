@@ -1,7 +1,6 @@
 ---
 title: Basmati Rice
 layout: recipe
-comments: false
 tags:
 - rice
 - indian
@@ -13,6 +12,9 @@ makes: 8 servings
 date: 2018-03-03
 header:
   teaser: /assets/images/recipes/chicken_tikka_masala_1.jpg
+  overlay_image: /assets/images/recipes/chicken_tikka_masala_1.jpg
+  overlay_filter: 0.7
+  image_description: 'Chicken Tikka Masala'
 ---
 A recipe for rice? C'mon! How hard can it be?
 
