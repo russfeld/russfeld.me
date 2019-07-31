@@ -1,23 +1,25 @@
 ---
 title: Refrigerator Pickles
-layout: recipe
-comments: false
+excerpt: mouth watering, sweet and tart
 tags:
 - cucumber
 categories:
 - miscellaneous
-active-time: 30 minutes
-total-time: 1 hour
+active_time: 30 minutes
+total_time: 1 hour
 makes: 1.5 quarts
 date: 2017-03-11
 header:
   teaser: /assets/images/recipes/refrigerator_pickles_1.jpg
+  overlay_image: /assets/images/recipes/refrigerator_pickles_1.jpg
+  overlay_filter: 0.7
+  image_description: 'Refrigerator Pickles'
 ---
 [Homemade hamburger]({{ site.url }}/2017/03/12/homemade-hamburgers/) step 4 - toppings!
 
 <!--more-->
 
-{% include figure image_path="/assets/images/recipes/refrigerator_pickles_1.jpg" alt="Refrigerator Pickles" %}
+![Refrigerator Pickles](/assets/images/recipes/refrigerator_pickles_1.jpg)
 
 These are the pickles that make my mouth water every time I think about them. They are so quick and easy, and usually don't last long in my fridge!
 
@@ -43,11 +45,10 @@ Original source: [Better Homes & Gardens](http://www.bhg.com/recipe/pickles/clas
 
 ### Process
 1. Toss cucumbers, onion and salt. Put in a colander inside a bowl, layered with ice. Weight down with a heavy place, and chill overnight, up to 24 hours.
-{% include figure image_path="/assets/images/recipes/refrigerator_pickles_2.jpg" alt="Refrigerator Pickles" %}
-{:start="2"}
+![Refrigerator Pickles](/assets/images/recipes/refrigerator_pickles_2.jpg)
 2. Meanwhile, combine sugar, vinegar, seeds and ginger in non-reactive pot. Bring to boil, then simmer for 3 minutes. Cool and refrigerate.
 3. Once cucumbers are ready, remove unmelted ice and discard liquid. Add to large non-reactive pot. Strain sugar and vinegar mixture over cucumbers.
 4. Heat to a low boil, stirring occasionally, then remove from heat. Store in clean glass container in the fridge for a couple of weeks, or store in properly sealed canning jars in the fridge for longer periods.
 
 ### Notes
-2017-03-11 - Good as always! I made a smaller batch this time, about half what the original recipe calls for. Worked great!
+* 2017-03-11 - Good as always! I made a smaller batch this time, about half what the original recipe calls for. Worked great!

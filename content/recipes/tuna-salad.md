@@ -1,7 +1,6 @@
 ---
 title: Tuna Salad
-layout: recipe
-comments: false
+excerpt: an all-time favorite
 tags:
 - tuna
 - sandwich
@@ -9,12 +8,15 @@ tags:
 - mayo
 categories:
 - entrées
-active-time: 10 minutes
-total-time: 10 minutes
+active_time: 10 minutes
+total_time: 10 minutes
 makes: 4 - 6 sandwiches
 date: 2016-12-10
 header:
   teaser: /assets/images/recipes/tuna_salad_1.jpg
+  overlay_image: /assets/images/recipes/tuna_salad_1.jpg
+  overlay_filter: 0.7
+  image_description: 'Tuna Salad'
 ---
 My take on the classic tuna salad. An all-time favorite
 
@@ -22,7 +24,7 @@ My take on the classic tuna salad. An all-time favorite
 
 Tuna salad has been a quick and easy comfort food for me for a long time. The addition of apples gives it a fresh and crisp flavor.
 
-{% include figure image_path="/assets/images/recipes/tuna_salad_1.jpg" alt="Tuna Salad Sandwich" %}
+![Tuna Salad Sandwich](/assets/images/recipes/tuna_salad_1.jpg)
 
 ### Ingredients
 + 1 can tuna in water
@@ -54,4 +56,4 @@ none
 2. Serve on a bun or bread. I like to add a pickle.
 
 ### Notes
-2016-12-10 - Yummy as always! I used a finer julienne on the apple this time and it released a bit more juice than I'd like. Probably will stick to the slightly larger size.
+* 2016-12-10 - Yummy as always! I used a finer julienne on the apple this time and it released a bit more juice than I'd like. Probably will stick to the slightly larger size.

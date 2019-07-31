@@ -1,24 +1,26 @@
 ---
 title: Pork Carnitas
-layout: recipe
-comments: false
+excerpt: tasty pork shoulder bits
 tags:
 - pork
 - mexican
 categories:
 - entrées
-active-time: 30 minutes
-total-time: 2 - 4 hours
+active_time: 30 minutes
+total_time: 2 - 4 hours
 makes: 5 - 6 lb. carnitas
 date: 2016-12-12
 header:
   teaser: /assets/images/recipes/pork_carnitas_1.jpg
+  overlay_image: /assets/images/recipes/pork_carnitas_1.jpg
+  overlay_filter: 0.7
+  image_description: 'Pork Carnitas'
 ---
  A great start to wonderful Mexican cuisine.
 
 <!--more-->
 
-{% include figure image_path="/assets/images/recipes/pork_carnitas_1.jpg" alt="Pork Carnitas" %}
+![Pork Carnitas](/assets/images/recipes/pork_carnitas_1.jpg)
 
 Original source: [Allrecipies](http://allrecipes.com/recipe/219048/pork-carnitas/)
 
@@ -54,4 +56,4 @@ none
 6. Optional: Can bake in 400&deg;F oven for 20-30 minutes until browned further.
 
 ### Notes
-2016-12-12 - Made really delicious burritos and nachos for Monday Night. I saved the broth to use as a chili base later this winter
+* 2016-12-12 - Made really delicious burritos and nachos for Monday Night. I saved the broth to use as a chili base later this winter

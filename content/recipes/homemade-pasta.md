@@ -1,18 +1,20 @@
 ---
 title: Homemade Pasta
-layout: recipe
-comments: false
+excerpt: noodles & company
 tags:
 - pasta
 - italian
 categories:
 - entrées
-active-time: 30 minutes
-total-time: 2 hours
+active_time: 30 minutes
+total_time: 2 hours
 makes: 4 servings
 date: 2017-02-20
 header:
   teaser: /assets/images/recipes/homemade_pasta_1.jpg
+  overlay_image: /assets/images/recipes/homemade_pasta_1.jpg
+  overlay_filter: 0.7
+  image_description: 'Homemade Pasta'
 ---
 Homemade pasta is the hallmark of good Italian cuisine.
 
@@ -20,7 +22,7 @@ Homemade pasta is the hallmark of good Italian cuisine.
 
 One of the things that got me started as a serious cook was my love for pasta. I wanted to know the secrets to making my own, homemade pasta. After a bit of practice (and some equipment upgrades), I can make it without really thinking about it. It is a lot of work compared to boiling the dried stuff, and it isn't nearly as cheap, so I list this as a _sometimes_ food, but _sometimes_ it is worth the effort. You can even infuse it with herbs such as basil, as in the picture below.
 
-{% include figure image_path="/assets/images/recipes/homemade_pasta_1.jpg" alt="Homemade Pasta" %}
+![Homemade Pasta](/assets/images/recipes/homemade_pasta_1.jpg)
 
 Original Source: [SeriousEats](http://www.seriouseats.com/2015/01/best-easy-all-purpose-fresh-pasta-dough-recipe-instructions.html)
 
@@ -51,4 +53,4 @@ Original Source: [SeriousEats](http://www.seriouseats.com/2015/01/best-easy-all-
 I recommend serving with a nice [bolognese sauce](/recipes/bolognese/)! Or maybe even a [better bolognese sauce](/recipes/better-bolognese/)!
 
 ### Notes
-2016-02-20 - Infusing with basil herbs works great. Infusing with sun-dried tomatoes and red peppers from a jar didn't work as well. Too much moisture in both, so probably should adjust amounts accordingly to get a solid dough. But, it was tasty!
+* 2016-02-20 - Infusing with basil herbs works great. Infusing with sun-dried tomatoes and red peppers from a jar didn't work as well. Too much moisture in both, so probably should adjust amounts accordingly to get a solid dough. But, it was tasty!

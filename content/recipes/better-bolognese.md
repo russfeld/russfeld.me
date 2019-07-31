@@ -1,18 +1,20 @@
 ---
 title: Better Bolognese
-layout: recipe
-comments: false
+excerpt: "powerfully delicious red sauce"
 tags:
 - pasta
 - italian
 categories:
 - entrées
-active-time: 30 minutes
-total-time: 1 hour
+active_time: 30 minutes
+total_time: 1 hour
 makes: 12 servings
 date: 2018-03-03
 header:
   teaser: /assets/images/recipes/bolognese_1.jpg
+  overlay_image: /assets/images/recipes/bolognese_1.jpg
+  overlay_filter: 0.7
+  image_description: 'Bolognese'
 ---
 This is a powerfully delicious red sauce, which can be made powerfully spicy as well.
 

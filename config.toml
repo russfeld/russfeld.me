@@ -96,3 +96,6 @@ summarylength = 30
     identifier = "about"
     weight = 600
     url = "/about/"
+
+[blackfriday]
+  fractions = false

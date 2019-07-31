@@ -1,26 +1,25 @@
 ---
 title: Bolognese
-layout: recipe
-comments: false
+excerpt: sauce from a jar is so last year
 tags:
 - pasta
 - italian
 categories:
 - entrées
-active-time: 30 minutes
-total-time: 1 hour
+active_time: 30 minutes
+total_time: 1 hour
 makes: 12 servings
 date: 2017-02-20
 header:
   teaser: /assets/images/recipes/bolognese_1.jpg
+  overlay_image: /assets/images/recipes/bolognese_1.jpg
+  overlay_filter: 0.7
+  image_description: 'Bolognese'
 ---
-Sauce from a jar is _so_ last year.
-
-<!--more-->
 
 As I've started making more and more homemade food, I've taken a hard look at what I cook to try and find ways I can make it better. One thing I noticed was that all my homemade pasta deserved a nice, homemade sauce to go along with it. Enter my version of bolognese.
 
-{% include figure image_path="/assets/images/recipes/bolognese_1.jpg" alt="Bolognese" %}
+![Bolognese](/assets/images/recipes/bolognese_1.jpg)
 
 I know, I know, it isn't [real bolognese](http://www.seriouseats.com/2014/12/the-food-lab-slow-cooked-bolognese-sauce-recipe.html), but it isn't just everyday tomato sauce either. I think this fits somewhere in-between, and it is my go-to sauce whenever I make homemade pasta.
 
@@ -57,4 +56,4 @@ Update 2018-03-03: This is a recipe I constantly improvise on, and the version I
 Serve with _lots_ of freshly grated parmesan cheese.
 
 ### Notes
-2016-02-20 - Good as always!
+* 2016-02-20 - Good as always!

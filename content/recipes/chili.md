@@ -1,26 +1,25 @@
 ---
 title: Chili
-layout: recipe
-comments: false
+excerpt: the perfect cold day companion
 tags:
 - chili
 - soup
 categories:
 - entrées
-active-time: 30 minutes
-total-time: 2 hour 30 minutes
+active_time: 30 minutes
+total_time: 2 hour 30 minutes
 makes: 15 - 20 servings
 date: 2016-12-20
 header:
   teaser: /assets/images/recipes/chili_1.jpg
+  overlay_image: /assets/images/recipes/chili_1.jpg
+  overlay_filter: 0.7
+  image_description: 'Chili'
 ---
-Cold day? Why not make chili!
-
-<!--more-->
 
 This is the chili recipe that I always go to when it is cold outside and I want something to keep me warm and energized. The basis of this recipe is actually from [Ryan Summerskill](https://www.linkedin.com/in/rsummerskill), the first ACM president at K-State when it first restarted back in the mid-2000s. Since then I've modified it to fit my mood and the ingredients I have on hand. Let's face it: good chili has a recipe; great chili needs none!
 
-{% include figure image_path="/assets/images/recipes/chili_1.jpg" alt="Chili" %}
+![Chili](/assets/images/recipes/chili_1.jpg)
 
 This recipe _barely_ fits in the smaller electric roaster I own, which is approximately 6 quarts. Half of it should do for a large pot on the stove, or make double or triple the recipe for a large roaster if you have to feed an entire group.
 
@@ -69,4 +68,4 @@ This recipe _barely_ fits in the smaller electric roaster I own, which is approx
 I recommend serving with cheese, sour cream, corn chips, fresh onion, etc. to make a delicious meal.
 
 ### Notes
-2016-12-20 - Got the seasoning just about right on this one. The seasoning is definitely the most difficult part to get right. I usually go slow, adding a bit at a time and tasting as I go until it is just right. Remember that it will be more fragrant when hot.
+* 2016-12-20 - Got the seasoning just about right on this one. The seasoning is definitely the most difficult part to get right. I usually go slow, adding a bit at a time and tasting as I go until it is just right. Remember that it will be more fragrant when hot.

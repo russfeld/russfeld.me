@@ -1,23 +1,25 @@
 ---
 title: Smashburgers
-layout: recipe
-comments: false
+excerpt: diner quality at home
 tags:
 - sandwich
 categories:
 - entrées
-active-time: 45 minutes
-total-time: 45 minutes
+active_time: 45 minutes
+total_time: 45 minutes
 makes: 8 servings
 date: 2017-03-11
 header:
   teaser: /assets/images/recipes/smashburgers_1.jpg
+  overlay_image: /assets/images/recipes/smashburgers_1.jpg
+  overlay_filter: 0.7
+  image_description: 'Smashburgers'
 ---
 [Homemade hamburger]({{ site.url }}/2017/03/12/homemade-hamburgers/) step 2 - the perfect meat!
 
 <!--more-->
 
-{% include figure image_path="/assets/images/recipes/smashburgers_1.jpg" alt="Smashburger" %}
+![Smashburger](/assets/images/recipes/smashburgers_1.jpg)
 
 Of course, to make the perfect burger, you must grind your own meat. Here's how I did it!
 
@@ -34,11 +36,9 @@ Of course, to make the perfect burger, you must grind your own meat. Here's how 
 
 ### Process
 1. Cut the meat into 1 to 2 inch chunks. Make sure it is well chilled before grinding.
-{% include figure image_path="/assets/images/recipes/smashburgers_2.jpg" alt="Smashburger" %}
-{:start="2"}
+![Smashburger](/assets/images/recipes/smashburgers_2.jpg)
 2. Using meat grinder, grind the meat. I used the coarse setting for this one.
-{% include figure image_path="/assets/images/recipes/smashburgers_3.jpg" alt="Smashburger" %}
-{:start="3"}
+![Smashburger](/assets/images/recipes/smashburgers_3.jpg)
 3. Very gently shape the meat into pucks 2 inches by 2.5 inches, about 4-6 oz each.
 4. Heat skillet on high heat until nearly smoking.
 5. Liberally salt and pepper one side of the pucks, then place seasoned side down in the skillet, about 4 at a time.
@@ -49,4 +49,4 @@ Of course, to make the perfect burger, you must grind your own meat. Here's how 
 I like to serve these two at a time on delicious [brioche burger buns](/recipes/brioche-burger-buns/)!
 
 ### Notes
-2017-03-11 - Very good! I would try it again with a finer grind and try to press them harder. Also, I was tempted to overcook them, so more practice is needed to get them done but not burned.
+* 2017-03-11 - Very good! I would try it again with a finer grind and try to press them harder. Also, I was tempted to overcook them, so more practice is needed to get them done but not burned.

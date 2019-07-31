@@ -1,17 +1,19 @@
 ---
 title: Pastry Dough
-layout: recipe
-comments: false
+excerpt: a great base for pies
 tags:
 - pastry_dough
 categories:
 - miscellaneous
-active-time: 15 minutes
-total-time: 1 hour 15 minutes
+active_time: 15 minutes
+total_time: 1 hour 15 minutes
 makes: 1 9-inch pie crust
 date: 2016-12-09
 header:
   teaser: /assets/images/recipes/cornish_pasties_1.jpg
+  overlay_image: /assets/images/recipes/cornish_pasties_1.jpg
+  overlay_filter: 0.7
+  image_description: 'Pastry Dough'
 ---
 A quick and easy to make pastry dough recipe for pies and more!
 
@@ -19,7 +21,7 @@ A quick and easy to make pastry dough recipe for pies and more!
 
 Here's the pastry dough recipe that I used for these [cornish pasties](/recipes/cornish-pasties).
 
-{% include figure image_path="/assets/images/recipes/cornish_pasties_1.jpg" alt="Cornish Pasties" %}
+![Cornish Pasties](/assets/images/recipes/cornish_pasties_1.jpg)
 
 Original source: [epicurious](http://www.epicurious.com/recipes/food/views/pastry-dough-356091)
 
@@ -47,4 +49,4 @@ Original source: [epicurious](http://www.epicurious.com/recipes/food/views/pastr
 5. Scrape together dough into a disk about 5 inches across, wrap tightly in plastic wrap, and chill at least one hour. Can be chilled up to 3 days before use.
 
 ### Notes
-2016-12-09 - This recipe worked really well for the [cornish pasties](/recipes/cornish-pasties). It took about 6 recipes of this dough for 3 times that recipe. I made the dough in double sized batches and it worked well.
+* 2016-12-09 - This recipe worked really well for the [cornish pasties](/recipes/cornish-pasties). It took about 6 recipes of this dough for 3 times that recipe. I made the dough in double sized batches and it worked well.

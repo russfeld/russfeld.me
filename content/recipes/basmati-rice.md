@@ -1,13 +1,13 @@
 ---
 title: Basmati Rice
-layout: recipe
+excerpt: "how hard can it be?"
 tags:
 - rice
 - indian
 categories:
 - sides
-active-time: 10 minutes
-total-time: 30 minutes
+active_time: 10 minutes
+total_time: 30 minutes
 makes: 8 servings
 date: 2018-03-03
 header:
@@ -24,7 +24,8 @@ Well...
 
 So, here's my little rant about rice. Minute rice is convenient, but no one is going to say it is amazing rice. Lots of places have rice dishes, but most of the time the rice is so soggy that it has lost all texture. But, the one place I know will always have amazing rice - an Indian restaurant! Think about it - their rice can usually stand alone as a flavorful part of the meal, and that's AFTER considering that it is usually topped by some amazingly flavorful curry like chicken tikka masala. I like the recipe from [Bon Appétit](https://www.bonappetit.com/recipe/chicken-tikka-masala).
 
-{% include figure image_path="/assets/images/recipes/chicken_tikka_masala_1.jpg" alt="Chicken Tikka Masala" %}
+
+![Chicken Tikka Masala](/assets/images/recipes/chicken_tikka_masala_1.jpg)
 
 How do they do it? I have no idea! But, here's what I've been using, and I think you'll like it just the same.
 

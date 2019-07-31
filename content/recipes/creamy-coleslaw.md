@@ -1,24 +1,28 @@
 ---
 title: Creamy Coleslaw
-layout: recipe
-comments: false
+excerpt: that tangy crunch you crave
+
+
 tags:
 - cabbage
 - mayo
 categories:
 - sides
-active-time: 15 minutes
-total-time: 15 hours
+active_time: 15 minutes
+total_time: 15 hours
 makes: 12 servings
 date: 2017-03-11
 header:
   teaser: /assets/images/recipes/creamy_coleslaw_1.jpg
+  overlay_image: /assets/images/recipes/creamy_coleslaw_1.jpg
+  overlay_filter: 0.7
+  image_description: 'Creamy Coleslaw'
 ---
 Creamy coleslaw has so many uses!
 
 <!--more-->
 
-{% include figure image_path="/assets/images/recipes/creamy_coleslaw_1.jpg" alt="Creamy Coleslaw" %}
+![Creamy Coleslaw](/assets/images/recipes/creamy_coleslaw_1.jpg)
 
 You can eat it as a side dish, or even put it on your sandwiches. Either way, it is a sure fire way to get some veggies in your diet!
 
@@ -48,4 +52,4 @@ Original source: [SeriousEats](http://www.seriouseats.com/recipes/2013/07/creamy
 3. Combine dressing and veggies. Toss to coat.
 
 ### Notes
-2017-03-11 - Works pretty well. The original recipe I had didn't add so much sugar, and I thought it was not sweet enough. This one should be much better!
+* 2017-03-11 - Works pretty well. The original recipe I had didn't add so much sugar, and I thought it was not sweet enough. This one should be much better!

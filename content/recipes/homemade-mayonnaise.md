@@ -1,17 +1,21 @@
 ---
 title: Homemade Mayonnaise
-layout: recipe
-comments: false
+excerpt: ditch the jarred stuff
+
+
 tags:
 - mayo
 categories:
 - miscellaneous
-active-time: 10 minutes
-total-time: 10 minutes
+active_time: 10 minutes
+total_time: 10 minutes
 makes: 1 cup
 date: 2017-03-11
 header:
   teaser: /assets/images/recipes/brioche_buns_1.jpg
+  overlay_image: /assets/images/recipes/brioche_buns_1.jpg
+  overlay_filter: 0.7
+  image_description: 'Homemade Mayonnaise'
 ---
 [Homemade hamburger](/blog/homemade-hamburgers/) step 5 - the sauce!
 
@@ -24,7 +28,7 @@ Original source: [SeriousEats](http://www.seriouseats.com/recipes/2011/10/two-mi
 ### Ingredients
 + 1 egg -or- 4 oz Egg Beaters (pasteurized egg substitute)
 + 1 tbsp lemon juice (1/2 lemon)
-+ 1 tsp dijon mustard
++ 1 tsp Dijon mustard
 + 1 medium clove garlic, microplaned
 + 1 cup vegetable or canola oil
 + ***seasonings***
@@ -40,12 +44,12 @@ Original source: [SeriousEats](http://www.seriouseats.com/recipes/2011/10/two-mi
 + tall cup (make sure the blender fits all the way to the bottom)
 
 ### Process
-1. Add egg, lemon juice, dijon mustard, and garlic to cup.
+1. Add egg, lemon juice, Dijon mustard, and garlic to cup.
 2. Gently pour oil on top of the ingredients.
 3. Gingerly insert the immersion blender all the way to the bottom of the cup, careful not to disturb the oil.
 4. Turn on the blender, and slowly move it upward as the mixture emulsifies.
 5. Transfer to a bowl, season to taste, and whisk briskly to combine.
 
 ### Notes
-2017-03-11 - First try wasn't bad, but the recipe I followed called for way too much olive oil. I need to continue experimenting.  
-2017-07-09 - After a bit of practice, very easy to do. Can use Egg Beaters if you want them to be pasteurized. I started playing around with flavors, adding herbs, sugar, and vinegars to get different flavors. Definitely recommend playing around with these.
+* 2017-03-11 - First try wasn't bad, but the recipe I followed called for way too much olive oil. I need to continue experimenting.  
+* 2017-07-09 - After a bit of practice, very easy to do. Can use Egg Beaters if you want them to be pasteurized. I started playing around with flavors, adding herbs, sugar, and vinegars to get different flavors. Definitely recommend playing around with these.

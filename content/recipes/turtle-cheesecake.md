@@ -1,25 +1,24 @@
 ---
 title: Turtle Cheesecake
-layout: recipe
-comments: false
+excerpt: one of my favorite desserts
 tags:
 - cheesecake
 - caramel
 - chocolate
 categories:
 - desserts
-active-time: 20 minutes
-total-time: 5 hours
+active_time: 20 minutes
+total_time: 5 hours
 makes: 8 servings
 date: 2016-12-12
 header:
   teaser: /assets/images/recipes/turtle_cheesecake_1.jpg
+  overlay_image: /assets/images/recipes/turtle_cheesecake_1.jpg
+  overlay_filter: 0.7
+  image_description: 'Turtle Cheesecake'
 ---
-One of my favorite desserts!
 
-<!--more-->
-
-{% include figure image_path="/assets/images/recipes/turtle_cheesecake_1.jpg" alt="Turtle Cheesecake" %}
+![Turtle Cheesecake](/assets/images/recipes/turtle_cheesecake_1.jpg)
 
 Original source: [Tyler Florence](http://www.foodnetwork.com/recipes/tyler-florence/the-ultimate-cheesecake-recipe.html)
 
@@ -65,4 +64,4 @@ Original source: [Tyler Florence](http://www.foodnetwork.com/recipes/tyler-flore
 11. Top cheesecake with caramel sauce, chocolate sauce, and pecans.
 
 ### Notes
-2016-12-12 - Tried to make this for Monday night. Sadly my water bath leaked into the pan a bit so the bottom crust was soggy. But, overall the taste was spot-on!
+* 2016-12-12 - Tried to make this for Monday night. Sadly my water bath leaked into the pan a bit so the bottom crust was soggy. But, overall the taste was spot-on!
