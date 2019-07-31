@@ -14,16 +14,20 @@ I am also a Ph.D. student focusing in Computer Science Education research. The b
 
 #### [Curriculum Vitae](/about/cv)
 
+---
 ### Contact Information
 
 * **Title:** Instructor in the K-State Department of Computer Science
 * **Email:** russfeld AT ksu DOT edu
 * **Alt. Email:** russfeldh AT gmail DOT com <br>
-_Email is my preferred method of communication._
+_Email is my preferred method of communication_
 * **Mobile Phone:** (7 eight 5) 2 nine 2 - 3 one 2 one<br>
 _If I don't answer, please leave a message. I will do my best to respond quickly._ <br>
 _I accept text messages as well. Please include your name in the message._
-* **Other:** I lurk on many chat channels and online communities as @russfeld or variations on "Spartom 117"
-* **Pronouns:** I use **he/him** pronouns.
+* **Social Media:** Links to my social media are in the sidebar
+* **Other:** I can often be found online as @russfeld or variations of "Spartom 117" while gaming
+* **Pronouns:** I use **he/him** pronouns
 
 Email is definitely my preferred method of contact, but if you need to reach me right away please call or text my mobile number. It's very likely that I won't answer a call from an unknown number, but leave a message or text me and I'll receive it pretty quickly.
+
+Students in any of my classes may also use the [Piazza](https://piazza.com) message boards to contact me quickly.
