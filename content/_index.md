@@ -33,5 +33,3 @@ _I accept text messages as well. Please include your name in the message._
 Email is definitely my preferred method of contact, but if you need to reach me right away please call or text my mobile number. It's very likely that I won't answer a call from an unknown number, but leave a message or text me and I'll receive it pretty quickly.
 
 Students in any of my classes may also use the [Piazza](https://piazza.com) message boards to contact me quickly.
-
----
