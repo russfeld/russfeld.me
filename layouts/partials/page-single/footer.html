@@ -23,3 +23,22 @@
 </script>
 {{ end }}
 {{ end }}
+
+{{ with .Params.flexslider }}
+{{ if (eq . true) }}
+{{ $js := resources.Get "js/jquery.flexslider-min.js" }}
+{{ $secureJS := $js | resources.Fingerprint "sha512" }}
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+   $('.flexslider').flexslider({
+     animation: "slide",
+     controlNav: "thumbnails",
+     slideshow: false
+   });
+  });
+</script>
+{{ end }}
+{{ end }}

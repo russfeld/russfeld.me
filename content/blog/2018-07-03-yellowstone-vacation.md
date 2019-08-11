@@ -2,6 +2,7 @@
 title: Yellowstone Vacation
 excerpt: Chronicles and thoughts from a trip to Yellowstone
 draft: true
+flexslider: true
 tags:
 - travel
 - photography
@@ -16,37 +17,29 @@ header:
   caption: "Great Prismatic Spring"
 ---
 
-Stuff
+
 
 <!--more-->
 
 <div class="flexslider">
   <ul class="slides">
     <li>
-      <img src="slide1.jpg" />
+      <img src="/assets/images/cis527/ubuntu4.10_wiki.png" />
       <p class="flex-caption">Adventurer Cheesecake Brownie</p>
     </li>
     <li>
-      <img src="slide2.jpg" />
+      <img src="/assets/images/cis527/ubuntu6.06_wiki.png" />
       <p class="flex-caption">Adventurer Lemon</p>
     </li>
     <li>
-      <img src="slide3.jpg" />
+      <img src="/assets/images/cis527/ubuntu8.04_wiki.png" />
       <p class="flex-caption">Adventurer Donut</p>
     </li>
     <li>
-      <img src="slide4.jpg" />
+      <img src="/assets/images/cis527/ubuntu10.04_wiki.png" />
       <p class="flex-caption">Adventurer Caramel</p>
     </li>
   </ul>
 </div>
 
 <p class="custom__signature">explore your world!</p>
-
-<script type="text/javascript">
-  $(window).load(function() {
-   $('.flexslider').flexslider({
-     animation: "slide"
-   });
-  });
-</script>
