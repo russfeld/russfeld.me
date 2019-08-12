@@ -32,8 +32,23 @@
             {{ end }}
           </div>
         <div class="content container">
+          <div class="new_sidebar">
+            <h3 style="text-align: center">Latest Posts</h3>
+            {{ with .Site.RegularPages.ByDate.Reverse }}
+                {{ partial "homepage/posts-grid.html" . }}
+            {{ end }}
+          </div>
+
           <div class="post">
-            {{ .Content }}
+          {{ .Content }}
+
+            <div class="new_list">
+              <hr>
+              <h3>Latest Posts</h3>
+              {{ with .Site.RegularPages.ByDate.Reverse }}
+                  {{ partial "homepage/posts-list.html" . }}
+              {{ end }}
+            </div>
           </div>
         </div>
       </article>

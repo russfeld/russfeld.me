@@ -1,0 +1,29 @@
+
+  {{ range first 3 . }}
+  <div class="list__item">
+
+      <div class="list__list__title">
+        <span class="list__title">
+          <a href="{{ .RelPermalink }}" {{if .Draft}}class="draft"{{end}}>{{ .Title }}</a>&nbsp;
+        </span>
+        <span class="list__meta">
+        {{ if not .Date.IsZero }}
+          <i class="fas fa-calendar-alt"></i> {{ .Date.Format (.Site.Params.dateformat | default "Jan 02, 2006") }}<br>
+        {{ end }}
+        </span>
+      </div>
+      <div class="list__list__subtitle">
+      {{ with .Params.subtitle | markdownify }}
+      <span>
+      {{ . }}
+      </span>
+      {{ else }}
+        {{ with .Params.excerpt  | markdownify }}
+        <span>
+        {{ . }}
+        </span>
+        {{ end }}
+      {{ end }}
+      </div>
+  </div>
+  {{ end }}
