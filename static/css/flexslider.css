@@ -302,3 +302,56 @@ html[xmlns] .flexslider .slides {
   background: #242930;
   color: #fff;
 }
+
+ul.slides > li{
+  height: 100%;
+}
+
+ul.slides > li > img {
+  max-height: 700px;
+  width: auto !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+/* ---- Flexslider mixed height fix ----- */
+/* Set Max heights  on containers and img elements
+@media (max-width:767px){
+    ul.slides > li {
+        height: 500px;
+    }
+}
+@media (min-width:768px){
+    ul.slides > li {
+        height: 800px;
+    }
+}
+
+/* Make content autofit to max-height property, and center both vertically and horizontally with transform
+ul.slides > li > * {
+    height: auto;
+    max-height : 100%;
+    max-width: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    overflow-y: hidden;
+}
+/* For images specifically, set height to 100% and width to auto so you are keeping aspect ratio
+ul.slides > li > img {
+  height : 100%;
+  width : auto !important;
+}
+
+/* Don't let content clip over edge
+ul.slides > li {
+  overflow : hidden;
+}
+ul.slides > li > p {
+  overflow-y : auto
+}
+/* --- End Flexslider solution -- */
