@@ -13,116 +13,42 @@ header:
   caption: "CC 210 Codio Example"
 ---
 
+<br>
+
+{{< youtube id="NYjcsCigvr8?start=1968" >}}
+
 ### Resources
 
+* [Audio Only (mp3)](audio.mp3)
 * [Slides (pptx)](slides.pptx)
 * [Slides (pdf)](slides.pdf)
-* [YouTube Stream](https://www.youtube.com/watch?v=NYjcsCigvr8)
 * [Computer Science Programs](https://global.k-state.edu/engineering/computer-science/) on K-State Global Campus
 * [Computational Core](https://cs.ksu.edu/core) from K-State Computer Science
 
-### Draft Script (Will Be Updated After Event)
+### Transcript
 
-Good Afternoon! My name is Russell Feldhausen, and I'm an instructor in the K-State Computer Science department. A little over a year ago, I was contacted by Dr. DeLoach, the computer science department head, to help solve an interesting problem...
+So I'm going to be a little bit different because we're currently in development of this program. So I'm going to take a step back and talk a little bit more about curriculum design, which is what we're doing. So a year ago I was approached by our department head with a very unique problem that we have in computer science. We have a large demand for students to get the skills of programming and working with computers in a wide variety of fields, but because the popularity of our major has been so high the past few years, we don't have room for those students in our courses. So how can we provide those computer science courses to a rapidly growing number of students that need them without using a ton of resources in our department? Obviously we could hire 15 new faculty, we could continue to teach more sections of all the courses we already have, but that's simply not feasible to do.
 
-<slide - problem>
+So we decided to build a new program from the ground up that targets specifically online learning. And when we do that, I like to think of this quote by Carl Sagan that says, "If you wish to make an apple pie from scratch, you must first create [invent] the universe." It's a great quote because it really forces you to think about the frameworks that you're working in and things that may be have been done one way. really can be rethought when you're looking at an entirely new environment. So a about a year ago I went to a computer science education conference and as one of the programs there we were tasked with rethinking the educational system. If there was a worldwide catastrophe and we had to start over from scratch, what would we do? And my group very quickly hit on this idea of what we thought of as the ideal educational scenario and it turns out that this is a great example of it.
 
-Previously, our department has offered a computer science minor to any students who wish to learn programming without majoring in CS. However, the minor consists of the same classes that our majors take, and with our recent growth, we were simply unable to find many seats in those classes for students wishing to complete the minor. So, very few did.
+You have one world renowned master working with one student at a time until that student is the master. Sounds great, right? If we could do education like this, everybody would be fully educated. It would be great. Unfortunately, this is really not feasible, but when we look at education in this way, we realize that the rest of it is just a scalability problem. How do we take that educational model and scale it up to cover more students, more faculty, more classes, more skills? And the great thing about scalability problems is computer scientists like scalability problems. It's one of the things we do.
 
-At the same time, we started anticipating a massive increase in the number of students who would need Computer Science skills in the modern workplace. I might be a bit biased, but I like to think of computer science in much the same way as we think of Math and English today - it is a core skill that it useful for everyone, and pretty soon it will be one of those things that is just a normal part of every major.
+So we looked at the traditional approach to scalability and education. If we have few students, we like to do things really well. We have small lessons, we have instant feedback to our students. We can customize the curriculum to match what they're doing. We can spend most of our teaching time developing curriculum and engaging with students and we can focus on teaching those students the individual skills that they need to succeed. When we try and scale that to more students, we end up with large classes. We end up with students that have to turn in work and wait two or three weeks to get feedback. We use published textbooks, which we have to then fit our curriculum around the textbooks. We spend all of our time lecturing and grading and we're really focused more on credit hours and courses and transcripts, then really those individual skills that our students need.
 
-<appear text>
+So when we take this traditional approach to scalability and we apply it to online learning, we get online learning that looks like this. This is not bad. This is better than nothing, but it really isn't rethinking the educational system for online learning.
 
-We started to ask ourselves: "how can we provide CS courses to a rapidly growing number of non-CS majors, all with our department's limited resources?" Of course, if resources weren't a problem, we'd just go out and hire 5 new faculty and teach more sections of our existing courses. That's easy to do, right?
+So my approach is, what if we could take all of these things that are so great about working in small class sizes and use modern technology to bring that over to more students? That's really the curriculum design we're trying to think our way through as we develop this new program for computer science. So in computer science we're using this tool called Codio, which is an interactive online learning platform that allows us to deliver our lessons in a very unique way. We can record short YouTube videos that allow us to explain a particular skill. We can have text that's very well marked up so that we can include code snippets and graphics and diagrams. And then right here, right beside their learning, students can immediately interact and engage with the code that they're learning to do. And at the bottom we can have little buttons that assess and check that code right here, all in the same windowm without needing to install any software or have any special tools. This works in any web browser.
 
-<slide - galaxy>
+And so by thinking about education in that way, it allows us to really reframe what it takes to teach a technical skill such as computer science. Instead of having to learn a whole bunch of stuff within a 50 minute or an hour and 15 minute lecture, we can break that into a bunch of smaller topics and smaller lessons. And so if a student has five minutes or 15 minutes or an hour and 15 minutes, they can engage with the amount of content that fits for them, no matter what they're doing.
 
-No, we needed to think a bit more outside the box. We really wanted to come up with an entirely new approach for these classes, one that hasn't been done in our department before.
+At the same time, computer science is really well situated to take advantage of instant feedback. Basically, code works or code doesn't work, so we can provide students with feedback right away and allow them to continue to revise their work until they get it right. Imagine if you could teach students and mark up their work and hand it back to the student and they fix it and hand it back. And you keep doing that over and over and over again, until every single student in your class gets 100% on their exams. We can do that with this instant feedback model through computer science.
 
-<appear text>
+And then when we start doing that, we can spend all our faculty time developing really engaging curriculum. We can work with our students, we can interact with them. Instead of spending all of our faculty time lecturing and grading, which is what many of my colleagues are doing right now. We can also customize this curriculum to match the needs of our students. Eventually in the future we'll be able to customize it at the individual student level. We're not there yet, but we can make sure that the curriculum we're developing fits the needs of our students and we can very quickly adapt without having to worry about adopting a new textbook.
 
-I've always been a fan of this quote from Carl Sagan: "If you wish to make an apple pie from scratch, you must first invent the universe." To me, this tells us that we must completely rethink the way we look at education, and challenge our assumptions of why things are done the way they are.
+Finally we can start thinking about our curriculum as a set of individual skills. You can think of a skill as a skill tree if you play role playing games. And so when we start thinking about individual skills instead of courses, then we can look at different ways that we can break up our curriculum in a lot of unique ways to offer it to high schools, to industries as certifications, as micro credentials, all from the same basic curriculum that we're developing. And actually we can do some of that right now in Canvas using the modules and prerequisite structure that's already available in Canvas today.
 
-My thinking was helped along a bit by a session at a computer science educators conference. The premise was simple - break up into groups, and reimagine how you would rebuild an educational system from the ground up after a world ending catastrophe. In my group, we tried to imagine the ideal educational scenario - the best possible way to educate someone to mastery, without any regard to prior structures, scale, or time.
+Finally, how do we bring this into the real world? We're really focusing on developing a capstone project course that helps tie everything together, allow students to interact with faculty both in computer science and another discipline and show that they can solve real world problems using those skills that they've learned in all the other courses to bring it all together and show the real world impact of this curriculum.
 
-<slide - panda>
+So if you're interested in any of this, we just announced our computer science undergraduate certificate this semester. It's brand new. We have nine students in the program right now, but we're hoping to grow very, very quickly. It's a hundred percent online. It's designed for non computer science majors. So it doesn't have that huge calculus prerequisite that a lot of people don't like about programming courses. We took that out. But we're looking at a lot of ways we can take this into the future. We're considering working on an applied computer science degree. We're looking at taking this into high schools, we're looking at teacher training programs, industry certifications, you know, how can we take this one curriculum that we're developing online and then adapt it to any number of uses out there. And for us, it helps us get that education out in the world. But it also helps us think about the monetary aspect of it. How do we get the best bang for our buck out of this curriculum that we're developing?
 
-Very quickly, we realized that the ideal form of education is embodied in the media all the time - it is the world renowned master teaching a single pupil until that pupil is a master. It's as simple as that. If we think back, we even realize that our own history has this as the basic model - the days of apprentice silversmiths or shipwrights learning the trade from a master artisan.
-
-So, once we've identified the ideal, how can we explain what our current educational system has become?
-
-<slide - simpsons>
-
-In effect, we can simply consider it as a scalability problem. As we try to teach more and more students, we have to make tradeoffs. So, to really build a quality educational experience, we simply need to solve the scalability problem in a way that maximizes educational quality while still teaching many students in a cost effective way.
-
-<appear text>
-
-As a computer scientist, I love scalability problems.
-
-<slide - traditional approach>
-
-So, here's the traditional approach to scalability in education. We start with the ideal situation of having just a few students. In that case, we can teach using small lessons, give instant feedback, customize the lessons to meet the needs of our students, spend more of our time as teachers developing quality materials and engaging with our students, and focus on teaching individual skills to our students. Sounds great, right? Whenever I've been lucky enough to have small classes, I've always been excited to teach since it is easier for me to do these things and feel like I'm providing a good experience to my students.
-
-<appear text>
-
-When we scale up to a larger class, we have to adapt our approach. This leads to large classes, students having to turn in work and wait for a week or more to get feedback, the use of published textbooks that may not exactly fit the class's needs, teachers spending time lecturing and grading instead of developing new materials, and a focus on exams and credit hours as the measure of student learning. Sound familiar? I taught the introductory CS course for several years, and faced each of these problems head-on as the course ballooned from 80 students a semester to over 200.
-
-<slide - lecture>
-
-So, let's take a large class make it available online. Look familiar? To me, this is what happens when we try to apply our traditional model of scalability to online learning. We have long lectures, usually recorded from the back of a on-campus version of the class, since the instructor doesn't really have time to give the lecture yet another time, and it feels more familiar to lecture in front of students anyway. The online students do the same homework, wait the same amount of time for feedback, and in some cases can feel like second-class citizens, especially if the course is offered both online and on campus. I know - I've been there.
-
-<slide - online approach>
-
-Can we do better? What if we ignore the traditional model for scalability...
-
-<appear text>
-
-...and instead try to bring along all of the good attributes from a small class and apply it to large, online classes using technology and state of the art online learning?
-
-<slide - codio>
-
-That's the model we are striving to build. We're creating a set of 5 new courses, completely online, which will make up a new undergraduate certificate in computer science. These courses have been developed from the ground up to use state of the art online learning environments to teach computer science while remaining highly scalable. For example, many of the courses will use the Codio learning environment, seen here. Students can follow along with written tutorials on the right, and even watch short explainer videos recorded by faculty in a purpose-built recording studio. Then, on the left, they can follow along and write the code right there in their browser, testing and debugging until they get it right.
-
-<slide - small lessons>
-
-We can then focus on teaching skills not as a single omnibus lecture, but as a module that consists of many small lessons. Students can come and go at any time, and work on as few or as many lessons as they'd like. The course is designed to be flexible and approachable to students working full time, part time, or on nights and weekends. The only deadline is that they must complete at least 1 module per week, just so they don't fall too far behind in the course.
-
-<slide - instant feedback>
-
-Since we are teaching programming, we can use those same tools to provide instant feedback to the student. In that way, a student can continually develop, test, and debug their code using the same tests that will be used to grade their submission. Computer programming is uniquely well suited to this approach, and it allows students to get instant feedback on their work anytime. This iterative approach to learning has been shown to be powerful, since students can instantly go back and learn from their mistakes.
-
-<slide - develop engage>
-
-By using these online tools, we can create a set of 5 courses that are supported by just two full-time faculty, who spend a majority of their time developing new teaching materials and engaging directly with students. Instead of giving the same lecture 24 times in 4 years, I can give it just once in front of a camera, get it right, and then provide it to students for years to come. We are also able to make use of GTAs and UTAs to help answer questions and hold office hours, giving those students a great opportunity to learn by teaching others. It is really a win-win for us.
-
-<slide - custom curricula>
-
-Since we are building these courses from scratch, we're able to customize the curricula to fit our students needs even better. Since we recognize that some students may want to take multiple courses in a semester, we're already making plans for how students could effectively take any combination of courses simultaneously.
-
-<slide - skills>
-
-We can do this by focusing the course prerequisites around individual skills instead of entire courses. For example, in a later course, we could teach students how to use a list to sort data. That skill requires students to know the basics of the language, loops, if statements, and lists, but the student may not need to know inheritance, polymorphism, or recursion. Traditionally, students would have to complete an entire course before starting the next one, but in this case, they just have to complete the prerequisite modules to move ahead in a later course.
-
-<slide - canvas>
-
-And we can do this today, using the modules and prerequisites structure built in to Canvas! It isn't as clean and straightforward as we'd like, but it allows us to explore these novel models of education right away.
-
-<slide - capstone>
-
-Finally, students who complete this certificate will do a capstone project to link their programming skill back to their discipline and interest. Through their project, they'll demonstrate the ability to identify a real world problem, choose the appropriate data structures and algorithms to address that problem, implement the software to match their specification, and then debug and test the software to show that it works as intended. So, at the end, we can still achieve the desired learning outcomes through the meaningful use of faculty time to supervise this project. We can even reach out to colleagues on campus and partner with them to provide projects that fit a student's declared major.
-
-<slide - available>
-
-Sound exciting? This program is available now to any students at K-State who wish to add programming to their list of skills. Currently the program consists of 4 courses and 14 credits, with a 5th course coming in Fall 2020. We teach using the Java and Python programming languages, and each course is specifically designed for non-CS majors. As an added bonus, we can even offer a free trial, just so students, faculty and advisors can experience the course firsthand before deciding to enroll.
-
-<slide - future>
-
-Lastly, this approach to developing new courses has opened up a wide range of possible future plans. We're currently working with the College of Arts & Sciences to explore ways to expand these courses into a full Applied Computer Science degree program, combining Arts & Sciences disciplines with computer programming. We hope to provide these courses as curricula for high schools in Kansas who are in desperate need of quality CS education and teachers qualified to teach it. We can offer these courses to industry partners looking for professional development opportunities for staff. We can even expand the courses to cover more languages, deeper topics, and other disciplines. So stay tuned! Hopefully we'll have more exiting things to announce in the near future.
-
-<slide - end>
-
-For now, if you are interested in these courses, feel free to sign up for our free trial by following this QR code link. You can also find it by following either of the links under more information. I'd love to chat with anyone who is interested in these courses or how we are approaching the development of this program. I've only scratched the surface here. You can find these slides on my website linked at the top, and I can be found on most social media as russfeld.
-
-Thank you!
-
-<end>
+So if you're interested in this, one of the things I can do is instead of telling you about it, I can show you. We have a free trial of our CC 210 course. If you'd like to check it out. It's open to any K-State faculty, staff, or students. All you need is a valid eID, but it allows you to see what we're developing. There's tons of stuff that we're doing in this program that I don't have time to talk about today. If you're interested, feel free to grab that link or catch me afterwards. Thank you very much.
