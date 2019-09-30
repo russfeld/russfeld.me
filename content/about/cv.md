@@ -247,6 +247,12 @@ Engineering Education (ASEE), Salina, Kansas._ <br><i class="fas fa-fw fa-certif
 
 ## Invited Talks
 
+**Computer Science in the Real World** at _K-State Have a Byte 2019_<br><i class="fas fa-fw fa-calendar-alt"></i> 2019 <br><i class="fas fa-fw fa-video"></i> [Video](/talks/haveabyte2019/)
+
+* Described new Computational Core Curriculum
+* Explained motivation behind course design
+* Encouraged audience to check out free demo
+
 **Computer Tear-Down Workshop** for _K-State ACM Women in Computing (ACM-W)_<br><i class="fas fa-fw fa-calendar-alt"></i> 2015 - 2016
 
 * Demonstrated how to disassemble and reassemble a computer
