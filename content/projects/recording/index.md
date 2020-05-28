@@ -41,17 +41,17 @@ The only thing my setup is missing is a back light, which would help give me a s
 
 My recording equipment is pretty simple:
 
-* Webcam - [Logitech C922x](https://www.amazon.com/dp/B01LXCDPPK/). Any webcam will do, but shoot for one that is HD. Some SLR cameras can also be used as webcams.
-* Tripod - [Sirui 52" Aluminum](https://www.amazon.com/gp/product/B00AZTCHES). Again, any tripod will do. I like this one because it is small and lightweight.
-* Microphone - [Blue Yeti USB Mic](https://www.amazon.com/dp/B002VA464S/). A high quailty microphone is key. I like the Blue Yeti, but it is very sensitive and has some disadvantages. 
+* **Webcam** - [Logitech C922x](https://www.amazon.com/dp/B01LXCDPPK/). Any webcam will do, but shoot for one that is HD. Some SLR cameras can also be used as webcams.
+* **Tripod** - [Sirui 52" Aluminum](https://www.amazon.com/gp/product/B00AZTCHES). Again, any tripod will do. I like this one because it is small and lightweight.
+* **Microphone** - [Blue Yeti USB Mic](https://www.amazon.com/dp/B002VA464S/). A high quailty microphone is key. I like the Blue Yeti, but it is very sensitive and has some disadvantages. 
   * An alternative is a good lapel microphone, such as this [Pop Voice](https://www.amazon.com/dp/B016C4ZG74) one, provided your recording device has the correct input. I've not tried this one myself. 
-* Laptop
+* **Laptop**
 
 There are also a few optional things you might want to include to make your setup even better, but these aren't required to get your studio up and running:
-* Second Monitor - makes recording your screen much easier since you can control the recording on the secondary screen. 
-* Homemade Teleprompter (see below) with [Amazon Fire HD 8](https://www.amazon.com/dp/B0794RHPZD) tablet. Any tablet would work. 
+* **Second Monitor** - makes recording your screen much easier since you can control the recording on the secondary screen. 
+* **Homemade Teleprompter** (see below) with [Amazon Fire HD 8](https://www.amazon.com/dp/B0794RHPZD) tablet. Any tablet would work. 
   * In our studio, we use an [Ikan PT-ELITE Teleprompter](https://www.amazon.com/dp/B00ZXAZMVE/) and a [Portable Monitor](https://www.amazon.com/dp/B07RGPCQG1) as the screen. 
-* Homemade Microphone Shield (see below).
+* **Homemade Microphone Shield** (see below).
   * Professional option: [Pyle Recording Shield](https://www.amazon.com/dp/B0117DB5TI)
 
 ## Recording Software
