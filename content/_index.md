@@ -17,7 +17,7 @@ I am also a Ph.D. student focusing in Computer Science Education research. The b
 ---
 ### Contact Information
 
-<a class="bigbadge badge-category" href="https://calendly.com/russfeld">Schedule a Meeting</a>
+<a class="bigbadge badge-category" href="https://calendly.com/russfeld"><i class="far fa-calendar-plus"></i> Schedule a Meeting</a>
 
 * **Title:** Instructor in the K-State Department of Computer Science
 * **Email:** russfeld AT ksu DOT edu

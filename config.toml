@@ -99,3 +99,8 @@ summarylength = 30
 
 [blackfriday]
   fractions = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
