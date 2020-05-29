@@ -43,7 +43,7 @@ My recording equipment is pretty simple:
 
 * **Webcam** - [Logitech C922x](https://www.amazon.com/dp/B01LXCDPPK/). Any webcam will do, but shoot for one that is HD. Some SLR cameras can also be used as webcams.
 * **Tripod** - [Sirui 52" Aluminum](https://www.amazon.com/gp/product/B00AZTCHES). Again, any tripod will do. I like this one because it is small and lightweight.
-* **Microphone** - [Blue Yeti USB Mic](https://www.amazon.com/dp/B002VA464S/). A high quailty microphone is key. I like the Blue Yeti, but it is very sensitive and has some disadvantages. 
+* **Microphone** - [Blue Yeti USB Mic](https://www.amazon.com/dp/B002VA464S/). A high quality microphone is key. I like the Blue Yeti, but it is very sensitive and has some disadvantages. 
   * An alternative is a good lapel microphone, such as this [Pop Voice](https://www.amazon.com/dp/B016C4ZG74) one, provided your recording device has the correct input. I've not tried this one myself. 
 * **Laptop**
 
@@ -53,6 +53,10 @@ There are also a few optional things you might want to include to make your setu
   * In our studio, we use an [Ikan PT-ELITE Teleprompter](https://www.amazon.com/dp/B00ZXAZMVE/) and a [Portable Monitor](https://www.amazon.com/dp/B07RGPCQG1) as the screen. 
 * **Homemade Microphone Shield** (see below).
   * Professional option: [Pyle Recording Shield](https://www.amazon.com/dp/B0117DB5TI)
+
+### What If I Don't Have a Webcam?
+
+Sadly, it is really difficult to purchase a high quality webcam right now, since demand is so high. Thankfully, if you have a modern smartphone or DSLR camera, you have some great options already available. All you have to do is figure out how to connect your device to your computer so it can act as a webcam. The Verge has some wonderful articles discussing how to do this with [Android and iOS Devices](https://www.theverge.com/2020/4/20/21225061/phone-tablet-android-ios-phone-tablet-pc-webcam-windows-mac-os-how-to-use) as well as [DSLR Cameras](https://www.theverge.com/21244380/webcam-camera-how-to-dslr-mirrorless-capture-card-usb-hdmi). I've also experimented with [Sparkocam](https://sparkosoft.com/sparkocam) to connect Canon or Nikon DSLR cameras to my computer, and it works well. 
 
 ## Recording Software
 
@@ -69,7 +73,7 @@ Some other minor details about my OBS configuration:
 * My camera always makes me look a bit too pale, so I manually adjust the **white balance** of my camera to around 4500. (Right-click on the camera under Sources -> Properties -> Configure Video for me, but I'm not sure all cameras provide that same level of control - consult your camera documentation.)
 * I also had to manually configure my camera in the Sources section of OBS to default to a full HD resolution of 1920x1080. 
 
-There are lots of good tutorials online for setting up and configuring OBS. Here's one from [Techer's Tech](https://www.youtube.com/watch?v=gdqOXl6lFB0). 
+There are lots of good tutorials online for setting up and configuring OBS. Here's one from [Teacher's Tech](https://www.youtube.com/watch?v=gdqOXl6lFB0). 
 
 ### Recording Tips
 
@@ -91,9 +95,9 @@ Once you are done working in Resolve, I recommend outputting your video in **.MP
 
 ## Uploading Videos
 
-Once you've created your video, you have to make it available to your students. K-State offers [Mediasite](https://www.k-state.edu/mediasite/) as one good option. However, due to the way Mediasite handles downscaling of videos, it can make text and graphics on your videos more difficult to read. However, Mediasite does offer some features that other video sites do not have, so it may work well for your needs. 
+Once you've created your video, you have to make it available to your students. K-State offers [Mediasite](https://www.k-state.edu/mediasite/) as one good option. However, due to the way Mediasite handles down-scaling of videos, it can make text and graphics on your videos more difficult to read. However, Mediasite does offer some features that other video sites do not have, so it may work well for your needs. 
 
-We've been using [YouTube](https://www.youtube.com/) instead of Mediasite and have been really happy with it. You can upload the video to YouTube as an "unlisted" video, and then either include the link to the video in your class or use the embedding tools availble to embed the video in your class wherever you like. If you choose to use YouTube, I recommend creating a [brand account](https://support.google.com/youtube/answer/9367690?hl=en) for your department so you can easily give others access. 
+We've been using [YouTube](https://www.youtube.com/) instead of Mediasite and have been really happy with it. You can upload the video to YouTube as an "unlisted" video, and then either include the link to the video in your class or use the embedding tools available to embed the video in your class wherever you like. If you choose to use YouTube, I recommend creating a [brand account](https://support.google.com/youtube/answer/9367690?hl=en) for your department so you can easily give others access. 
 
 Additionally, we've found that it is useful to have the actual video files themselves available for some students who have limited internet connectivity. We can make them available on our department's file server on an as-needed basis when students request them, but we don't leave them there for long since they take up quite a bit of space. Tech-savvy students can probably figure out how to download the videos from YouTube as well. 
 
