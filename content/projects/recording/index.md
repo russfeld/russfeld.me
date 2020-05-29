@@ -83,6 +83,8 @@ It's OK to take a short break between slides or sections and leave the camera ru
 
 There are lots of video editing software that you can use. I've been using the free version of [DaVinci Resolve 16](https://www.blackmagicdesign.com/products/davinciresolve/) and really have been impressed by what it can do. If you spend a little time getting familiar with it, you'll find that you can quickly cut the bad parts out of a video. [Teacher's Tech](https://www.youtube.com/watch?v=4o-XE-DorMw) has a pretty good tutorial on YouTube. 
 
+K-State Faculty also have access to Adobe products, including the Adobe Premiere Pro video editor. Information can be found on the [ITS website](https://www.k-state.edu/its/software/software-licenses/adobe/). 
+
 This is probably the most technically daunting part of the whole process, but once you get comfortable making edits to your videos, it makes the recording process so much easier. Initially, I focused on getting everything exactly right in just one take, but now I know I can just leave the camera rolling and I can cut out whatever I don't need to make the final product.
 
 Once you are done working in Resolve, I recommend outputting your video in **.MP4 file format using the H.264 codec**. 
