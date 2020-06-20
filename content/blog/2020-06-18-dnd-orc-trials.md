@@ -41,13 +41,38 @@ LThe party enters a cave and encounters **Ghorzia**, a large and intimidating fe
 
 They do not follow the teachings of [Gruumsh](https://forgottenrealms.fandom.com/wiki/Gruumsh), who values chaos and destruction in the world above all else. Instead, they are followers of Luthic, the mate of Gruumsh. They believe in maintaining the cohesion of orcish society, that there needs to be some thought behind the chaos in order for it to truly succeed and the gods to be pleased. The strong woman standing behind the man, so to speak.
 
-Recently many of the other tribes were forced from their homes in the mountains. This tribe took the lost bands in and offered to help them find new places where they could live. However, now that those bands are constantly threatening humans, they are afraid that Neverwinter will send troops to quell them. While the males want a fight, this tribe knows it would be suicidal, and they want to find a way to fix this to rebuild their numbers.
+Recently many of the other tribes were forced from their homes in the mountains (in this case, by the titular Dragon of Icespire Peak). This tribe took the lost bands in and offered to help them find new places where they could live. However, now that those bands are constantly threatening humans, they are afraid that Neverwinter will send troops to quell them. While the males want a fight, this tribe knows it would be suicidal, and they want to find a way to fix this to rebuild their numbers.
 
 Long ago they discovered this magical cave full of mysteries, and their greatest leaders proved themselves by entering and completing the trials. All males who try come back humiliated and ashamed. If the party can prove their worth by completing the trials, she'll listen to your request. She has very little confidence that the party will succeed.
 
 _I took some loose inspiration from the Aes Sedai and Aiel trials in Wheel of Time, among others, for this part._
 
+## The Trials
 
+The trials themselves begin with the party entering a mysterious opening in the cave. Ghorzia explains that there are only two ways out, back through this entry, indicating failure, and through a nearby cave, indicating success. While the party may experience a long stretch of time within the trials, barely any time will elapse between the time they enter and the time they exit, either in triumph or defeat. A perceptive party member might use this to infer that the tests themselves take place within a pocket plane, which is a good way to think about it.
+
+When the party steps inside the entry, they are blinded by white light that slowly fades into darkness, and then the darkness gives way slowly to bright light once again, and then the light dims, leaving the party with a clear view of a short stone hallway.
+
+### The First Trial
+
+<div style="float: right; margin:10px">
+<img src="/assets/images/trials/trial1.png"></img>
+</div>
+
+The party is in a stone hallway, 10 feet wide and 10 feet tall. The stone is well fitted, leaving no visible cracks or gaps. There are torches placed along the wall, high toward the ceiling, providing ample light. The party begins at the end of the hallway near a shut door. Leaving through that door will return the party back to the cave in defeat. 
+
+At the far end of the hallway, on the wall to the party's left, there is an inscription repeated in several languages. Players who know many languages would realize that each inscription provides the same information, such that this was meant to be accessible to a wide range of people.
+
+The inscription reads:
+
+> _Strike this fork upon the ground_ <br>
+> _Many times it will echo round_ <br>
+> _Different squares hear a different beat_ <br>
+> _Find which tiles house defeat_ <br>
+
+On the other wall hangs a very large tuning fork, nearly 2 feet in length. It is hanging from a very ornate hook, and when the party lifts the fork from the hook, the door in front of them will open, revealing the next room. That door cannot be opened by any other means, and will close again if the tuning fork is placed back on the hook. 
+
+The room that it opens to is 50 feet by 50 feet, or 10 by 10 squares. The ceiling is very tall, 20 feet or more, and once again there are a large number of torches providing ample light. However, the party should quickly notice that there are four torches. 
 
 ## Sources and Inspirations
 * [The Dragon of Icespire Peak](https://www.dndbeyond.com/sources/doip) - Original Campaign Source
