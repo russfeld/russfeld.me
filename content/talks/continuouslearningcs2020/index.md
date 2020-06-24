@@ -9,8 +9,8 @@ header:
   teaser: /assets/images/headers/onlinecs.png
   overlay_image: /assets/images/headers/onlinecs.png
   overlay_filter: 0.7
-  image_description: "Codio Example"
-  caption: "CC 210 Codio Example"
+  image_description: "Recording Videos"
+  caption: "Online Video Recording"
 ---
 
 <br>
