@@ -1,0 +1,73 @@
+{{ $include_toc := .Params.include_toc}}
+<div itemscope itemtype="http://schema.org/Recipe">
+<article>
+  <img itemprop="image", src='{{ .Params.image | default "" }}' style="display: none" />
+  {{ if .Params.image }}
+  <div class="post__header" style="background-image: linear-gradient(rgba(0, 0, 0, {{ .Params.header.overlay_filter | default 0.7 }}), rgba(0, 0, 0, {{ .Params.header.overlay_filter  | default 0.7 }})), url('{{ .Params.image | default "" }}'); background-position:center;">
+  {{ else }}
+  <div class="post__header__noimg">
+  {{ end }}
+      <header>
+        <h1 class="post__title__russfeld" itemprop="name">{{ .Title }}</h1>
+        {{ with .Params.subtitle | markdownify }}
+        <span class="post__subtitle">
+          {{.}}
+        </span>
+        {{else}}
+          {{ with .Params.excerpt | markdownify }}
+          <span class="post__subtitle">
+            {{.}}
+          </span>
+          {{ end }}
+        {{ end }}
+        {{ partial "page-single/chowdown-meta.html" . }}
+      </header>
+      {{ with .Params.header.caption }}
+      <span class="post__header__caption">
+        {{ . | safeHTML | markdownify }}
+      </span>
+      {{ end }}
+    </div>
+  <div class="content container">
+    {{ $tableOfContents := .TableOfContents }}
+    {{ with .Params.toc }}
+      <div class="toc-wrapper">
+        <input type="checkbox" id="tocToggle">
+        <label for="tocToggle">Table of Contents</label>
+        {{ if eq . "hugo" }}
+            {{ $tableOfContents }}
+        {{ else if eq . "tocbot"}}
+          <div class="toc" id="TableOfContents"></div>
+        {{ end }}
+      </div>
+    {{ end }}
+    {{ with .Params.Ingredients }}
+    <h3>Ingredients</h3>
+    <ul>
+      {{ range . }}
+        <li itemprop="recipeIngredient">
+          {{ . | markdownify }}
+        </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+    {{ with .Params.Directions }}
+    <h3>Directions</h3>
+    <ol>
+      {{ range . }}
+        <li itemprop="recipeInstructions">
+          {{ . | markdownify}}
+        </li>
+      {{ end }}
+    </ol>
+    {{ end }}
+    <hr>
+    <div class="post" itemprop="description">
+      {{ .Content }}
+    </div>
+    {{ partial "page-single/post-navigation.html" . }}
+    {{ partial "page-single/post-related.html" . }}
+    {{ partial "page-single/post-comment.html" . }}
+  </div>
+</article>
+</div>

@@ -19,6 +19,7 @@ summarylength = 30
     category = "categories"
     tag = "tags"
     section = "sections"
+    cuisine = "cuisines"
     area = "areas"
 
 ## Site Settings
