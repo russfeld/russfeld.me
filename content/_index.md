@@ -28,8 +28,7 @@ _If I don't answer, please leave a message. I will do my best to respond quickly
 _I accept text messages as well. Please include your name in the message._
 * **Social Media:** Links to my social media are in the sidebar
 * **Other:** I can often be found online as @russfeld or variations of "Spartom 117" while gaming
+* **Discord:** russfeld#9188
 * **Pronouns:** I use **he/him** pronouns
 
 Email is definitely my preferred method of contact, but if you need to reach me right away please call or text my mobile number. It's very likely that I won't answer a call from an unknown number, but leave a message or text me and I'll receive it pretty quickly. I also exist on several social media and communication networks, which can be found in the sidebar.
-
-Students in any of my classes may also use the [Piazza](https://piazza.com) message boards to contact me quickly.
