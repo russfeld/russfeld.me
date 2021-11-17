@@ -9,6 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Discord New Commit
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      uses: Ilshidur/action-discord@master
     - uses: actions/checkout@v2
     - name: Update theme
       run: git submodule update --init --recursive
@@ -29,6 +33,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Discord Deploy
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        uses: Ilshidur/action-discord@master
+        with:
+          args: "Build Complete! Starting Deploy..."
       - name: Deploy Stage
         id: request
         uses: fjogeleit/http-request-action@master
@@ -39,7 +49,3 @@ jobs:
           timeout: 120000
       - name: Show Response
         run: echo ${{ steps.request.outputs.response }}
-      - name: Discord
-        env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-        uses: Ilshidur/action-discord@master
