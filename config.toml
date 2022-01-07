@@ -1,11 +1,11 @@
 baseURL = "https://russfeld.me"
 languageCode = "en-us"
 title = "Russell Feldhausen"
-theme = "hyde-hyde"
+theme = ["hyde-hyde", "plausible-hugo"]
 
 ## Hugo Built-in Features
 # disqusShortname = "your-disqus-shortname"
-googleAnalytics = "UA-72698101-1"
+# googleAnalytics = "UA-72698101-1"
 # enableRobotsTXT = true
 
 summarylength = 30
@@ -105,3 +105,9 @@ summarylength = 30
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+## Plausible config
+[params.plausible]
+  enable = true  # Whether to enable plausible tracking
+  domain = "russfeld.me"  # Plausible "domain" name/id in your dashboard
+  selfhosted_domain = "plausible.russfeld.me"
