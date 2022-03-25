@@ -15,9 +15,14 @@ header:
 
 <br>
 
+{{% youtube b96zwnzbinI %}}
+
+The K-State Computer Science department has developed several free and open textbooks for the core curriculum in our department. Since Computer Science textbooks may include unique items such as code examples and diagrams, we explored many different tools to fit our needs. In this session, we will discuss and demonstrate a few of these tools and how we use them to build content for our courses.
+
 ### Resources
 
 * [Slides (pptx)](oersummit.pptx)
 * [Slides (pdf)](oersummit.pdf)
-
-More links coming soon!
+* [Source Code (GitHub)](https://github.com/russfeld/oersummit)
+* [Generated Website](https://russfeld.github.io/oersummit/)
+* [Event Link](https://ksoersummit2022.sched.com/event/x1at/using-hugo-and-other-free-tools-to-develop-resources)
