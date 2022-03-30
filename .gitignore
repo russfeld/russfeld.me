@@ -12,3 +12,4 @@ $RECYCLE.BIN/
 .DS_Store
 
 todo.txt
+.hugo_build.lock
