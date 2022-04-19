@@ -14,6 +14,8 @@ header:
 
 Presentation to CIS 640 on Developer Operations
 
+Hi CIS 640!
+
 ### Resources
 
 * Slides: [PPTX](cis640-devops.pptx) [PDF](cis640-devops.pdf)
