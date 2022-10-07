@@ -12,6 +12,8 @@ I teach [Computer Science](https://cs.ksu.edu) at [Kansas State University](http
 
 I am also a Ph.D. student focusing in Computer Science Education research. The bulk of my research consists of examining the educational outcomes of our online programs.
 
+According to my employer's [policy](https://www.k-state.edu/policies/ppm/3300/3370.html), I must also include the following disclaimer: **views and opinions expressed are my own and have not been reviewed or approved by my employer.**
+
 #### [Curriculum Vitae](/about/cv)
 
 ---
