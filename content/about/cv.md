@@ -47,8 +47,9 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 <i class="fas fa-fw fa-map-marker-alt"></i> [Computer Science Department](https://cs.ksu.edu) - [Kansas State University](https://ksu.edu), Manhattan, KS  
 <i class="fas fa-fw fa-calendar-alt"></i> May 2018 - Present  
 
+* Coordinating the department's senior project course
 * Developing courses for new [online certificate and B.A. programs](https://global.k-state.edu/engineering/computer-science/) in CS
-* Developing new online programming curriculum using [Codio](http://codio.com) and [Piazza](http://piazza.com)
+* Developing new online programming curriculum using [Codio](http://codio.com)
 * Courses developed may also be used for additional programs such as high school outreach and professional development
 * Recording lecture videos and creating automated project assessments
 * Adapted existing course in [system administration](http://cis527.russfeld.me) to be entirely online
@@ -90,6 +91,11 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 
 ## Honors & Awards
 
+### Kevin and Jacquie Elmore Cornerstone Teaching Scholar
+<i class="fas fa-fw fa-calendar-alt"></i> 2020 - 2025
+
+* Recognizes [exemplary undergraduate teaching](https://www.k-state.edu/today/students/announcement/?id=55423) at K-State
+
 ### Kansas 4-H Distinguished Service Award Recipient
 <i class="fas fa-fw fa-calendar-alt"></i> 2013
 
@@ -112,6 +118,13 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 ## Teaching Activities
 
 #### [Class Materials Archive](/teaching)
+
+### CIS 598: Computer Science Project
+<i class="fas fa-fw fa-calendar-alt"></i> 2022 - Present
+
+* Reworking structure of the department's senior project course
+* Improve student outcomes and help students develop stellar projects
+* Provide feedback and suggestions for student presentations
 
 ### Computational Core
 <i class="fas fa-fw fa-calendar-alt"></i> 2018 - Present
@@ -202,6 +215,20 @@ another engineering faculty member
   * Explore the decision-making process within engineering and design
   * Expose students to concepts such as neuroscience, bias, and reasoning
   * Students collaborate on teams to design a learning experience for peers
+
+## Grants
+
+### BPC-DP: Broadening Participation of Underrepresented Groups Through the Computational Core Initiative ($299,998)
+
+Co-PI - National Science Foundation grant to support developing curricula and teaching interventions targeted at rural students and other underrepresented groups. 
+
+### CS4KS: Expanding the Cyber Pipeline Program ($467,656)
+
+Co-PI - Kansas Department of Education grant to provide training for high school teachers to teach computer science, including 9 graduate credit hours.
+
+### KRIATE: K-State Rural Innovation Academy for Teaching Enrichment ($3,099,030)
+
+Co-PI - Patterson Family Foundation grant to support rural Kansas K-12 teachers who teach computer science. 
 
 ## Peer Reviewed Papers & Posters
 
@@ -321,18 +348,28 @@ Engineering Education (ASEE), Salina, Kansas._ <br><i class="fas fa-fw fa-certif
 
 ## Service Activities
 
-**Reviewer for ACM Special Interest Group on Computer Science Education (SIGSCE)** <br><i class="fas fa-fw fa-calendar-alt"></i> 2016 - Present
+**Computer Science Department Computational Core Committe Chair** <br><i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present
+
+**Computer Science Department Academic Standards Committee** <br><i class="fas fa-fw fa-calendar-alt"></i> 2022
+
+**Computer Science Department Teaching Faculty Task Force Chair** <br><i class="fas fa-fw fa-calendar-alt"></i> 2022
+
+**Computer Science Department Online Degree Program Task Force Chair** <br><i class="fas fa-fw fa-calendar-alt"></i> 2022
+
+**Reviewer for ACM Special Interest Group on Computer Science Education (SIGSCE) Technical Symposium** <br><i class="fas fa-fw fa-calendar-alt"></i> 2016 - Present
+
+**Reviewer for ACM Special Interest Group on Computer Science Education (SIGSCE) ITiCSE Conference** <br><i class="fas fa-fw fa-calendar-alt"></i> 2020 - Present
 
 **Faculty Co-Advisor for Kansas Gamma Chapter of Tau Beta Pi** <br><i class="fas fa-fw fa-calendar-alt"></i> 2016 - 2017
 
-**Faculty Advisor for K-State Web Development Club** <br><i class="fas fa-fw fa-calendar-alt"></i> 2015 - 2017
+**Faculty Advisor for K-State Web Development Club** <br><i class="fas fa-fw fa-calendar-alt"></i> 2015 - 2017, 2020 - Present
 
 **Kansas STARBASE Program** <br><i class="fas fa-fw fa-calendar-alt"></i> 2015 - 2017
 
 * Presented sessions about computer programming for Kansas youth
 * Introduced high performance computing and led tours of the Beocat supercomputer at K-State
 
-**Faculty Co-Advisor for K-State Association for Computing Machinery (ACM) Student Chapter** <br><i class="fas fa-fw fa-calendar-alt"></i>2014-2017
+**Faculty Co-Advisor for K-State Association for Computing Machinery (ACM) Student Chapter** <br><i class="fas fa-fw fa-calendar-alt"></i>2014 - 2017, 2021 - Present
 
 **Computer Science Department Open House Advisor** <br><i class="fas fa-fw fa-calendar-alt"></i> 2013 - 2017
 
