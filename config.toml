@@ -65,6 +65,7 @@ summarylength = 30
     gravatar = "russfeld@ksu.edu"
     flickr = "russfeld"
     gpgkey = "russfeldh@gmail.com-public.key"
+    mastodon = "@russfeld"
 
 ## Main Menu
 [[menu.main]]
