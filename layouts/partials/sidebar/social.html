@@ -1,7 +1,4 @@
 <section class="social">
-	{{ with .Site.Params.social.twitter }}
-	<a href="https://twitter.com/{{.}}" rel="me"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-	{{ end }}
 	{{ with .Site.Params.social.mastodon }}
 	<a href="https://hachyderm.io/{{.}}" rel="me"><i class="fab fa-mastodon" aria-hidden="true"></i></a>
 	{{ end }}
@@ -23,6 +20,9 @@
 	{{ end }}
 	{{ with .Site.Params.social.instagram }}
 	<a href="https://instagram.com/{{.}}" rel="me"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+	{{ end }}
+	{{ with .Site.Params.social.twitter }}
+	<a href="https://twitter.com/{{.}}" rel="me"><i class="fab fa-twitter" aria-hidden="true"></i></a>
 	{{ end }}
 	<br>
 	{{ with .Site.Params.social.linkedin }}
