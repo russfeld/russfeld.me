@@ -64,7 +64,7 @@ summarylength = 30
     email = "russfeldh@gmail.com"
     gravatar = "russfeld@ksu.edu"
     flickr = "russfeld"
-    gpgkey = "russfeldh@gmail.com-public.key"
+    gpgkey = "russfeld"
     mastodon = "@russfeld"
 
 ## Main Menu
