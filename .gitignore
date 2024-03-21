@@ -13,3 +13,5 @@ $RECYCLE.BIN/
 
 todo.txt
 .hugo_build.lock
+
+resources/_gen

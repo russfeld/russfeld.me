@@ -19,7 +19,7 @@ header:
 
 [Github Project](https://github.com/russfeld/rubiksolver)
 [Download (zip)](https://github.com/russfeld/rubiksolver/archive/master.zip)
-[Presentation Slides](prsentation.pdf)
+[Presentation Slides](presentation.pdf)
 [User Guide](guide.pdf)
 
 <p>The project has been posted to my <a href="https://github.com/russfeld/rubiksolver">GitHub Account</a> and is best viewed there. <a href="https://github.com/russfeld/rubiksolver/archive/master.zip">Click here to download the project as a single ZIP file</a>.</p>

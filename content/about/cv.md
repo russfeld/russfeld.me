@@ -10,17 +10,18 @@ toc: tocbot
 <i class="far fa-fw fa-envelope"></i> russfeld AT ksu DOT edu  
 <i class="far fa-fw fa-envelope"></i> russfeldh AT gmail DOT com  
 <i class="fas fa-fw fa-phone"></i> (7 eight 5) 2 nine 2 - 3 one 2 one  
-<i class="fab fa-fw fa-linkedin"></i> https://www.linkedin.com/in/russfeld/
+<i class="fab fa-fw fa-linkedin"></i> https://www.linkedin.com/in/russfeld/  
+<i class="fab fa-fw fa-github"></i> https://github.com/russfeld
 
 ## Education
 
 ### Ph.D. Computer Science
 <i class="fas fa-fw fa-map-marker-alt"></i> [Kansas State University](https://ksu.edu), Manhattan, KS  
-<i class="fas fa-fw fa-calendar-alt"></i> Expected May 2021  
+<i class="fas fa-fw fa-calendar-alt"></i> Expected May 2026  
 <i class="fas fa-fw fa-certificate"></i> GPA: 4.0/4.0  
-<i class="fas fa-fw fa-graduation-cap"></i> Major Professor: [Dr. Daniel Andresen](https://cs.ksu.edu/~dan)
+<i class="fas fa-fw fa-graduation-cap"></i> Co-Major Professors: [Dr. Nathan Bean](https://www.nathanhbean.com/) and [Dr. Joshua Weese](https://weeser.net)
 
-My Ph.D. research includes analyzing the quality and effectiveness of our online Computer Science courses.
+My Ph.D. research includes analyzing the quality and effectiveness of our online Computer Science courses as well as our K-12 teacher training program and curriculum focused on rural schools.
 
 ### M.S. Computer Science
 <i class="fas fa-fw fa-map-marker-alt"></i> [Kansas State University](https://ksu.edu), Manhattan, KS  
@@ -36,7 +37,7 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 <i class="fas fa-fw fa-calendar-alt"></i> December 2008  
 <i class="fas fa-fw fa-certificate"></i> Magna Cum Laude Graduate - GPA: 3.867/4.0   
 <i class="fas fa-fw fa-certificate"></i> Completed College of Engineering Honors Program  
-<i class="fas fa-fw fa-certificate"></i> Member of Tau Beta Pi Engineering Honor Society  
+<i class="fas fa-fw fa-certificate"></i> Member of Kansas Gamma Chapter of the [Tau Beta Pi](https://www.tbp.org/) Engineering Honor Society  
 <i class="fas fa-fw fa-file-alt"></i> Senior Project: _AJAX Based Web Form Creator and Database Host System_  
 <i class="fas fa-fw fa-file-alt"></i> Honors Project: _[Implementing a Two-Phase Algorithm for Solving a Rubik's Cube](/projects/rubiks)_  
 
@@ -48,11 +49,13 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 <i class="fas fa-fw fa-calendar-alt"></i> May 2018 - Present  
 
 * Coordinating the department's senior project course
-* Developing courses for new [online certificate and B.A. programs](https://global.k-state.edu/engineering/computer-science/) in CS
+* Developing courses for new [online certificate in CS](https://cs.ksu.edu/academics/computational-core/) and [Integrated Computer Science](https://ksu.edu/ics) program
 * Developing new online programming curriculum using [Codio](http://codio.com)
-* Courses developed may also be used for additional programs such as high school outreach and professional development
+* Developing courses used for K-12 Teacher Training and [curriculum for high schools](https://cs.ksu.edu/cyber-pipeline/)
 * Recording lecture videos and creating automated project assessments
 * Adapted existing course in [system administration](http://cis527.russfeld.me) to be entirely online
+* Developing and maintaining [Hugo template](https://github.com/ksu-cs-textbooks/hugo-theme-relearn) for [Online Textbooks](https://textbooks.cs.ksu.edu) developed by faculty
+* Developed and Led Teaching Assistant training program based on materials provided by [Luther A. Tychonievich](https://www.cs.virginia.edu/luther/ta-training/)
 
 ### Graduate Teaching Assistant
 <i class="fas fa-fw fa-map-marker-alt"></i> [Computer Science Department](https://cs.ksu.edu) - [Kansas State University](https://ksu.edu), Manhattan, KS  
@@ -60,7 +63,7 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 
 * Graded weekly assignments, written papers, and online homework
 * Assisted the instructor with course management duties
-* Provide ideas and feedback to instructor regarding the course
+* Provided ideas and feedback to instructor regarding the course
 
 ### Instructor | Academic Advisor | SFS Program Coordinator
 <i class="fas fa-fw fa-map-marker-alt"></i> [Computer Science Department](https://cs.ksu.edu) - [Kansas State University](https://ksu.edu), Manhattan, KS  
@@ -91,6 +94,14 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 
 ## Honors & Awards
 
+### K-State Computer Science Department Teaching Excellence Award  
+<i class="fas fa-fw fa-calendar-alt"></i> 2023, 
+
+### K-State College of Engineering Team Award of Excellence
+<i class="fas fa-fw fa-calendar-alt"></i> 2020 - 2025
+
+* Recognizes work done as part of a team developing, teaching, and maintaining [Computational Core](https://cs.ksu.edu/academics/computational-core/) courses
+
 ### Kevin and Jacquie Elmore Cornerstone Teaching Scholar
 <i class="fas fa-fw fa-calendar-alt"></i> 2020 - 2025
 
@@ -120,24 +131,81 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 #### [Class Materials Archive](/teaching)
 
 ### CIS 598: Computer Science Project
+<i class="fas fa-fw fa-calendar-alt"></i> 2022 - Present  
+<i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cis598/)
+
+* Reworked structure of the department's senior project course
+* Improved student outcomes and helped students develop stellar projects
+* Provided feedback and suggestions for student presentations
+
+### Cyber Pipeline Program
 <i class="fas fa-fw fa-calendar-alt"></i> 2022 - Present
 
-* Reworking structure of the department's senior project course
-* Improve student outcomes and help students develop stellar projects
-* Provide feedback and suggestions for student presentations
+College Courses Taught:  
 
-### Computational Core
+**CC 710: Introduction to Computing for Educators**   
+<i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present  
+<i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cs-zero/)  
+
+**CC 711: Computer Education Programming Fundamentals**  
+<i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present  
+<i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/intro-python/)  
+
+**CC 730: Computer Programming for Educators**  
+ <i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present  
+ <i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cc210/)  
+
+**CC 750: Data Structures & Algorithms for Educators I**  
+<i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present  
+<i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cc310/)  
+
+* Developed and taught courses from the Computational Core program adapted for [K-12 Teacher Training](https://cs.ksu.edu/cyber-pipeline/teacher_support/) 
+* Supervise GTAs who support teachers both learning and teaching within the program
+
+High School Courses Coordinated: 
+
+**CC 110: Introduction to Computing HS**  
+<i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present   
+<i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cs-zero/)  
+
+**CC 111: Elements of Computer Programming HS**  
+ <i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present   
+ <i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/intro-python/)  
+
+**CC 210: Fundamental Computer Programming Concepts HS**  
+<i class="fas fa-fw fa-calendar-alt"></i> 2022 - Present   
+<i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cc210/)  
+
+* Developed and coordinated courses from the Computational Core program adapted as [curriculum for high schools](https://cs.ksu.edu/cyber-pipeline/curriculum/)
+* Worked with teachers and GTAs to answer questions and support the program across the state
+
+### Computational Core Program
 <i class="fas fa-fw fa-calendar-alt"></i> 2018 - Present
 
-* Developing a new set of online courses in programming and software
-development to begin Fall 2019
-* Courses will be offered online using state-of-the-art learning platforms
-such as [Codio](http://codio.com), [Piazza](http://piazza.com), and [Canvas](https://canvas.instructure.com/login/canvas)
-* Courses will form the basis of a new [online certificate and B.A. programs](https://global.k-state.edu/engineering/computer-science/)
-* Many courses will contain automated project assessments to increase
-scalability without additional faculty time
-* Courses may be used for other programs such as high school outreach and
-professional development
+College Courses Taught: 
+
+**CC 110: Introduction to Computing**  
+<i class="fas fa-fw fa-calendar-alt"></i> 2022  
+<i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cs-zero/)  
+
+**CC 210: Fundamental Computer Programming Concepts**  
+<i class="fas fa-fw fa-calendar-alt"></i> 2019  
+ <i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cc210/) 
+
+**CC 310: Data Structures & Algorithms I**  
+<i class="fas fa-fw fa-calendar-alt"></i> 2020  
+<i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cc310/) 
+
+**CC 410: Advanced Programming**  
+<i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present  
+<i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cc410/)  
+
+* Developed a new set of online courses in programming and software
+development for non-CS majors
+* Courses are offered online using state-of-the-art learning platforms
+such as [Codio](http://codio.com), [Piazza](http://piazza.com), [Ed Discussion](https://edstem.org/) and [Canvas](https://canvas.instructure.com/login/canvas)
+* Courses form the basis of a new [online certificate in CS](https://cs.ksu.edu/academics/computational-core/) and [Integrated Computer Science](https://ksu.edu/ics) program
+* Many courses contain automated project assessments to increase scalability without additional faculty time
 
 ### CIS 115: Introduction to Computing Science
 <i class="fas fa-fw fa-calendar-alt"></i> 2013 - 2017
@@ -158,7 +226,7 @@ increased significantly after the introduction of this course
   * Include many guest speakers from CS faculty, campus groups, and industry partners
 
 ### CIS 225: Personal Computer Systems Administration
-<i class="fas fa-fw fa-calendar-alt"></i> 2013-2016
+<i class="fas fa-fw fa-calendar-alt"></i> 2013 - 2016
 
 * Developed this course as a new offering for information systems majors
 * Class curriculum based on my experience as a system administrator on campus
@@ -172,9 +240,18 @@ troubleshooting, and virtual machine software
   * Provide hands-on experience working with many different technologies
   * Prepare students to be competent in any IT field or related areas
 
-### CIS 527: Enterprise Systems Administration
-<i class="fas fa-fw fa-calendar-alt"></i> 2014-2017 (Traditional)  
-<i class="fas fa-fw fa-calendar-alt"></i> [2018-Present (Online)](http://cis527.russfeld.me)
+### CIS 526 / CC 515: Full Stack Web Development
+<i class="fas fa-fw fa-calendar-alt"></i> 2022 - 2023  
+<i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cis526/)
+
+* Taught a web development class developed by a colleague
+* Made small organizational updates to the course materials
+* Updated implementation of course in [Codio](http://codio.com)
+
+### CIS 527 / CC 510: Enterprise Systems Administration
+<i class="fas fa-fw fa-calendar-alt"></i> 2014 - 2017 (Traditional)  
+<i class="fas fa-fw fa-calendar-alt"></i> 2018 - Present (Online)  
+<i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cis527/)
 
 * Developed this course as a new technical elective for all department majors
 * Curriculum based on my past experience and new cloud server technologies
@@ -219,18 +296,27 @@ another engineering faculty member
 ## Grants
 
 ### BPC-DP: Broadening Participation of Underrepresented Groups Through the Computational Core Initiative ($299,998)
+<i class="fas fa-fw fa-calendar-alt"></i> 2022-2025
 
-Co-PI - National Science Foundation grant to support developing curricula and teaching interventions targeted at rural students and other underrepresented groups. 
+Co-PI - National Science Foundation grant to support developing curricula and teaching interventions targeted at rural students and other underrepresented groups.
+
+### CS4KS: Expanding the Cyber Pipeline Program ($748,000)
+<i class="fas fa-fw fa-calendar-alt"></i> 2023-2024
+
+Co-PI - Renewal of Kansas Department of Education grant to provide training for high school teachers to teach computer science, including 10 graduate credit hours and support for previous cohorts.
 
 ### CS4KS: Expanding the Cyber Pipeline Program ($467,656)
+<i class="fas fa-fw fa-calendar-alt"></i> 2022-2023
 
-Co-PI - Kansas Department of Education grant to provide training for high school teachers to teach computer science, including 9 graduate credit hours.
+Co-PI - Kansas Department of Education grant to provide training for high school teachers to teach computer science, including 10 graduate credit hours.
 
 ### KRIATE: K-State Rural Innovation Academy for Teaching Enrichment ($3,099,030)
+<i class="fas fa-fw fa-calendar-alt"></i> 2022-2027
 
-Co-PI - Patterson Family Foundation grant to support rural Kansas K-12 teachers who teach computer science. 
+Co-PI - Private grant to support rural Kansas K-12 teachers who teach computer science. 
 
 ## Peer Reviewed Papers & Posters
+[ORCID: 0000-0001-7236-3933](https://orcid.org/0000-0001-7236-3933)
 
 Feldhausen, R., Weese, J. L., & Bean, N. H. (2018, Feb). **Increasing Student
 Self-Efficacy in Computational Thinking via STEM Outreach Programs** in _Proceedings of the 49th ACM Technical Symposium on Computing Science
@@ -265,7 +351,13 @@ to Young Student** Poster presented at the _International Conference for High
 Performance Computing, Networking, Storage and Analysis 2013 (SC13),
 Denver, Colorado._ Acceptance rate: [39%](http://sc13.supercomputing.org/sites/default/files/SC13ConferenceProgram.pdf)
 
-## Other Selected Papers & Posters
+## Other Selected Papers, Posters, and Sessions
+
+Nathan H. Bean, Russell Feldhausen, Joshua L. Weese, and Michelle Friend. 2024. **Engaging Rural Populations in Computer Science.** In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024). Association for Computing Machinery, New York, NY, USA, 1907. [10.1145/3626253.3635365](https://doi.org/10.1145/3626253.3635365)
+
+Michelle Friend, Jennifer Rosato, Nathan Bean, Russell Feldhausen, and Josh Weese. 2024. **Creating University CS Teacher Preparation Programs.** In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024). Association for Computing Machinery, New York, NY, USA, 1910. [10.1145/3626253.3635388](https://doi.org/10.1145/3626253.3635388)
+
+Matt Schwartz, Nathan H. Bean, Joshua L. Weese, and Russell Feldhausen. 2024. **Bringing a Visual Memory Model to VS Code.** In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024). Association for Computing Machinery, New York, NY, USA, 1927. [10.1145/3626253.3635434](https://doi.org/10.1145/3626253.3635434)
 
 Feldhausen, R., Bell, R.S., Andresen, D.A. (2013, September). **Introducing HPC
 and Multi-Threaded Computing to Middle School Girls using Scratch.** Poster
@@ -312,6 +404,13 @@ Engineering Education (ASEE), Salina, Kansas._ <br><i class="fas fa-fw fa-certif
 
 ## Selected Presentations
 
+**Computational Thinking in K-12 & the Future of Computer Science Education in Kansas**<br>
+Ad Astra Technology Summit <i class="fas fa-fw fa-calendar-alt"></i> 2023  
+Kansas CTE Conference <i class="fas fa-fw fa-calendar-alt"></i> 2024  
+Kansas MACE Conference <i class="fas fa-fw fa-calendar-alt"></i> 2024
+
+**K-State Online Course Development Institute** Faculty Panelist <br><i class="fas fa-fw fa-calendar-alt"></i> 2023
+
 **Building Creativity** at _Kansas 4-H Youth Leadership Forum_<br><i class="fas fa-fw fa-calendar-alt"></i> 2015 - 2016
 
 * Teach 4-H youth activities and ideas to help build their creativity
@@ -346,9 +445,26 @@ Engineering Education (ASEE), Salina, Kansas._ <br><i class="fas fa-fw fa-certif
 * Explained how I implemented that algorithm independently in Java
 * Showed how completed algorithm was designed to be efficient and demonstrated its use
 
+## Professional Development
+
+### Society Memberships
+
+* [Association for Computing Machinery - Special Interest Group on Computer Science Education (ACMSIGCSE)](https://www.sigcse.org/)
+* [Computer Science Teachers Association (CSTA) - Kansas Chapter](https://kansas.csteachers.org/)
+
+### Workshops
+
+* [CRA Level Up](https://cra.org/level-up/) <i class="fas fa-fw fa-calendar-alt"></i> 2023
+
 ## Service Activities
 
-**Computer Science Department Computational Core Committe Chair** <br><i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present
+**Computer Science Department Computational Core Committee Chair** <br><i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present
+
+**Kansas Core Outcomes Group (KCOG) Delegate and Faculty Co-Chair** <br><i class="fas fa-fw fa-calendar-alt"></i> 2023
+
+**Computer Science Department Curriculum Committee** <br><i class="fas fa-fw fa-calendar-alt"></i> 2023 - 2024
+
+**Computer Science Department Assessment Committee** <br><i class="fas fa-fw fa-calendar-alt"></i> 2023
 
 **Computer Science Department Academic Standards Committee** <br><i class="fas fa-fw fa-calendar-alt"></i> 2022
 
@@ -360,9 +476,13 @@ Engineering Education (ASEE), Salina, Kansas._ <br><i class="fas fa-fw fa-certif
 
 **Reviewer for ACM Special Interest Group on Computer Science Education (SIGSCE) ITiCSE Conference** <br><i class="fas fa-fw fa-calendar-alt"></i> 2020 - Present
 
+**Reviewer for ACM Special Interest Group on Computer Science Education (SIGSCE) CompED Conference** <br><i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present
+
+**Faculty Advisor for K-State Computer Science Graduate Student Association** <br><i class="fas fa-fw fa-calendar-alt"></i> 2022 - Present
+
 **Faculty Co-Advisor for Kansas Gamma Chapter of Tau Beta Pi** <br><i class="fas fa-fw fa-calendar-alt"></i> 2016 - 2017
 
-**Faculty Advisor for K-State Web Development Club** <br><i class="fas fa-fw fa-calendar-alt"></i> 2015 - 2017, 2020 - Present
+**Faculty Advisor for K-State Web Development Club** <br><i class="fas fa-fw fa-calendar-alt"></i> 2015 - 2017, 2020 - 2022
 
 **Kansas STARBASE Program** <br><i class="fas fa-fw fa-calendar-alt"></i> 2015 - 2017
 
