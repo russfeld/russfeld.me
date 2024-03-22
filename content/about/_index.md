@@ -10,3 +10,5 @@ Still reading this? Well, if you insist, I'll try to provide a concise overview 
 [Content coming soon - still haven't written this part!]
 
 #### [Curriculum Vitae](/about/cv)
+
+#### [Student Projects](/about/projects)

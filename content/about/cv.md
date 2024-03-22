@@ -41,7 +41,6 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 <i class="fas fa-fw fa-file-alt"></i> Senior Project: _AJAX Based Web Form Creator and Database Host System_  
 <i class="fas fa-fw fa-file-alt"></i> Honors Project: _[Implementing a Two-Phase Algorithm for Solving a Rubik's Cube](/projects/rubiks)_  
 
-
 ## Professional Experience
 
 ### Instructor
@@ -95,10 +94,10 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 ## Honors & Awards
 
 ### K-State Computer Science Department Teaching Excellence Award  
-<i class="fas fa-fw fa-calendar-alt"></i> 2023, 
+<i class="fas fa-fw fa-calendar-alt"></i> 2023, 2022, 2021
 
 ### K-State College of Engineering Team Award of Excellence
-<i class="fas fa-fw fa-calendar-alt"></i> 2020 - 2025
+<i class="fas fa-fw fa-calendar-alt"></i> 2021
 
 * Recognizes work done as part of a team developing, teaching, and maintaining [Computational Core](https://cs.ksu.edu/academics/computational-core/) courses
 
@@ -141,7 +140,7 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 ### Cyber Pipeline Program
 <i class="fas fa-fw fa-calendar-alt"></i> 2022 - Present
 
-College Courses Taught:  
+College Courses Co-Taught:  
 
 **CC 710: Introduction to Computing for Educators**   
 <i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present  
@@ -159,7 +158,7 @@ College Courses Taught:
 <i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present  
 <i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cc310/)  
 
-* Developed and taught courses from the Computational Core program adapted for [K-12 Teacher Training](https://cs.ksu.edu/cyber-pipeline/teacher_support/) 
+* Developed and co-taught courses from the Computational Core program adapted for [K-12 Teacher Training](https://cs.ksu.edu/cyber-pipeline/teacher_support/) 
 * Supervise GTAs who support teachers both learning and teaching within the program
 
 High School Courses Coordinated: 
@@ -178,6 +177,7 @@ High School Courses Coordinated:
 
 * Developed and coordinated courses from the Computational Core program adapted as [curriculum for high schools](https://cs.ksu.edu/cyber-pipeline/curriculum/)
 * Worked with teachers and GTAs to answer questions and support the program across the state
+* Worked to align the courses with relevant AP Computer Science exams
 
 ### Computational Core Program
 <i class="fas fa-fw fa-calendar-alt"></i> 2018 - Present
@@ -200,15 +200,15 @@ College Courses Taught:
 <i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present  
 <i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cc410/)  
 
-* Developed a new set of online courses in programming and software
+* Led development of a new set of online courses in programming and software
 development for non-CS majors
 * Courses are offered online using state-of-the-art learning platforms
 such as [Codio](http://codio.com), [Piazza](http://piazza.com), [Ed Discussion](https://edstem.org/) and [Canvas](https://canvas.instructure.com/login/canvas)
-* Courses form the basis of a new [online certificate in CS](https://cs.ksu.edu/academics/computational-core/) and [Integrated Computer Science](https://ksu.edu/ics) program
+* Courses form the basis of an [online certificate in CS](https://cs.ksu.edu/academics/computational-core/) and [Integrated Computer Science](https://ksu.edu/ics) degree program
 * Many courses contain automated project assessments to increase scalability without additional faculty time
 
 ### CIS 115: Introduction to Computing Science
-<i class="fas fa-fw fa-calendar-alt"></i> 2013 - 2017
+<i class="fas fa-fw fa-calendar-alt"></i> 2013 - 2017, 2022
 
 * Co-created and updated curriculum for this class with other faculty
 * Independently taught 24 sections of 30-50 students each over a span of 4 years
@@ -366,6 +366,8 @@ Engineering Education (ASEE), Salina, Kansas._ <br><i class="fas fa-fw fa-certif
 
 ## Invited Talks
 
+**Using Hugo and Other Free Tools to Develop Resources** at _Kansas OER Virtual Summit 2022_<br><i class="fas fa-fw fa-calendar-alt"></i> 2022 <br><i class="fas fa-fw fa-video"></i> [Video](/talks/oersummit2022/)
+
 **Computer Science in the Real World** at _K-State Have a Byte 2019_<br><i class="fas fa-fw fa-calendar-alt"></i> 2019 <br><i class="fas fa-fw fa-video"></i> [Video](/talks/haveabyte2019/)
 
 * Described new Computational Core Curriculum
@@ -409,7 +411,9 @@ Ad Astra Technology Summit <i class="fas fa-fw fa-calendar-alt"></i> 2023
 Kansas CTE Conference <i class="fas fa-fw fa-calendar-alt"></i> 2024  
 Kansas MACE Conference <i class="fas fa-fw fa-calendar-alt"></i> 2024
 
-**K-State Online Course Development Institute** Faculty Panelist <br><i class="fas fa-fw fa-calendar-alt"></i> 2023
+**K-State Online Course Development Institute** Faculty Panelist <br><i class="fas fa-fw fa-calendar-alt"></i> 2022, 2023
+
+**NCWIT Aspirations in Computing Award Ceremony** Faculty Panelist <br><i class="fas fa-fw fa-calendar-alt"></i> 2022
 
 **Building Creativity** at _Kansas 4-H Youth Leadership Forum_<br><i class="fas fa-fw fa-calendar-alt"></i> 2015 - 2016
 
@@ -452,9 +456,10 @@ Kansas MACE Conference <i class="fas fa-fw fa-calendar-alt"></i> 2024
 * [Association for Computing Machinery - Special Interest Group on Computer Science Education (ACMSIGCSE)](https://www.sigcse.org/)
 * [Computer Science Teachers Association (CSTA) - Kansas Chapter](https://kansas.csteachers.org/)
 
-### Workshops
+### Workshops & Trainings
 
 * [CRA Level Up](https://cra.org/level-up/) <i class="fas fa-fw fa-calendar-alt"></i> 2023
+* [K-State Teaching & Learning Center Professional Development Series](https://www.k-state.edu/tlc/faculty_gta_development/professionaldevelopmentseries/) <i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present
 
 ## Service Activities
 
