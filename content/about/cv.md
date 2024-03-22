@@ -70,7 +70,7 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 
 * Developed and taught [courses](/teaching) in introductory computing science and systems administration
 * Advised students each semester to choose appropriate courses and find employment
-* Recruited and managed students in the CyberCorps: Scholarship for Service SFS cyber security scholarship program
+* Recruited and managed students in the CyberCorps: Scholarship for Service (SFS) cyber security scholarship program
 * Met with prospective students and parents to discuss our program at various events
 * Assisted with several department outreach and recruiting events
 * Advised several student club groups and department open house committee

@@ -91,8 +91,31 @@ This page contains a list of student projects I have advised or mentored.
 * Kayla Ditacchio - SpaceTime Productivity App
 * Josh Riess - RequestBot
 
-# 2018
+## 2018
 
 ### CIS 597 - Senior Projects
 
 * Sarah Allen - KetoBarries
+
+## 2017
+
+### CIS 598 - Senior Projects
+
+* Austin Fangman - Collection Manager: Android
+* Blake Winchester - Web App to Load Views from a Database
+* Hayden Woods - Comprehensive MTB Trail
+* Brent Johnson - ROTC Attendance Browser
+
+## 2016
+
+### CIS 597 - Senior Projects
+
+* Richard Petrie - Ruckup
+
+### CIS 641/642 - Software Engineering Projects
+
+* Joshua Reed, David Barnes, Dominick Haeflinger - Blockly Scratch
+
+### Physical Science Senior Project
+
+* Carter Lundberg - Fantasy Baseball Draft Application
