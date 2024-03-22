@@ -63,3 +63,36 @@ This page contains a list of student projects I have advised or mentored.
 * Flowchart - Brandon Bednar, Jonathan Ochampaugh, Breanna Reynoso, Matthew Schwartz
 * Professional Program Application - Hunter Ruskanen, Bella Goddard, Kevin Sutcliffe, Caleb Rosebaugh
 * ELA Delivery Platform - Michael Conaway, John Velasco-Radtke, Ting Wang
+
+## 2021
+
+### CIS 598 - Senior Projects
+
+* Taylor Olson, Caleb Kusetersteffen, John Capple - Business Intelligence Suite
+* Connor Neil - Codio to Hugo Converter
+* Connor Davis - Feature Flagging Service
+* Brock Kaufmann, Cole Willenbring - Moon Shot Stock Portfolio
+* Daniel Navarro - Sports App
+* Dillon Unruh, Albert Winemiller - Business Analytics Site
+* Dane Hoffman - Golf Scheduling Site
+
+## 2020
+
+### CIS 598 - Senior Projects
+
+* Aaron Simpson - CatHat
+
+## 2019
+
+### CIS 598 - Senior Projects
+
+* BreAnn Anshutz, Hunter Guthrie - Hackable Subnet
+* Derek Pockrandt - Project Specifier and App Idea Share Website
+* Kayla Ditacchio - SpaceTime Productivity App
+* Josh Riess - RequestBot
+
+# 2018
+
+### CIS 597 - Senior Projects
+
+* Sarah Allen - KetoBarries

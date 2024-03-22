@@ -93,16 +93,16 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 
 ## Honors & Awards
 
+### Kevin and Jacquie Elmore Cornerstone Teaching Scholar
+<i class="fas fa-fw fa-calendar-alt"></i> 2020 - 2025
+
 ### K-State Computer Science Department Teaching Excellence Award  
-<i class="fas fa-fw fa-calendar-alt"></i> 2023, 2022, 2021
+<i class="fas fa-fw fa-calendar-alt"></i> 2020, 2021, 2022, 2023
 
 ### K-State College of Engineering Team Award of Excellence
 <i class="fas fa-fw fa-calendar-alt"></i> 2021
 
 * Recognizes work done as part of a team developing, teaching, and maintaining [Computational Core](https://cs.ksu.edu/academics/computational-core/) courses
-
-### Kevin and Jacquie Elmore Cornerstone Teaching Scholar
-<i class="fas fa-fw fa-calendar-alt"></i> 2020 - 2025
 
 * Recognizes [exemplary undergraduate teaching](https://www.k-state.edu/today/students/announcement/?id=55423) at K-State
 
@@ -138,7 +138,7 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 * Provided feedback and suggestions for student presentations
 
 ### Cyber Pipeline Program
-<i class="fas fa-fw fa-calendar-alt"></i> 2022 - Present
+<i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present
 
 College Courses Co-Taught:  
 
@@ -160,6 +160,7 @@ College Courses Co-Taught:
 
 * Developed and co-taught courses from the Computational Core program adapted for [K-12 Teacher Training](https://cs.ksu.edu/cyber-pipeline/teacher_support/) 
 * Supervise GTAs who support teachers both learning and teaching within the program
+* Informal courses taught in Summer 2021 and 2022 before formal launch in 2023.
 
 High School Courses Coordinated: 
 
@@ -172,7 +173,7 @@ High School Courses Coordinated:
  <i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/intro-python/)  
 
 **CC 210: Fundamental Computer Programming Concepts HS**  
-<i class="fas fa-fw fa-calendar-alt"></i> 2022 - Present   
+<i class="fas fa-fw fa-calendar-alt"></i> 2020 - Present   
 <i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cc210/)  
 
 * Developed and coordinated courses from the Computational Core program adapted as [curriculum for high schools](https://cs.ksu.edu/cyber-pipeline/curriculum/)
@@ -293,27 +294,41 @@ another engineering faculty member
   * Expose students to concepts such as neuroscience, bias, and reasoning
   * Students collaborate on teams to design a learning experience for peers
 
+### Tea Time Office Hours  
+<i class="fas fa-fw fa-calendar-alt"></i> 2020 - Present
+
+* Host a weekly synchronous session with several other faculty and staff where students are invited to join and discuss anything going on in their lives
+* Invited several alumni and industry guests and panels to share information about industry and transitioning to professional life
+* The intent is to provide students a safe space and a forum to discuss issues unrelated to classwork
+
 ## Grants
 
 ### BPC-DP: Broadening Participation of Underrepresented Groups Through the Computational Core Initiative ($299,998)
-<i class="fas fa-fw fa-calendar-alt"></i> 2022-2025
+<i class="fas fa-fw fa-calendar-alt"></i> 2022 - 2025
 
 Co-PI - National Science Foundation grant to support developing curricula and teaching interventions targeted at rural students and other underrepresented groups.
 
 ### CS4KS: Expanding the Cyber Pipeline Program ($748,000)
-<i class="fas fa-fw fa-calendar-alt"></i> 2023-2024
+<i class="fas fa-fw fa-calendar-alt"></i> 2023 - 2024
 
 Co-PI - Renewal of Kansas Department of Education grant to provide training for high school teachers to teach computer science, including 10 graduate credit hours and support for previous cohorts.
 
 ### CS4KS: Expanding the Cyber Pipeline Program ($467,656)
-<i class="fas fa-fw fa-calendar-alt"></i> 2022-2023
+<i class="fas fa-fw fa-calendar-alt"></i> 2022 - 2023
 
 Co-PI - Kansas Department of Education grant to provide training for high school teachers to teach computer science, including 10 graduate credit hours.
 
 ### KRIATE: K-State Rural Innovation Academy for Teaching Enrichment ($3,099,030)
-<i class="fas fa-fw fa-calendar-alt"></i> 2022-2027
+<i class="fas fa-fw fa-calendar-alt"></i> 2022 - 2027
 
 Co-PI - Private grant to support rural Kansas K-12 teachers who teach computer science. 
+
+### K-State Open/Alternative Textbook & K-State Global Campus Course Development Grants  
+<i class="fas fa-fw fa-calendar-alt"></i> 2018 - 2021
+
+I was part of a team that received internal grant funding to support the initial development of the Computational Core program and the associated online textbooks.
+
+
 
 ## Peer Reviewed Papers & Posters
 [ORCID: 0000-0001-7236-3933](https://orcid.org/0000-0001-7236-3933)
@@ -353,11 +368,11 @@ Denver, Colorado._ Acceptance rate: [39%](http://sc13.supercomputing.org/sites/d
 
 ## Other Selected Papers, Posters, and Sessions
 
-Nathan H. Bean, Russell Feldhausen, Joshua L. Weese, and Michelle Friend. 2024. **Engaging Rural Populations in Computer Science.** In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024). Association for Computing Machinery, New York, NY, USA, 1907. [10.1145/3626253.3635365](https://doi.org/10.1145/3626253.3635365)
+Nathan H. Bean, Russell Feldhausen, Joshua L. Weese, and Michelle Friend. 2024. **Engaging Rural Populations in Computer Science.** In _Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024)._ Association for Computing Machinery, New York, NY, USA, 1907. [10.1145/3626253.3635365](https://doi.org/10.1145/3626253.3635365)
 
-Michelle Friend, Jennifer Rosato, Nathan Bean, Russell Feldhausen, and Josh Weese. 2024. **Creating University CS Teacher Preparation Programs.** In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024). Association for Computing Machinery, New York, NY, USA, 1910. [10.1145/3626253.3635388](https://doi.org/10.1145/3626253.3635388)
+Michelle Friend, Jennifer Rosato, Nathan Bean, Russell Feldhausen, and Josh Weese. 2024. **Creating University CS Teacher Preparation Programs.** In _Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024)._ Association for Computing Machinery, New York, NY, USA, 1910. [10.1145/3626253.3635388](https://doi.org/10.1145/3626253.3635388)
 
-Matt Schwartz, Nathan H. Bean, Joshua L. Weese, and Russell Feldhausen. 2024. **Bringing a Visual Memory Model to VS Code.** In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024). Association for Computing Machinery, New York, NY, USA, 1927. [10.1145/3626253.3635434](https://doi.org/10.1145/3626253.3635434)
+Matt Schwartz, Nathan H. Bean, Joshua L. Weese, and Russell Feldhausen. 2024. **Bringing a Visual Memory Model to VS Code.** In _Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024)._ Association for Computing Machinery, New York, NY, USA, 1927. [10.1145/3626253.3635434](https://doi.org/10.1145/3626253.3635434)
 
 Feldhausen, R., Bell, R.S., Andresen, D.A. (2013, September). **Introducing HPC
 and Multi-Threaded Computing to Middle School Girls using Scratch.** Poster
@@ -411,9 +426,13 @@ Ad Astra Technology Summit <i class="fas fa-fw fa-calendar-alt"></i> 2023
 Kansas CTE Conference <i class="fas fa-fw fa-calendar-alt"></i> 2024  
 Kansas MACE Conference <i class="fas fa-fw fa-calendar-alt"></i> 2024
 
-**K-State Online Course Development Institute** Faculty Panelist <br><i class="fas fa-fw fa-calendar-alt"></i> 2022, 2023
+**K-State Online Course Development Institute** Faculty Panelist <br><i class="fas fa-fw fa-calendar-alt"></i> 2020, 2021, 2022, 2023
 
 **NCWIT Aspirations in Computing Award Ceremony** Faculty Panelist <br><i class="fas fa-fw fa-calendar-alt"></i> 2022
+
+**K-State Computational Core** at _Kansas Association for Career & Technical Education (K-ACTE) Conferece_<br><i class="fas fa-fw fa-calendar-alt"></i> 2020
+
+**Future Learning in CS** _Online Discussion with High Schools hosted by K-State Global Campus_<br><i class="fas fa-fw fa-calendar-alt"></i> 2020
 
 **Building Creativity** at _Kansas 4-H Youth Leadership Forum_<br><i class="fas fa-fw fa-calendar-alt"></i> 2015 - 2016
 
@@ -458,7 +477,7 @@ Kansas MACE Conference <i class="fas fa-fw fa-calendar-alt"></i> 2024
 
 ### Workshops & Trainings
 
-* [CRA Level Up](https://cra.org/level-up/) <i class="fas fa-fw fa-calendar-alt"></i> 2023
+* [CRA Level Up Workshop](https://cra.org/level-up/) <i class="fas fa-fw fa-calendar-alt"></i> 2023
 * [K-State Teaching & Learning Center Professional Development Series](https://www.k-state.edu/tlc/faculty_gta_development/professionaldevelopmentseries/) <i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present
 
 ## Service Activities
@@ -477,11 +496,19 @@ Kansas MACE Conference <i class="fas fa-fw fa-calendar-alt"></i> 2024
 
 **Computer Science Department Online Degree Program Task Force Chair** <br><i class="fas fa-fw fa-calendar-alt"></i> 2022
 
+**College of Engineering Strategic Teaching Working Group** <br><i class="fas fa-fw fa-calendar-alt"></i> 2020
+
 **Reviewer for ACM Special Interest Group on Computer Science Education (SIGSCE) Technical Symposium** <br><i class="fas fa-fw fa-calendar-alt"></i> 2016 - Present
 
-**Reviewer for ACM Special Interest Group on Computer Science Education (SIGSCE) ITiCSE Conference** <br><i class="fas fa-fw fa-calendar-alt"></i> 2020 - Present
+**Reviewer for ACM Special Interest Group on Computer Science Education (SIGSCE) ITiCSE Conference** <br><i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present
 
 **Reviewer for ACM Special Interest Group on Computer Science Education (SIGSCE) CompED Conference** <br><i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present
+
+**Reviewer for Consortium for Computing Sciences in Colleges (CCSC) Central Plains Conference**<br><i class="fas fa-fw fa-calendar-alt"></i> 2021
+
+**Reviewer for Military Behavioral Health Journal**<br><i class="fas fa-fw fa-calendar-alt"></i> 2019 - 2020
+
+**Kansas Career & Technical Education (CTE) IT Cluster Review Group**<br><i class="fas fa-fw fa-calendar-alt"></i> 2021
 
 **Faculty Advisor for K-State Computer Science Graduate Student Association** <br><i class="fas fa-fw fa-calendar-alt"></i> 2022 - Present
 
