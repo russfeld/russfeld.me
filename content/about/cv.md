@@ -266,7 +266,7 @@ troubleshooting, and virtual machine software
   * Expose students to virtual machine software and other IT tools and practices
 
 ### CIS 595: Information Systems Internship
-<i class="fas fa-fw fa-calendar-alt"></i> 2014-2017
+<i class="fas fa-fw fa-calendar-alt"></i> 2014 - 2017
 
 * Coordinated this class for students completing their required internship
 * **Course contents and objectives:**
@@ -276,7 +276,7 @@ troubleshooting, and virtual machine software
 internship and knowledge gained from the experience
 
 ### CIS 190: Open House Committee
-<i class="fas fa-fw fa-calendar-alt"></i> 2014-2017
+<i class="fas fa-fw fa-calendar-alt"></i> 2014 - 2017
 
 * Developed this course for students interested in presenting at open house
 * **Course contents and objectives:**
@@ -328,43 +328,22 @@ Co-PI - Private grant to support rural Kansas K-12 teachers who teach computer s
 
 I was part of a team that received internal grant funding to support the initial development of the Computational Core program and the associated online textbooks.
 
-
-
 ## Peer Reviewed Papers & Posters
 [ORCID: 0000-0001-7236-3933](https://orcid.org/0000-0001-7236-3933)
 
-Feldhausen, R., Weese, J. L., & Bean, N. H. (2018, Feb). **Increasing Student
-Self-Efficacy in Computational Thinking via STEM Outreach Programs** in _Proceedings of the 49th ACM Technical Symposium on Computing Science
-Education, SIGCSE ’18, Baltimore, Maryland._ [10.1145/3159450.3159593](https://doi.org/10.1145/3159450.3159593). Acceptance rate: [35%](https://dl.acm.org/citation.cfm?id=3159450)
+Feldhausen, R., Weese, J. L., & Bean, N. H. (2018, Feb). **Increasing Student Self-Efficacy in Computational Thinking via STEM Outreach Programs** in _Proceedings of the 49th ACM Technical Symposium on Computing Science Education, SIGCSE ’18, Baltimore, Maryland._ [10.1145/3159450.3159593](https://doi.org/10.1145/3159450.3159593). Acceptance rate: [35%](https://dl.acm.org/citation.cfm?id=3159450)
 
-Weese, J. L., & Feldhausen, R. (2017, June). **STEM Outreach: Assessing
-Computational Thinking and Problem Solving** Paper presented at _2017 ASEE
-Annual Conference & Exposition, Columbus, Ohio._ [http://peer.asee.org/28845](http://peer.asee.org/28845)
+Weese, J. L., & Feldhausen, R. (2017, June). **STEM Outreach: Assessing Computational Thinking and Problem Solving** Paper presented at _2017 ASEE Annual Conference & Exposition, Columbus, Ohio._ [http://peer.asee.org/28845](http://peer.asee.org/28845)
 
-Weese, J. L., Feldhausen, R., & Bean, N. H. (2016, June). **The Impact of STEM
-Experiences on Student Self-Efficacy in Computational Thinking** Paper
-presented at _2016 ASEE Annual Conference & Exposition, New Orleans,
-Louisiana._ [10.18260/p.26179](https://doi.org/10.18260/p.26179).
+Weese, J. L., Feldhausen, R., & Bean, N. H. (2016, June). **The Impact of STEM Experiences on Student Self-Efficacy in Computational Thinking** Paper presented at _2016 ASEE Annual Conference & Exposition, New Orleans, Louisiana._ [10.18260/p.26179](https://doi.org/10.18260/p.26179).
 
-Bean, N.H., Weese, J.L., Feldhausen, R., & Bell, R. S. (2015, October). **Starting
-from Scratch: Developing a Pre-Service Teacher Training Program in
-Computational Thinking** in _Frontiers in Education Conference (FIE), 2015. IEEE, El Paso, TX._ [10.1109/FIE.2015.7344237](https://doi.org/10.1109/FIE.2015.7344237).
+Bean, N.H., Weese, J.L., Feldhausen, R., & Bell, R. S. (2015, October). **Starting from Scratch: Developing a Pre-Service Teacher Training Program in Computational Thinking** in _Frontiers in Education Conference (FIE), 2015. IEEE, El Paso, TX._ [10.1109/FIE.2015.7344237](https://doi.org/10.1109/FIE.2015.7344237).
 
-Bean, N.H., Bell, R.S., & Feldhausen, R. (2015, April). **Scratching the Surface:
-First Steps in Preservice Teacher Training on Computational Thinking** Paper
-presented at _The 2015 annual meeting of the American Educational Research
-Association (AERA ’15), Chicago, Illinois._ [Paper Archive Link](http://www.aera.net/Publications/Online-Paper-Repository).
+Bean, N.H., Bell, R.S., & Feldhausen, R. (2015, April). **Scratching the Surface: First Steps in Preservice Teacher Training on Computational Thinking** Paper presented at _The 2015 annual meeting of the American Educational Research Association (AERA ’15), Chicago, Illinois._ [Paper Archive Link](http://www.aera.net/Publications/Online-Paper-Repository).
 
-Feldhausen, R., Bell, R.S., & Andresen, D.A. (2014, July). **Minimum Time,
-Maximum Effect: Introducing Parallel Computing in CS0 and STEM Outreach
-Activities Using Scratch** _Proceedings of the 2014 Annual Conference on
-Extreme Science and Engineering Discovery Environment (XSEDE ’14), Atlanta,
-Georgia._ [10.1145/2616498.2616568](https://doi.org/10.1145/2616498.2616568). Acceptance rate: [67%](https://dl.acm.org/citation.cfm?id=2616498)
+Feldhausen, R., Bell, R.S., & Andresen, D.A. (2014, July). **Minimum Time, Maximum Effect: Introducing Parallel Computing in CS0 and STEM Outreach Activities Using Scratch** _Proceedings of the 2014 Annual Conference on Extreme Science and Engineering Discovery Environment (XSEDE ’14), Atlanta, Georgia._ [10.1145/2616498.2616568](https://doi.org/10.1145/2616498.2616568). Acceptance rate: [67%](https://dl.acm.org/citation.cfm?id=2616498)
 
-Feldhausen, R., Bell, R.S., Andresen, D.A. (2013, November). **Introducing HPC
-to Young Student** Poster presented at the _International Conference for High
-Performance Computing, Networking, Storage and Analysis 2013 (SC13),
-Denver, Colorado._ Acceptance rate: [39%](http://sc13.supercomputing.org/sites/default/files/SC13ConferenceProgram.pdf)
+Feldhausen, R., Bell, R.S., Andresen, D.A. (2013, November). **Introducing HPC to Young Students** Poster presented at the _International Conference for High Performance Computing, Networking, Storage and Analysis 2013 (SC13), Denver, Colorado._ Acceptance rate: [39%](http://sc13.supercomputing.org/sites/default/files/SC13ConferenceProgram.pdf)
 
 ## Other Selected Papers, Posters, and Sessions
 
