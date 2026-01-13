@@ -1,7 +1,7 @@
 baseURL = "https://russfeld.me"
 languageCode = "en-us"
 title = "Russell Feldhausen"
-theme = ["hyde-hyde", "plausible-hugo"]
+theme = ["hyde-hyde"]
 
 ## Hugo Built-in Features
 # disqusShortname = "your-disqus-shortname"
