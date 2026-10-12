@@ -5,44 +5,54 @@ budget_tokens: 1000
 # STATUS — russfeld.me
 
 > Single source of truth for resuming work. Read this FIRST when starting a session.
-> Last updated: 2026-10-10
+> Last updated: 2026-10-12
 
 Approved plan (read for phase details): `~/.claude/plans/hi-claude-review-the-hashed-stearns.md`
-Phases: 0 URL baseline · 1 lean theme (same look) · 2 data-driven CV + Research · 3 recipe cleanup · 4 archive.russfeld.me
+Phases: 0 URL baseline ✅ · 1 lean theme ✅ · 2 data-driven CV + Research · 3 recipe cleanup · 4 archive ✅
 
-## ✅ Done
+## ✅ Done (all merged to `master`, clean tree at `6022644`)
 
-- **Phase 0:** `scripts/baseline-urls.txt` (1964 paths of the pre-migration site, matches live sitemap) + `scripts/check-urls.sh [public_dir]` (prefixes in `scripts/redirected-urls.txt` exempt). Keep taxonomies areas/sections/cuisines (they output pages).
-- **Phase 4 archive** `/workspaces/archive-site` → `russfeld/archive` (`main`, `83973a9`, pushed): pre-rendered old PHP site + banner, `tools/` (render-php, fix-links, dedup symlinks, resize-images), GA4 `G-HDHZ0ZXKQQ` in `js/analytics.js`, Dockerfile + nginx conf + workflow → `ghcr.io/russfeld/archive:latest` → Watchtower. 428M.
-- **Phase 4 main-site half: done in working tree, UNCOMMITTED on `master`.** Removed `static/assets/oldimpress`, `content/teaching`, openhouse/lecturetime decks (1548 staged deletions). Links → archive (cv.md, openhouse/index.md, lecturetime2021/index.md + `snail.jpg`, Teaching menu in config.toml). `nginx/default.conf` 301s wired in Dockerfile; `scripts/redirected-urls.txt`. Local nginx test: 1960/1964 baseline URLs resolve (4 stray `.md` files accepted), 106/106 Jekyll URLs resolve.
+- **Phase 0:** `scripts/baseline-urls.txt` (1964 pre-migration paths) + `scripts/check-urls.sh <public_dir>` (exempts prefixes in `scripts/redirected-urls.txt`).
+- **Phase 4:**
+  - archive repo `russfeld/archive` (`/workspaces/archive-site`), staged at archive.dev.russfeld.me on the new droplet
+  - main site PR #13: legacy content removed, `nginx/default.conf` 301s to archive.russfeld.me (tested locally: 1960/1964 baseline URLs, 106/106 Jekyll URLs)
+- **Phase 1 (PR #14):**
+  - theme vendored into `layouts/`; submodules and `resources/_gen` gone; SCSS → plain CSS in `assets/css/` (m10c palette as `--color-*` vars); builds with non-extended Hugo
+  - removed highlight.js, jQuery, flexslider and unused partials
+  - GA4 `G-HDHZ0ZXKQQ` via `[services.googleAnalytics]` in `<head>`
+  - notice boxes: `layouts/shortcodes/notice.html`, `layouts/_markup/render-blockquote.html`, `layouts/partials/notice.html`
+  - verified: 28 screenshots pixel-identical, check-urls OK; unused deploy/Apache files deleted
 
-## 🚀 Next quest: ship the main-site half of Phase 4
+## 🚀 Next quest: verify the first deploy, then Phase 3 (recipe cleanup)
 
-1. Ask the user whether archive.russfeld.me is live (CI build ok, secrets `DISCORD_WEBHOOK`/`DEPLOY_TOKEN` added, GHCR visibility, server compose service with Traefik labels + `docker compose up -d archive`). **Don't ship until it's live**, or the redirects point at a dead host.
-2. Create a branch off `master`, stage the main-site changes listed above plus `scripts/` and `nginx/`. The user commits with GPG in another terminal; never commit for them.
-   - Ask before staging `.claude/`, `.devcontainer/`, `.wolf/`. `package-lock.json`, `deploy.sh`, Apache `*.conf`, `russ.feldhausen.me/`, `todo2.txt`: unused (confirmed); the plan deletes them in Phase 1.
-3. Acceptance criteria: `scripts/check-urls.sh` passes on a fresh build, and after deploy `curl -I` on `/teaching/cis115fall2013/`, `/presentations/2016gittutorial/` and `/recipes/smashburgers.html` returns 301 to the right target.
-
-**Then Phase 1 (theme rebuild).** GA4 ID for the main site is `G-HDHZ0ZXKQQ`; remove Plausible.
-**Phase 2** is blocked until the user provides the Overleaf `.bib` files.
+1. **Deploy check (user-gated):** Watchtower is **paused** on the main site, and the floating IP still points at the old droplet (143.244.200.46); new droplet is 192.81.209.228, main site staged at `dev.russfeld.me`. When the user resumes it:
+   - confirm the GitHub Actions build succeeded. It's the first build without `resources/_gen` and submodules; the Dockerfile uses `hugomods/hugo:ci-0.148.1`.
+   - `curl -sI` on `https://russfeld.me/teaching/cis115fall2013/`, `/presentations/2016gittutorial/`, `/cv/`, `/recipes/smashburgers.html` → 301; `/projects/` → 200.
+   - check that each archive target path returns 200 on `archive.dev.russfeld.me` until cutover.
+2. **Phase 3** (needs no user input; see the plan). Recipe URLs must not change.
+   - Normalize front matter in `content/recipes/*.md` (`header.teaser`/`overlay_image` → `image`) and update the `layouts/recipes/*` and `page-single/recipe*` partials.
+   - Fix Jekyll leftover links such as `{{ site.url }}/2017/03/12/homemade-hamburgers/` (visible on smashburgers).
+   - Add a schema.org Recipe JSON-LD partial.
+   - Acceptance: `check-urls.sh` passes, screenshots match except the intended link fixes, and the JSON-LD validates.
+3. **Phase 2** is blocked until the user provides the Overleaf `.bib` files (one per category).
 
 ### Open items for the user
-- Possibly has the missing archive videos (`media/b3fall2014rift.mp4`, `media/lecture2/nathanbean.mp4`); 3 links stay broken until then.
-- Eyeball the resized `cis225fall2015/15cloud/images/infographic.png` for readability.
+- Floating-IP cutover to the new droplet. Until then, archive.russfeld.me 404s publicly; the user accepted that window.
+- Missing archive videos (`media/b3fall2014rift.mp4`, `media/lecture2/nathanbean.mp4`); readability of the resized `cis225fall2015/15cloud/images/infographic.png`.
 
 ## Context
 
-- The devcontainer's Hugo isn't extended. Build with `/tmp/claude-1000/.../scratchpad/hugo-ext/hugo` (re-download hugo_extended_0.148.1 if the scratchpad is gone). **Never run `--gc`** without `git checkout -- resources` afterwards: the committed `resources/_gen` cache is what CI relies on.
-- Theme submodules are initialized locally now (needed only until Phase 1 drops them).
-- nginx is installed in the devcontainer for redirect testing (sudo works). There's no docker, and no `gh` CLI.
-- Old sources: `/workspaces/archive/ciswebsite_repo` (original PHP site), `russfeld.me_files_repo` (Jekyll source).
+- **Workflow:** the user commits with GPG themselves. Stage on a branch and give a suggested message; the user opens PRs and merges. Never commit for them.
+- **Tools:** the devcontainer has non-extended Hugo (now sufficient). nginx and chromium are installed for redirect tests and screenshots (sudo works). No docker, no `gh`.
+- **Scratchpad helpers** (may be gone in a new session): `shots.sh` (screenshots, 45s timeout per page), `redirtest.py`, `linkcheck.py`, `hugo-ext/`.
+- Some content files are CRLF; edit byte-wise or with sed.
 
 ## 🔧 Useful commands
 
 ```bash
-scripts/check-urls.sh <public_dir>   # zero missing baseline URLs required
+hugo --minify -d /tmp/out && scripts/check-urls.sh /tmp/out   # zero missing baseline URLs required
 ```
 
 ## 📚 References
 
-- `.wolf/cerebrum.md` (preferences, Do-Not-Repeat: never change public URLs; don't resize download/print images) · `.wolf/buglog.json` (nginx index-rewrite bug)
+- `.wolf/cerebrum.md` (Do-Not-Repeat: never change public URLs; don't resize print images; no `pkill -f` self-match; build-verify before deleting layouts; preserve CRLF) · `.wolf/buglog.json`
