@@ -1,0 +1,7 @@
+# Baseline path prefixes that nginx/default.conf now 301s to archive.russfeld.me.
+/teaching/
+/assets/oldimpress/
+/projects/openhouse/intro.html
+/projects/openhouse/intro2015.html
+/projects/openhouse/creativity.html
+/talks/lecturetime2021/slides.html

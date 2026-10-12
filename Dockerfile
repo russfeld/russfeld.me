@@ -6,6 +6,7 @@ RUN hugo --minify
 
 #Copy static files to Nginx
 FROM nginx:alpine
+COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /site/public /usr/share/nginx/html
 
 WORKDIR /usr/share/nginx/html
