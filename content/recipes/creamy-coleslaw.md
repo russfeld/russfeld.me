@@ -9,7 +9,7 @@ tags:
 categories:
 - sides
 active_time: 15 minutes
-total_time: 15 hours
+total_time: 45 minutes
 makes: 12 servings
 date: 2017-03-11
 image: /assets/images/recipes/creamy_coleslaw_1.jpg
