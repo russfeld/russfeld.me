@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "bugs": [
+    {
+      "id": "bug-001",
+      "date": "2026-10-10",
+      "file": "nginx/default.conf",
+      "error_message": "/projects/ and /recipes/ returned 301 to /projects/index/ and /recipes/index/ (404)",
+      "root_cause": "Server-level `rewrite ^/(recipes|projects)/([^/]+)\\.html$` also matched nginx's internal index.html lookup for directory requests.",
+      "fix": "Match on $request_uri (client URI) instead: if ($request_uri ~ ...) { return 301 ...; }",
+      "tags": [
+        "nginx",
+        "redirects",
+        "index"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4528 @@
+{
+  "version": 1,
+  "meta": {
+    "lastScanned": "2026-10-02T19:51:03.500Z",
+    "fileCount": 501,
+    "hits": 0,
+    "misses": 0,
+    "renderedHash": "7edc08a4710a3ed3c9b1e1b1401b5bcbc9e4e36e5816dee87d85348d1e4a15d8",
+    "storeUpdatedAt": "2026-10-02T19:51:03.507Z",
+    "rootHash": "666dcf15c1e94d1b"
+  },
+  "files": {
+    ".devcontainer/compose.yml": {
+      "description": "Docker Compose: 2 services",
+      "tokens": 456,
+      "hash": "42b924bd3f8797b2",
+      "size": 1596,
+      "mtimeMs": 1790969858485.8325,
+      "updatedAt": "2026-10-02T19:51:03.226Z",
+      "source": "scan"
+    },
+    ".devcontainer/devcontainer-lock.json": {
+      "description": "",
+      "tokens": 275,
+      "hash": "f4a9129e83dbfad8",
+      "size": 961,
+      "mtimeMs": 1790970004009.733,
+      "updatedAt": "2026-10-02T19:51:03.227Z",
+      "source": "scan"
+    },
+    ".devcontainer/devcontainer.json": {
+      "description": "For format details, see https://aka.ms/devcontainer.json. For config options, see the",
+      "tokens": 542,
+      "hash": "72fb5124ab215071",
+      "size": 1895,
+      "mtimeMs": 1790969850142.2415,
+      "updatedAt": "2026-10-02T19:51:03.227Z",
+      "source": "scan"
+    },
+    ".devcontainer/Dockerfile": {
+      "description": "Docker container definition",
+      "tokens": 158,
+      "hash": "8cebd5cd921c656d",
+      "size": 590,
+      "mtimeMs": 1790969877203.2568,
+      "updatedAt": "2026-10-02T19:51:03.227Z",
+      "source": "scan"
+    },
+    ".github/dependabot.yml": {
+      "description": "",
+      "tokens": 80,
+      "hash": "e071683747d651cd",
+      "size": 277,
+      "mtimeMs": 1790968817491.7168,
+      "updatedAt": "2026-10-02T19:51:03.228Z",
+      "source": "scan"
+    },
+    ".github/workflows/docker-image.yml": {
+      "description": "CI: Docker Image CI",
+      "tokens": 400,
+      "hash": "b9bef40c1de66283",
+      "size": 1397,
+      "mtimeMs": 1790968817492.9224,
+      "updatedAt": "2026-10-02T19:51:03.229Z",
+      "source": "scan"
+    },
+    ".gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 50,
+      "hash": "60384ef350e5d340",
+      "size": 186,
+      "mtimeMs": 1790968817492.9224,
+      "updatedAt": "2026-10-02T19:51:03.229Z",
+      "source": "scan"
+    },
+    ".gitmodules": {
+      "description": "",
+      "tokens": 59,
+      "hash": "0d58d153f5fc53f0",
+      "size": 221,
+      "mtimeMs": 1790968817492.9224,
+      "updatedAt": "2026-10-02T19:51:03.229Z",
+      "source": "scan"
+    },
+    "archetypes/default.md": {
+      "description": "",
+      "tokens": 21,
+      "hash": "b7aae205ccd3e3b2",
+      "size": 84,
+      "mtimeMs": 1790968817492.9224,
+      "updatedAt": "2026-10-02T19:51:03.229Z",
+      "source": "scan"
+    },
+    "archetypes/recipe.md": {
+      "description": "imagecredit: https://placekitten.com/600/800 # URL to image source page, website, or creator",
+      "tokens": 847,
+      "hash": "4018ca5282d90a8b",
+      "size": 3390,
+      "mtimeMs": 1790968817493.406,
+      "updatedAt": "2026-10-02T19:51:03.229Z",
+      "source": "scan"
+    },
+    "assets/js/jquery.flexslider-min.js": {
+      "description": "e: a, i",
+      "tokens": 6597,
+      "hash": "5e1a3fc0ee5a71ce",
+      "size": 23089,
+      "mtimeMs": 1790968817493.57,
+      "updatedAt": "2026-10-02T19:51:03.231Z",
+      "source": "scan"
+    },
+    "assets/js/list-toggle.js": {
+      "description": "resize: showList, showGrid",
+      "tokens": 330,
+      "hash": "0b5280a3640f5601",
+      "size": 1155,
+      "mtimeMs": 1790968817493.9155,
+      "updatedAt": "2026-10-02T19:51:03.231Z",
+      "source": "scan"
+    },
+    "assets/scss/hugo-toc.scss": {
+      "description": "Hugo {{ .TableOfContents }}",
+      "tokens": 260,
+      "hash": "4e9669d5f89f6b5e",
+      "size": 910,
+      "mtimeMs": 1790968817493.9155,
+      "updatedAt": "2026-10-02T19:51:03.232Z",
+      "source": "scan"
+    },
+    "assets/scss/hyde-hyde/_base.scss": {
+      "description": "Styles: 4 rules",
+      "tokens": 762,
+      "hash": "508637033b2e1384",
+      "size": 2666,
+      "mtimeMs": 1790968817494.1008,
+      "updatedAt": "2026-10-02T19:51:03.232Z",
+      "source": "scan"
+    },
+    "assets/scss/hyde-hyde/_list.scss": {
+      "description": "for the list of posts",
+      "tokens": 885,
+      "hash": "b7417a8aa9475407",
+      "size": 3096,
+      "mtimeMs": 1790968817494.2058,
+      "updatedAt": "2026-10-02T19:51:03.232Z",
+      "source": "scan"
+    },
+    "assets/scss/hyde-hyde/_post.scss": {
+      "description": "Styles: 13 rules, 1 media queries",
+      "tokens": 731,
+      "hash": "0c2d4995fffd2ec9",
+      "size": 2557,
+      "mtimeMs": 1790968817494.2058,
+      "updatedAt": "2026-10-02T19:51:03.232Z",
+      "source": "scan"
+    },
+    "assets/scss/hyde-hyde/_sidebar.scss": {
+      "description": "Styles: 11 rules",
+      "tokens": 376,
+      "hash": "7dcfe06d898ce28c",
+      "size": 1315,
+      "mtimeMs": 1790968817494.2058,
+      "updatedAt": "2026-10-02T19:51:03.232Z",
+      "source": "scan"
+    },
+    "assets/scss/hyde-hyde/_taxonomies.scss": {
+      "description": "Styles: 5 rules",
+      "tokens": 388,
+      "hash": "559c05f0e5d37a30",
+      "size": 1358,
+      "mtimeMs": 1790968817494.2058,
+      "updatedAt": "2026-10-02T19:51:03.232Z",
+      "source": "scan"
+    },
+    "assets/scss/hyde-hyde/_variables.scss": {
+      "description": "",
+      "tokens": 843,
+      "hash": "743dd46ac6041c7b",
+      "size": 2949,
+      "mtimeMs": 1790968817494.2058,
+      "updatedAt": "2026-10-02T19:51:03.233Z",
+      "source": "scan"
+    },
+    "assets/scss/poole/_base.scss": {
+      "description": "Body resets",
+      "tokens": 333,
+      "hash": "33203aa8d0ffa4bf",
+      "size": 1163,
+      "mtimeMs": 1790968817494.2058,
+      "updatedAt": "2026-10-02T19:51:03.233Z",
+      "source": "scan"
+    },
+    "assets/scss/poole/_layout.scss": {
+      "description": "Layout",
+      "tokens": 69,
+      "hash": "6615417a9bd5b072",
+      "size": 239,
+      "mtimeMs": 1790968817494.7043,
+      "updatedAt": "2026-10-02T19:51:03.233Z",
+      "source": "scan"
+    },
+    "assets/scss/poole/_posts.scss": {
+      "description": "Posts and pages",
+      "tokens": 286,
+      "hash": "bc39e7b0f3a6986c",
+      "size": 999,
+      "mtimeMs": 1790968817494.7043,
+      "updatedAt": "2026-10-02T19:51:03.233Z",
+      "source": "scan"
+    },
+    "assets/scss/tocbot.scss": {
+      "description": "Styles: 6 rules",
+      "tokens": 133,
+      "hash": "5210ebab9a32373d",
+      "size": 464,
+      "mtimeMs": 1790968817494.7043,
+      "updatedAt": "2026-10-02T19:51:03.233Z",
+      "source": "scan"
+    },
+    "config.toml": {
+      "description": "",
+      "tokens": 880,
+      "hash": "0c961d354651be93",
+      "size": 3079,
+      "mtimeMs": 1790968817494.7043,
+      "updatedAt": "2026-10-02T19:51:03.233Z",
+      "source": "scan"
+    },
+    "content/_index.md": {
+      "description": "",
+      "tokens": 632,
+      "hash": "4a5272b2e073decd",
+      "size": 2528,
+      "mtimeMs": 1790968817494.7043,
+      "updatedAt": "2026-10-02T19:51:03.234Z",
+      "source": "scan"
+    },
+    "content/about/_index.md": {
+      "description": "My Background",
+      "tokens": 2254,
+      "hash": "2ad0bebb177f247b",
+      "size": 9016,
+      "mtimeMs": 1790968817495.0806,
+      "updatedAt": "2026-10-02T19:51:03.234Z",
+      "source": "scan"
+    },
+    "content/about/cv.md": {
+      "description": "Education",
+      "tokens": 8179,
+      "hash": "a99bf3206205987f",
+      "size": 32746,
+      "mtimeMs": 1790968817495.2246,
+      "updatedAt": "2026-10-02T19:51:03.234Z",
+      "source": "scan"
+    },
+    "content/about/projects.md": {
+      "description": "2023",
+      "tokens": 1174,
+      "hash": "0c14914874631ab8",
+      "size": 4700,
+      "mtimeMs": 1790968817495.2246,
+      "updatedAt": "2026-10-02T19:51:03.235Z",
+      "source": "scan"
+    },
+    "content/areas/_index.md": {
+      "description": "",
+      "tokens": 8,
+      "hash": "2a8c851290145c62",
+      "size": 32,
+      "mtimeMs": 1790968817495.2246,
+      "updatedAt": "2026-10-02T19:51:03.235Z",
+      "source": "scan"
+    },
+    "content/blog/_index.md": {
+      "description": "",
+      "tokens": 70,
+      "hash": "864e378df9cf4628",
+      "size": 279,
+      "mtimeMs": 1790968817497.7168,
+      "updatedAt": "2026-10-02T19:51:03.235Z",
+      "source": "scan"
+    },
+    "content/blog/2016-01-07-book-reviews-2015.md": {
+      "description": "Introverts Unite",
+      "tokens": 2252,
+      "hash": "31131f82d88e2a29",
+      "size": 9012,
+      "mtimeMs": 1790968817495.2246,
+      "updatedAt": "2026-10-02T19:51:03.235Z",
+      "source": "scan"
+    },
+    "content/blog/2016-11-09-political-discourse.md": {
+      "description": "",
+      "tokens": 1156,
+      "hash": "5e6b7e2b62e534dd",
+      "size": 4625,
+      "mtimeMs": 1790968817496.0867,
+      "updatedAt": "2026-10-02T19:51:03.236Z",
+      "source": "scan"
+    },
+    "content/blog/2016-12-09-culinary-adventures.md": {
+      "description": "",
+      "tokens": 415,
+      "hash": "a83fabf8a5829e08",
+      "size": 1659,
+      "mtimeMs": 1790968817496.0867,
+      "updatedAt": "2026-10-02T19:51:03.236Z",
+      "source": "scan"
+    },
+    "content/blog/2017-03-11-book-reviews-2016.md": {
+      "description": "Flying Through the Mists",
+      "tokens": 2481,
+      "hash": "6fd9631158b159b0",
+      "size": 9924,
+      "mtimeMs": 1790968817496.0867,
+      "updatedAt": "2026-10-02T19:51:03.236Z",
+      "source": "scan"
+    },
+    "content/blog/2017-03-12-homemade-hamburgers.md": {
+      "description": "",
+      "tokens": 390,
+      "hash": "7b914ff555305e66",
+      "size": 1558,
+      "mtimeMs": 1790968817496.0867,
+      "updatedAt": "2026-10-02T19:51:03.236Z",
+      "source": "scan"
+    },
+    "content/blog/2017-07-10-podcasts.md": {
+      "description": "",
+      "tokens": 1067,
+      "hash": "45727f68d5bf12d0",
+      "size": 4266,
+      "mtimeMs": 1790968817496.0867,
+      "updatedAt": "2026-10-02T19:51:03.236Z",
+      "source": "scan"
+    },
+    "content/blog/2018-01-05-book-reviews-2017.md": {
+      "description": "Life before death. Strength before weakness. Journey before destination",
+      "tokens": 5786,
+      "hash": "821c96067a74f67f",
+      "size": 23141,
+      "mtimeMs": 1790968817496.0867,
+      "updatedAt": "2026-10-02T19:51:03.236Z",
+      "source": "scan"
+    },
+    "content/blog/2018-07-03-yellowstone-vacation.md": {
+      "description": "Day 1 - Headed North",
+      "tokens": 768,
+      "hash": "fd66677ccddaac36",
+      "size": 3072,
+      "mtimeMs": 1790968817496.0867,
+      "updatedAt": "2026-10-02T19:51:03.236Z",
+      "source": "scan"
+    },
+    "content/blog/2019-08-11-book-reviews-2018.md": {
+      "description": "Book Club Picks",
+      "tokens": 8392,
+      "hash": "4cec44fe621ea375",
+      "size": 33568,
+      "mtimeMs": 1790968817496.0867,
+      "updatedAt": "2026-10-02T19:51:03.237Z",
+      "source": "scan"
+    },
+    "content/blog/2020-06-18-dnd-orc-trials.md": {
+      "description": "Setting: Orc Tribe",
+      "tokens": 4033,
+      "hash": "bf5090c29fd1245c",
+      "size": 16129,
+      "mtimeMs": 1790968817496.7168,
+      "updatedAt": "2026-10-02T19:51:03.237Z",
+      "source": "scan"
+    },
+    "content/blog/2021-08-24-book-reviews-2019.md": {
+      "description": "Sequels",
+      "tokens": 5865,
+      "hash": "7f30c2539d797bc8",
+      "size": 23457,
+      "mtimeMs": 1790968817496.7168,
+      "updatedAt": "2026-10-02T19:51:03.237Z",
+      "source": "scan"
+    },
+    "content/blog/2021-08-25-book-reviews-2020.md": {
+      "description": "Series",
+      "tokens": 3441,
+      "hash": "3cf273dd1596a618",
+      "size": 13763,
+      "mtimeMs": 1790968817496.7168,
+      "updatedAt": "2026-10-02T19:51:03.237Z",
+      "source": "scan"
+    },
+    "content/blog/2021-11-12-new-infrastructure.md": {
+      "description": "",
+      "tokens": 171,
+      "hash": "693acfbae1b212df",
+      "size": 683,
+      "mtimeMs": 1790968817496.7168,
+      "updatedAt": "2026-10-02T19:51:03.238Z",
+      "source": "scan"
+    },
+    "content/blog/2023-01-30-book-reviews-2021.md": {
+      "description": "Fiction",
+      "tokens": 1746,
+      "hash": "cc2f419fa5aa566d",
+      "size": 6981,
+      "mtimeMs": 1790968817496.7168,
+      "updatedAt": "2026-10-02T19:51:03.238Z",
+      "source": "scan"
+    },
+    "content/blog/2023-01-31-book-reviews-2022.md": {
+      "description": "Fiction",
+      "tokens": 1437,
+      "hash": "63df8ff7ab66f0a8",
+      "size": 5747,
+      "mtimeMs": 1790968817496.7168,
+      "updatedAt": "2026-10-02T19:51:03.238Z",
+      "source": "scan"
+    },
+    "content/blog/2026-01-10-book-reviews-2023-2025.md": {
+      "description": "Fiction",
+      "tokens": 4677,
+      "hash": "0ca081bf4e3916d3",
+      "size": 18712,
+      "mtimeMs": 1790968817497.7168,
+      "updatedAt": "2026-10-02T19:51:03.238Z",
+      "source": "scan"
+    },
+    "content/categories/_index.md": {
+      "description": "",
+      "tokens": 9,
+      "hash": "3e391a90ea46c2d3",
+      "size": 36,
+      "mtimeMs": 1790968817497.7168,
+      "updatedAt": "2026-10-02T19:51:03.238Z",
+      "source": "scan"
+    },
+    "content/cuisines/_index.md": {
+      "description": "",
+      "tokens": 7,
+      "hash": "60ea92d5c22c35b2",
+      "size": 27,
+      "mtimeMs": 1790968817497.7168,
+      "updatedAt": "2026-10-02T19:51:03.238Z",
+      "source": "scan"
+    },
+    "content/projects/_index.md": {
+      "description": "",
+      "tokens": 56,
+      "hash": "b7f89c6296075d5d",
+      "size": 222,
+      "mtimeMs": 1790968817497.7168,
+      "updatedAt": "2026-10-02T19:51:03.239Z",
+      "source": "scan"
+    },
+    "content/projects/advising/index.md": {
+      "description": "Declares schedules",
+      "tokens": 294,
+      "hash": "a8aa650a195d2129",
+      "size": 1173,
+      "mtimeMs": 1790968817498.9377,
+      "updatedAt": "2026-10-02T19:51:03.239Z",
+      "source": "scan"
+    },
+    "content/projects/beattie.md": {
+      "description": "",
+      "tokens": 213,
+      "hash": "acbe93de33c78176",
+      "size": 850,
+      "mtimeMs": 1790968817504.7168,
+      "updatedAt": "2026-10-02T19:51:03.239Z",
+      "source": "scan"
+    },
+    "content/projects/euler.md": {
+      "description": "",
+      "tokens": 195,
+      "hash": "36e0eb7b69a816c7",
+      "size": 778,
+      "mtimeMs": 1790968817504.7168,
+      "updatedAt": "2026-10-02T19:51:03.239Z",
+      "source": "scan"
+    },
+    "content/projects/mdcf.md": {
+      "description": "",
+      "tokens": 442,
+      "hash": "38db3ed959ef4b46",
+      "size": 1769,
+      "mtimeMs": 1790968817504.7168,
+      "updatedAt": "2026-10-02T19:51:03.239Z",
+      "source": "scan"
+    },
+    "content/projects/openhouse/creativity.html": {
+      "description": "CIS 190 Spring 2015",
+      "tokens": 3547,
+      "hash": "f283d0f0ce414f4f",
+      "size": 13299,
+      "mtimeMs": 1790968817505.7168,
+      "updatedAt": "2026-10-02T19:51:03.239Z",
+      "source": "scan"
+    },
+    "content/projects/openhouse/index.md": {
+      "description": "",
+      "tokens": 2597,
+      "hash": "52b227eaf94f284d",
+      "size": 10386,
+      "mtimeMs": 1790968818263.7144,
+      "updatedAt": "2026-10-02T19:51:03.244Z",
+      "source": "scan"
+    },
+    "content/projects/openhouse/intro.html": {
+      "description": "CIS Open House 2014",
+      "tokens": 2354,
+      "hash": "8bf25072c6c05b2d",
+      "size": 8824,
+      "mtimeMs": 1790968818263.7144,
+      "updatedAt": "2026-10-02T19:51:03.244Z",
+      "source": "scan"
+    },
+    "content/projects/openhouse/intro2015.html": {
+      "description": "CIS Open House 2014",
+      "tokens": 2534,
+      "hash": "8cfdc65796183dbc",
+      "size": 9499,
+      "mtimeMs": 1790968818263.7144,
+      "updatedAt": "2026-10-02T19:51:03.244Z",
+      "source": "scan"
+    },
+    "content/projects/recording/education.json": {
+      "description": "",
+      "tokens": 14533,
+      "hash": "eca0358ec354780e",
+      "size": 50864,
+      "mtimeMs": 1790968818263.7144,
+      "updatedAt": "2026-10-02T19:51:03.245Z",
+      "source": "scan"
+    },
+    "content/projects/recording/index.md": {
+      "description": "Layout & Lighting",
+      "tokens": 3595,
+      "hash": "c6d323d7bfdd4381",
+      "size": 14377,
+      "mtimeMs": 1790968818265.1096,
+      "updatedAt": "2026-10-02T19:51:03.245Z",
+      "source": "scan"
+    },
+    "content/projects/rubiks/index.md": {
+      "description": "",
+      "tokens": 593,
+      "hash": "ad223a344768d3c3",
+      "size": 2370,
+      "mtimeMs": 1790968818287.714,
+      "updatedAt": "2026-10-02T19:51:03.245Z",
+      "source": "scan"
+    },
+    "content/recipes/_index.md": {
+      "description": "",
+      "tokens": 112,
+      "hash": "fd31e584d64cc3c0",
+      "size": 446,
+      "mtimeMs": 1790968818287.714,
+      "updatedAt": "2026-10-02T19:51:03.246Z",
+      "source": "scan"
+    },
+    "content/recipes/basmati-rice.md": {
+      "description": "",
+      "tokens": 781,
+      "hash": "06484bf887c57a49",
+      "size": 3124,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.246Z",
+      "source": "scan"
+    },
+    "content/recipes/better-bolognese.md": {
+      "description": "",
+      "tokens": 778,
+      "hash": "8e739773455dee5c",
+      "size": 3113,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.246Z",
+      "source": "scan"
+    },
+    "content/recipes/bolognese.md": {
+      "description": "",
+      "tokens": 522,
+      "hash": "b09b1f12243af479",
+      "size": 2089,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.246Z",
+      "source": "scan"
+    },
+    "content/recipes/brioche-burger-buns.md": {
+      "description": "",
+      "tokens": 597,
+      "hash": "db3c751aff42ae27",
+      "size": 2388,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.246Z",
+      "source": "scan"
+    },
+    "content/recipes/chili.md": {
+      "description": "",
+      "tokens": 760,
+      "hash": "8bdcbd15007e5715",
+      "size": 3038,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.246Z",
+      "source": "scan"
+    },
+    "content/recipes/cornish-pasties.md": {
+      "description": "",
+      "tokens": 860,
+      "hash": "29814ae895f001e3",
+      "size": 3439,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.246Z",
+      "source": "scan"
+    },
+    "content/recipes/creamy-coleslaw.md": {
+      "description": "",
+      "tokens": 394,
+      "hash": "e730e7b076c646fc",
+      "size": 1573,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.247Z",
+      "source": "scan"
+    },
+    "content/recipes/homemade-mayonnaise.md": {
+      "description": "",
+      "tokens": 485,
+      "hash": "976ed236264b6509",
+      "size": 1940,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.247Z",
+      "source": "scan"
+    },
+    "content/recipes/homemade-pasta.md": {
+      "description": "",
+      "tokens": 851,
+      "hash": "274aabfb1690a5d1",
+      "size": 3403,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.247Z",
+      "source": "scan"
+    },
+    "content/recipes/pastry-dough.md": {
+      "description": "",
+      "tokens": 563,
+      "hash": "524b4ec760ca2ab5",
+      "size": 2249,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.247Z",
+      "source": "scan"
+    },
+    "content/recipes/peppernuts.md": {
+      "description": "",
+      "tokens": 996,
+      "hash": "77e2ba3115985754",
+      "size": 3983,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.247Z",
+      "source": "scan"
+    },
+    "content/recipes/pork-carnitas.md": {
+      "description": "",
+      "tokens": 401,
+      "hash": "b61a721fa4e77e41",
+      "size": 1602,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.247Z",
+      "source": "scan"
+    },
+    "content/recipes/refrigerator-pickles.md": {
+      "description": "",
+      "tokens": 541,
+      "hash": "bf238258aafe2c8c",
+      "size": 2164,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.247Z",
+      "source": "scan"
+    },
+    "content/recipes/smashburgers.md": {
+      "description": "",
+      "tokens": 515,
+      "hash": "d4336dcd4a31bbcd",
+      "size": 2058,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.247Z",
+      "source": "scan"
+    },
+    "content/recipes/tuna-salad.md": {
+      "description": "",
+      "tokens": 370,
+      "hash": "e560bd995e63df0e",
+      "size": 1479,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.248Z",
+      "source": "scan"
+    },
+    "content/recipes/turtle-cheesecake.md": {
+      "description": "",
+      "tokens": 640,
+      "hash": "b1e814fd23ceba7f",
+      "size": 2558,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.248Z",
+      "source": "scan"
+    },
+    "content/recipes/twice-fried-fries.md": {
+      "description": "",
+      "tokens": 642,
+      "hash": "39e7d034f7eb3436",
+      "size": 2565,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.248Z",
+      "source": "scan"
+    },
+    "content/recipes/updated-bolognese.md": {
+      "description": "imagecredit: https://placekitten.com/600/800 # URL to image source page, website, or creator",
+      "tokens": 822,
+      "hash": "aa869df464817fb2",
+      "size": 3289,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.248Z",
+      "source": "scan"
+    },
+    "content/recipes/verde-chicken-enchiladas.md": {
+      "description": "",
+      "tokens": 1142,
+      "hash": "d170d737cdb228ba",
+      "size": 4569,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.248Z",
+      "source": "scan"
+    },
+    "content/sections/_index.md": {
+      "description": "",
+      "tokens": 9,
+      "hash": "01320cf1f868724d",
+      "size": 33,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.248Z",
+      "source": "scan"
+    },
+    "content/tags/_index.md": {
+      "description": "",
+      "tokens": 6,
+      "hash": "219d1cd661753f8d",
+      "size": 23,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.249Z",
+      "source": "scan"
+    },
+    "content/talks/_index.md": {
+      "description": "",
+      "tokens": 97,
+      "hash": "e543a679a94295bf",
+      "size": 388,
+      "mtimeMs": 1790968818289.2,
+      "updatedAt": "2026-10-02T19:51:03.249Z",
+      "source": "scan"
+    },
+    "content/talks/continuouslearningcs2020/index.md": {
+      "description": "",
+      "tokens": 159,
+      "hash": "b866b71bed88ebcc",
+      "size": 635,
+      "mtimeMs": 1790968818290.305,
+      "updatedAt": "2026-10-02T19:51:03.249Z",
+      "source": "scan"
+    },
+    "content/talks/devops-cis640-s22/index.md": {
+      "description": "",
+      "tokens": 340,
+      "hash": "13dda4e348176f27",
+      "size": 1359,
+      "mtimeMs": 1790968818366.7139,
+      "updatedAt": "2026-10-02T19:51:03.250Z",
+      "source": "scan"
+    },
+    "content/talks/haveabyte2019/index.md": {
+      "description": "Declares sizes",
+      "tokens": 2385,
+      "hash": "215bd9cd78fa601d",
+      "size": 9540,
+      "mtimeMs": 1790968818410.7139,
+      "updatedAt": "2026-10-02T19:51:03.250Z",
+      "source": "scan"
+    },
+    "content/talks/lecturetime2021/index.md": {
+      "description": "",
+      "tokens": 98,
+      "hash": "d1d0c2e819a8aef0",
+      "size": 391,
+      "mtimeMs": 1790968818467.7136,
+      "updatedAt": "2026-10-02T19:51:03.250Z",
+      "source": "scan"
+    },
+    "content/talks/lecturetime2021/slides.html": {
+      "description": "Lecture Time",
+      "tokens": 1661,
+      "hash": "40ef46f1f09ab2f3",
+      "size": 6228,
+      "mtimeMs": 1790968818468.8555,
+      "updatedAt": "2026-10-02T19:51:03.251Z",
+      "source": "scan"
+    },
+    "content/talks/oersummit2022/index.md": {
+      "description": "",
+      "tokens": 275,
+      "hash": "dc19589a0226b266",
+      "size": 1097,
+      "mtimeMs": 1790968818468.8555,
+      "updatedAt": "2026-10-02T19:51:03.251Z",
+      "source": "scan"
+    },
+    "content/teaching/_index.md": {
+      "description": "",
+      "tokens": 81,
+      "hash": "eeb7a59b11d50ec7",
+      "size": 321,
+      "mtimeMs": 1790968818470.7136,
+      "updatedAt": "2026-10-02T19:51:03.251Z",
+      "source": "scan"
+    },
+    "content/teaching/cis115fall2013/index.md": {
+      "description": "Class Content",
+      "tokens": 1060,
+      "hash": "dfaa062b09acae01",
+      "size": 4240,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.251Z",
+      "source": "scan"
+    },
+    "content/teaching/cis115fall2014/index.md": {
+      "description": "Class Content",
+      "tokens": 1205,
+      "hash": "8cec2faec88cf4fd",
+      "size": 4819,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.252Z",
+      "source": "scan"
+    },
+    "content/teaching/cis115fall2015/index.md": {
+      "description": "Declares progresses",
+      "tokens": 1226,
+      "hash": "2ce3d0fa59eedd10",
+      "size": 4902,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.252Z",
+      "source": "scan"
+    },
+    "content/teaching/cis115fall2016/index.md": {
+      "description": "Declares progresses",
+      "tokens": 1689,
+      "hash": "fed915eca2fccd41",
+      "size": 6754,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.252Z",
+      "source": "scan"
+    },
+    "content/teaching/cis115fall2016scholars/index.md": {
+      "description": "Declares progresses",
+      "tokens": 1408,
+      "hash": "2419debb8bb4f407",
+      "size": 5629,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.253Z",
+      "source": "scan"
+    },
+    "content/teaching/cis115spring2013/index.md": {
+      "description": "Declares progresses",
+      "tokens": 792,
+      "hash": "d09d7239a69200eb",
+      "size": 3166,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.253Z",
+      "source": "scan"
+    },
+    "content/teaching/cis115spring2014/index.md": {
+      "description": "Declares progresses",
+      "tokens": 982,
+      "hash": "550a8a59e8e44ebc",
+      "size": 3925,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.253Z",
+      "source": "scan"
+    },
+    "content/teaching/cis115spring2015/index.md": {
+      "description": "Declares progresses",
+      "tokens": 1053,
+      "hash": "a9507f6d49e8c11c",
+      "size": 4211,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.254Z",
+      "source": "scan"
+    },
+    "content/teaching/cis115spring2016/index.md": {
+      "description": "Declares progresses",
+      "tokens": 1082,
+      "hash": "6b67778f6490da7b",
+      "size": 4327,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.254Z",
+      "source": "scan"
+    },
+    "content/teaching/cis115spring2017/index.md": {
+      "description": "Declares progresses",
+      "tokens": 1186,
+      "hash": "405fb08a0b3580cb",
+      "size": 4743,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.254Z",
+      "source": "scan"
+    },
+    "content/teaching/cis190spring2016/index.md": {
+      "description": "Declares progresses",
+      "tokens": 241,
+      "hash": "79610965c66e02e2",
+      "size": 961,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.255Z",
+      "source": "scan"
+    },
+    "content/teaching/cis190spring2017/index.md": {
+      "description": "Declares progresses",
+      "tokens": 242,
+      "hash": "df6f5bc55a7e6e5e",
+      "size": 967,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.255Z",
+      "source": "scan"
+    },
+    "content/teaching/cis225fall2013/index.md": {
+      "description": "Declares progresses",
+      "tokens": 887,
+      "hash": "201e7d9ae3634e55",
+      "size": 3545,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.255Z",
+      "source": "scan"
+    },
+    "content/teaching/cis225fall2014/index.md": {
+      "description": "Declares progresses",
+      "tokens": 886,
+      "hash": "33035c8dacba09c9",
+      "size": 3543,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.256Z",
+      "source": "scan"
+    },
+    "content/teaching/cis225fall2015/index.md": {
+      "description": "Declares progresses",
+      "tokens": 4226,
+      "hash": "e9117636dc90ea14",
+      "size": 16909,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.256Z",
+      "source": "scan"
+    },
+    "content/teaching/cis225fall2016/index.md": {
+      "description": "Declares progresses",
+      "tokens": 4708,
+      "hash": "cdbe8524c1a33f27",
+      "size": 18838,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.257Z",
+      "source": "scan"
+    },
+    "content/teaching/cis527online/index.md": {
+      "description": "",
+      "tokens": 96,
+      "hash": "39cb2f2b30628d9d",
+      "size": 382,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.257Z",
+      "source": "scan"
+    },
+    "content/teaching/cis527spring2014/index.md": {
+      "description": "Declares progresses",
+      "tokens": 765,
+      "hash": "fa5cda5139ce0c69",
+      "size": 3059,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.257Z",
+      "source": "scan"
+    },
+    "content/teaching/cis527spring2015/index.md": {
+      "description": "Declares progresses",
+      "tokens": 883,
+      "hash": "6fc3b327e48fe710",
+      "size": 3530,
+      "mtimeMs": 1790968818472.0469,
+      "updatedAt": "2026-10-02T19:51:03.258Z",
+      "source": "scan"
+    },
+    "content/teaching/cis527spring2016/index.md": {
+      "description": "Declares progresses",
+      "tokens": 4567,
+      "hash": "985f96dbbf7a77e9",
+      "size": 18273,
+      "mtimeMs": 1790968818472.7136,
+      "updatedAt": "2026-10-02T19:51:03.258Z",
+      "source": "scan"
+    },
+    "content/teaching/cis527spring2017/index.md": {
+      "description": "Declares progresses",
+      "tokens": 4509,
+      "hash": "83c802b81c3815c6",
+      "size": 18044,
+      "mtimeMs": 1790968818472.7136,
+      "updatedAt": "2026-10-02T19:51:03.259Z",
+      "source": "scan"
+    },
+    "deploy.sh": {
+      "description": "",
+      "tokens": 16,
+      "hash": "5c5a45b1fab4c6be",
+      "size": 56,
+      "mtimeMs": 1790968818472.7136,
+      "updatedAt": "2026-10-02T19:51:03.260Z",
+      "source": "scan"
+    },
+    "Dockerfile": {
+      "description": "Docker container definition",
+      "tokens": 58,
+      "hash": "29d7b7dc1ac1531f",
+      "size": 217,
+      "mtimeMs": 1790968817492.9224,
+      "updatedAt": "2026-10-02T19:51:03.260Z",
+      "source": "scan"
+    },
+    "layouts/_default/baseof.html": {
+      "description": "",
+      "tokens": 89,
+      "hash": "0b840475e12da759",
+      "size": 331,
+      "mtimeMs": 1790968818473.6492,
+      "updatedAt": "2026-10-02T19:51:03.260Z",
+      "source": "scan"
+    },
+    "layouts/_default/list.html": {
+      "description": "",
+      "tokens": 60,
+      "hash": "fb419b7eba7b6fc1",
+      "size": 222,
+      "mtimeMs": 1790968818473.6975,
+      "updatedAt": "2026-10-02T19:51:03.260Z",
+      "source": "scan"
+    },
+    "layouts/_default/single.html": {
+      "description": "",
+      "tokens": 90,
+      "hash": "97e7277b8617f8e3",
+      "size": 336,
+      "mtimeMs": 1790968818473.6975,
+      "updatedAt": "2026-10-02T19:51:03.260Z",
+      "source": "scan"
+    },
+    "layouts/about/list.html": {
+      "description": "",
+      "tokens": 90,
+      "hash": "97e7277b8617f8e3",
+      "size": 336,
+      "mtimeMs": 1790968818473.6975,
+      "updatedAt": "2026-10-02T19:51:03.260Z",
+      "source": "scan"
+    },
+    "layouts/about/single.html": {
+      "description": "",
+      "tokens": 90,
+      "hash": "97e7277b8617f8e3",
+      "size": 336,
+      "mtimeMs": 1790968818473.8042,
+      "updatedAt": "2026-10-02T19:51:03.261Z",
+      "source": "scan"
+    },
+    "layouts/index.html": {
+      "description": "",
+      "tokens": 557,
+      "hash": "4cabbeeb14f2f6b9",
+      "size": 2088,
+      "mtimeMs": 1790968818473.8042,
+      "updatedAt": "2026-10-02T19:51:03.261Z",
+      "source": "scan"
+    },
+    "layouts/partials/header/meta.html": {
+      "description": "{{ $.Scratch.Get \"theTitle\" | safeHTML }}",
+      "tokens": 276,
+      "hash": "4c4e9159c2ff2a8b",
+      "size": 1035,
+      "mtimeMs": 1790968818473.9397,
+      "updatedAt": "2026-10-02T19:51:03.261Z",
+      "source": "scan"
+    },
+    "layouts/partials/header/styles.html": {
+      "description": "",
+      "tokens": 291,
+      "hash": "1b359dff59cd3f25",
+      "size": 1090,
+      "mtimeMs": 1790968818473.989,
+      "updatedAt": "2026-10-02T19:51:03.261Z",
+      "source": "scan"
+    },
+    "layouts/partials/header/web-fonts.html": {
+      "description": "",
+      "tokens": 99,
+      "hash": "39372db3d8d36998",
+      "size": 369,
+      "mtimeMs": 1790968818473.989,
+      "updatedAt": "2026-10-02T19:51:03.261Z",
+      "source": "scan"
+    },
+    "layouts/partials/header.html": {
+      "description": "",
+      "tokens": 199,
+      "hash": "480e799bc5dba0e6",
+      "size": 744,
+      "mtimeMs": 1790968818473.8042,
+      "updatedAt": "2026-10-02T19:51:03.261Z",
+      "source": "scan"
+    },
+    "layouts/partials/homepage/posts-grid.html": {
+      "description": "",
+      "tokens": 254,
+      "hash": "2c71254e0f3f98a2",
+      "size": 950,
+      "mtimeMs": 1790968818473.989,
+      "updatedAt": "2026-10-02T19:51:03.262Z",
+      "source": "scan"
+    },
+    "layouts/partials/homepage/posts-list.html": {
+      "description": "",
+      "tokens": 210,
+      "hash": "f6f39948be187d42",
+      "size": 786,
+      "mtimeMs": 1790968818474.1167,
+      "updatedAt": "2026-10-02T19:51:03.262Z",
+      "source": "scan"
+    },
+    "layouts/partials/page-list/content.html": {
+      "description": "",
+      "tokens": 121,
+      "hash": "79e4209bd892508d",
+      "size": 451,
+      "mtimeMs": 1790968818474.1167,
+      "updatedAt": "2026-10-02T19:51:03.262Z",
+      "source": "scan"
+    },
+    "layouts/partials/page-list/footer.html": {
+      "description": "",
+      "tokens": 109,
+      "hash": "b3964f90aa77500b",
+      "size": 406,
+      "mtimeMs": 1790968818474.1953,
+      "updatedAt": "2026-10-02T19:51:03.262Z",
+      "source": "scan"
+    },
+    "layouts/partials/page-list/posts-list.html": {
+      "description": "",
+      "tokens": 483,
+      "hash": "e7b76038dd8b1f55",
+      "size": 1810,
+      "mtimeMs": 1790968818474.1953,
+      "updatedAt": "2026-10-02T19:51:03.262Z",
+      "source": "scan"
+    },
+    "layouts/partials/page-single/chowdown-meta.html": {
+      "description": "",
+      "tokens": 810,
+      "hash": "a764876401816f47",
+      "size": 3039,
+      "mtimeMs": 1790968818474.1953,
+      "updatedAt": "2026-10-02T19:51:03.262Z",
+      "source": "scan"
+    },
+    "layouts/partials/page-single/chowdown.html": {
+      "description": "",
+      "tokens": 622,
+      "hash": "d355cc776629201c",
+      "size": 2329,
+      "mtimeMs": 1790968818474.342,
+      "updatedAt": "2026-10-02T19:51:03.262Z",
+      "source": "scan"
+    },
+    "layouts/partials/page-single/content.html": {
+      "description": "",
+      "tokens": 462,
+      "hash": "d7bf5c492fe090a1",
+      "size": 1729,
+      "mtimeMs": 1790968818474.342,
+      "updatedAt": "2026-10-02T19:51:03.263Z",
+      "source": "scan"
+    },
+    "layouts/partials/page-single/footer.html": {
+      "description": "",
+      "tokens": 379,
+      "hash": "e5544142b9160267",
+      "size": 1421,
+      "mtimeMs": 1790968818474.342,
+      "updatedAt": "2026-10-02T19:51:03.263Z",
+      "source": "scan"
+    },
+    "layouts/partials/page-single/post-meta.html": {
+      "description": "",
+      "tokens": 429,
+      "hash": "f622a1a3fcd60d3c",
+      "size": 1610,
+      "mtimeMs": 1790968818474.342,
+      "updatedAt": "2026-10-02T19:51:03.263Z",
+      "source": "scan"
+    },
+    "layouts/partials/page-single/recipe-meta.html": {
+      "description": "",
+      "tokens": 468,
+      "hash": "67e04f09612f7a8c",
+      "size": 1757,
+      "mtimeMs": 1790968818474.342,
+      "updatedAt": "2026-10-02T19:51:03.263Z",
+      "source": "scan"
+    },
+    "layouts/partials/page-single/recipe.html": {
+      "description": "",
+      "tokens": 462,
+      "hash": "a8b89de491526d70",
+      "size": 1731,
+      "mtimeMs": 1790968818474.342,
+      "updatedAt": "2026-10-02T19:51:03.263Z",
+      "source": "scan"
+    },
+    "layouts/partials/sidebar/about.html": {
+      "description": "",
+      "tokens": 246,
+      "hash": "8b6bbbc58e75fa39",
+      "size": 921,
+      "mtimeMs": 1790968818474.342,
+      "updatedAt": "2026-10-02T19:51:03.263Z",
+      "source": "scan"
+    },
+    "layouts/partials/sidebar/copyright.html": {
+      "description": "",
+      "tokens": 143,
+      "hash": "48307ab3a3ac03bc",
+      "size": 536,
+      "mtimeMs": 1790968818474.678,
+      "updatedAt": "2026-10-02T19:51:03.263Z",
+      "source": "scan"
+    },
+    "layouts/partials/sidebar/social.html": {
+      "description": "",
+      "tokens": 734,
+      "hash": "9d1c383e9ce716d9",
+      "size": 2749,
+      "mtimeMs": 1790968818474.678,
+      "updatedAt": "2026-10-02T19:51:03.263Z",
+      "source": "scan"
+    },
+    "layouts/partials/sidebar.html": {
+      "description": "",
+      "tokens": 137,
+      "hash": "6b7ef8b586fa3ec9",
+      "size": 512,
+      "mtimeMs": 1790968818474.342,
+      "updatedAt": "2026-10-02T19:51:03.264Z",
+      "source": "scan"
+    },
+    "layouts/partials/tag-list/cloud.html": {
+      "description": "",
+      "tokens": 57,
+      "hash": "cab77a2281b74292",
+      "size": 212,
+      "mtimeMs": 1790968818474.678,
+      "updatedAt": "2026-10-02T19:51:03.264Z",
+      "source": "scan"
+    },
+    "layouts/partials/tag-list/content.html": {
+      "description": "",
+      "tokens": 59,
+      "hash": "d30b8160cdbebee3",
+      "size": 221,
+      "mtimeMs": 1790968818474.7935,
+      "updatedAt": "2026-10-02T19:51:03.264Z",
+      "source": "scan"
+    },
+    "layouts/partials/tag-list/footer.html": {
+      "description": "",
+      "tokens": 50,
+      "hash": "fea50d158701d2cd",
+      "size": 187,
+      "mtimeMs": 1790968818474.7935,
+      "updatedAt": "2026-10-02T19:51:03.264Z",
+      "source": "scan"
+    },
+    "layouts/partials/tag-list/tagcloud.html": {
+      "description": "",
+      "tokens": 87,
+      "hash": "b1aded76fa061ee5",
+      "size": 323,
+      "mtimeMs": 1790968818474.7935,
+      "updatedAt": "2026-10-02T19:51:03.264Z",
+      "source": "scan"
+    },
+    "layouts/partials/tag-list/tags-list.html": {
+      "description": "",
+      "tokens": 370,
+      "hash": "4b8f746027e44862",
+      "size": 1386,
+      "mtimeMs": 1790968818474.7935,
+      "updatedAt": "2026-10-02T19:51:03.264Z",
+      "source": "scan"
+    },
+    "layouts/recipes/chowdown.html": {
+      "description": "",
+      "tokens": 90,
+      "hash": "fbf7f9fc97922c34",
+      "size": 337,
+      "mtimeMs": 1790968818474.7935,
+      "updatedAt": "2026-10-02T19:51:03.264Z",
+      "source": "scan"
+    },
+    "layouts/recipes/single.html": {
+      "description": "",
+      "tokens": 90,
+      "hash": "acfb1e2ec7d9f52a",
+      "size": 335,
+      "mtimeMs": 1790968818474.958,
+      "updatedAt": "2026-10-02T19:51:03.264Z",
+      "source": "scan"
+    },
+    "layouts/tags/terms.html": {
+      "description": "",
+      "tokens": 62,
+      "hash": "51a0c8fdc5bf433e",
+      "size": 229,
+      "mtimeMs": 1790968818474.958,
+      "updatedAt": "2026-10-02T19:51:03.265Z",
+      "source": "scan"
+    },
+    "layouts/taxonomy/list.html": {
+      "description": "",
+      "tokens": 62,
+      "hash": "4b261bf98ecab6ba",
+      "size": 231,
+      "mtimeMs": 1790968818474.958,
+      "updatedAt": "2026-10-02T19:51:03.265Z",
+      "source": "scan"
+    },
+    "LICENSE": {
+      "description": "Project license",
+      "tokens": 100,
+      "hash": "5f686fb94ff898bb",
+      "size": 372,
+      "mtimeMs": 1790968817492.9224,
+      "updatedAt": "2026-10-02T19:51:03.265Z",
+      "source": "scan"
+    },
+    "russ.feldhausen.me/index.html": {
+      "description": "",
+      "tokens": 49,
+      "hash": "6687b9fd279bba85",
+      "size": 183,
+      "mtimeMs": 1790968818475.4714,
+      "updatedAt": "2026-10-02T19:51:03.266Z",
+      "source": "scan"
+    },
+    "russ.feldhausen.me.conf": {
+      "description": "",
+      "tokens": 406,
+      "hash": "fe3124fb5d5622ab",
+      "size": 1520,
+      "mtimeMs": 1790968818475.4714,
+      "updatedAt": "2026-10-02T19:51:03.266Z",
+      "source": "scan"
+    },
+    "russfeld.me.conf": {
+      "description": "",
+      "tokens": 399,
+      "hash": "e381872a7cac7d3b",
+      "size": 1494,
+      "mtimeMs": 1790968818475.4714,
+      "updatedAt": "2026-10-02T19:51:03.266Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture1.html": {
+      "description": "CIS 115 Fall 2013 Lecture 1",
+      "tokens": 2487,
+      "hash": "df9cd76ada979faa",
+      "size": 9323,
+      "mtimeMs": 1790968818592.7131,
+      "updatedAt": "2026-10-02T19:51:03.274Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture10.html": {
+      "description": "CIS 115 Fall 2013 Lecture 10",
+      "tokens": 4408,
+      "hash": "5274d7712e705e24",
+      "size": 16528,
+      "mtimeMs": 1790968818592.7131,
+      "updatedAt": "2026-10-02T19:51:03.274Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture11.html": {
+      "description": "CIS 115 Fall 2013 Lecture 11",
+      "tokens": 5006,
+      "hash": "a60ec35920d871ae",
+      "size": 18770,
+      "mtimeMs": 1790968818593.7131,
+      "updatedAt": "2026-10-02T19:51:03.274Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture13.html": {
+      "description": "CIS 115 Fall 2013 Lecture 13",
+      "tokens": 2790,
+      "hash": "2d1aa6730037b438",
+      "size": 10464,
+      "mtimeMs": 1790968818593.7131,
+      "updatedAt": "2026-10-02T19:51:03.275Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture14.html": {
+      "description": "CIS 115 Fall 2013 Lecture 14",
+      "tokens": 3640,
+      "hash": "a067b2d045dafe65",
+      "size": 13651,
+      "mtimeMs": 1790968818593.7131,
+      "updatedAt": "2026-10-02T19:51:03.275Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture15.html": {
+      "description": "CIS 115 Fall 2013 Lecture 15",
+      "tokens": 3196,
+      "hash": "eab6efaf266ac3ff",
+      "size": 11988,
+      "mtimeMs": 1790968818593.7131,
+      "updatedAt": "2026-10-02T19:51:03.275Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture16.html": {
+      "description": "CIS 115 Fall 2013 Lecture 16",
+      "tokens": 3630,
+      "hash": "da65ba200de3bc42",
+      "size": 13618,
+      "mtimeMs": 1790968818593.7131,
+      "updatedAt": "2026-10-02T19:51:03.275Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture17.html": {
+      "description": "CIS 115 Fall 2013 Lecture 17",
+      "tokens": 3907,
+      "hash": "b6916e4339a8e2cc",
+      "size": 14654,
+      "mtimeMs": 1790968818593.7131,
+      "updatedAt": "2026-10-02T19:51:03.275Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture18.html": {
+      "description": "CIS 115 Fall 2013 Lecture 18",
+      "tokens": 4225,
+      "hash": "fa11fefe15cfba0e",
+      "size": 15849,
+      "mtimeMs": 1790968818593.7131,
+      "updatedAt": "2026-10-02T19:51:03.276Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture2.html": {
+      "description": "CIS 115 Fall 2013 Lecture 2",
+      "tokens": 3223,
+      "hash": "e0d9d579720418f8",
+      "size": 12083,
+      "mtimeMs": 1790968818593.7131,
+      "updatedAt": "2026-10-02T19:51:03.276Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture21.html": {
+      "description": "CIS 115 Fall 2013 Lecture 21",
+      "tokens": 3351,
+      "hash": "4659c6e97a2d6f68",
+      "size": 12563,
+      "mtimeMs": 1790968818593.7131,
+      "updatedAt": "2026-10-02T19:51:03.276Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture23.html": {
+      "description": "CIS 115 Fall 2013 Lecture 23",
+      "tokens": 7395,
+      "hash": "735d6c88500267bf",
+      "size": 27758,
+      "mtimeMs": 1790968818593.7131,
+      "updatedAt": "2026-10-02T19:51:03.276Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture24.html": {
+      "description": "CIS 115 Fall 2013 Lecture 24",
+      "tokens": 4383,
+      "hash": "0fa36e318eac8a65",
+      "size": 16440,
+      "mtimeMs": 1790968818593.7131,
+      "updatedAt": "2026-10-02T19:51:03.276Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture26.html": {
+      "description": "CIS 115 Fall 2013 Lecture 26",
+      "tokens": 5540,
+      "hash": "f4be1ed994adf1ec",
+      "size": 20786,
+      "mtimeMs": 1790968818593.7131,
+      "updatedAt": "2026-10-02T19:51:03.277Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture28.html": {
+      "description": "CIS 115 Fall 2013 Lecture 28",
+      "tokens": 4250,
+      "hash": "c56faee8a2108f67",
+      "size": 15936,
+      "mtimeMs": 1790968818594.7131,
+      "updatedAt": "2026-10-02T19:51:03.277Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture3.html": {
+      "description": "CIS 115 Fall 2013 Lecture 3",
+      "tokens": 2850,
+      "hash": "3cdacc03853cf02d",
+      "size": 10684,
+      "mtimeMs": 1790968818594.7131,
+      "updatedAt": "2026-10-02T19:51:03.277Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture30.html": {
+      "description": "CIS 115 Fall 2013 Lecture 30",
+      "tokens": 2347,
+      "hash": "42989f2abf1c9b1a",
+      "size": 8803,
+      "mtimeMs": 1790968818594.7131,
+      "updatedAt": "2026-10-02T19:51:03.277Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture4.html": {
+      "description": "CIS 115 Fall 2013 Lecture 4",
+      "tokens": 8612,
+      "hash": "f9ed270f5e86c76e",
+      "size": 32293,
+      "mtimeMs": 1790968818594.7131,
+      "updatedAt": "2026-10-02T19:51:03.277Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture5.html": {
+      "description": "CIS 115 Fall 2013 Lecture 5",
+      "tokens": 5341,
+      "hash": "699d355231d6a89c",
+      "size": 20076,
+      "mtimeMs": 1790968818594.7131,
+      "updatedAt": "2026-10-02T19:51:03.277Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture6.html": {
+      "description": "CIS 115 Fall 2013 Lecture 6",
+      "tokens": 3386,
+      "hash": "01d033c06a99c154",
+      "size": 12706,
+      "mtimeMs": 1790968818594.7131,
+      "updatedAt": "2026-10-02T19:51:03.278Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture7.html": {
+      "description": "CIS 115 Fall 2013 Lecture 7",
+      "tokens": 4737,
+      "hash": "3ea818e75ceb775f",
+      "size": 17778,
+      "mtimeMs": 1790968818594.7131,
+      "updatedAt": "2026-10-02T19:51:03.278Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture8.html": {
+      "description": "CIS 115 Fall 2013 Lecture 8",
+      "tokens": 11006,
+      "hash": "871101a705e4139d",
+      "size": 41275,
+      "mtimeMs": 1790968818594.7131,
+      "updatedAt": "2026-10-02T19:51:03.278Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/lecture9.html": {
+      "description": "CIS 115 Fall 2013 Lecture 9",
+      "tokens": 4488,
+      "hash": "9dadedb9a7bc67ae",
+      "size": 16834,
+      "mtimeMs": 1790968818595.7131,
+      "updatedAt": "2026-10-02T19:51:03.280Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2013/syllabus.html": {
+      "description": "CIS 115 Fall 2013 Syllabus Overview",
+      "tokens": 1742,
+      "hash": "4c0e312ccf9c3271",
+      "size": 6532,
+      "mtimeMs": 1790968818595.7131,
+      "updatedAt": "2026-10-02T19:51:03.280Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/_index.md": {
+      "description": "Class Content",
+      "tokens": 993,
+      "hash": "2faa269f5df14a50",
+      "size": 3969,
+      "mtimeMs": 1790968818595.7131,
+      "updatedAt": "2026-10-02T19:51:03.280Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture1.html": {
+      "description": "CIS 115 Fall 2014 Lecture 1",
+      "tokens": 2553,
+      "hash": "4127a804afa4fd20",
+      "size": 9572,
+      "mtimeMs": 1790968818597.7131,
+      "updatedAt": "2026-10-02T19:51:03.280Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture10.html": {
+      "description": "CIS 115 Fall 2014 Lecture 10",
+      "tokens": 7870,
+      "hash": "d8f8fe04dfcbfb96",
+      "size": 29516,
+      "mtimeMs": 1790968818597.7131,
+      "updatedAt": "2026-10-02T19:51:03.281Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture11.html": {
+      "description": "CIS 115 Fall 2014 Lecture 11",
+      "tokens": 5809,
+      "hash": "990c7ab7d85358cc",
+      "size": 21795,
+      "mtimeMs": 1790968818597.7131,
+      "updatedAt": "2026-10-02T19:51:03.281Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture13.html": {
+      "description": "CIS 115 Fall 2014 Lecture 13",
+      "tokens": 3570,
+      "hash": "1cb704bacc681ada",
+      "size": 13386,
+      "mtimeMs": 1790968818610.7131,
+      "updatedAt": "2026-10-02T19:51:03.281Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture14.html": {
+      "description": "CIS 115 Fall 2014 Lecture 14",
+      "tokens": 3976,
+      "hash": "4034e05ffdbdc386",
+      "size": 14909,
+      "mtimeMs": 1790968818610.7131,
+      "updatedAt": "2026-10-02T19:51:03.281Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture15.html": {
+      "description": "CIS 115 Fall 2014 Lecture 15",
+      "tokens": 4073,
+      "hash": "07286d0642ca6fbe",
+      "size": 15273,
+      "mtimeMs": 1790968818610.7131,
+      "updatedAt": "2026-10-02T19:51:03.281Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture17.html": {
+      "description": "CIS 115 Fall 2014 Lecture 17",
+      "tokens": 4000,
+      "hash": "74ca63bf5edc895b",
+      "size": 15003,
+      "mtimeMs": 1790968818610.7131,
+      "updatedAt": "2026-10-02T19:51:03.281Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture2.html": {
+      "description": "CIS 115 Fall 2014 Lecture 2",
+      "tokens": 3291,
+      "hash": "32d008af2aba66e4",
+      "size": 12339,
+      "mtimeMs": 1790968818610.7131,
+      "updatedAt": "2026-10-02T19:51:03.281Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture25.html": {
+      "description": "CIS 115 Fall 2014 Lecture 25",
+      "tokens": 3405,
+      "hash": "713c58eebe642a03",
+      "size": 12768,
+      "mtimeMs": 1790968818610.7131,
+      "updatedAt": "2026-10-02T19:51:03.281Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture26.html": {
+      "description": "CIS 115 Fall 2014 Lecture 26",
+      "tokens": 4336,
+      "hash": "d6b1f71865c98d38",
+      "size": 16258,
+      "mtimeMs": 1790968818610.7131,
+      "updatedAt": "2026-10-02T19:51:03.282Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture27.html": {
+      "description": "CIS 115 Fall 2014 Lecture 27",
+      "tokens": 7396,
+      "hash": "929abe58cc72ef9b",
+      "size": 27760,
+      "mtimeMs": 1790968818610.7131,
+      "updatedAt": "2026-10-02T19:51:03.282Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture3.html": {
+      "description": "CIS 115 Fall 2014 Lecture 3",
+      "tokens": 2919,
+      "hash": "9408bf718e97aa37",
+      "size": 10943,
+      "mtimeMs": 1790968818610.7131,
+      "updatedAt": "2026-10-02T19:51:03.282Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture30.html": {
+      "description": "CIS 115 Fall 2014 Lecture 30",
+      "tokens": 2339,
+      "hash": "9ae3e0603b5526ec",
+      "size": 8774,
+      "mtimeMs": 1790968818611.7131,
+      "updatedAt": "2026-10-02T19:51:03.282Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture4.html": {
+      "description": "CIS 115 Fall 2014 Lecture 4",
+      "tokens": 8610,
+      "hash": "3362ed28b794e3fb",
+      "size": 32284,
+      "mtimeMs": 1790968818611.7131,
+      "updatedAt": "2026-10-02T19:51:03.282Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture5.html": {
+      "description": "CIS 115 Fall 2014 Lecture 5",
+      "tokens": 5335,
+      "hash": "ed86e039e9e13187",
+      "size": 20054,
+      "mtimeMs": 1790968818611.7131,
+      "updatedAt": "2026-10-02T19:51:03.282Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture6.html": {
+      "description": "CIS 115 Fall 2014 Lecture 6",
+      "tokens": 3385,
+      "hash": "03a9a8fa04b12117",
+      "size": 12702,
+      "mtimeMs": 1790968818611.7131,
+      "updatedAt": "2026-10-02T19:51:03.283Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture7.html": {
+      "description": "CIS 115 Fall 2014 Lecture 7",
+      "tokens": 4806,
+      "hash": "a8afa0d3180575a3",
+      "size": 18034,
+      "mtimeMs": 1790968818611.7131,
+      "updatedAt": "2026-10-02T19:51:03.283Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture8.html": {
+      "description": "CIS 115 Fall 2014 Lecture 8",
+      "tokens": 12250,
+      "hash": "7341c2ee92c6560c",
+      "size": 45939,
+      "mtimeMs": 1790968818611.7131,
+      "updatedAt": "2026-10-02T19:51:03.283Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/lecture9.html": {
+      "description": "CIS 115 Fall 2014 Lecture 9",
+      "tokens": 6294,
+      "hash": "4c31db6c2ea2a5b9",
+      "size": 23605,
+      "mtimeMs": 1790968818611.7131,
+      "updatedAt": "2026-10-02T19:51:03.283Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2014/syllabus.html": {
+      "description": "CIS 115 Fall 2014 Syllabus Overview",
+      "tokens": 2270,
+      "hash": "1021dea72417fdd5",
+      "size": 8514,
+      "mtimeMs": 1790968818611.7131,
+      "updatedAt": "2026-10-02T19:51:03.283Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/_index.md": {
+      "description": "Declares progresses",
+      "tokens": 1022,
+      "hash": "c546109b73e60b70",
+      "size": 4086,
+      "mtimeMs": 1790968818614.7131,
+      "updatedAt": "2026-10-02T19:51:03.284Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/0syllabus/index.html": {
+      "description": "CIS 115 Syllabus Overview",
+      "tokens": 2389,
+      "hash": "660da072cad5313d",
+      "size": 8960,
+      "mtimeMs": 1790968818613.02,
+      "updatedAt": "2026-10-02T19:51:03.284Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/10hci/index.html": {
+      "description": "CIS 115 - Human Computer Interaction",
+      "tokens": 5364,
+      "hash": "eb42f0f8325b826f",
+      "size": 20119,
+      "mtimeMs": 1790968818613.02,
+      "updatedAt": "2026-10-02T19:51:03.284Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/11internethistory/index.html": {
+      "description": "CIS 115 - History of the Internet",
+      "tokens": 3695,
+      "hash": "3d5c5c76473b1717",
+      "size": 13866,
+      "mtimeMs": 1790968818613.02,
+      "updatedAt": "2026-10-02T19:51:03.285Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/12softwareengg/index.html": {
+      "description": "CIS 115 - Software Engineering",
+      "tokens": 3540,
+      "hash": "b0594ee3b5d34d92",
+      "size": 13286,
+      "mtimeMs": 1790968818613.02,
+      "updatedAt": "2026-10-02T19:51:03.285Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/17internettech/index.html": {
+      "description": "CIS 115 - How the Internet Works",
+      "tokens": 4024,
+      "hash": "cfa045789ed645f6",
+      "size": 15089,
+      "mtimeMs": 1790968818613.02,
+      "updatedAt": "2026-10-02T19:51:03.285Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/18web/index.html": {
+      "description": "CIS 115 - Programming for the Web",
+      "tokens": 4278,
+      "hash": "17e5ab0a9bb69664",
+      "size": 16043,
+      "mtimeMs": 1790968818613.02,
+      "updatedAt": "2026-10-02T19:51:03.285Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/1whatiscs/index.html": {
+      "description": "CIS 115 - What is Computing Science?",
+      "tokens": 2628,
+      "hash": "90ff990757ba74dc",
+      "size": 9852,
+      "mtimeMs": 1790968818613.02,
+      "updatedAt": "2026-10-02T19:51:03.286Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/20cryptography/index.html": {
+      "description": "CIS 115 - Cryptography",
+      "tokens": 4424,
+      "hash": "cc5f89be30225348",
+      "size": 16596,
+      "mtimeMs": 1790968818613.02,
+      "updatedAt": "2026-10-02T19:51:03.286Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/21informatics/lecture18.html": {
+      "description": "CIS 115 Spring 2015 Lecture 18",
+      "tokens": 2801,
+      "hash": "14753bc5eb7ee662",
+      "size": 10501,
+      "mtimeMs": 1790968818613.02,
+      "updatedAt": "2026-10-02T19:51:03.286Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/21informatics/lecture28.html": {
+      "description": "CIS 115 Spring 2015 Lecture 28",
+      "tokens": 7285,
+      "hash": "677dcb545a3230bc",
+      "size": 27317,
+      "mtimeMs": 1790968818614.3782,
+      "updatedAt": "2026-10-02T19:51:03.286Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/22ai/index.html": {
+      "description": "CIS 115 - Artificial Intelligence",
+      "tokens": 5186,
+      "hash": "2053ff871799f69a",
+      "size": 19450,
+      "mtimeMs": 1790968818614.3782,
+      "updatedAt": "2026-10-02T19:51:03.287Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/23graphics/index.html": {
+      "description": "CIS 115 - Computer Graphics",
+      "tokens": 5009,
+      "hash": "2bdca987f77bcb2d",
+      "size": 18796,
+      "mtimeMs": 1790968818614.3782,
+      "updatedAt": "2026-10-02T19:51:03.287Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/25robotics/index.html": {
+      "description": "CIS 115 - Robotics",
+      "tokens": 4563,
+      "hash": "648d80153360caab",
+      "size": 17123,
+      "mtimeMs": 1790968818614.3782,
+      "updatedAt": "2026-10-02T19:51:03.287Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/27cybersecurity/index.html": {
+      "description": "CIS 115 - Cyber Security",
+      "tokens": 7286,
+      "hash": "8f14828baa72b565",
+      "size": 27348,
+      "mtimeMs": 1790968818614.3782,
+      "updatedAt": "2026-10-02T19:51:03.288Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/2teams/index.html": {
+      "description": "CIS 115 - Teams, Projects and Success",
+      "tokens": 3350,
+      "hash": "6cfa31bbd05bf78f",
+      "size": 12561,
+      "mtimeMs": 1790968818614.3782,
+      "updatedAt": "2026-10-02T19:51:03.288Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/30future/index.html": {
+      "description": "CIS 115 - The Future",
+      "tokens": 2396,
+      "hash": "ecdb9383a4c600c7",
+      "size": 8987,
+      "mtimeMs": 1790968818614.3782,
+      "updatedAt": "2026-10-02T19:51:03.288Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/3early/index.html": {
+      "description": "CIS 115 - Early Computing Machines",
+      "tokens": 2848,
+      "hash": "43782f85ea7f056c",
+      "size": 10679,
+      "mtimeMs": 1790968818614.3782,
+      "updatedAt": "2026-10-02T19:51:03.289Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/4boolean/index.html": {
+      "description": "CIS 115 - Bits and Boolean Algebra",
+      "tokens": 8807,
+      "hash": "2e1f8fd127c0b556",
+      "size": 33023,
+      "mtimeMs": 1790968818614.7131,
+      "updatedAt": "2026-10-02T19:51:03.289Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/5programming/index.html": {
+      "description": "CIS 115 - Programming",
+      "tokens": 5902,
+      "hash": "f7ecdf302e6c60b9",
+      "size": 22177,
+      "mtimeMs": 1790968818614.7131,
+      "updatedAt": "2026-10-02T19:51:03.289Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/6universal/index.html": {
+      "description": "CIS 115 - Universal Computers",
+      "tokens": 3556,
+      "hash": "678dcb79a533eaca",
+      "size": 13343,
+      "mtimeMs": 1790968818614.7131,
+      "updatedAt": "2026-10-02T19:51:03.290Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/7algorithms/index.html": {
+      "description": "CIS 115 - Algorithms",
+      "tokens": 4868,
+      "hash": "1d407f14c836ba41",
+      "size": 18269,
+      "mtimeMs": 1790968818614.7131,
+      "updatedAt": "2026-10-02T19:51:03.290Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/8encoding/index.html": {
+      "description": "CIS 115 - Encoding Data",
+      "tokens": 12334,
+      "hash": "6f3198673a9eb684",
+      "size": 46254,
+      "mtimeMs": 1790968818614.7131,
+      "updatedAt": "2026-10-02T19:51:03.291Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2015/9embedded/index.html": {
+      "description": "CIS 115 - Embedded Systems, Computer Architecture & Finite State Machines",
+      "tokens": 6407,
+      "hash": "84bed1686d80205b",
+      "size": 24028,
+      "mtimeMs": 1790968818614.7131,
+      "updatedAt": "2026-10-02T19:51:03.291Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/_index.md": {
+      "description": "Declares progresses",
+      "tokens": 1451,
+      "hash": "82b70372d7613974",
+      "size": 5802,
+      "mtimeMs": 1790968818631.713,
+      "updatedAt": "2026-10-02T19:51:03.292Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/0Ssyllabus/index.html": {
+      "description": "CIS 115 Syllabus Overview",
+      "tokens": 2522,
+      "hash": "fd930569f82252a2",
+      "size": 9458,
+      "mtimeMs": 1790968818618.3552,
+      "updatedAt": "2026-10-02T19:51:03.292Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/0syllabus/index.html": {
+      "description": "CIS 115 Syllabus Overview",
+      "tokens": 2701,
+      "hash": "6fde3cdcc5aca738",
+      "size": 10129,
+      "mtimeMs": 1790968818618.3552,
+      "updatedAt": "2026-10-02T19:51:03.292Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/10hci/index.html": {
+      "description": "CIS 115 - Human Computer Interaction",
+      "tokens": 5335,
+      "hash": "7246930ef560b291",
+      "size": 20016,
+      "mtimeMs": 1790968818618.3552,
+      "updatedAt": "2026-10-02T19:51:03.293Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/11internethistory/index.html": {
+      "description": "CIS 115 - History of the Internet",
+      "tokens": 3711,
+      "hash": "ebdcbf92208a3aa7",
+      "size": 13926,
+      "mtimeMs": 1790968818618.3552,
+      "updatedAt": "2026-10-02T19:51:03.293Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/12hpc/index.html": {
+      "description": "CIS 115 - High Performance Computing",
+      "tokens": 1107,
+      "hash": "180b2faf7e007810",
+      "size": 4162,
+      "mtimeMs": 1790968818618.3552,
+      "updatedAt": "2026-10-02T19:51:03.294Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/13internettech/index.html": {
+      "description": "CIS 115 - How the Internet Works",
+      "tokens": 4370,
+      "hash": "17971b5b57fed2a5",
+      "size": 16385,
+      "mtimeMs": 1790968818618.3552,
+      "updatedAt": "2026-10-02T19:51:03.294Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/14web/index.html": {
+      "description": "CIS 115 - Programming for the Web",
+      "tokens": 4606,
+      "hash": "7255a9c4fe8fa427",
+      "size": 17271,
+      "mtimeMs": 1790968818618.3552,
+      "updatedAt": "2026-10-02T19:51:03.294Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/15web/index.html": {
+      "description": "CIS 115 - Interactive Web Programming",
+      "tokens": 3800,
+      "hash": "1575fb9276e745f6",
+      "size": 14247,
+      "mtimeMs": 1790968818618.3552,
+      "updatedAt": "2026-10-02T19:51:03.295Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/16softwareengg/index.html": {
+      "description": "CIS 115 - Software Engineering",
+      "tokens": 3794,
+      "hash": "c07669f0c9989bf4",
+      "size": 14229,
+      "mtimeMs": 1790968818618.3552,
+      "updatedAt": "2026-10-02T19:51:03.295Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/1whatiscs/index.html": {
+      "description": "CIS 115 - What is Computing Science?",
+      "tokens": 2690,
+      "hash": "952a17edca209e0f",
+      "size": 10085,
+      "mtimeMs": 1790968818618.3552,
+      "updatedAt": "2026-10-02T19:51:03.296Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/20graphics/index.html": {
+      "description": "CIS 115 - Computer Graphics",
+      "tokens": 5190,
+      "hash": "4ee0327347944bbd",
+      "size": 19472,
+      "mtimeMs": 1790968818618.3552,
+      "updatedAt": "2026-10-02T19:51:03.299Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/21inforetrieve/index.html": {
+      "description": "CIS 115 - Searching & Information Retrieval",
+      "tokens": 6782,
+      "hash": "d0471546d70ac650",
+      "size": 25437,
+      "mtimeMs": 1790968818618.7131,
+      "updatedAt": "2026-10-02T19:51:03.299Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/22cryptography/index.html": {
+      "description": "CIS 115 - Cryptography",
+      "tokens": 4509,
+      "hash": "0f03baee5a7d49fe",
+      "size": 16918,
+      "mtimeMs": 1790968818618.7131,
+      "updatedAt": "2026-10-02T19:51:03.300Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/24ai/index.html": {
+      "description": "CIS 115 - Artificial Intelligence",
+      "tokens": 5179,
+      "hash": "815e9582e6c109f2",
+      "size": 19426,
+      "mtimeMs": 1790968818618.7131,
+      "updatedAt": "2026-10-02T19:51:03.300Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/25compresserror/index.html": {
+      "description": "CIS 115 - Compressions & Error Checking",
+      "tokens": 5137,
+      "hash": "4cf915e1284f398c",
+      "size": 19274,
+      "mtimeMs": 1790968818618.7131,
+      "updatedAt": "2026-10-02T19:51:03.301Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/26cybersecurity/index.html": {
+      "description": "CIS 115 - Cyber Security",
+      "tokens": 7392,
+      "hash": "8617c68d06c7330f",
+      "size": 27758,
+      "mtimeMs": 1790968818618.7131,
+      "updatedAt": "2026-10-02T19:51:03.301Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/27informatics/index.html": {
+      "description": "CIS 115 - Big Data & Informatics",
+      "tokens": 3237,
+      "hash": "60a79849106cb1bb",
+      "size": 12149,
+      "mtimeMs": 1790968818618.7131,
+      "updatedAt": "2026-10-02T19:51:03.302Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/27informatics/lecture18.html": {
+      "description": "CIS 115 Spring 2015 Lecture 18",
+      "tokens": 2801,
+      "hash": "a1a069f122b521a0",
+      "size": 10502,
+      "mtimeMs": 1790968818630.7131,
+      "updatedAt": "2026-10-02T19:51:03.302Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/27informatics/lecture28.html": {
+      "description": "CIS 115 Spring 2015 Lecture 28",
+      "tokens": 7377,
+      "hash": "0fb1560a57f4f0fd",
+      "size": 27662,
+      "mtimeMs": 1790968818630.7131,
+      "updatedAt": "2026-10-02T19:51:03.302Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/28robotics/index.html": {
+      "description": "CIS 115 - Robotics",
+      "tokens": 4574,
+      "hash": "f576a0be776ce77f",
+      "size": 17161,
+      "mtimeMs": 1790968818630.7131,
+      "updatedAt": "2026-10-02T19:51:03.302Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/2teams/index.html": {
+      "description": "CIS 115 - Teams, Projects and Success",
+      "tokens": 3362,
+      "hash": "1d9b5eb9ee0a7202",
+      "size": 12606,
+      "mtimeMs": 1790968818630.7131,
+      "updatedAt": "2026-10-02T19:51:03.303Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/30future/index.html": {
+      "description": "CIS 115 - The Future",
+      "tokens": 2518,
+      "hash": "28fc67678811b2c3",
+      "size": 9445,
+      "mtimeMs": 1790968818630.7131,
+      "updatedAt": "2026-10-02T19:51:03.303Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/3early/index.html": {
+      "description": "CIS 115 - Early Computing Machines",
+      "tokens": 2876,
+      "hash": "5d6fabddd92dbc4a",
+      "size": 10784,
+      "mtimeMs": 1790968818630.7131,
+      "updatedAt": "2026-10-02T19:51:03.304Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/4boolean/index.html": {
+      "description": "CIS 115 - Bits and Boolean Algebra",
+      "tokens": 8520,
+      "hash": "2ec409dd5c7c5636",
+      "size": 31950,
+      "mtimeMs": 1790968818630.7131,
+      "updatedAt": "2026-10-02T19:51:03.304Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/5programming/index.html": {
+      "description": "CIS 115 - Programming",
+      "tokens": 5988,
+      "hash": "13d633a08c92c4c1",
+      "size": 22498,
+      "mtimeMs": 1790968818631.713,
+      "updatedAt": "2026-10-02T19:51:03.304Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/6universal/index.html": {
+      "description": "CIS 115 - Universal Computers",
+      "tokens": 3502,
+      "hash": "e7bb34ab9d696b93",
+      "size": 13140,
+      "mtimeMs": 1790968818631.713,
+      "updatedAt": "2026-10-02T19:51:03.305Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/7algorithms/index.html": {
+      "description": "CIS 115 - Algorithms",
+      "tokens": 4798,
+      "hash": "63c4af295546d555",
+      "size": 18008,
+      "mtimeMs": 1790968818631.713,
+      "updatedAt": "2026-10-02T19:51:03.305Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/8encoding/index.html": {
+      "description": "CIS 115 - Encoding Data",
+      "tokens": 12272,
+      "hash": "c3296147d09170ff",
+      "size": 46025,
+      "mtimeMs": 1790968818631.713,
+      "updatedAt": "2026-10-02T19:51:03.306Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/9embedded/index.html": {
+      "description": "CIS 115 - Embedded Systems, Computer Architecture & Finite State Machines",
+      "tokens": 6386,
+      "hash": "581b75c4da460979",
+      "size": 23958,
+      "mtimeMs": 1790968818631.713,
+      "updatedAt": "2026-10-02T19:51:03.307Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115fall2016/scholars.md": {
+      "description": "Declares progresses",
+      "tokens": 1170,
+      "hash": "b063aef1d7ff4a27",
+      "size": 4678,
+      "mtimeMs": 1790968818634.713,
+      "updatedAt": "2026-10-02T19:51:03.307Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2013/lecture11videos.html": {
+      "description": "",
+      "tokens": 427,
+      "hash": "a793bb731c452755",
+      "size": 1598,
+      "mtimeMs": 1790968818638.713,
+      "updatedAt": "2026-10-02T19:51:03.308Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2013/lecture12videos.html": {
+      "description": "",
+      "tokens": 135,
+      "hash": "c8c1b0d4a090ab3b",
+      "size": 506,
+      "mtimeMs": 1790968818638.713,
+      "updatedAt": "2026-10-02T19:51:03.308Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2013/lecture15videos.html": {
+      "description": "",
+      "tokens": 146,
+      "hash": "ebdc514ad4b990a2",
+      "size": 544,
+      "mtimeMs": 1790968818638.713,
+      "updatedAt": "2026-10-02T19:51:03.309Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2013/lecture1videos.html": {
+      "description": "",
+      "tokens": 140,
+      "hash": "1641f3bc67f849b8",
+      "size": 524,
+      "mtimeMs": 1790968818638.713,
+      "updatedAt": "2026-10-02T19:51:03.309Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2013/lecture2videos.html": {
+      "description": "",
+      "tokens": 277,
+      "hash": "e5cec15fabe0480c",
+      "size": 1036,
+      "mtimeMs": 1790968818638.713,
+      "updatedAt": "2026-10-02T19:51:03.309Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2013/lecture3videos.html": {
+      "description": "",
+      "tokens": 139,
+      "hash": "45a53d40a5e10bc4",
+      "size": 518,
+      "mtimeMs": 1790968818638.713,
+      "updatedAt": "2026-10-02T19:51:03.309Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture1.html": {
+      "description": "CIS 115 Spring 2014 Lecture 1",
+      "tokens": 2488,
+      "hash": "cfe7da899ae1d141",
+      "size": 9327,
+      "mtimeMs": 1790968818640.8665,
+      "updatedAt": "2026-10-02T19:51:03.310Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture11.html": {
+      "description": "CIS 115 Spring 2014 Lecture 11",
+      "tokens": 4120,
+      "hash": "a8f604b02bad8757",
+      "size": 15467,
+      "mtimeMs": 1790968818653.713,
+      "updatedAt": "2026-10-02T19:51:03.310Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture12.html": {
+      "description": "CIS 115 Spring 2014 Lecture 12",
+      "tokens": 3594,
+      "hash": "a82b53b142cd8867",
+      "size": 13475,
+      "mtimeMs": 1790968818653.713,
+      "updatedAt": "2026-10-02T19:51:03.310Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture13.html": {
+      "description": "CIS 115 Spring 2014 Lecture 13",
+      "tokens": 3994,
+      "hash": "041d4d64b70ac782",
+      "size": 14974,
+      "mtimeMs": 1790968818654.713,
+      "updatedAt": "2026-10-02T19:51:03.310Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture14.html": {
+      "description": "CIS 115 Spring 2014 Lecture 14",
+      "tokens": 4300,
+      "hash": "9a88a7a35cc51205",
+      "size": 16126,
+      "mtimeMs": 1790968818654.713,
+      "updatedAt": "2026-10-02T19:51:03.311Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture16.html": {
+      "description": "CIS 115 Spring 2014 Lecture 16",
+      "tokens": 3536,
+      "hash": "38034f73c7773cef",
+      "size": 13259,
+      "mtimeMs": 1790968818654.713,
+      "updatedAt": "2026-10-02T19:51:03.311Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture17.html": {
+      "description": "CIS 115 Spring 2014 Lecture 17",
+      "tokens": 6268,
+      "hash": "b0222d737755e2fa",
+      "size": 23506,
+      "mtimeMs": 1790968818654.713,
+      "updatedAt": "2026-10-02T19:51:03.311Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture2.html": {
+      "description": "CIS 115 Spring 2014 Lecture 2",
+      "tokens": 3265,
+      "hash": "791e8b986b9a72e1",
+      "size": 12242,
+      "mtimeMs": 1790968818654.713,
+      "updatedAt": "2026-10-02T19:51:03.311Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture22.html": {
+      "description": "CIS 115 Spring 2014 Lecture 22",
+      "tokens": 4703,
+      "hash": "ffc43397ec7fb623",
+      "size": 17636,
+      "mtimeMs": 1790968818654.713,
+      "updatedAt": "2026-10-02T19:51:03.312Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture23.html": {
+      "description": "CIS 115 Spring 2014 Lecture 23",
+      "tokens": 4074,
+      "hash": "00e57d63138ac0d3",
+      "size": 15277,
+      "mtimeMs": 1790968818654.713,
+      "updatedAt": "2026-10-02T19:51:03.312Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture25.html": {
+      "description": "CIS 115 Spring 2014 Lecture 25",
+      "tokens": 7408,
+      "hash": "e6cc98ea418c8fb3",
+      "size": 27806,
+      "mtimeMs": 1790968818654.713,
+      "updatedAt": "2026-10-02T19:51:03.312Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture27.html": {
+      "description": "CIS 115 Spring 2014 Lecture 27",
+      "tokens": 4303,
+      "hash": "41f18ea7098e85bd",
+      "size": 16137,
+      "mtimeMs": 1790968818654.713,
+      "updatedAt": "2026-10-02T19:51:03.312Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture28.html": {
+      "description": "CIS 115 Spring 2014 Lecture 28",
+      "tokens": 2338,
+      "hash": "2a99d04511bb182e",
+      "size": 8769,
+      "mtimeMs": 1790968818654.713,
+      "updatedAt": "2026-10-02T19:51:03.312Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture3.html": {
+      "description": "CIS 115 Spring 2014 Lecture 3",
+      "tokens": 2846,
+      "hash": "54b2e4917eb3a4e9",
+      "size": 10669,
+      "mtimeMs": 1790968818654.713,
+      "updatedAt": "2026-10-02T19:51:03.313Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture4.html": {
+      "description": "CIS 115 Spring 2014 Lecture 4",
+      "tokens": 8624,
+      "hash": "4a038bb1608cc118",
+      "size": 32340,
+      "mtimeMs": 1790968818654.713,
+      "updatedAt": "2026-10-02T19:51:03.313Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture5.html": {
+      "description": "CIS 115 Spring 2014 Lecture 5",
+      "tokens": 5339,
+      "hash": "94183a14c966f04d",
+      "size": 20066,
+      "mtimeMs": 1790968818655.713,
+      "updatedAt": "2026-10-02T19:51:03.313Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture6.html": {
+      "description": "CIS 115 Spring 2014 Lecture 6",
+      "tokens": 3405,
+      "hash": "e22f5e04702e3db3",
+      "size": 12771,
+      "mtimeMs": 1790968818655.713,
+      "updatedAt": "2026-10-02T19:51:03.313Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture7.html": {
+      "description": "CIS 115 Spring 2014 Lecture 7",
+      "tokens": 4739,
+      "hash": "349fbe99d7c80e2d",
+      "size": 17784,
+      "mtimeMs": 1790968818655.713,
+      "updatedAt": "2026-10-02T19:51:03.313Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture8.html": {
+      "description": "CIS 115 Spring 2014 Lecture 8",
+      "tokens": 11878,
+      "hash": "f88d2a569fdefa70",
+      "size": 44543,
+      "mtimeMs": 1790968818655.713,
+      "updatedAt": "2026-10-02T19:51:03.314Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/lecture9.html": {
+      "description": "CIS 115 Fall 2013 Lecture 9",
+      "tokens": 6172,
+      "hash": "1baa30904b60fed7",
+      "size": 23149,
+      "mtimeMs": 1790968818655.713,
+      "updatedAt": "2026-10-02T19:51:03.314Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2014/syllabus.html": {
+      "description": "CIS 115 Spring 2014 Syllabus Overview",
+      "tokens": 1807,
+      "hash": "d09f0c551974b93b",
+      "size": 6775,
+      "mtimeMs": 1790968818655.713,
+      "updatedAt": "2026-10-02T19:51:03.314Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture1.html": {
+      "description": "CIS 115 Spring 2015 Lecture 1",
+      "tokens": 2554,
+      "hash": "78a2272eb19a16d3",
+      "size": 9576,
+      "mtimeMs": 1790968818657.713,
+      "updatedAt": "2026-10-02T19:51:03.315Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture11.html": {
+      "description": "CIS 115 Spring 2015 Lecture 11",
+      "tokens": 5643,
+      "hash": "e7f2a13da1612604",
+      "size": 21170,
+      "mtimeMs": 1790968818657.713,
+      "updatedAt": "2026-10-02T19:51:03.315Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture12.html": {
+      "description": "CIS 115 Spring 2015 Lecture 12",
+      "tokens": 4236,
+      "hash": "c1f2fa474642d459",
+      "size": 15902,
+      "mtimeMs": 1790968818657.713,
+      "updatedAt": "2026-10-02T19:51:03.316Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture13.html": {
+      "description": "CIS 115 Spring 2015 Lecture 13",
+      "tokens": 3568,
+      "hash": "852f31249fad5059",
+      "size": 13382,
+      "mtimeMs": 1790968818657.713,
+      "updatedAt": "2026-10-02T19:51:03.316Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture14.html": {
+      "description": "CIS 115 Spring 2015 Lecture 14",
+      "tokens": 3970,
+      "hash": "3595b8ea48740a52",
+      "size": 14887,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.316Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture15.html": {
+      "description": "CIS 115 Spring 2015 Lecture 15",
+      "tokens": 4208,
+      "hash": "c08b49574c847f82",
+      "size": 15778,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.316Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture17.html": {
+      "description": "CIS 115 Spring 2015 Lecture 17",
+      "tokens": 7513,
+      "hash": "c7340329be9a2f2d",
+      "size": 28171,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.317Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture18.html": {
+      "description": "CIS 115 Spring 2015 Lecture 18",
+      "tokens": 2823,
+      "hash": "fca55a5e7f049bee",
+      "size": 10583,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.317Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture19.html": {
+      "description": "CIS 115 Spring 2015 Lecture 19",
+      "tokens": 4851,
+      "hash": "c24936ea739216e1",
+      "size": 18190,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.317Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture2.html": {
+      "description": "CIS 115 Spring 2015 Lecture 2",
+      "tokens": 3216,
+      "hash": "f0af7179a09529c1",
+      "size": 12058,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.317Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture24.html": {
+      "description": "CIS 115 Spring 2015 Lecture 24",
+      "tokens": 7354,
+      "hash": "e6c23cf5e6a2734c",
+      "size": 27601,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.317Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture26.html": {
+      "description": "CIS 115 Spring 2015 Lecture 26",
+      "tokens": 3428,
+      "hash": "e45696f5405209e7",
+      "size": 12853,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.318Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture27.html": {
+      "description": "CIS 115 Spring 2015 Lecture 27",
+      "tokens": 4338,
+      "hash": "766eb9a2ea03501a",
+      "size": 16265,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.318Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture28.html": {
+      "description": "CIS 115 Spring 2015 Lecture 28",
+      "tokens": 7307,
+      "hash": "d8342b2942883347",
+      "size": 27401,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.318Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture3.html": {
+      "description": "CIS 115 Spring 2015 Lecture 3",
+      "tokens": 2771,
+      "hash": "ae9532a55e1810a7",
+      "size": 10389,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.318Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture30.html": {
+      "description": "CIS 115 Spring 2015 Lecture 30",
+      "tokens": 2309,
+      "hash": "6e3913286b3796f1",
+      "size": 8660,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.319Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture4.html": {
+      "description": "CIS 115 Spring 2015 Lecture 4",
+      "tokens": 8747,
+      "hash": "8dd4d6afbce56cd7",
+      "size": 32800,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.319Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture5.html": {
+      "description": "CIS 115 Fall 2014 Lecture 5",
+      "tokens": 5298,
+      "hash": "9b9d9b68db6e0cf2",
+      "size": 19914,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.319Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture6.html": {
+      "description": "CIS 115 Spring 2015 Lecture 6",
+      "tokens": 3384,
+      "hash": "58d32998ae0b373b",
+      "size": 12700,
+      "mtimeMs": 1790968818658.713,
+      "updatedAt": "2026-10-02T19:51:03.319Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture7.html": {
+      "description": "CIS 115 Spring 2015 Lecture 7",
+      "tokens": 4808,
+      "hash": "5ac50cd549d6239f",
+      "size": 18043,
+      "mtimeMs": 1790968818659.713,
+      "updatedAt": "2026-10-02T19:51:03.320Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture8.html": {
+      "description": "CIS 115 Spring 2015 Lecture 8",
+      "tokens": 12251,
+      "hash": "0486fc3bd1b93043",
+      "size": 45943,
+      "mtimeMs": 1790968818659.713,
+      "updatedAt": "2026-10-02T19:51:03.320Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/lecture9.html": {
+      "description": "CIS 115 Spring 2015 Lecture 9",
+      "tokens": 6333,
+      "hash": "bafef151794c0ed0",
+      "size": 23750,
+      "mtimeMs": 1790968818659.713,
+      "updatedAt": "2026-10-02T19:51:03.320Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2015/syllabus.html": {
+      "description": "CIS 115 Spring 2015 Syllabus Overview",
+      "tokens": 1981,
+      "hash": "d980683a844e2d3b",
+      "size": 7429,
+      "mtimeMs": 1790968818659.713,
+      "updatedAt": "2026-10-02T19:51:03.321Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/0syllabus/index.html": {
+      "description": "CIS 115 Syllabus Overview",
+      "tokens": 2422,
+      "hash": "ef0bb6e682e9e688",
+      "size": 9083,
+      "mtimeMs": 1790968818660.768,
+      "updatedAt": "2026-10-02T19:51:03.321Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/10hci/index.html": {
+      "description": "CIS 115 - Human Computer Interaction",
+      "tokens": 5362,
+      "hash": "056c7a3b60a082f2",
+      "size": 20117,
+      "mtimeMs": 1790968818660.768,
+      "updatedAt": "2026-10-02T19:51:03.322Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/11internethistory/index.html": {
+      "description": "CIS 115 - History of the Internet",
+      "tokens": 3711,
+      "hash": "ef202294f1538f69",
+      "size": 13926,
+      "mtimeMs": 1790968818660.768,
+      "updatedAt": "2026-10-02T19:51:03.322Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/13internettech/index.html": {
+      "description": "CIS 115 - How the Internet Works",
+      "tokens": 4399,
+      "hash": "f2fe3e434336af99",
+      "size": 16498,
+      "mtimeMs": 1790968818660.768,
+      "updatedAt": "2026-10-02T19:51:03.323Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/14web/index.html": {
+      "description": "CIS 115 - Programming for the Web",
+      "tokens": 4645,
+      "hash": "9d5ce3e746ba8bb1",
+      "size": 17418,
+      "mtimeMs": 1790968818660.768,
+      "updatedAt": "2026-10-02T19:51:03.323Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/15web/index.html": {
+      "description": "CIS 115 - Programming for the Web",
+      "tokens": 3278,
+      "hash": "980dfd5e8c622819",
+      "size": 12293,
+      "mtimeMs": 1790968818660.768,
+      "updatedAt": "2026-10-02T19:51:03.324Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/16softwareengg/index.html": {
+      "description": "CIS 115 - Software Engineering",
+      "tokens": 3794,
+      "hash": "c07669f0c9989bf4",
+      "size": 14229,
+      "mtimeMs": 1790968818660.768,
+      "updatedAt": "2026-10-02T19:51:03.324Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/1whatiscs/index.html": {
+      "description": "CIS 115 - What is Computing Science?",
+      "tokens": 2701,
+      "hash": "d5cb0a99a904e417",
+      "size": 10128,
+      "mtimeMs": 1790968818660.768,
+      "updatedAt": "2026-10-02T19:51:03.325Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/20graphics/index.html": {
+      "description": "CIS 115 - Computer Graphics",
+      "tokens": 5189,
+      "hash": "9d5e68f09a764a87",
+      "size": 19469,
+      "mtimeMs": 1790968818660.768,
+      "updatedAt": "2026-10-02T19:51:03.325Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/21inforetrieve/index.html": {
+      "description": "CIS 115 - Searching & Information Retrieval",
+      "tokens": 6539,
+      "hash": "73f9bc7a86f58a29",
+      "size": 24525,
+      "mtimeMs": 1790968818660.768,
+      "updatedAt": "2026-10-02T19:51:03.326Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/22cryptography/index.html": {
+      "description": "CIS 115 - Cryptography",
+      "tokens": 4410,
+      "hash": "6cefc5083f377fef",
+      "size": 16549,
+      "mtimeMs": 1790968818660.768,
+      "updatedAt": "2026-10-02T19:51:03.326Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/24ai/index.html": {
+      "description": "CIS 115 - Artificial Intelligence",
+      "tokens": 5175,
+      "hash": "b9e092f3d4baf021",
+      "size": 19411,
+      "mtimeMs": 1790968818660.768,
+      "updatedAt": "2026-10-02T19:51:03.327Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/25compresserror/index.html": {
+      "description": "CIS 115 - Compressions & Error Checking",
+      "tokens": 5123,
+      "hash": "ba4c30ede70ccd16",
+      "size": 19222,
+      "mtimeMs": 1790968818660.768,
+      "updatedAt": "2026-10-02T19:51:03.328Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/26informatics/lecture18.html": {
+      "description": "CIS 115 Spring 2015 Lecture 18",
+      "tokens": 2826,
+      "hash": "38580348290f8c88",
+      "size": 10596,
+      "mtimeMs": 1790968818672.713,
+      "updatedAt": "2026-10-02T19:51:03.328Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/26informatics/lecture28.html": {
+      "description": "CIS 115 Spring 2015 Lecture 28",
+      "tokens": 7310,
+      "hash": "92541c6a1a005d1a",
+      "size": 27412,
+      "mtimeMs": 1790968818672.713,
+      "updatedAt": "2026-10-02T19:51:03.328Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/27cybersecurity/index.html": {
+      "description": "CIS 115 - Cyber Security",
+      "tokens": 7387,
+      "hash": "e21a01211b402a39",
+      "size": 27739,
+      "mtimeMs": 1790968818672.713,
+      "updatedAt": "2026-10-02T19:51:03.329Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/29robotics/index.html": {
+      "description": "CIS 115 - Robotics",
+      "tokens": 4479,
+      "hash": "eee614a8a607ffdc",
+      "size": 16798,
+      "mtimeMs": 1790968818672.713,
+      "updatedAt": "2026-10-02T19:51:03.329Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/2teams/index.html": {
+      "description": "CIS 115 - Teams, Projects and Success",
+      "tokens": 3360,
+      "hash": "9c47dbe1ef3e622f",
+      "size": 12598,
+      "mtimeMs": 1790968818672.713,
+      "updatedAt": "2026-10-02T19:51:03.330Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/30future/index.html": {
+      "description": "CIS 115 - The Future",
+      "tokens": 2405,
+      "hash": "c8b2994a9e2c9c5d",
+      "size": 9022,
+      "mtimeMs": 1790968818672.713,
+      "updatedAt": "2026-10-02T19:51:03.330Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/3early/index.html": {
+      "description": "CIS 115 - Early Computing Machines",
+      "tokens": 2881,
+      "hash": "1460d17e00fa9201",
+      "size": 10801,
+      "mtimeMs": 1790968818672.713,
+      "updatedAt": "2026-10-02T19:51:03.331Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/4boolean/index.html": {
+      "description": "CIS 115 - Bits and Boolean Algebra",
+      "tokens": 8528,
+      "hash": "7ad4b081af59b5f9",
+      "size": 31980,
+      "mtimeMs": 1790968818673.713,
+      "updatedAt": "2026-10-02T19:51:03.331Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/5programming/index.html": {
+      "description": "CIS 115 - Programming",
+      "tokens": 5908,
+      "hash": "754e079f40ab2dad",
+      "size": 22198,
+      "mtimeMs": 1790968818673.713,
+      "updatedAt": "2026-10-02T19:51:03.332Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/6universal/index.html": {
+      "description": "CIS 115 - Universal Computers",
+      "tokens": 3526,
+      "hash": "842ac4d39f957113",
+      "size": 13229,
+      "mtimeMs": 1790968818673.713,
+      "updatedAt": "2026-10-02T19:51:03.332Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/7algorithms/index.html": {
+      "description": "CIS 115 - Algorithms",
+      "tokens": 4804,
+      "hash": "45f3e053ede37892",
+      "size": 18034,
+      "mtimeMs": 1790968818673.713,
+      "updatedAt": "2026-10-02T19:51:03.333Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/8encoding/index.html": {
+      "description": "CIS 115 - Encoding Data",
+      "tokens": 12281,
+      "hash": "289853170b17af00",
+      "size": 46061,
+      "mtimeMs": 1790968818673.713,
+      "updatedAt": "2026-10-02T19:51:03.334Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2016/9embedded/index.html": {
+      "description": "CIS 115 - Embedded Systems, Computer Architecture & Finite State Machines",
+      "tokens": 6394,
+      "hash": "2b95e2e02ca47c78",
+      "size": 23986,
+      "mtimeMs": 1790968818673.713,
+      "updatedAt": "2026-10-02T19:51:03.334Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/0syllabus/index.html": {
+      "description": "CIS 115 Syllabus Overview",
+      "tokens": 2442,
+      "hash": "cf3283fd8e702b3c",
+      "size": 9158,
+      "mtimeMs": 1790968818677.3403,
+      "updatedAt": "2026-10-02T19:51:03.335Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/10hci/index.html": {
+      "description": "CIS 115 - Human Computer Interaction",
+      "tokens": 5335,
+      "hash": "72484fe8aa3fb5d5",
+      "size": 20016,
+      "mtimeMs": 1790968818677.3403,
+      "updatedAt": "2026-10-02T19:51:03.336Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/11internethistory/index.html": {
+      "description": "CIS 115 - History of the Internet",
+      "tokens": 3711,
+      "hash": "7256bcfc9a02d11a",
+      "size": 13926,
+      "mtimeMs": 1790968818677.3403,
+      "updatedAt": "2026-10-02T19:51:03.336Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/12internettech/index.html": {
+      "description": "CIS 115 - How the Internet Works",
+      "tokens": 4158,
+      "hash": "4d737ed1e800696e",
+      "size": 15603,
+      "mtimeMs": 1790968818677.3403,
+      "updatedAt": "2026-10-02T19:51:03.337Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/13hpc/index.html": {
+      "description": "CIS 115 - High Performance Computing",
+      "tokens": 1370,
+      "hash": "478c6819aacbf89f",
+      "size": 5134,
+      "mtimeMs": 1790968818677.3403,
+      "updatedAt": "2026-10-02T19:51:03.337Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/14web/index.html": {
+      "description": "CIS 115 - Programming for the Web",
+      "tokens": 4611,
+      "hash": "ca5b73ea05d231bf",
+      "size": 17288,
+      "mtimeMs": 1790968818677.3403,
+      "updatedAt": "2026-10-02T19:51:03.338Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/15web/index.html": {
+      "description": "CIS 115 - Interactive Web Programming",
+      "tokens": 3804,
+      "hash": "d63496c4e73c2f52",
+      "size": 14264,
+      "mtimeMs": 1790968818677.3403,
+      "updatedAt": "2026-10-02T19:51:03.338Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/16softwareengg/index.html": {
+      "description": "CIS 115 - Software Engineering",
+      "tokens": 3794,
+      "hash": "c07669f0c9989bf4",
+      "size": 14229,
+      "mtimeMs": 1790968818677.3403,
+      "updatedAt": "2026-10-02T19:51:03.339Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/17graphics/index.html": {
+      "description": "CIS 115 - Computer Graphics",
+      "tokens": 5174,
+      "hash": "468c5863a54ef954",
+      "size": 19414,
+      "mtimeMs": 1790968818677.3403,
+      "updatedAt": "2026-10-02T19:51:03.339Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/1whatiscs/index.html": {
+      "description": "CIS 115 - What is Computing Science?",
+      "tokens": 2690,
+      "hash": "56ba0930abf88480",
+      "size": 10084,
+      "mtimeMs": 1790968818677.3403,
+      "updatedAt": "2026-10-02T19:51:03.340Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/22inforetrieve/index.html": {
+      "description": "CIS 115 - Searching & Information Retrieval",
+      "tokens": 6782,
+      "hash": "134cee07db1d0d25",
+      "size": 25435,
+      "mtimeMs": 1790968818677.3403,
+      "updatedAt": "2026-10-02T19:51:03.340Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/23cryptography/index.html": {
+      "description": "CIS 115 - Cryptography",
+      "tokens": 4508,
+      "hash": "6e12b4e8e0784870",
+      "size": 16915,
+      "mtimeMs": 1790968818677.3403,
+      "updatedAt": "2026-10-02T19:51:03.341Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/24ai/index.html": {
+      "description": "CIS 115 - Artificial Intelligence",
+      "tokens": 5198,
+      "hash": "b090dca99376b70a",
+      "size": 19496,
+      "mtimeMs": 1790968818677.3403,
+      "updatedAt": "2026-10-02T19:51:03.341Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/25compresserror/index.html": {
+      "description": "CIS 115 - Compressions & Error Checking",
+      "tokens": 5136,
+      "hash": "cc3b25d62bf67a24",
+      "size": 19271,
+      "mtimeMs": 1790968818677.3403,
+      "updatedAt": "2026-10-02T19:51:03.342Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/27informatics/index.html": {
+      "description": "CIS 115 - Big Data & Informatics",
+      "tokens": 3237,
+      "hash": "7063d509e2b53dde",
+      "size": 12148,
+      "mtimeMs": 1790968818677.713,
+      "updatedAt": "2026-10-02T19:51:03.342Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/27informatics/lecture18.html": {
+      "description": "CIS 115 Spring 2015 Lecture 18",
+      "tokens": 2826,
+      "hash": "9a8daba61b02fee4",
+      "size": 10597,
+      "mtimeMs": 1790968818688.713,
+      "updatedAt": "2026-10-02T19:51:03.342Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/27informatics/lecture28.html": {
+      "description": "CIS 115 Spring 2015 Lecture 28",
+      "tokens": 7402,
+      "hash": "0049860622f6ca78",
+      "size": 27757,
+      "mtimeMs": 1790968818688.713,
+      "updatedAt": "2026-10-02T19:51:03.343Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/28cybersecurity/index.html": {
+      "description": "CIS 115 - Cyber Security",
+      "tokens": 7407,
+      "hash": "da9befd113108e9f",
+      "size": 27812,
+      "mtimeMs": 1790968818688.713,
+      "updatedAt": "2026-10-02T19:51:03.343Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/29robotics/index.html": {
+      "description": "CIS 115 - Robotics",
+      "tokens": 4572,
+      "hash": "18dd033e64596f8b",
+      "size": 17155,
+      "mtimeMs": 1790968818688.713,
+      "updatedAt": "2026-10-02T19:51:03.344Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/2teams/index.html": {
+      "description": "CIS 115 - Teams, Projects and Success",
+      "tokens": 3323,
+      "hash": "716cc94beac02ffc",
+      "size": 12460,
+      "mtimeMs": 1790968818688.713,
+      "updatedAt": "2026-10-02T19:51:03.344Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/30future/index.html": {
+      "description": "CIS 115 - The Future",
+      "tokens": 2518,
+      "hash": "994ce997b83bb907",
+      "size": 9443,
+      "mtimeMs": 1790968818688.713,
+      "updatedAt": "2026-10-02T19:51:03.345Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/3early/index.html": {
+      "description": "CIS 115 - Early Computing Machines",
+      "tokens": 2876,
+      "hash": "37840cce9adf785b",
+      "size": 10785,
+      "mtimeMs": 1790968818688.713,
+      "updatedAt": "2026-10-02T19:51:03.345Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/4boolean/index.html": {
+      "description": "CIS 115 - Bits and Boolean Algebra",
+      "tokens": 8520,
+      "hash": "bc06ec782d54e7ba",
+      "size": 31950,
+      "mtimeMs": 1790968818688.713,
+      "updatedAt": "2026-10-02T19:51:03.347Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/5programming/index.html": {
+      "description": "CIS 115 - Programming",
+      "tokens": 5968,
+      "hash": "c8b866ed8be87e91",
+      "size": 22423,
+      "mtimeMs": 1790968818688.713,
+      "updatedAt": "2026-10-02T19:51:03.348Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/6universal/index.html": {
+      "description": "CIS 115 - Universal Computers",
+      "tokens": 3502,
+      "hash": "33bfc3a9ac8ae5fa",
+      "size": 13139,
+      "mtimeMs": 1790968818688.713,
+      "updatedAt": "2026-10-02T19:51:03.348Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/7algorithms/index.html": {
+      "description": "CIS 115 - Algorithms",
+      "tokens": 4798,
+      "hash": "6221bd20641d34c2",
+      "size": 18008,
+      "mtimeMs": 1790968818688.713,
+      "updatedAt": "2026-10-02T19:51:03.349Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/8encoding/index.html": {
+      "description": "CIS 115 - Encoding Data",
+      "tokens": 12272,
+      "hash": "2f75b11356df1463",
+      "size": 46025,
+      "mtimeMs": 1790968818689.713,
+      "updatedAt": "2026-10-02T19:51:03.350Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis115spring2017/9embedded/index.html": {
+      "description": "CIS 115 - Embedded Systems, Computer Architecture & Finite State Machines",
+      "tokens": 6386,
+      "hash": "901a10512b4293e5",
+      "size": 23957,
+      "mtimeMs": 1790968818689.713,
+      "updatedAt": "2026-10-02T19:51:03.351Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture1.html": {
+      "description": "CIS 225 Fall 2013 Lecture 1",
+      "tokens": 3814,
+      "hash": "f82fca30c4eb4227",
+      "size": 14305,
+      "mtimeMs": 1790968818696.713,
+      "updatedAt": "2026-10-02T19:51:03.353Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture10.html": {
+      "description": "CIS 225 Fall 2013 Lecture 10",
+      "tokens": 3269,
+      "hash": "66d8395fe4314b86",
+      "size": 12256,
+      "mtimeMs": 1790968818696.713,
+      "updatedAt": "2026-10-02T19:51:03.353Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture11.html": {
+      "description": "CIS 225 Fall 2013 Lecture 11",
+      "tokens": 2773,
+      "hash": "05cbf9befa97bbc3",
+      "size": 10398,
+      "mtimeMs": 1790968818696.713,
+      "updatedAt": "2026-10-02T19:51:03.353Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture12.html": {
+      "description": "CIS 225 Fall 2013 Lecture 12",
+      "tokens": 2092,
+      "hash": "0b6fc4dc52b07c56",
+      "size": 7842,
+      "mtimeMs": 1790968818697.713,
+      "updatedAt": "2026-10-02T19:51:03.353Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture13.html": {
+      "description": "CIS 225 Fall 2013 Lecture 13",
+      "tokens": 2396,
+      "hash": "c41d8537384d5158",
+      "size": 8984,
+      "mtimeMs": 1790968818697.713,
+      "updatedAt": "2026-10-02T19:51:03.353Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture14.html": {
+      "description": "CIS 225 Fall 2013 Lecture 14",
+      "tokens": 2187,
+      "hash": "0d70be9e801c87c7",
+      "size": 8199,
+      "mtimeMs": 1790968818697.713,
+      "updatedAt": "2026-10-02T19:51:03.354Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture15.html": {
+      "description": "CIS 225 Fall 2013 Lecture 15",
+      "tokens": 2056,
+      "hash": "414fcee8c9cc6361",
+      "size": 7710,
+      "mtimeMs": 1790968818697.713,
+      "updatedAt": "2026-10-02T19:51:03.354Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture16.html": {
+      "description": "CIS 225 Fall 2013 Lecture 16",
+      "tokens": 1893,
+      "hash": "f7686b2ee4d0b6b5",
+      "size": 7098,
+      "mtimeMs": 1790968818697.713,
+      "updatedAt": "2026-10-02T19:51:03.354Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture17.html": {
+      "description": "CIS 225 Fall 2013 Lecture 17",
+      "tokens": 3877,
+      "hash": "e6d2075b3b6adc64",
+      "size": 14538,
+      "mtimeMs": 1790968818697.713,
+      "updatedAt": "2026-10-02T19:51:03.354Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture18.html": {
+      "description": "CIS 225 Fall 2013 Lecture 18",
+      "tokens": 869,
+      "hash": "e79755c125ac7055",
+      "size": 3258,
+      "mtimeMs": 1790968818697.713,
+      "updatedAt": "2026-10-02T19:51:03.354Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture19.html": {
+      "description": "CIS 225 Fall 2013 Lecture 19",
+      "tokens": 1684,
+      "hash": "44267d80d56b7312",
+      "size": 6314,
+      "mtimeMs": 1790968818697.713,
+      "updatedAt": "2026-10-02T19:51:03.354Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture2.html": {
+      "description": "CIS 225 Fall 2013 Lecture 2",
+      "tokens": 3958,
+      "hash": "089d8901fb919cd6",
+      "size": 14839,
+      "mtimeMs": 1790968818697.713,
+      "updatedAt": "2026-10-02T19:51:03.355Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture21.html": {
+      "description": "CIS 225 Fall 2013 Lecture 21",
+      "tokens": 3049,
+      "hash": "61a618cf498aef33",
+      "size": 11433,
+      "mtimeMs": 1790968818697.713,
+      "updatedAt": "2026-10-02T19:51:03.355Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture22.html": {
+      "description": "CIS 225 Fall 2013 Lecture 22",
+      "tokens": 6879,
+      "hash": "eed8586147f2d89d",
+      "size": 25822,
+      "mtimeMs": 1790968818697.713,
+      "updatedAt": "2026-10-02T19:51:03.355Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture23.html": {
+      "description": "CIS 225 Fall 2013 Lecture 23",
+      "tokens": 1317,
+      "hash": "78a96fe2c78558c2",
+      "size": 4937,
+      "mtimeMs": 1790968818697.713,
+      "updatedAt": "2026-10-02T19:51:03.355Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture24.html": {
+      "description": "CIS 225 Fall 2013 Lecture 24",
+      "tokens": 2094,
+      "hash": "9cb9835d27f37457",
+      "size": 7849,
+      "mtimeMs": 1790968818697.713,
+      "updatedAt": "2026-10-02T19:51:03.355Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture26.html": {
+      "description": "CIS 225 Fall 2013 Lecture 26",
+      "tokens": 696,
+      "hash": "b7699e9f73aad80f",
+      "size": 2608,
+      "mtimeMs": 1790968818697.713,
+      "updatedAt": "2026-10-02T19:51:03.355Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture3.html": {
+      "description": "CIS 225 Fall 2013 Lecture 3",
+      "tokens": 3251,
+      "hash": "3b9fba4b4dd8c1ae",
+      "size": 12199,
+      "mtimeMs": 1790968818698.713,
+      "updatedAt": "2026-10-02T19:51:03.356Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture4.html": {
+      "description": "CIS 225 Fall 2013 Lecture 4",
+      "tokens": 1968,
+      "hash": "2ce30632fb9b5ffe",
+      "size": 7380,
+      "mtimeMs": 1790968818698.713,
+      "updatedAt": "2026-10-02T19:51:03.356Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture5.html": {
+      "description": "CIS 225 Fall 2013 Lecture 5",
+      "tokens": 1351,
+      "hash": "81ef6eb05915282c",
+      "size": 5066,
+      "mtimeMs": 1790968818698.713,
+      "updatedAt": "2026-10-02T19:51:03.356Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture6.html": {
+      "description": "CIS 225 Fall 2013 Lecture 6",
+      "tokens": 1561,
+      "hash": "a85966055b81287f",
+      "size": 5851,
+      "mtimeMs": 1790968818698.713,
+      "updatedAt": "2026-10-02T19:51:03.356Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture7.html": {
+      "description": "CIS 225 Fall 2013 Lecture 7",
+      "tokens": 2280,
+      "hash": "f1e54260f95502d2",
+      "size": 8549,
+      "mtimeMs": 1790968818698.713,
+      "updatedAt": "2026-10-02T19:51:03.356Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2013/lecture8.html": {
+      "description": "CIS 225 Fall 2013 Lecture 8",
+      "tokens": 2136,
+      "hash": "c0b14b277d6c5715",
+      "size": 8007,
+      "mtimeMs": 1790968818698.713,
+      "updatedAt": "2026-10-02T19:51:03.356Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture1.html": {
+      "description": "CIS 225 Fall 2014 Lecture 1",
+      "tokens": 3851,
+      "hash": "2e9a86cd609ec516",
+      "size": 14443,
+      "mtimeMs": 1790968818700.2454,
+      "updatedAt": "2026-10-02T19:51:03.357Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture10.html": {
+      "description": "CIS 225 Fall 2014 Lecture 10",
+      "tokens": 3253,
+      "hash": "ecdc03f5eacc2dea",
+      "size": 12198,
+      "mtimeMs": 1790968818700.2454,
+      "updatedAt": "2026-10-02T19:51:03.357Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture11.html": {
+      "description": "CIS 225 Fall 2014 Lecture 11",
+      "tokens": 2724,
+      "hash": "4a77b7715d35fb79",
+      "size": 10212,
+      "mtimeMs": 1790968818700.2454,
+      "updatedAt": "2026-10-02T19:51:03.358Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture12.html": {
+      "description": "CIS 225 Fall 2014 Lecture 12",
+      "tokens": 2092,
+      "hash": "d6b77af5f560dab1",
+      "size": 7842,
+      "mtimeMs": 1790968818700.2454,
+      "updatedAt": "2026-10-02T19:51:03.358Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture13.html": {
+      "description": "CIS 225 Fall 2014 Lecture 13",
+      "tokens": 2396,
+      "hash": "33fa2e0fbdc3e8ab",
+      "size": 8984,
+      "mtimeMs": 1790968818700.2454,
+      "updatedAt": "2026-10-02T19:51:03.358Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture14.html": {
+      "description": "CIS 225 Fall 2014 Lecture 14",
+      "tokens": 2187,
+      "hash": "427a9e8f4c19d190",
+      "size": 8199,
+      "mtimeMs": 1790968818700.2454,
+      "updatedAt": "2026-10-02T19:51:03.358Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture15.html": {
+      "description": "CIS 225 Fall 2014 Lecture 15",
+      "tokens": 2031,
+      "hash": "da35919163a78aa5",
+      "size": 7613,
+      "mtimeMs": 1790968818700.2454,
+      "updatedAt": "2026-10-02T19:51:03.358Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture16.html": {
+      "description": "CIS 225 Fall 2014 Lecture 16",
+      "tokens": 1894,
+      "hash": "dbdbc1f2eac21096",
+      "size": 7099,
+      "mtimeMs": 1790968818700.2454,
+      "updatedAt": "2026-10-02T19:51:03.358Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture17.html": {
+      "description": "CIS 225 Fall 2014 Lecture 17",
+      "tokens": 3856,
+      "hash": "5c4aec03242d5209",
+      "size": 14457,
+      "mtimeMs": 1790968818700.2454,
+      "updatedAt": "2026-10-02T19:51:03.359Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture18.html": {
+      "description": "CIS 225 Fall 2014 Lecture 18",
+      "tokens": 869,
+      "hash": "31e3e928509d3b09",
+      "size": 3258,
+      "mtimeMs": 1790968818700.2454,
+      "updatedAt": "2026-10-02T19:51:03.359Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture19.html": {
+      "description": "CIS 225 Fall 2014 Lecture 19",
+      "tokens": 1481,
+      "hash": "624f357e2d65c2fa",
+      "size": 5553,
+      "mtimeMs": 1790968818700.2454,
+      "updatedAt": "2026-10-02T19:51:03.359Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture2.html": {
+      "description": "CIS 225 Fall 2014 Lecture 2",
+      "tokens": 3958,
+      "hash": "e4d8d08a1d233b52",
+      "size": 14839,
+      "mtimeMs": 1790968818700.713,
+      "updatedAt": "2026-10-02T19:51:03.359Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture21.html": {
+      "description": "CIS 225 Fall 2014 Lecture 21",
+      "tokens": 3054,
+      "hash": "8dcafb9c86078bb4",
+      "size": 11452,
+      "mtimeMs": 1790968818700.713,
+      "updatedAt": "2026-10-02T19:51:03.359Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture22.html": {
+      "description": "CIS 225 Fall 2014 Lecture 22",
+      "tokens": 6879,
+      "hash": "9665654e861af330",
+      "size": 25822,
+      "mtimeMs": 1790968818700.713,
+      "updatedAt": "2026-10-02T19:51:03.360Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture23.html": {
+      "description": "CIS 225 Fall 2014 Lecture 23",
+      "tokens": 2966,
+      "hash": "01f20f3cc6e0aeb0",
+      "size": 11122,
+      "mtimeMs": 1790968818700.713,
+      "updatedAt": "2026-10-02T19:51:03.360Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture24.html": {
+      "description": "CIS 225 Fall 2013 Lecture 24",
+      "tokens": 2094,
+      "hash": "9cb9835d27f37457",
+      "size": 7849,
+      "mtimeMs": 1790968818700.713,
+      "updatedAt": "2026-10-02T19:51:03.360Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture26.html": {
+      "description": "CIS 225 Fall 2014 Lecture 25",
+      "tokens": 772,
+      "hash": "4aff9ad91de1a3ca",
+      "size": 2894,
+      "mtimeMs": 1790968818700.713,
+      "updatedAt": "2026-10-02T19:51:03.360Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture3.html": {
+      "description": "CIS 225 Fall 2014 Lecture 3",
+      "tokens": 3258,
+      "hash": "4b100d702b050388",
+      "size": 12223,
+      "mtimeMs": 1790968818700.713,
+      "updatedAt": "2026-10-02T19:51:03.360Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture4.html": {
+      "description": "CIS 225 Fall 2013 Lecture 4",
+      "tokens": 1982,
+      "hash": "db5e78c4839712b1",
+      "size": 7429,
+      "mtimeMs": 1790968818700.713,
+      "updatedAt": "2026-10-02T19:51:03.360Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture5.html": {
+      "description": "CIS 225 Fall 2014 Lecture 5",
+      "tokens": 1357,
+      "hash": "84caac6ccfd56cfd",
+      "size": 5088,
+      "mtimeMs": 1790968818700.713,
+      "updatedAt": "2026-10-02T19:51:03.360Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture6.html": {
+      "description": "CIS 225 Fall 2014 Lecture 6",
+      "tokens": 1564,
+      "hash": "1b4327dbfb8b6b4c",
+      "size": 5864,
+      "mtimeMs": 1790968818700.713,
+      "updatedAt": "2026-10-02T19:51:03.361Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture7.html": {
+      "description": "CIS 225 Fall 2014 Lecture 7",
+      "tokens": 2280,
+      "hash": "ed8c960abd8e94d3",
+      "size": 8549,
+      "mtimeMs": 1790968818700.713,
+      "updatedAt": "2026-10-02T19:51:03.361Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2014/lecture8.html": {
+      "description": "CIS 225 Fall 2014 Lecture 8",
+      "tokens": 2148,
+      "hash": "5da34ebc99c8e7a5",
+      "size": 8052,
+      "mtimeMs": 1790968818700.713,
+      "updatedAt": "2026-10-02T19:51:03.361Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/10software/index.html": {
+      "description": "CIS 225 - Software",
+      "tokens": 3947,
+      "hash": "f6114693d47e176f",
+      "size": 14799,
+      "mtimeMs": 1790968818702.0706,
+      "updatedAt": "2026-10-02T19:51:03.362Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/11networking/index.html": {
+      "description": "CIS 225 - Networking",
+      "tokens": 5297,
+      "hash": "1b7131bf7f6e3654",
+      "size": 19863,
+      "mtimeMs": 1790968818702.0706,
+      "updatedAt": "2026-10-02T19:51:03.362Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/12cli/index.html": {
+      "description": "CIS 225 - Command Line Interfaces & Simple Scripts",
+      "tokens": 5199,
+      "hash": "fb7ef9651ce5f039",
+      "size": 19496,
+      "mtimeMs": 1790968818702.0706,
+      "updatedAt": "2026-10-02T19:51:03.362Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/14monitoring/index.html": {
+      "description": "CIS 225 - Troubleshooting & Maintenance",
+      "tokens": 3294,
+      "hash": "29012fcdc15b8c79",
+      "size": 12350,
+      "mtimeMs": 1790968818702.0706,
+      "updatedAt": "2026-10-02T19:51:03.363Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/15cloud/index.html": {
+      "description": "CIS 225 - The Cloud",
+      "tokens": 3313,
+      "hash": "657fc95281c7ff7f",
+      "size": 12422,
+      "mtimeMs": 1790968818702.0706,
+      "updatedAt": "2026-10-02T19:51:03.363Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/16backup/index.html": {
+      "description": "CIS 225 - Monitoring & Backups",
+      "tokens": 3367,
+      "hash": "92b47c474aace386",
+      "size": 12625,
+      "mtimeMs": 1790968818702.0706,
+      "updatedAt": "2026-10-02T19:51:03.364Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/17security/index.html": {
+      "description": "CIS 225 - Security & Best Practices",
+      "tokens": 1139,
+      "hash": "0556ee0d20004ce9",
+      "size": 4270,
+      "mtimeMs": 1790968818702.0706,
+      "updatedAt": "2026-10-02T19:51:03.364Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/1intro/index.html": {
+      "description": "CIS 225 - Intro",
+      "tokens": 4020,
+      "hash": "d71a86f046ec498e",
+      "size": 15078,
+      "mtimeMs": 1790968818702.0706,
+      "updatedAt": "2026-10-02T19:51:03.365Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/2duties/index.html": {
+      "description": "CIS 225 - Duties of a System Administrator",
+      "tokens": 4504,
+      "hash": "aaa5994a9404d65e",
+      "size": 16887,
+      "mtimeMs": 1790968818702.0706,
+      "updatedAt": "2026-10-02T19:51:03.365Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/3hardware/index.html": {
+      "description": "CIS 225 - Computer Hardware",
+      "tokens": 3395,
+      "hash": "966e30ca0031f5d2",
+      "size": 12728,
+      "mtimeMs": 1790968818702.0706,
+      "updatedAt": "2026-10-02T19:51:03.365Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/4vminstall/index.html": {
+      "description": "CIS 225 - Virtual Machines & OS Installation",
+      "tokens": 2164,
+      "hash": "34a29b08a44b99c3",
+      "size": 8114,
+      "mtimeMs": 1790968818702.0706,
+      "updatedAt": "2026-10-02T19:51:03.366Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/5windows/index.html": {
+      "description": "CIS 225 - Windows",
+      "tokens": 1776,
+      "hash": "0d23a372491b36bd",
+      "size": 6658,
+      "mtimeMs": 1790968818702.0706,
+      "updatedAt": "2026-10-02T19:51:03.366Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/6ubuntu/index.html": {
+      "description": "CIS 225 - Ubuntu",
+      "tokens": 2618,
+      "hash": "5021619c3a0196df",
+      "size": 9816,
+      "mtimeMs": 1790968818702.0706,
+      "updatedAt": "2026-10-02T19:51:03.367Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/7users/index.html": {
+      "description": "CIS 225 - User Accont Management",
+      "tokens": 3238,
+      "hash": "983d91c495f42be6",
+      "size": 12140,
+      "mtimeMs": 1790968818702.713,
+      "updatedAt": "2026-10-02T19:51:03.367Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/8files/index.html": {
+      "description": "CIS 225 - File System Management",
+      "tokens": 3066,
+      "hash": "bbae4840efd610bb",
+      "size": 11494,
+      "mtimeMs": 1790968818702.713,
+      "updatedAt": "2026-10-02T19:51:03.367Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2015/9services/index.html": {
+      "description": "CIS 225 - Service & Process Management",
+      "tokens": 2651,
+      "hash": "c764d39e92741f99",
+      "size": 9941,
+      "mtimeMs": 1790968818702.713,
+      "updatedAt": "2026-10-02T19:51:03.368Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/10services/index.html": {
+      "description": "CIS 225 - Service & Process Management",
+      "tokens": 2611,
+      "hash": "1da10154ec45a5f7",
+      "size": 9790,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.369Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/11software/index.html": {
+      "description": "CIS 225 - Software",
+      "tokens": 3946,
+      "hash": "325bc9f4bfb3f4af",
+      "size": 14795,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.369Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/12networking/index.html": {
+      "description": "CIS 225 - Networking",
+      "tokens": 5258,
+      "hash": "f109b659d5f21f81",
+      "size": 19717,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.370Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/15cli/index.html": {
+      "description": "CIS 225 - Command Line Interfaces & Simple Scripts",
+      "tokens": 5186,
+      "hash": "bbde50e66b3d2eee",
+      "size": 19447,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.370Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/19trouble/index.html": {
+      "description": "CIS 225 - Troubleshooting & Maintenance",
+      "tokens": 3267,
+      "hash": "e0d25e5b3889c61b",
+      "size": 12249,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.371Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/1intro/index.html": {
+      "description": "CIS 225 - Intro",
+      "tokens": 4023,
+      "hash": "0a7a1cd5706a3380",
+      "size": 15090,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.371Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/21cloud/index.html": {
+      "description": "CIS 225 - The Cloud",
+      "tokens": 3284,
+      "hash": "5455a545a0aaecfb",
+      "size": 12315,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.371Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/24backup/index.html": {
+      "description": "CIS 225 - Monitoring & Backups",
+      "tokens": 3334,
+      "hash": "f2d0ee938fafb11d",
+      "size": 12502,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.372Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/26security/index.html": {
+      "description": "CIS 225 - Security & Best Practices",
+      "tokens": 1132,
+      "hash": "95683adf3938eddd",
+      "size": 4245,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.372Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/2duties/index.html": {
+      "description": "CIS 225 - Duties of a System Administrator",
+      "tokens": 4504,
+      "hash": "aaa5994a9404d65e",
+      "size": 16887,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.372Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/3hardware/index.html": {
+      "description": "CIS 225 - Computer Hardware",
+      "tokens": 3395,
+      "hash": "6fa0031c24c42ec3",
+      "size": 12728,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.373Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/4vminstall/index.html": {
+      "description": "CIS 225 - Virtual Machines & OS Installation",
+      "tokens": 2164,
+      "hash": "47e2017d14a072b2",
+      "size": 8112,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.373Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/6windows/index.html": {
+      "description": "CIS 225 - Windows",
+      "tokens": 1751,
+      "hash": "a7919e1693f3d08b",
+      "size": 6566,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.374Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/7ubuntu/index.html": {
+      "description": "CIS 225 - Ubuntu",
+      "tokens": 2599,
+      "hash": "fe5ea37c796f91e1",
+      "size": 9744,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.374Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/8users/index.html": {
+      "description": "CIS 225 - User Accont Management",
+      "tokens": 3210,
+      "hash": "1480fd3f83a4a7e2",
+      "size": 12034,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.374Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis225fall2016/9files/index.html": {
+      "description": "CIS 225 - File System Management",
+      "tokens": 3065,
+      "hash": "1730fc108216a71a",
+      "size": 11493,
+      "mtimeMs": 1790968818704.8916,
+      "updatedAt": "2026-10-02T19:51:03.375Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture1.html": {
+      "description": "CIS 527 Spring 2014 Lecture 1",
+      "tokens": 4626,
+      "hash": "ada3210821a06d5a",
+      "size": 17349,
+      "mtimeMs": 1790968818712.7126,
+      "updatedAt": "2026-10-02T19:51:03.376Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture10.html": {
+      "description": "CIS 527 Spring 2014 Lecture 10",
+      "tokens": 2008,
+      "hash": "f9e0619aa40efedb",
+      "size": 7529,
+      "mtimeMs": 1790968818712.7126,
+      "updatedAt": "2026-10-02T19:51:03.376Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture13.html": {
+      "description": "CIS 527 Spring 2014 Lecture 13",
+      "tokens": 2995,
+      "hash": "60b2f2a458d6ae95",
+      "size": 11228,
+      "mtimeMs": 1790968818722.7126,
+      "updatedAt": "2026-10-02T19:51:03.376Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture17.html": {
+      "description": "CIS 527 Spring 2014 Lecture 17",
+      "tokens": 3712,
+      "hash": "bb08b46e5fc8da22",
+      "size": 13919,
+      "mtimeMs": 1790968818722.7126,
+      "updatedAt": "2026-10-02T19:51:03.376Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture2.html": {
+      "description": "CIS 527 Spring 2014 Lecture 2",
+      "tokens": 2482,
+      "hash": "3584e45e8d954cb7",
+      "size": 9304,
+      "mtimeMs": 1790968818722.7126,
+      "updatedAt": "2026-10-02T19:51:03.376Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture21.html": {
+      "description": "CIS 527 Spring 2014 Lecture 21",
+      "tokens": 2721,
+      "hash": "97b08a0194c80918",
+      "size": 10202,
+      "mtimeMs": 1790968818723.7126,
+      "updatedAt": "2026-10-02T19:51:03.376Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture25.html": {
+      "description": "CIS 527 Spring 2014 Lecture 21",
+      "tokens": 3410,
+      "hash": "72ff6f4aba551a0d",
+      "size": 12784,
+      "mtimeMs": 1790968818723.7126,
+      "updatedAt": "2026-10-02T19:51:03.377Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture26.html": {
+      "description": "CIS 527 Spring 2014 Lecture 26",
+      "tokens": 1815,
+      "hash": "03f9ef8946f72040",
+      "size": 6804,
+      "mtimeMs": 1790968818723.7126,
+      "updatedAt": "2026-10-02T19:51:03.377Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture3.html": {
+      "description": "CIS 527 Spring 2014 Lecture 3",
+      "tokens": 2887,
+      "hash": "29986ae7ebf67ee5",
+      "size": 10823,
+      "mtimeMs": 1790968818723.7126,
+      "updatedAt": "2026-10-02T19:51:03.377Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture4.html": {
+      "description": "CIS 527 Spring 2014 Lecture 4",
+      "tokens": 3749,
+      "hash": "3a9a96a25bb193d4",
+      "size": 14058,
+      "mtimeMs": 1790968818723.7126,
+      "updatedAt": "2026-10-02T19:51:03.377Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture5.html": {
+      "description": "CIS 527 Spring 2014 Lecture 5",
+      "tokens": 3382,
+      "hash": "15a7ddbf12c3496e",
+      "size": 12679,
+      "mtimeMs": 1790968818723.7126,
+      "updatedAt": "2026-10-02T19:51:03.377Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture6.html": {
+      "description": "CIS 527 Spring 2014 Lecture 6",
+      "tokens": 2139,
+      "hash": "18052c8603b11a7d",
+      "size": 8021,
+      "mtimeMs": 1790968818723.7126,
+      "updatedAt": "2026-10-02T19:51:03.377Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture7.html": {
+      "description": "CIS 527 Spring 2014 Lecture 7",
+      "tokens": 3755,
+      "hash": "fd9017fa4a6ccf7c",
+      "size": 14080,
+      "mtimeMs": 1790968818723.7126,
+      "updatedAt": "2026-10-02T19:51:03.378Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture8.html": {
+      "description": "CIS 527 Spring 2014 Lecture 8",
+      "tokens": 3021,
+      "hash": "08681a9b5b4aecbb",
+      "size": 11328,
+      "mtimeMs": 1790968818723.7126,
+      "updatedAt": "2026-10-02T19:51:03.378Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2014/lecture9.html": {
+      "description": "CIS 527 Spring 2014 Lecture 9",
+      "tokens": 5442,
+      "hash": "781014e0b6c20e74",
+      "size": 20405,
+      "mtimeMs": 1790968818723.7126,
+      "updatedAt": "2026-10-02T19:51:03.378Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture1.html": {
+      "description": "CIS 527 Spring 2015 Lecture 1",
+      "tokens": 4679,
+      "hash": "acfee3a053b80a2b",
+      "size": 17549,
+      "mtimeMs": 1790968818725.9497,
+      "updatedAt": "2026-10-02T19:51:03.379Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture10.html": {
+      "description": "CIS 527 Spring 2015 Lecture 10",
+      "tokens": 5440,
+      "hash": "f064a8a2c43c06f1",
+      "size": 20400,
+      "mtimeMs": 1790968818725.9497,
+      "updatedAt": "2026-10-02T19:51:03.379Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture11.html": {
+      "description": "CIS 527 Spring 2015 Lecture 11",
+      "tokens": 837,
+      "hash": "3702cba71d487857",
+      "size": 3136,
+      "mtimeMs": 1790968818725.9497,
+      "updatedAt": "2026-10-02T19:51:03.379Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture14.html": {
+      "description": "CIS 527 Spring 2015 Lecture 14",
+      "tokens": 2990,
+      "hash": "0755d52d27f85231",
+      "size": 11210,
+      "mtimeMs": 1790968818733.7126,
+      "updatedAt": "2026-10-02T19:51:03.379Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture17.html": {
+      "description": "CIS 527 Spring 2015 Lecture 17",
+      "tokens": 3722,
+      "hash": "a15c650fc98d838b",
+      "size": 13954,
+      "mtimeMs": 1790968818733.7126,
+      "updatedAt": "2026-10-02T19:51:03.380Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture18.html": {
+      "description": "CIS 527 Spring 2015 Lecture 18",
+      "tokens": 2712,
+      "hash": "ba6e8f25c4a29306",
+      "size": 10169,
+      "mtimeMs": 1790968818733.7126,
+      "updatedAt": "2026-10-02T19:51:03.380Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture2.html": {
+      "description": "CIS 527 Spring 2015 Lecture 2",
+      "tokens": 2484,
+      "hash": "9254324dbc3e39ec",
+      "size": 9313,
+      "mtimeMs": 1790968818733.7126,
+      "updatedAt": "2026-10-02T19:51:03.380Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture21.html": {
+      "description": "CIS 527 Spring 2015 Lecture 21",
+      "tokens": 3588,
+      "hash": "81e57749ea353ac3",
+      "size": 13452,
+      "mtimeMs": 1790968818733.7126,
+      "updatedAt": "2026-10-02T19:51:03.380Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture24.html": {
+      "description": "CIS 527 Spring 2015 Lecture 24",
+      "tokens": 2578,
+      "hash": "91db4bee7159bfd2",
+      "size": 9664,
+      "mtimeMs": 1790968818733.7126,
+      "updatedAt": "2026-10-02T19:51:03.380Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture25.html": {
+      "description": "CIS 527 Spring 2015 Lecture 25",
+      "tokens": 708,
+      "hash": "b975e40a44b10bfe",
+      "size": 2653,
+      "mtimeMs": 1790968818734.7126,
+      "updatedAt": "2026-10-02T19:51:03.380Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture26.html": {
+      "description": "CIS 527 Spring 2015 Lecture 26",
+      "tokens": 3490,
+      "hash": "58531ba895da5971",
+      "size": 13086,
+      "mtimeMs": 1790968818734.7126,
+      "updatedAt": "2026-10-02T19:51:03.380Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture3.html": {
+      "description": "CIS 527 Spring 2015 Lecture 3",
+      "tokens": 2948,
+      "hash": "4c13a85a99ef418f",
+      "size": 11053,
+      "mtimeMs": 1790968818734.7126,
+      "updatedAt": "2026-10-02T19:51:03.381Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture4.html": {
+      "description": "CIS 527 Spring 2015 Lecture 4",
+      "tokens": 3749,
+      "hash": "4057a4c7064d16cb",
+      "size": 14057,
+      "mtimeMs": 1790968818734.7126,
+      "updatedAt": "2026-10-02T19:51:03.381Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture5.html": {
+      "description": "CIS 527 Spring 2015 Lecture 5",
+      "tokens": 3381,
+      "hash": "fff816c5eb99cbc2",
+      "size": 12678,
+      "mtimeMs": 1790968818734.7126,
+      "updatedAt": "2026-10-02T19:51:03.384Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture6.html": {
+      "description": "CIS 527 Spring 2015 Lecture 6",
+      "tokens": 2207,
+      "hash": "88d762a2838aeebf",
+      "size": 8276,
+      "mtimeMs": 1790968818734.7126,
+      "updatedAt": "2026-10-02T19:51:03.384Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture7.html": {
+      "description": "CIS 527 Spring 2015 Lecture 7",
+      "tokens": 3751,
+      "hash": "7176d9fea8b8f9e8",
+      "size": 14064,
+      "mtimeMs": 1790968818734.7126,
+      "updatedAt": "2026-10-02T19:51:03.385Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture8.html": {
+      "description": "CIS 527 Spring 2015 Lecture 8",
+      "tokens": 3032,
+      "hash": "4058e8a3c794c881",
+      "size": 11367,
+      "mtimeMs": 1790968818734.7126,
+      "updatedAt": "2026-10-02T19:51:03.385Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2015/lecture9.html": {
+      "description": "CIS 527 Spring 2015 Lecture 8",
+      "tokens": 2917,
+      "hash": "759059ebda17cd71",
+      "size": 10938,
+      "mtimeMs": 1790968818734.7126,
+      "updatedAt": "2026-10-02T19:51:03.385Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/10wireshark/index.html": {
+      "description": "CIS 527 - Wireshark",
+      "tokens": 1039,
+      "hash": "7baed98a23ab29ac",
+      "size": 3894,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.386Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/11snmp/index.html": {
+      "description": "CIS 527 - SNMP",
+      "tokens": 1523,
+      "hash": "f1e7760ddc9f75ef",
+      "size": 5708,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.386Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/12protocols/index.html": {
+      "description": "CIS 527 - Other Application Protocols",
+      "tokens": 1994,
+      "hash": "b6eb2f50c02e3602",
+      "size": 7476,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.386Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/13directory/index.html": {
+      "description": "CIS 527 - Directory Services",
+      "tokens": 3023,
+      "hash": "8e3ff517cd9fec43",
+      "size": 11336,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.387Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/19cloud/index.html": {
+      "description": "CIS 527 - The Cloud",
+      "tokens": 2867,
+      "hash": "fa11074b9145dde6",
+      "size": 10749,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.387Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/1intro/index.html": {
+      "description": "CIS 527 - Intro",
+      "tokens": 4918,
+      "hash": "38fcff0553e81ff6",
+      "size": 18444,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.388Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/20cloudconfig/index.html": {
+      "description": "CIS 527 - Configuration & Networking in The Cloud",
+      "tokens": 1812,
+      "hash": "023ac2d3b31fe3ec",
+      "size": 6794,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.388Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/21cloudapps/index.html": {
+      "description": "CIS 527 - Applications in The Cloud",
+      "tokens": 1365,
+      "hash": "862ea2bdd31dd28b",
+      "size": 5116,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.388Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/22cloudscale/index.html": {
+      "description": "CIS 527 - Advanced Cloud Management",
+      "tokens": 1486,
+      "hash": "c2239452b7a9c614",
+      "size": 5569,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.389Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/23appservers/index.html": {
+      "description": "CIS 527 - Application Servers Overview",
+      "tokens": 2746,
+      "hash": "66177b8254cc9f8c",
+      "size": 10297,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.390Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/24fileservers/index.html": {
+      "description": "CIS 527 - File Servers Overview",
+      "tokens": 3727,
+      "hash": "72e51bf87135a340",
+      "size": 13973,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.390Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/27backups/index.html": {
+      "description": "CIS 527 - Backups",
+      "tokens": 3720,
+      "hash": "b312bc02203ddb06",
+      "size": 13948,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.391Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/28monitor/index.html": {
+      "description": "CIS 527 - Monitoring",
+      "tokens": 1899,
+      "hash": "365eaa43cad26267",
+      "size": 7121,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.391Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/29itil/index.html": {
+      "description": "CIS 527 - ITIL",
+      "tokens": 3632,
+      "hash": "9c886f7a037536ac",
+      "size": 13619,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.391Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/2vmos/index.html": {
+      "description": "CIS 527 - Virtualization & Operating Systems",
+      "tokens": 4620,
+      "hash": "6679714652f73ccf",
+      "size": 17325,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.392Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/3cli/index.html": {
+      "description": "CIS 527 - Command Line Interfaces & Simple Scripts",
+      "tokens": 5090,
+      "hash": "9048f75ce2500115",
+      "size": 19084,
+      "mtimeMs": 1790968818735.9753,
+      "updatedAt": "2026-10-02T19:51:03.392Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/4user/index.html": {
+      "description": "CIS 527 - Users & Permissions",
+      "tokens": 4188,
+      "hash": "2674dd73f434b50f",
+      "size": 15703,
+      "mtimeMs": 1790968818736.7126,
+      "updatedAt": "2026-10-02T19:51:03.393Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/5soft/index.html": {
+      "description": "CIS 527 - Services, Software & Security",
+      "tokens": 4626,
+      "hash": "f4300b40fa467a42",
+      "size": 17347,
+      "mtimeMs": 1790968818736.7126,
+      "updatedAt": "2026-10-02T19:51:03.393Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/6config/index.html": {
+      "description": "CIS 527 - Configuration Management",
+      "tokens": 2467,
+      "hash": "324daebc54aa68a5",
+      "size": 9250,
+      "mtimeMs": 1790968818736.7126,
+      "updatedAt": "2026-10-02T19:51:03.393Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/7puppet/index.html": {
+      "description": "CIS 527 - Using Puppet",
+      "tokens": 8268,
+      "hash": "346ffbd6f539ffdf",
+      "size": 31003,
+      "mtimeMs": 1790968818736.7126,
+      "updatedAt": "2026-10-02T19:51:03.394Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/8networking/index.html": {
+      "description": "CIS 527 - Networking Overview",
+      "tokens": 5440,
+      "hash": "461abad5c6e50b55",
+      "size": 20398,
+      "mtimeMs": 1790968818736.7126,
+      "updatedAt": "2026-10-02T19:51:03.394Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2016/9dhcpdns/index.html": {
+      "description": "CIS 527 - DHCP & DNS",
+      "tokens": 716,
+      "hash": "b3623ad1c2bbae07",
+      "size": 2685,
+      "mtimeMs": 1790968818736.7126,
+      "updatedAt": "2026-10-02T19:51:03.395Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2017/10wireshark/index.html": {
+      "description": "CIS 527 - Wireshark",
+      "tokens": 1039,
+      "hash": "23e63d99af4ad160",
+      "size": 3894,
+      "mtimeMs": 1790968818739.4133,
+      "updatedAt": "2026-10-02T19:51:03.396Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2017/11snmp/index.html": {
+      "description": "CIS 527 - SNMP",
+      "tokens": 1523,
+      "hash": "da7dded05065f2bf",
+      "size": 5708,
+      "mtimeMs": 1790968818739.4133,
+      "updatedAt": "2026-10-02T19:51:03.400Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2017/12protocols/index.html": {
+      "description": "CIS 527 - Other Application Protocols",
+      "tokens": 1994,
+      "hash": "32631ca5970858bd",
+      "size": 7476,
+      "mtimeMs": 1790968818739.4133,
+      "updatedAt": "2026-10-02T19:51:03.400Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2017/13directory/index.html": {
+      "description": "CIS 527 - Directory Services",
+      "tokens": 3023,
+      "hash": "822a0982ef03b9f5",
+      "size": 11336,
+      "mtimeMs": 1790968818739.4133,
+      "updatedAt": "2026-10-02T19:51:03.401Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2017/18cloud/index.html": {
+      "description": "CIS 527 - The Cloud",
+      "tokens": 2886,
+      "hash": "5b1e510af2884fa0",
+      "size": 10819,
+      "mtimeMs": 1790968818739.4133,
+      "updatedAt": "2026-10-02T19:51:03.401Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2017/19cloudconfig/index.html": {
+      "description": "CIS 527 - Configuration & Networking in The Cloud",
+      "tokens": 1817,
+      "hash": "c92b7d3790eb7080",
+      "size": 6811,
+      "mtimeMs": 1790968818739.4133,
+      "updatedAt": "2026-10-02T19:51:03.401Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2017/1intro/index.html": {
+      "description": "CIS 527 - Intro",
+      "tokens": 4931,
+      "hash": "bf78403a24235d5f",
+      "size": 18492,
+      "mtimeMs": 1790968818739.4133,
+      "updatedAt": "2026-10-02T19:51:03.402Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2017/21cloudapps/index.html": {
+      "description": "CIS 527 - Applications in The Cloud",
+      "tokens": 1366,
+      "hash": "c5bb2375682838b2",
+      "size": 5119,
+      "mtimeMs": 1790968818739.4133,
+      "updatedAt": "2026-10-02T19:51:03.402Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2017/22cloudscale/index.html": {
+      "description": "CIS 527 - Advanced Cloud Management",
+      "tokens": 1486,
+      "hash": "96b46f98502af247",
+      "size": 5572,
+      "mtimeMs": 1790968818739.4133,
+      "updatedAt": "2026-10-02T19:51:03.403Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2017/23appservers/index.html": {
+      "description": "CIS 527 - Application Servers Overview",
+      "tokens": 2746,
+      "hash": "f05c7a007e7fe2de",
+      "size": 10296,
+      "mtimeMs": 1790968818739.4133,
+      "updatedAt": "2026-10-02T19:51:03.403Z",
+      "source": "scan"
+    },
+    "static/assets/oldimpress/cis527spring2017/24fileservers/index.html": {
+      "description": "CIS 527 - File Servers Overview",
+      "tokens": 3727,
+      "hash": "406bda951df9c239",
+      "size": 13973,
+      "mtimeMs": 1790968818739.4133,
+      "updatedAt": "2026-10-02T19:51:03.404Z",
+      "source": "scan"
+    },
+    "todo2.txt": {
+      "description": "",
+      "tokens": 1348,
+      "hash": "c9c7cd1f22d1f520",
+      "size": 5390,
+      "mtimeMs": 1790968819579.9043,
+      "updatedAt": "2026-10-02T19:51:03.406Z",
+      "source": "scan"
+    }
+  },
+  "preamble": [
+    "> Project structure index. Auto-maintained by OpenWolf hooks and daemon.",
+    "> Run `openwolf scan` to generate, or wait for the first Claude Code session.",
+    "> Status: Pending initial scan"
+  ]
+}

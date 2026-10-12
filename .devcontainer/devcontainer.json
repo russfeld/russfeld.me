@@ -1,0 +1,58 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
+{
+	"name": "Website Devcontainer",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	// "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+	"dockerComposeFile": "compose.yml",
+	"service": "website",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"streetsidesoftware.code-spell-checker",
+				"tamasfe.even-better-toml",
+				"eamodio.gitlens",
+				"oderwat.indent-rainbow"
+			]
+		}
+	},
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {
+		"ghcr.io/devcontainers/features/go:1": {},
+		"ghcr.io/devcontainers/features/hugo:1": {
+			"version": "0.148.1"
+		},
+		"ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {},
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "sudo chown node:node ~/.claude && npm install",
+	"portsAttributes": {
+		"1313": {
+			"label": "Hugo"
+		},
+	},
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+
+	// Fix for GPG in devcontainer:
+	"mounts": [
+		"source=${localEnv:HOME}/.gnupg,target=/home/node/.gnupg,type=bind,consistency=cached",
+		"source=${localEnv:HOME}/.ssh,target=/home/node/.ssh,type=bind,consistency=cached",
+		"source=claude-code-config-${devcontainerId},target=/home/node/.claude,type=volume"
+
+	],
+	"containerEnv": {
+		"GPG_TTY": "/dev/tty"
+	},
+	"remoteUser": "node"
+}
