@@ -29,9 +29,88 @@
     "place": "New York, NY, USA",
     "publisher": "Association for Computing Machinery",
     "year": 2027,
-    "month": 0,
+    "month": 2,
+    "monthname": "February",
     "note": "Accepted for Publication",
-    "bibtex": "@inproceedings{10.1145/newpaper,\n    author = {Bean, Nathan H. and Weese, Joshua Levi and Feldhausen, Russell},\n    title = {Reconsidering the Primacy of Programming in Computer Science Education},\n    year = {2027},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    booktitle = {Proceedings of the 58th ACM Technical Symposium on Computer Science Education V.2},\n    series = {SIGCSE TS 2027},\n\tnote = {Accepted for Publication}\n}"
+    "bibtex": "@inproceedings{10.1145/newpaper,\n    author = {Bean, Nathan H. and Weese, Joshua Levi and Feldhausen, Russell},\n    title = {Reconsidering the Primacy of Programming in Computer Science Education},\n    year = {2027},\n    month = {February},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    booktitle = {Proceedings of the 58th ACM Technical Symposium on Computer Science Education V.2},\n    series = {SIGCSE TS 2027},\n\tnote = {Accepted for Publication}\n}"
+  },
+  {
+    "key": "10.4324/9781003543503-45",
+    "type": "incollection",
+    "cvsection": "other",
+    "authors": [
+      {
+        "first": "D.S.",
+        "last": "Allen",
+        "initials": "D. S.",
+        "highlight": false
+      },
+      {
+        "first": "N.H.",
+        "last": "Bean",
+        "initials": "N. H.",
+        "highlight": false
+      },
+      {
+        "first": "R.",
+        "last": "Feldhausen",
+        "initials": "R.",
+        "highlight": true
+      },
+      {
+        "first": "M.",
+        "last": "Friend",
+        "initials": "M.",
+        "highlight": false
+      },
+      {
+        "first": "J.L.",
+        "last": "Weese",
+        "initials": "J. L.",
+        "highlight": false
+      },
+      {
+        "first": "S.",
+        "last": "Malallah",
+        "initials": "S.",
+        "highlight": false
+      },
+      {
+        "first": "A.J",
+        "last": "Wood",
+        "initials": "A. J.",
+        "highlight": false
+      }
+    ],
+    "editors": [
+      {
+        "first": "J.",
+        "last": "Snow",
+        "initials": "J.",
+        "highlight": false
+      },
+      {
+        "first": "D.",
+        "last": "Byrd",
+        "initials": "D.",
+        "highlight": false
+      },
+      {
+        "first": "J.",
+        "last": "McIntyre",
+        "initials": "J.",
+        "highlight": false
+      }
+    ],
+    "title": "The Impact of Technology on Teacher Education: Research and Strategies for Digital Proficiency in Pre-Service Teachers",
+    "venue": "Handbook of Research in Teacher Education: Problems of Practice. Fourth Edition",
+    "place": "New York, NY",
+    "publisher": "Routledge/Taylor & Francis Group",
+    "year": 2026,
+    "month": 7,
+    "monthname": "July",
+    "doi": "10.4324/9781003543503-45",
+    "bibtex": "@incollection{10.4324/9781003543503-45,\n    author = {Allen, D.S. and Bean, N.H. and Feldhausen, R. and Friend, M. and Weese, J.L. and Malallah, S. and Wood, A.J},\n    title = {The Impact of Technology on Teacher Education: Research and Strategies for Digital Proficiency in Pre-Service Teachers},\n    editor = {Snow, J. and Byrd, D. and McIntyre, J.},\n    booktitle = {Handbook of Research in Teacher Education: Problems of Practice. Fourth Edition},\n    publisher = {Routledge/Taylor \\& Francis Group},\n    year = 2026,\n    month = {July},\n    address = {New York, NY},\n    isbn = {9781032895789},\n    doi = {10.4324/9781003543503-45}\n}"
   },
   {
     "key": "asee_peer_58648",
@@ -127,7 +206,7 @@
         "highlight": false
       }
     ],
-    "title": "AnonTool: An Interactive Rule-Based Tool for Detecting Struggling Programming Students",
+    "title": "TrackIt: An Interactive Rule-Based Tool for Detecting Struggling Programming Students",
     "venue": "2026 ASEE Annual Conference & Exposition",
     "place": "Charlotte, North Carolina",
     "publisher": "ASEE Conferences",
@@ -135,7 +214,7 @@
     "month": 6,
     "monthname": "June",
     "doi": "10.18260/1-2--58843",
-    "bibtex": "@INPROCEEDINGS{asee_peer_58843,\n    author = \"Friday Emmanuel James and Joshua Levi Weese and Nathan H Bean and Russell Feldhausen and Michelle Friend and Safia Malallah\",\n    title = \"AnonTool: An Interactive Rule-Based Tool for Detecting Struggling Programming Students\",\n    booktitle = \"2026 ASEE Annual Conference \\& Exposition\",\n    year = \"2026\",\n    month = \"June\",\n    address = \"Charlotte, North Carolina\",\n    publisher = \"ASEE Conferences\",\n    doi = {10.18260/1-2--58843},\n}"
+    "bibtex": "@INPROCEEDINGS{asee_peer_58843,\n    author = \"Friday Emmanuel James and Joshua Levi Weese and Nathan H Bean and Russell Feldhausen and Michelle Friend and Safia Malallah\",\n    title = \"TrackIt: An Interactive Rule-Based Tool for Detecting Struggling Programming Students\",\n    booktitle = \"2026 ASEE Annual Conference \\& Exposition\",\n    year = \"2026\",\n    month = \"June\",\n    address = \"Charlotte, North Carolina\",\n    publisher = \"ASEE Conferences\",\n    doi = {10.18260/1-2--58843},\n}"
   },
   {
     "key": "asee_peer_59912",
@@ -201,9 +280,10 @@
     "place": "St. Louis, MO, USA",
     "publisher": "Association for Computing Machinery",
     "year": 2026,
-    "month": 0,
+    "month": 2,
+    "monthname": "February",
     "doi": "10.1145/3770762.3772566",
-    "bibtex": "@inproceedings{10.1145/3770762.3772566,\n    author = {Barron, Joshua and Feldhausen, Russell and Bean, Nathan H},\n    title = {Towards a Computer Science Ontology},\n    year = {2026},\n    isbn = {9798400722561},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3770762.3772566},\n    booktitle = {Proceedings of the 57th ACM Technical Symposium on Computer Science Education V. 1},\n    location = {St. Louis, MO, USA},\n    series = {SIGCSE TS 2026}\n}"
+    "bibtex": "@inproceedings{10.1145/3770762.3772566,\n    author = {Barron, Joshua and Feldhausen, Russell and Bean, Nathan H},\n    title = {Towards a Computer Science Ontology},\n    year = {2026},\n    month = {February},\n    isbn = {9798400722561},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3770762.3772566},\n    booktitle = {Proceedings of the 57th ACM Technical Symposium on Computer Science Education V. 1},\n    location = {St. Louis, MO, USA},\n    series = {SIGCSE TS 2026}\n}"
   },
   {
     "key": "10.1145/3770761.3777330",
@@ -250,91 +330,15 @@
     "title": "TrackIt: An Interactive Rule-Based Tool for Detecting Struggling Programming Students",
     "venue": "Proceedings of the 57th ACM Technical Symposium on Computer Science Education V.2",
     "series": "SIGCSE TS 2026",
-    "place": "USA",
+    "place": "St. Louis, MO, USA",
     "publisher": "Association for Computing Machinery",
     "year": 2026,
-    "month": 0,
+    "month": 2,
+    "monthname": "February",
     "pages": "1375–1376",
     "doi": "10.1145/3770761.3777330",
     "url": "https://doi.org/10.1145/3770761.3777330",
-    "bibtex": "@inproceedings{10.1145/3770761.3777330,\n    author = {James, Friday E. and Weese, Joshua L. and Bean, Nathan H. and Feldhausen, Russell and Allen, David S. and Friend, Michelle},\n    title = {TrackIt: An Interactive Rule-Based Tool for Detecting Struggling Programming Students},\n    year = {2026},\n    isbn = {9798400722554},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    url = {https://doi.org/10.1145/3770761.3777330},\n    doi = {10.1145/3770761.3777330},\n    booktitle = {Proceedings of the 57th ACM Technical Symposium on Computer Science Education V.2},\n    pages = {1375–1376},\n    numpages = {2},\n    keywords = {keystroke data, struggle detection, rule-based system, intervention, insight, self-report.},\n    location = {USA},\n    series = {SIGCSE TS 2026}\n}"
-  },
-  {
-    "key": "10.4324/9781003543503-45",
-    "type": "incollection",
-    "cvsection": "other",
-    "authors": [
-      {
-        "first": "D.S.",
-        "last": "Allen",
-        "initials": "D. S.",
-        "highlight": false
-      },
-      {
-        "first": "N.H.",
-        "last": "Bean",
-        "initials": "N. H.",
-        "highlight": false
-      },
-      {
-        "first": "R.",
-        "last": "Feldhausen",
-        "initials": "R.",
-        "highlight": true
-      },
-      {
-        "first": "M.",
-        "last": "Friend",
-        "initials": "M.",
-        "highlight": false
-      },
-      {
-        "first": "J.L.",
-        "last": "Weese",
-        "initials": "J. L.",
-        "highlight": false
-      },
-      {
-        "first": "S.",
-        "last": "Malallah",
-        "initials": "S.",
-        "highlight": false
-      },
-      {
-        "first": "A.J",
-        "last": "Wood",
-        "initials": "A. J.",
-        "highlight": false
-      }
-    ],
-    "editors": [
-      {
-        "first": "J.",
-        "last": "Snow",
-        "initials": "J.",
-        "highlight": false
-      },
-      {
-        "first": "D.",
-        "last": "Byrd",
-        "initials": "D.",
-        "highlight": false
-      },
-      {
-        "first": "J.",
-        "last": "McIntyre",
-        "initials": "J.",
-        "highlight": false
-      }
-    ],
-    "title": "The impact of technology on teacher education: Research and strategies for digital proficiency in pre-service teachers",
-    "venue": "Handbook of Research in Teacher Education: Problems of Practice. Fourth Edition",
-    "place": "New York, NY",
-    "publisher": "Routledge/Taylor & Francis Group",
-    "year": 2026,
-    "month": 0,
-    "doi": "10.4324/9781003543503-45",
-    "bibtex": "@incollection{10.4324/9781003543503-45,\n    author = {Allen, D.S. and Bean, N.H. and Feldhausen, R. and Friend, M. and Weese, J.L. and Malallah, S. and Wood, A.J},\n    title = {The impact of technology on teacher education: Research and strategies for digital proficiency in pre-service teachers},\n    editor = {Snow, J. and Byrd, D. and McIntyre, J.},\n    booktitle = {Handbook of Research in Teacher Education: Problems of Practice. Fourth Edition},\n    publisher = {Routledge/Taylor \\& Francis Group},\n    year = 2026,\n    address = {New York, NY},\n    isbn = {9781032895789},\n    doi = {10.4324/9781003543503-45}\n}"
+    "bibtex": "@inproceedings{10.1145/3770761.3777330,\n    author = {James, Friday E. and Weese, Joshua L. and Bean, Nathan H. and Feldhausen, Russell and Allen, David S. and Friend, Michelle},\n    title = {TrackIt: An Interactive Rule-Based Tool for Detecting Struggling Programming Students},\n    year = {2026},\n    month = {February},\n    isbn = {9798400722554},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    url = {https://doi.org/10.1145/3770761.3777330},\n    doi = {10.1145/3770761.3777330},\n    booktitle = {Proceedings of the 57th ACM Technical Symposium on Computer Science Education V.2},\n    pages = {1375–1376},\n    numpages = {2},\n    keywords = {keystroke data, struggle detection, rule-based system, intervention, insight, self-report.},\n    location = {St. Louis, MO, USA},\n    series = {SIGCSE TS 2026}\n}"
   },
   {
     "key": "asee_peer_56251",
@@ -620,9 +624,9 @@
         "highlight": false
       },
       {
-        "first": "Josh",
+        "first": "Joshua L.",
         "last": "Weese",
-        "initials": "J.",
+        "initials": "J. L.",
         "highlight": false
       },
       {
@@ -644,10 +648,11 @@
     "place": "Pittsburgh, PA, USA",
     "publisher": "Association for Computing Machinery",
     "year": 2025,
-    "month": 0,
+    "month": 2,
+    "monthname": "February",
     "pages": "1493–1494",
     "doi": "10.1145/3641555.3705188",
-    "bibtex": "@inproceedings{10.1145/3641555.3705188,\n    author = {James, Friday E. and Feldhausen, Russell and Bean, Nathan H. and Weese, Josh and Allen, David S. and Friend, Michelle},\n    title = {From Typing to Insights: An Interactive Code Visualization for Enhanced Student Support Using Keystroke Data},\n    year = {2025},\n    isbn = {9798400705328},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3641555.3705188},\n    booktitle = {Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 2},\n    pages = {1493–1494},\n    numpages = {2},\n    keywords = {code snippet, coding process, insight, intervention, keystroke data},\n    location = {Pittsburgh, PA, USA},\n    series = {SIGCSETS 2025}\n}"
+    "bibtex": "@inproceedings{10.1145/3641555.3705188,\n    author = {James, Friday E. and Feldhausen, Russell and Bean, Nathan H. and Weese, Joshua L. and Allen, David S. and Friend, Michelle},\n    title = {From Typing to Insights: An Interactive Code Visualization for Enhanced Student Support Using Keystroke Data},\n    year = {2025},\n    month = {February},\n    isbn = {9798400705328},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3641555.3705188},\n    booktitle = {Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 2},\n    pages = {1493–1494},\n    numpages = {2},\n    keywords = {code snippet, coding process, insight, intervention, keystroke data},\n    location = {Pittsburgh, PA, USA},\n    series = {SIGCSETS 2025}\n}"
   },
   {
     "key": "10.1145/3641554.3701840",
@@ -691,10 +696,11 @@
     "place": "Pittsburgh, PA, USA",
     "publisher": "Association for Computing Machinery",
     "year": 2025,
-    "month": 0,
+    "month": 2,
+    "monthname": "February",
     "pages": "102–108",
     "doi": "10.1145/3641554.3701840",
-    "bibtex": "@inproceedings{10.1145/3641554.3701840,\n    author = {Bean, Nathan H. and Weese, Joshua Levi and Feldhausen, Russell and Allen, David S. and Friend, Michelle},\n    title = {Building the Cyber Pipeline: Providing CS Education For Rural K-12 Schools},\n    year = {2025},\n    isbn = {9798400705311},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3641554.3701840},\n    booktitle = {Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1},\n    pages = {102–108},\n    numpages = {7},\n    keywords = {computer science education, k-12, k-12 teachers, rural students},\n    location = {Pittsburgh, PA, USA},\n    series = {SIGCSETS 2025}\n}"
+    "bibtex": "@inproceedings{10.1145/3641554.3701840,\n    author = {Bean, Nathan H. and Weese, Joshua Levi and Feldhausen, Russell and Allen, David S. and Friend, Michelle},\n    title = {Building the Cyber Pipeline: Providing CS Education For Rural K-12 Schools},\n    year = {2025},\n    month = {February},\n    isbn = {9798400705311},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3641554.3701840},\n    booktitle = {Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1},\n    pages = {102–108},\n    numpages = {7},\n    keywords = {computer science education, k-12, k-12 teachers, rural students},\n    location = {Pittsburgh, PA, USA},\n    series = {SIGCSETS 2025}\n}"
   },
   {
     "key": "10.1145/3641554.3701843",
@@ -708,9 +714,9 @@
         "highlight": false
       },
       {
-        "first": "Friday",
+        "first": "Friday E.",
         "last": "James",
-        "initials": "F.",
+        "initials": "F. E.",
         "highlight": false
       },
       {
@@ -744,10 +750,11 @@
     "place": "Pittsburgh, PA, USA",
     "publisher": "Association for Computing Machinery",
     "year": 2025,
-    "month": 0,
+    "month": 2,
+    "monthname": "February",
     "pages": "95–101",
     "doi": "10.1145/3641554.3701843",
-    "bibtex": "@inproceedings{10.1145/3641554.3701843,\n    author = {Bean, Nathan H. and James, Friday and Tucker, Timothy and Theis, Yihong and Weese, Joshua Levi and Feldhausen, Russell},\n    title = {Developing Computing Lessons for Rural High School Students},\n    year = {2025},\n    isbn = {9798400705311},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3641554.3701843},\n    booktitle = {Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1},\n    pages = {95–101},\n    numpages = {7},\n    keywords = {broadening participation, computer science education, curriculum design, intersectional identity, k-12, k-12 teachers, rural consciousness, rural identity, rural students, underrepresented groups},\n    location = {Pittsburgh, PA, USA},\n    series = {SIGCSETS 2025}\n}"
+    "bibtex": "@inproceedings{10.1145/3641554.3701843,\n    author = {Bean, Nathan H. and James, Friday E. and Tucker, Timothy and Theis, Yihong and Weese, Joshua Levi and Feldhausen, Russell},\n    title = {Developing Computing Lessons for Rural High School Students},\n    year = {2025},\n    month = {February},\n    isbn = {9798400705311},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3641554.3701843},\n    booktitle = {Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1},\n    pages = {95–101},\n    numpages = {7},\n    keywords = {broadening participation, computer science education, curriculum design, intersectional identity, k-12, k-12 teachers, rural consciousness, rural identity, rural students, underrepresented groups},\n    location = {Pittsburgh, PA, USA},\n    series = {SIGCSETS 2025}\n}"
   },
   {
     "key": "10.1145/3626253.3635434",
@@ -785,10 +792,11 @@
     "place": "Portland, OR, USA",
     "publisher": "Association for Computing Machinery",
     "year": 2024,
-    "month": 0,
+    "month": 3,
+    "monthname": "March",
     "pages": "1927",
     "doi": "10.1145/3626253.3635434",
-    "bibtex": "@inproceedings{10.1145/3626253.3635434,\n    author = {Schwartz, Matt and Bean, Nathan H. and Weese, Joshua L. and Feldhausen, Russell},\n    title = {Bringing a Visual Memory Model to VS Code},\n    year = {2024},\n    isbn = {9798400704246},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3626253.3635434},\n    booktitle = {Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2},\n    pages = {1927},\n    numpages = {1},\n    keywords = {computer science education, development tools, memory model, python tutor, visualizations, vs code},\n    location = {Portland, OR, USA},\n    series = {SIGCSE 2024}\n}"
+    "bibtex": "@inproceedings{10.1145/3626253.3635434,\n    author = {Schwartz, Matt and Bean, Nathan H. and Weese, Joshua L. and Feldhausen, Russell},\n    title = {Bringing a Visual Memory Model to VS Code},\n    year = {2024},\n    month = {March},\n    isbn = {9798400704246},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3626253.3635434},\n    booktitle = {Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2},\n    pages = {1927},\n    numpages = {1},\n    keywords = {computer science education, development tools, memory model, python tutor, visualizations, vs code},\n    location = {Portland, OR, USA},\n    series = {SIGCSE 2024}\n}"
   },
   {
     "key": "10.1145/3626253.3635388",
@@ -808,9 +816,9 @@
         "highlight": false
       },
       {
-        "first": "Nathan",
+        "first": "Nathan H.",
         "last": "Bean",
-        "initials": "N.",
+        "initials": "N. H.",
         "highlight": false
       },
       {
@@ -820,9 +828,9 @@
         "highlight": true
       },
       {
-        "first": "Josh",
+        "first": "Joshua L.",
         "last": "Weese",
-        "initials": "J.",
+        "initials": "J. L.",
         "highlight": false
       }
     ],
@@ -832,10 +840,11 @@
     "place": "Portland, OR, USA",
     "publisher": "Association for Computing Machinery",
     "year": 2024,
-    "month": 0,
+    "month": 3,
+    "monthname": "March",
     "pages": "1910",
     "doi": "10.1145/3626253.3635388",
-    "bibtex": "@inproceedings{10.1145/3626253.3635388,\n    author = {Friend, Michelle and Rosato, Jennifer and Bean, Nathan and Feldhausen, Russell and Weese, Josh},\n    title = {Creating University CS Teacher Preparation Programs},\n    year = {2024},\n    isbn = {9798400704246},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3626253.3635388},\n    booktitle = {Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2},\n    pages = {1910},\n    numpages = {1},\n    keywords = {k-12, teacher credentialing, teacher preparation},\n    location = {Portland, OR, USA},\n    series = {SIGCSE 2024}\n}"
+    "bibtex": "@inproceedings{10.1145/3626253.3635388,\n    author = {Friend, Michelle and Rosato, Jennifer and Bean, Nathan H. and Feldhausen, Russell and Weese, Joshua L.},\n    title = {Creating University CS Teacher Preparation Programs},\n    year = {2024},\n    month = {March},\n    isbn = {9798400704246},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3626253.3635388},\n    booktitle = {Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2},\n    pages = {1910},\n    numpages = {1},\n    keywords = {k-12, teacher credentialing, teacher preparation},\n    location = {Portland, OR, USA},\n    series = {SIGCSE 2024}\n}"
   },
   {
     "key": "10.1145/3626253.3635365",
@@ -873,10 +882,11 @@
     "place": "Portland, OR, USA",
     "publisher": "Association for Computing Machinery",
     "year": 2024,
-    "month": 0,
+    "month": 3,
+    "monthname": "March",
     "pages": "1907",
     "doi": "10.1145/3626253.3635365",
-    "bibtex": "@inproceedings{10.1145/3626253.3635365,\n    author = {Bean, Nathan H. and Feldhausen, Russell and Weese, Joshua L. and Friend, Michelle},\n    title = {Engaging Rural Populations in Computer Science},\n    year = {2024},\n    isbn = {9798400704246},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3626253.3635365},\n    booktitle = {Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2},\n    pages = {1907},\n    numpages = {1},\n    keywords = {computer science education, culturally relevant pedagogy, intersectional identity, k-12, outreach, prek-12, rural identity, rural populations, rural students},\n    location = {Portland, OR, USA},\n    series = {SIGCSE 2024}\n}"
+    "bibtex": "@inproceedings{10.1145/3626253.3635365,\n    author = {Bean, Nathan H. and Feldhausen, Russell and Weese, Joshua L. and Friend, Michelle},\n    title = {Engaging Rural Populations in Computer Science},\n    year = {2024},\n    month = {March},\n    isbn = {9798400704246},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3626253.3635365},\n    booktitle = {Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2},\n    pages = {1907},\n    numpages = {1},\n    keywords = {computer science education, culturally relevant pedagogy, intersectional identity, k-12, outreach, prek-12, rural identity, rural populations, rural students},\n    location = {Portland, OR, USA},\n    series = {SIGCSE 2024}\n}"
   },
   {
     "key": "missiontomars",
@@ -890,14 +900,14 @@
         "highlight": true
       }
     ],
-    "title": "Mission to Mars: a computer science curriculum for middle school STEM camps",
+    "title": "Mission to Mars: A Computer Science Curriculum for Middle School STEM Camps",
     "venue": "Kansas State University",
     "place": "Manhattan, KS",
     "year": 2018,
     "month": 5,
     "monthname": "May",
     "note": "<a href=\"http://hdl.handle.net/2097/38864\">http://hdl.handle.net/2097/38864</a>",
-    "bibtex": "@mastersthesis{missiontomars,\n    title        = {Mission to Mars: a computer science curriculum for middle school STEM camps},\n    author       = {Russell Feldhausen},\n    year         = 2018,\n    month        = {May},\n    address      = {Manhattan, KS},\n    note         = {\\url{http://hdl.handle.net/2097/38864}},\n    school       = {Kansas State University},\n    type         = {Master's thesis}\n}"
+    "bibtex": "@mastersthesis{missiontomars,\n    title        = {Mission to Mars: A Computer Science Curriculum for Middle School STEM Camps},\n    author       = {Russell Feldhausen},\n    year         = 2018,\n    month        = {May},\n    address      = {Manhattan, KS},\n    note         = {\\url{http://hdl.handle.net/2097/38864}},\n    school       = {Kansas State University},\n    type         = {Master's thesis}\n}"
   },
   {
     "key": "10.1145/3159450.3159593",
@@ -997,7 +1007,7 @@
     "month": 6,
     "monthname": "June",
     "doi": "10.18260/p.26179",
-    "bibtex": "@INPROCEEDINGS{asee_peer_26179,\n    author = \"Joshua Levi Weese and Russell Feldhausen and Nathan H. Bean\",\n    title = \"The Impact of STEM Experiences on Student Self-Efficacy in Computational Thinking\",\n    booktitle = \"2016 ASEE Annual Conference \\& Exposition\",\n    year = \"2016\",\n    month = \"June\",\n    address = \"New Orleans, Louisiana\",\n    publisher = \"ASEE Conferences\",\n    doi = {10.18260/p.26179}\n}"
+    "bibtex": "@INPROCEEDINGS{asee_peer_26179,\n    author = \"Joshua Levi Weese and Russell Feldhausen and Nathan H. Bean\",\n    title = \"The Impact of STEM Experiences on Student Self-Efficacy in Computational Thinking\",\n    booktitle = \"2016 ASEE Annual Conference \\& Exposition\",\n    year = \"2016\",\n    month = \"June\",\n    location = \"New Orleans, Louisiana\",\n    publisher = \"ASEE Conferences\",\n    doi = {10.18260/p.26179}\n}"
   },
   {
     "key": "7344237",
@@ -1005,15 +1015,15 @@
     "cvsection": "peer",
     "authors": [
       {
-        "first": "Nathan",
+        "first": "Nathan H.",
         "last": "Bean",
-        "initials": "N.",
+        "initials": "N. H.",
         "highlight": false
       },
       {
-        "first": "Joshua",
+        "first": "Joshua L.",
         "last": "Weese",
-        "initials": "J.",
+        "initials": "J. L.",
         "highlight": false
       },
       {
@@ -1029,7 +1039,7 @@
         "highlight": false
       }
     ],
-    "title": "Starting from scratch: Developing a pre-service teacher training program in computational thinking",
+    "title": "Starting from Scratch: Developing a Pre-service Teacher Training Program in Computational Thinking",
     "venue": "2015 IEEE Frontiers in Education Conference (FIE)",
     "place": "El Paso, TX, USA",
     "year": 2015,
@@ -1037,7 +1047,7 @@
     "monthname": "October",
     "pages": "1-8",
     "doi": "10.1109/FIE.2015.7344237",
-    "bibtex": "@INPROCEEDINGS{7344237,\n    author={Bean, Nathan and Weese, Joshua and Feldhausen, Russell and Bell, R. Scott},\n    month = {October},\n    location = {El Paso, TX, USA},\n    booktitle={2015 IEEE Frontiers in Education Conference (FIE)}, \n    title={Starting from scratch: Developing a pre-service teacher training program in computational thinking}, \n    year={2015},\n    volume={},\n    number={},\n    pages={1-8},\n    keywords={Sprites (computer);Programming profession;Education;Shape;Conferences;Standards;Computational Thinking;K-12;teacher professional development;Scratch},\n    doi={10.1109/FIE.2015.7344237}\n}"
+    "bibtex": "@INPROCEEDINGS{7344237,\n    author={Bean, Nathan H. and Weese, Joshua L. and Feldhausen, Russell and Bell, R. Scott},\n    month = {October},\n    location = {El Paso, TX, USA},\n    booktitle={2015 IEEE Frontiers in Education Conference (FIE)}, \n    title={Starting from Scratch: Developing a Pre-service Teacher Training Program in Computational Thinking}, \n    year={2015},\n    volume={},\n    number={},\n    pages={1-8},\n    keywords={Sprites (computer);Programming profession;Education;Shape;Conferences;Standards;Computational Thinking;K-12;teacher professional development;Scratch},\n    doi={10.1109/FIE.2015.7344237}\n}"
   },
   {
     "key": "aera2015scratching",
@@ -1085,15 +1095,15 @@
         "highlight": true
       },
       {
-        "first": "Scott",
+        "first": "R. Scott",
         "last": "Bell",
-        "initials": "S.",
+        "initials": "R. S.",
         "highlight": false
       },
       {
-        "first": "Daniel",
+        "first": "Daniel A.",
         "last": "Andresen",
-        "initials": "D.",
+        "initials": "D. A.",
         "highlight": false
       }
     ],
@@ -1108,7 +1118,7 @@
     "doi": "10.1145/2616498.2616568",
     "acceptance": "67%",
     "acceptanceurl": "https://dl.acm.org/citation.cfm?id=2616498",
-    "bibtex": "@inproceedings{10.1145/2616498.2616568,\n    author = {Feldhausen, Russell and Bell, Scott and Andresen, Daniel},\n    month = {July},\n    title = {Minimum Time, Maximum Effect: Introducing Parallel Computing in CS0 and STEM Outreach Activities Using Scratch},\n    year = {2014},\n    isbn = {9781450328937},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/2616498.2616568},\n    booktitle = {Proceedings of the 2014 Annual Conference on Extreme Science and Engineering Discovery Environment},\n    articleno = {75},\n    numpages = {7},\n    location = {Atlanta, GA, USA},\n    series = {XSEDE '14}\n}"
+    "bibtex": "@inproceedings{10.1145/2616498.2616568,\n    author = {Feldhausen, Russell and Bell, R. Scott and Andresen, Daniel A.},\n    month = {July},\n    title = {Minimum Time, Maximum Effect: Introducing Parallel Computing in CS0 and STEM Outreach Activities Using Scratch},\n    year = {2014},\n    isbn = {9781450328937},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/2616498.2616568},\n    booktitle = {Proceedings of the 2014 Annual Conference on Extreme Science and Engineering Discovery Environment},\n    articleno = {75},\n    numpages = {7},\n    location = {Atlanta, GA, USA},\n    series = {XSEDE '14}\n}"
   },
   {
     "key": "sc13hpcyoung",
@@ -1158,9 +1168,9 @@
         "highlight": true
       },
       {
-        "first": "Scott",
+        "first": "R. Scott",
         "last": "Bell",
-        "initials": "S.",
+        "initials": "R. S.",
         "highlight": false
       },
       {
@@ -1172,7 +1182,7 @@
     ],
     "title": "Introducing HPC and Multi-Threaded Computing to Middle School Girls Using Scratch",
     "venue": "2013 ASEE Midwest Section Conference",
-    "place": "Kansas State University Salina, KS",
+    "place": "Salina, KS",
     "publisher": "ASEE Conferences",
     "year": 2013,
     "month": 9,
@@ -1180,6 +1190,6 @@
     "doi": "10.18260/1-2-1153-51203",
     "note": "Poster",
     "award": "3rd Place Award for Best Graduate Poster",
-    "bibtex": "@INPROCEEDINGS{asee_peer_51203,\n    author = \"Russell Feldhausen and Scott Bell and Daniel A. Andresen\",\n    note = {Poster},\n    title = \"Introducing HPC and Multi-Threaded Computing to Middle School Girls Using Scratch\",\n    booktitle = \"2013 ASEE Midwest Section Conference\",\n    year = \"2013\",\n    month = \"September\",\n    address = \"Kansas State University Salina, KS\",\n    publisher = \"ASEE Conferences\",\n    doi = {10.18260/1-2-1153-51203},\n}"
+    "bibtex": "@INPROCEEDINGS{asee_peer_51203,\n    author = \"Russell Feldhausen and R. Scott Bell and Daniel A. Andresen\",\n    note = {Poster},\n    title = \"Introducing HPC and Multi-Threaded Computing to Middle School Girls Using Scratch\",\n    booktitle = \"2013 ASEE Midwest Section Conference\",\n    year = \"2013\",\n    month = \"September\",\n    location = \"Salina, KS\",\n    publisher = \"ASEE Conferences\",\n    doi = {10.18260/1-2-1153-51203},\n}"
   }
 ]
