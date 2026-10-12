@@ -77,7 +77,7 @@ summarylength = 30
     name = "Teaching"
     weight = 200
     identifier = "teaching"
-    url = "/teaching/"
+    url = "https://archive.russfeld.me/"
 [[menu.main]]
     name = "Projects"
     identifier = "projects"

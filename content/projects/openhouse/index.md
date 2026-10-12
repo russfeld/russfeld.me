@@ -40,13 +40,13 @@ This site is a repository for old materials for K-State CS Open House activities
 <h2>2015</h2>
 <ul>
   <li><a href="files/2015/0rules.pdf">2015 Steel Ring Open House Rules Book</a></li>
-  <li><a href="intro2015.html">Committee Meeting Presentation</a></li>
-  <li><a href="creativity.html">Building Creativity (Lecture for CIS 190)</a></li>
+  <li><a href="https://archive.russfeld.me/openhouse/intro2015.html">Committee Meeting Presentation</a></li>
+  <li><a href="https://archive.russfeld.me/openhouse/creativity.html">Building Creativity (Lecture for CIS 190)</a></li>
 </ul>
 <h2>2014</h2>
 <ul>
   <li><a href="https://docs.google.com/forms/d/1ex-xHpEanW2a7VwmxFbf8pyyYMuS9WX1YRq_AJPPgRs/viewform"><b>Signup form</b></a></li>
-  <li><a href="intro.html">Committee Meeting Presentation</a></li>
+  <li><a href="https://archive.russfeld.me/openhouse/intro.html">Committee Meeting Presentation</a></li>
   <li><a href="openhouse /files/2014/0rules.pdf">2014 Steel Ring Open House Rules Book</a></li>
   <li><a href="https://www.k-state.edu/planning/space_inventory/floor_plan/c-d/153_7of8Fiedler_2006.pdf">Fiedler Hall Floor Plan</a></li>
   <li>1st Set of Reports<ul>

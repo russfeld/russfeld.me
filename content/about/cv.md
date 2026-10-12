@@ -68,7 +68,7 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 <i class="fas fa-fw fa-map-marker-alt"></i> [Computer Science Department](https://cs.ksu.edu) - [Kansas State University](https://ksu.edu), Manhattan, KS  
 <i class="fas fa-fw fa-calendar-alt"></i> December 2012 - May 2017
 
-* Developed and taught [courses](/teaching) in introductory computing science and systems administration
+* Developed and taught [courses](https://archive.russfeld.me/) in introductory computing science and systems administration
 * Advised students each semester to choose appropriate courses and find employment
 * Recruited and managed students in the CyberCorps: Scholarship for Service (SFS) cyber security scholarship program
 * Met with prospective students and parents to discuss our program at various events
@@ -127,7 +127,7 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 
 ## Teaching Activities
 
-#### [Class Materials Archive](/teaching)
+#### [Class Materials Archive](https://archive.russfeld.me/)
 
 ### CIS 598: Computer Science Project
 <i class="fas fa-fw fa-calendar-alt"></i> 2022 - Present  
