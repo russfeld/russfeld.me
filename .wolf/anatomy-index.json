@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-12T15:52:19.750Z",
-    "fileCount": 502,
+    "lastScanned": "2026-10-12T18:44:19.416Z",
+    "fileCount": 505,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "adc00b80fa02f2e93cf5c7b28ecb64b9442931592efc84f67f80cce1388d8d24",
-    "storeUpdatedAt": "2026-10-12T15:52:19.763Z",
-    "rootHash": "82477678c1b2b4a2"
+    "renderedHash": "e370bb2ecd17e1361900953ec572ebf39c788470721946ea3eeeb4a82cbfedb5",
+    "storeUpdatedAt": "2026-10-12T18:44:19.441Z",
+    "rootHash": "dffdf2fecc370230"
   },
   "files": {
     ".devcontainer/compose.yml": {
@@ -4526,6 +4526,70 @@
       "size": 1295,
       "mtimeMs": 1791820339674.1194,
       "updatedAt": "2026-10-12T15:52:19.750Z",
+      "source": "hook"
+    },
+    "scripts/bib2json.mjs": {
+      "description": "Convert bib/*.bib to data/bib/*.json for Hugo. Run with `npm run bib`.",
+      "tokens": 822,
+      "hash": "0167d8e3bf16a530",
+      "size": 3079,
+      "mtimeMs": 1791830581098.224,
+      "updatedAt": "2026-10-12T18:43:01.167Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "text",
+          "kind": "fn",
+          "startLine": 13,
+          "endLine": 15,
+          "tokens": 43
+        },
+        {
+          "name": "initials",
+          "kind": "fn",
+          "startLine": 16,
+          "endLine": 19,
+          "tokens": 66
+        },
+        {
+          "name": "highlighted",
+          "kind": "fn",
+          "startLine": 20,
+          "endLine": 22,
+          "tokens": 45
+        },
+        {
+          "name": "people",
+          "kind": "fn",
+          "startLine": 23,
+          "endLine": 32,
+          "tokens": 68
+        },
+        {
+          "name": "convert",
+          "kind": "fn",
+          "startLine": 33,
+          "endLine": 88,
+          "tokens": 511
+        }
+      ]
+    },
+    "layouts/partials/cite.html": {
+      "description": "",
+      "tokens": 551,
+      "hash": "5d1951848986eb18",
+      "size": 2064,
+      "mtimeMs": 1791830614733.8025,
+      "updatedAt": "2026-10-12T18:43:34.811Z",
+      "source": "hook"
+    },
+    "data/grants.yaml": {
+      "description": "Grants, newest first. `slug` links a subpage at content/research/grants/<slug>/ (front matter `grant",
+      "tokens": 480,
+      "hash": "41cda3bc1c46ac41",
+      "size": 1679,
+      "mtimeMs": 1791830659321.712,
+      "updatedAt": "2026-10-12T18:44:19.415Z",
       "source": "hook"
     }
   },
