@@ -10,11 +10,8 @@ active_time: 30 minutes
 total_time: 2 - 4 hours
 makes: 5 - 6 lb. carnitas
 date: 2016-12-12
-header:
-  teaser: /assets/images/recipes/pork_carnitas_1.jpg
-  overlay_image: /assets/images/recipes/pork_carnitas_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Pork Carnitas'
+image: /assets/images/recipes/pork_carnitas_1.jpg
+image_alt: 'Pork Carnitas'
 ---
  A great start to wonderful Mexican cuisine.
 

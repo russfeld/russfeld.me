@@ -38,3 +38,4 @@ budget_tokens: 2000
 - [2026-10-10] CV: separate Overleaf .bib files -> `npm run bib` -> committed data/bib/*.json; YAML for grants/awards/teaching/service; PDF CV stays manual.
 - [2026-10-12] Theme vendored into repo (no submodules); SCSS compiled once to plain CSS in assets/css (m10c palette as --color-* custom properties) so any Hugo edition builds it and resources/_gen is gone. Verified pixel-identical (28 screenshots).
 - [2026-10-10] Legacy content -> archive.russfeld.me (pre-rendered PHP site, fresh pruned repo, frozen + banner, 301s from all old URLs).
+- [2026-10-12] Recipes use flat `image`/`image_alt` front matter (chowdown layout dropped; ingredients stay as Markdown, so JSON-LD has no recipeIngredient). Blog/projects/talks keep `header.teaser`/`overlay_image`/`caption` (they differ per page); list partials take `image` first, then `header.teaser`.

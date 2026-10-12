@@ -11,11 +11,8 @@ active_time: 45 minutes
 total_time: 1 hour 45 minutes
 makes: 8 - 10 pasties
 date: 2016-12-09
-header:
-  teaser: /assets/images/recipes/cornish_pasties_1.jpg
-  overlay_image: /assets/images/recipes/cornish_pasties_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Chili'
+image: /assets/images/recipes/cornish_pasties_1.jpg
+image_alt: 'Cornish Pasties'
 ---
 Delicious meat and vegetable filled pastry shells. Even better the second time around!
 

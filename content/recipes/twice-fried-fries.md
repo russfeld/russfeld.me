@@ -8,11 +8,8 @@ active_time: 45 minutes
 total_time: 2 hours
 makes: 8 servings
 date: 2017-03-11
-header:
-  teaser: /assets/images/recipes/twice_fried_fries_1.jpg
-  overlay_image: /assets/images/recipes/twice_fried_fries_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Twice-Fried Fries'
+image: /assets/images/recipes/twice_fried_fries_1.jpg
+image_alt: 'Twice-Fried Fries'
 ---
 [Homemade hamburger](/blog/homemade-hamburgers/) step 3 - gotta have fries!
 

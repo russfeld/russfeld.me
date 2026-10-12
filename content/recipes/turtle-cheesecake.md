@@ -11,11 +11,8 @@ active_time: 20 minutes
 total_time: 5 hours
 makes: 8 servings
 date: 2016-12-12
-header:
-  teaser: /assets/images/recipes/turtle_cheesecake_1.jpg
-  overlay_image: /assets/images/recipes/turtle_cheesecake_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Turtle Cheesecake'
+image: /assets/images/recipes/turtle_cheesecake_1.jpg
+image_alt: 'Turtle Cheesecake'
 ---
 
 ![Turtle Cheesecake](/assets/images/recipes/turtle_cheesecake_1.jpg)

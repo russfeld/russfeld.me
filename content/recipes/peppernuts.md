@@ -11,11 +11,8 @@ active_time: 1 hour
 total_time: 1.5 hours
 makes: dozens
 date: 2018-01-05
-header:
-  teaser: /assets/images/recipes/peppernuts_1.jpg
-  overlay_image: /assets/images/recipes/peppernuts_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Peppernuts'
+image: /assets/images/recipes/peppernuts_1.jpg
+image_alt: 'Peppernuts'
 ---
 Peppernuts (pfeffernusse in German) are little spiced cookies that my grandmother used to make every Christmas.
 

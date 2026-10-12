@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-02T19:51:03.500Z",
-    "fileCount": 501,
+    "lastScanned": "2026-10-12T15:52:19.750Z",
+    "fileCount": 502,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "7edc08a4710a3ed3c9b1e1b1401b5bcbc9e4e36e5816dee87d85348d1e4a15d8",
-    "storeUpdatedAt": "2026-10-02T19:51:03.507Z",
-    "rootHash": "666dcf15c1e94d1b"
+    "renderedHash": "adc00b80fa02f2e93cf5c7b28ecb64b9442931592efc84f67f80cce1388d8d24",
+    "storeUpdatedAt": "2026-10-12T15:52:19.763Z",
+    "rootHash": "82477678c1b2b4a2"
   },
   "files": {
     ".devcontainer/compose.yml": {
@@ -4518,6 +4518,15 @@
       "mtimeMs": 1790968819579.9043,
       "updatedAt": "2026-10-02T19:51:03.406Z",
       "source": "scan"
+    },
+    "layouts/partials/recipe-jsonld.html": {
+      "description": "",
+      "tokens": 346,
+      "hash": "49cd1a262f79efd4",
+      "size": 1295,
+      "mtimeMs": 1791820339674.1194,
+      "updatedAt": "2026-10-12T15:52:19.750Z",
+      "source": "hook"
     }
   },
   "preamble": [

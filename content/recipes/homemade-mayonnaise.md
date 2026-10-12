@@ -11,11 +11,8 @@ active_time: 10 minutes
 total_time: 10 minutes
 makes: 1 cup
 date: 2017-03-11
-header:
-  teaser: /assets/images/recipes/brioche_buns_1.jpg
-  overlay_image: /assets/images/recipes/brioche_buns_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Homemade Mayonnaise'
+image: /assets/images/recipes/brioche_buns_1.jpg
+image_alt: 'Homemade Mayonnaise'
 ---
 [Homemade hamburger](/blog/homemade-hamburgers/) step 5 - the sauce!
 

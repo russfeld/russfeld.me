@@ -10,11 +10,8 @@ active_time: 30 minutes
 total_time: 2 hours
 makes: 4 servings
 date: 2017-02-20
-header:
-  teaser: /assets/images/recipes/homemade_pasta_1.jpg
-  overlay_image: /assets/images/recipes/homemade_pasta_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Homemade Pasta'
+image: /assets/images/recipes/homemade_pasta_1.jpg
+image_alt: 'Homemade Pasta'
 ---
 Homemade pasta is the hallmark of good Italian cuisine.
 

@@ -9,11 +9,8 @@ active_time: 30 minutes
 total_time: 4 hours
 makes: 8 servings
 date: 2017-03-11
-header:
-  teaser: /assets/images/recipes/brioche_buns_1.jpg
-  overlay_image: /assets/images/recipes/brioche_buns_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Brioche Burger Buns'
+image: /assets/images/recipes/brioche_buns_1.jpg
+image_alt: 'Brioche Burger Buns'
 ---
 [Homemade hamburger](/blog/homemade-hamburgers/) step 1 - the perfect bun!
 
