@@ -84,6 +84,11 @@ summarylength = 30
     weight = 400
     url = "/recipes/"
 [[menu.main]]
+    name = "Research"
+    identifier = "research"
+    weight = 450
+    url = "/research/"
+[[menu.main]]
     name = "Talks"
     identifier = "talks"
     weight = 500

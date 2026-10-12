@@ -1,0 +1,18 @@
+{{- /* APA-style citation for one entry from data/bib/*.json. Own name (author+an highlight) is bolded.
+     ACM exports without a `location` fall back to ACM's own New York `address`, which is not the venue, so it is dropped. */ -}}
+{{- $e := . -}}
+{{- $page := false -}}
+{{- with where site.RegularPages "Params.bibkey" $e.key }}{{ $page = index . 0 }}{{ end -}}
+{{- $title := $e.title -}}
+{{- if not (findRE `[.?!]$` $title) }}{{ $title = printf "%s." $title }}{{ end -}}
+{{- $acm := eq $e.publisher "Association for Computing Machinery" -}}
+{{- $place := cond (and $acm (eq $e.place "New York, NY, USA")) "" ($e.place | default "") -}}
+{{- partial "cite-names" $e.authors }} ({{ $e.year }}{{ with $e.monthname }}, {{ . }}{{ end }}). <strong>{{ with $page }}<a href="{{ .RelPermalink }}">{{ $title }}</a>{{ else }}{{ $title }}{{ end }}</strong>
+{{- if eq $e.type "mastersthesis" }} Master's thesis, <em>{{ $e.venue }}</em>{{ with $place }}, {{ . }}{{ end }}.
+{{- else if eq $e.type "incollection" }} In {{ with $e.editors }}{{ partial "cite-names" . }} (Eds.), {{ end }}<em>{{ $e.venue }}</em>.{{ with $e.publisher }} {{ . }}.{{ end }}
+{{- else }} In <em>{{ $e.venue }}{{ with $e.series }} ({{ . }}){{ end }}</em>{{ with $place }}, {{ . }}{{ end }}.
+{{- end }}
+{{- with $e.doi }} <a href="https://doi.org/{{ . }}">{{ . }}</a>.{{ else }}{{ with $e.url }} <a href="{{ . }}">{{ . }}</a>.{{ end }}{{ end }}
+{{- with $e.note }} {{ . | safeHTML }}.{{ end }}
+{{- with $e.acceptance }} Acceptance rate: {{ with $e.acceptanceurl }}<a href="{{ . }}">{{ $e.acceptance }}</a>{{ else }}{{ . }}{{ end }}.{{ end }}
+{{- with $e.award }}<br><i class="fas fa-fw fa-certificate"></i> {{ . }}{{ end -}}

@@ -303,60 +303,16 @@ another engineering faculty member
 
 ## Grants
 
-### BPC-DP: Broadening Participation of Underrepresented Groups Through the Computational Core Initiative ($299,998)
-<i class="fas fa-fw fa-calendar-alt"></i> 2022 - 2025
-
-Co-PI - National Science Foundation grant to support developing curricula and teaching interventions targeted at rural students and other underrepresented groups.
-
-### CS4KS: Expanding the Cyber Pipeline Program ($748,000)
-<i class="fas fa-fw fa-calendar-alt"></i> 2023 - 2024
-
-Co-PI - Renewal of Kansas Department of Education grant to provide training for high school teachers to teach computer science, including 10 graduate credit hours and support for previous cohorts.
-
-### CS4KS: Expanding the Cyber Pipeline Program ($467,656)
-<i class="fas fa-fw fa-calendar-alt"></i> 2022 - 2023
-
-Co-PI - Kansas Department of Education grant to provide training for high school teachers to teach computer science, including 10 graduate credit hours.
-
-### KRIATE: K-State Rural Innovation Academy for Teaching Enrichment ($3,099,030)
-<i class="fas fa-fw fa-calendar-alt"></i> 2022 - 2027
-
-Co-PI - Private grant to support rural Kansas K-12 teachers who teach computer science. 
-
-### K-State Open/Alternative Textbook & K-State Global Campus Course Development Grants  
-<i class="fas fa-fw fa-calendar-alt"></i> 2018 - 2021
-
-I was part of a team that received internal grant funding to support the initial development of the Computational Core program and the associated online textbooks.
+{{% cv/grants %}}
 
 ## Peer Reviewed Papers & Posters
 [ORCID: 0000-0001-7236-3933](https://orcid.org/0000-0001-7236-3933)
 
-Feldhausen, R., Weese, J. L., & Bean, N. H. (2018, Feb). **Increasing Student Self-Efficacy in Computational Thinking via STEM Outreach Programs** in _Proceedings of the 49th ACM Technical Symposium on Computing Science Education, SIGCSE ’18, Baltimore, Maryland._ [10.1145/3159450.3159593](https://doi.org/10.1145/3159450.3159593). Acceptance rate: [35%](https://dl.acm.org/citation.cfm?id=3159450)
-
-Weese, J. L., & Feldhausen, R. (2017, June). **STEM Outreach: Assessing Computational Thinking and Problem Solving** Paper presented at _2017 ASEE Annual Conference & Exposition, Columbus, Ohio._ [http://peer.asee.org/28845](http://peer.asee.org/28845)
-
-Weese, J. L., Feldhausen, R., & Bean, N. H. (2016, June). **The Impact of STEM Experiences on Student Self-Efficacy in Computational Thinking** Paper presented at _2016 ASEE Annual Conference & Exposition, New Orleans, Louisiana._ [10.18260/p.26179](https://doi.org/10.18260/p.26179).
-
-Bean, N.H., Weese, J.L., Feldhausen, R., & Bell, R. S. (2015, October). **Starting from Scratch: Developing a Pre-Service Teacher Training Program in Computational Thinking** in _Frontiers in Education Conference (FIE), 2015. IEEE, El Paso, TX._ [10.1109/FIE.2015.7344237](https://doi.org/10.1109/FIE.2015.7344237).
-
-Bean, N.H., Bell, R.S., & Feldhausen, R. (2015, April). **Scratching the Surface: First Steps in Preservice Teacher Training on Computational Thinking** Paper presented at _The 2015 annual meeting of the American Educational Research Association (AERA ’15), Chicago, Illinois._ [Paper Archive Link](http://www.aera.net/Publications/Online-Paper-Repository).
-
-Feldhausen, R., Bell, R.S., & Andresen, D.A. (2014, July). **Minimum Time, Maximum Effect: Introducing Parallel Computing in CS0 and STEM Outreach Activities Using Scratch** _Proceedings of the 2014 Annual Conference on Extreme Science and Engineering Discovery Environment (XSEDE ’14), Atlanta, Georgia._ [10.1145/2616498.2616568](https://doi.org/10.1145/2616498.2616568). Acceptance rate: [67%](https://dl.acm.org/citation.cfm?id=2616498)
-
-Feldhausen, R., Bell, R.S., Andresen, D.A. (2013, November). **Introducing HPC to Young Students** Poster presented at the _International Conference for High Performance Computing, Networking, Storage and Analysis 2013 (SC13), Denver, Colorado._ Acceptance rate: [39%](http://sc13.supercomputing.org/sites/default/files/SC13ConferenceProgram.pdf)
+{{< cv/bib file="papers" section="peer" >}}
 
 ## Other Selected Papers, Posters, and Sessions
 
-Nathan H. Bean, Russell Feldhausen, Joshua L. Weese, and Michelle Friend. 2024. **Engaging Rural Populations in Computer Science.** In _Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024)._ Association for Computing Machinery, New York, NY, USA, 1907. [10.1145/3626253.3635365](https://doi.org/10.1145/3626253.3635365)
-
-Michelle Friend, Jennifer Rosato, Nathan Bean, Russell Feldhausen, and Josh Weese. 2024. **Creating University CS Teacher Preparation Programs.** In _Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024)._ Association for Computing Machinery, New York, NY, USA, 1910. [10.1145/3626253.3635388](https://doi.org/10.1145/3626253.3635388)
-
-Matt Schwartz, Nathan H. Bean, Joshua L. Weese, and Russell Feldhausen. 2024. **Bringing a Visual Memory Model to VS Code.** In _Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024)._ Association for Computing Machinery, New York, NY, USA, 1927. [10.1145/3626253.3635434](https://doi.org/10.1145/3626253.3635434)
-
-Feldhausen, R., Bell, R.S., Andresen, D.A. (2013, September). **Introducing HPC
-and Multi-Threaded Computing to Middle School Girls using Scratch.** Poster
-presented at _2013 Midwest Section Conference of the American Society for
-Engineering Education (ASEE), Salina, Kansas._ <br><i class="fas fa-fw fa-certificate"></i> 3rd Place Award for Best Graduate Poster.
+{{< cv/bib file="papers" section="other" >}}
 
 ## Invited Talks
 
