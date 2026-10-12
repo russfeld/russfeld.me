@@ -12,11 +12,8 @@ active_time: 15 minutes
 total_time: 15 hours
 makes: 12 servings
 date: 2017-03-11
-header:
-  teaser: /assets/images/recipes/creamy_coleslaw_1.jpg
-  overlay_image: /assets/images/recipes/creamy_coleslaw_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Creamy Coleslaw'
+image: /assets/images/recipes/creamy_coleslaw_1.jpg
+image_alt: 'Creamy Coleslaw'
 ---
 Creamy coleslaw has so many uses!
 

@@ -10,11 +10,8 @@ active_time: 30 minutes
 total_time: 2 hour 30 minutes
 makes: 15 - 20 servings
 date: 2016-12-20
-header:
-  teaser: /assets/images/recipes/chili_1.jpg
-  overlay_image: /assets/images/recipes/chili_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Chili'
+image: /assets/images/recipes/chili_1.jpg
+image_alt: 'Chili'
 ---
 
 This is the chili recipe that I always go to when it is cold outside and I want something to keep me warm and energized. The basis of this recipe is actually from [Ryan Summerskill](https://www.linkedin.com/in/rsummerskill), the first ACM president at K-State when it first restarted back in the mid-2000s. Since then I've modified it to fit my mood and the ingredients I have on hand. Let's face it: good chili has a recipe; great chili needs none!

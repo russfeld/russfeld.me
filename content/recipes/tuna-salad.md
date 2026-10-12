@@ -12,11 +12,8 @@ active_time: 10 minutes
 total_time: 10 minutes
 makes: 4 - 6 sandwiches
 date: 2016-12-10
-header:
-  teaser: /assets/images/recipes/tuna_salad_1.jpg
-  overlay_image: /assets/images/recipes/tuna_salad_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Tuna Salad'
+image: /assets/images/recipes/tuna_salad_1.jpg
+image_alt: 'Tuna Salad'
 ---
 My take on the classic tuna salad. An all-time favorite
 

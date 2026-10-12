@@ -9,11 +9,8 @@ active_time: 15 minutes
 total_time: 1 hour 15 minutes
 makes: 1 9-inch pie crust
 date: 2016-12-09
-header:
-  teaser: /assets/images/recipes/cornish_pasties_1.jpg
-  overlay_image: /assets/images/recipes/cornish_pasties_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Pastry Dough'
+image: /assets/images/recipes/cornish_pasties_1.jpg
+image_alt: 'Pastry Dough'
 ---
 A quick and easy to make pastry dough recipe for pies and more!
 

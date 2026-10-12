@@ -2,9 +2,10 @@
 
   {{ range . }}
   <div class="list__item">
-      {{ if .Params.header.teaser }}
+      {{- $teaser := .Params.image | default .Params.header.teaser }}
+      {{ if $teaser }}
       <a href="{{ .RelPermalink }}">
-      <img class="list__teaser" src="{{ .Params.header.teaser }}">
+      <img class="list__teaser" src="{{ $teaser }}">
       </a>
       {{ end }}
       <div class="list__title">

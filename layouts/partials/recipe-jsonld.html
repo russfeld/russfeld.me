@@ -1,0 +1,25 @@
+{{/* schema.org Recipe structured data. Times are only emitted when they parse as "N hour(s) M minute(s)". */}}
+{{- $recipe := dict
+  "@context" "https://schema.org"
+  "@type" "Recipe"
+  "name" .Title
+  "url" .Permalink
+  "datePublished" (.Date.Format "2006-01-02")
+  "author" (dict "@type" "Person" "name" .Site.Params.author)
+}}
+{{- with .Params.image -}}{{- $recipe = merge $recipe (dict "image" (slice (. | absURL))) -}}{{- end -}}
+{{- with .Params.excerpt -}}{{- $recipe = merge $recipe (dict "description" .) -}}{{- end -}}
+{{- with .Params.makes -}}{{- $recipe = merge $recipe (dict "recipeYield" .) -}}{{- end -}}
+{{- with .Params.categories -}}{{- $recipe = merge $recipe (dict "recipeCategory" (delimit . ", ")) -}}{{- end -}}
+{{- with .Params.tags -}}{{- $recipe = merge $recipe (dict "keywords" (delimit . ", ")) -}}{{- end -}}
+{{- with .Params.total_time -}}
+  {{- with findRESubmatch `^\s*(?:(\d+) hours?)?\s*(?:(\d+) minutes?)?\s*$` . 1 -}}
+    {{- $m := index . 0 -}}
+    {{- $h := index $m 1 -}}
+    {{- $min := index $m 2 -}}
+    {{- if or $h $min -}}
+      {{- $recipe = merge $recipe (dict "totalTime" (printf "PT%s%s" (cond (ne $h "") (printf "%sH" $h) "") (cond (ne $min "") (printf "%sM" $min) ""))) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<script type="application/ld+json">{{ $recipe | jsonify | safeJS }}</script>

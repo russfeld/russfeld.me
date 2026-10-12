@@ -9,13 +9,10 @@ active_time: 30 minutes
 total_time: 1 hour
 makes: 1.5 quarts
 date: 2017-03-11
-header:
-  teaser: /assets/images/recipes/refrigerator_pickles_1.jpg
-  overlay_image: /assets/images/recipes/refrigerator_pickles_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Refrigerator Pickles'
+image: /assets/images/recipes/refrigerator_pickles_1.jpg
+image_alt: 'Refrigerator Pickles'
 ---
-[Homemade hamburger]({{ site.url }}/2017/03/12/homemade-hamburgers/) step 4 - toppings!
+[Homemade hamburger](/blog/homemade-hamburgers/) step 4 - toppings!
 
 <!--more-->
 

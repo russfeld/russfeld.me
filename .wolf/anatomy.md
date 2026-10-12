@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-02T19:51:03.500Z
-> Files: 501 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-12T15:52:19.750Z
+> Files: 502 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -295,6 +295,7 @@
 ## layouts/partials/
 
 - `header.html` (~199 tok)
+- `recipe-jsonld.html` (~346 tok)
 - `sidebar.html` (~137 tok)
 
 ## layouts/partials/header/

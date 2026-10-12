@@ -10,11 +10,8 @@ active_time: 30 minutes
 total_time: 1 hour
 makes: 12 servings
 date: 2017-02-20
-header:
-  teaser: /assets/images/recipes/bolognese_1.jpg
-  overlay_image: /assets/images/recipes/bolognese_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Bolognese'
+image: /assets/images/recipes/bolognese_1.jpg
+image_alt: 'Bolognese'
 ---
 
 As I've started making more and more homemade food, I've taken a hard look at what I cook to try and find ways I can make it better. One thing I noticed was that all my homemade pasta deserved a nice, homemade sauce to go along with it. Enter my version of bolognese.

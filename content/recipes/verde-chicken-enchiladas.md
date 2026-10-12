@@ -11,11 +11,8 @@ active_time: 1 hour
 total_time: 2 hour 30 minutes
 makes: 8 servings
 date: 2017-02-06
-header:
-  teaser: /assets/images/recipes/verde_chicken_enchiladas_1.jpg
-  overlay_image: /assets/images/recipes/verde_chicken_enchiladas_1.jpg
-  overlay_filter: 0.7
-  image_description: 'Verde Chicken Enchiladas'
+image: /assets/images/recipes/verde_chicken_enchiladas_1.jpg
+image_alt: 'Verde Chicken Enchiladas'
 ---
 
 I noticed that the local grocery store had tomatillos in stock, and I wanted to see what I could do with them. At the same time, I had been craving good enchiladas, one of the holy grails of Mexican food that I had not achieved yet.
