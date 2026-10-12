@@ -1,0 +1,31 @@
+# Grants, newest first. `slug` links a subpage at content/research/grants/<slug>/ (front matter `grant: <slug>`).
+# `description` is Markdown.
+
+- slug: bpc-dp
+  title: "BPC-DP: Broadening Participation of Underrepresented Groups Through the Computational Core Initiative"
+  amount: "$299,998"
+  years: 2022 - 2025
+  description: Co-PI - National Science Foundation grant to support developing curricula and teaching interventions targeted at rural students and other underrepresented groups.
+
+- slug: cs4ks-2023
+  title: "CS4KS: Expanding the Cyber Pipeline Program"
+  amount: "$748,000"
+  years: 2023 - 2024
+  description: Co-PI - Renewal of Kansas Department of Education grant to provide training for high school teachers to teach computer science, including 10 graduate credit hours and support for previous cohorts.
+
+- slug: cs4ks-2022
+  title: "CS4KS: Expanding the Cyber Pipeline Program"
+  amount: "$467,656"
+  years: 2022 - 2023
+  description: Co-PI - Kansas Department of Education grant to provide training for high school teachers to teach computer science, including 10 graduate credit hours.
+
+- slug: kriate
+  title: "KRIATE: K-State Rural Innovation Academy for Teaching Enrichment"
+  amount: "$3,099,030"
+  years: 2022 - 2027
+  description: Co-PI - Private grant to support rural Kansas K-12 teachers who teach computer science.
+
+- slug: ksu-textbook-course-development
+  title: K-State Open/Alternative Textbook & K-State Global Campus Course Development Grants
+  years: 2018 - 2021
+  description: I was part of a team that received internal grant funding to support the initial development of the Computational Core program and the associated online textbooks.

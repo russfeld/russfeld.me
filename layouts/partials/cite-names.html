@@ -1,0 +1,8 @@
+{{- /* APA author list: "Last, I., Last, I., & Last, I."; highlighted names bolded. */ -}}
+{{- $n := len . -}}
+{{- range $i, $p := . -}}
+  {{- if and (gt $n 1) (eq $i (sub $n 1)) }}&amp; {{ end -}}
+  {{- $name := cond (ne $p.initials "") (printf "%s, %s" $p.last $p.initials) $p.last -}}
+  {{- if $p.highlight }}<strong>{{ $name }}</strong>{{ else }}{{ $name }}{{ end -}}
+  {{- if lt $i (sub $n 1) }}, {{ end -}}
+{{- end -}}

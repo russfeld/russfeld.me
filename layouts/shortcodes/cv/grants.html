@@ -1,0 +1,9 @@
+{{- /* Grants from data/grants.yaml. Emits Markdown (call as {{% cv/grants %}}) so headings get ids for the toc. */ -}}
+{{- range site.Data.grants }}
+{{- $title := .title }}
+{{- with where site.RegularPages "Params.grant" .slug }}{{ $title = printf "[%s](%s)" $title (index . 0).RelPermalink }}{{ end }}
+### {{ $title }}{{ with .amount }} ({{ . }}){{ end }}
+<i class="fas fa-fw fa-calendar-alt"></i> {{ .years }}
+
+{{ .description }}
+{{ end }}

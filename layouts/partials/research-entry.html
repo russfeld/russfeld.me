@@ -1,0 +1,19 @@
+{{- /* Header for research subpages: front matter `bibkey:` (an entry in data/bib/*.json) or `grant:` (a slug in data/grants.yaml). */ -}}
+{{- with .Params.bibkey }}
+  {{- $key := . }}
+  {{- range $file, $entries := site.Data.bib }}
+    {{- range where $entries "key" $key }}
+<p>{{ partial "cite.html" . }}</p>
+<details>
+  <summary>BibTeX</summary>
+  <pre><code>{{ .bibtex }}</code></pre>
+</details>
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- with .Params.grant }}
+  {{- range where site.Data.grants "slug" . }}
+<p><i class="fas fa-fw fa-calendar-alt"></i> {{ .years }}{{ with .amount }} | {{ . }}{{ end }}</p>
+{{ $.RenderString (dict "display" "block") .description }}
+  {{- end }}
+{{- end }}

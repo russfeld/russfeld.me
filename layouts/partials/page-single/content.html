@@ -40,6 +40,7 @@
       </div>
     {{ end }}
     <div class="post">
+      {{ if or .Params.bibkey .Params.grant }}{{ partial "research-entry.html" . }}{{ end }}
       {{ .Content }}
     </div>
     {{ partial "page-single/post-navigation.html" . }}

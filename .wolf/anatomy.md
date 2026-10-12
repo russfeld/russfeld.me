@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-12T15:52:19.750Z
-> Files: 502 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-12T18:44:19.416Z
+> Files: 505 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -277,6 +277,10 @@
 
 - `index.md` — Declares progresses (~4509 tok)
 
+## data/
+
+- `grants.yaml` — Grants, newest first. `slug` links a subpage at content/research/grants/<slug>/ (front matter `grant (~480 tok)
+
 ## layouts/
 
 - `index.html` (~557 tok)
@@ -294,6 +298,7 @@
 
 ## layouts/partials/
 
+- `cite.html` (~551 tok)
 - `header.html` (~199 tok)
 - `recipe-jsonld.html` (~346 tok)
 - `sidebar.html` (~137 tok)
@@ -355,6 +360,10 @@
 ## russ.feldhausen.me/
 
 - `index.html` (~49 tok)
+
+## scripts/
+
+- `bib2json.mjs` — Convert bib/*.bib to data/bib/*.json for Hugo. Run with `npm run bib`. (~822 tok)
 
 ## static/assets/oldimpress/cis115fall2013/
 

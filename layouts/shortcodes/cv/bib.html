@@ -1,0 +1,6 @@
+{{- /* Citations from data/bib/<file>.json, optionally filtered by cvsection (peer, other). Usage: {{< cv/bib file="papers" section="peer" >}} */ -}}
+{{- $entries := index site.Data.bib (.Get "file") -}}
+{{- with .Get "section" }}{{ $entries = where $entries "cvsection" . }}{{ end -}}
+{{- range $entries }}
+<p>{{ partial "cite.html" . }}</p>
+{{- end }}

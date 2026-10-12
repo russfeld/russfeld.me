@@ -1,0 +1,11 @@
+{
+  "name": "russfeld.me",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "bib": "node scripts/bib2json.mjs"
+  },
+  "devDependencies": {
+    "@retorquere/bibtex-parser": "11.0.0"
+  }
+}

@@ -30,6 +30,7 @@ budget_tokens: 2000
 - [2026-10-12] Never `pkill -f <pattern>` where the pattern appears in your own command line: it kills the running command (exit 144). Kill by PID or exact process name.
 - [2026-10-12] Before deleting layout files as "unreferenced", rely on a build (missing partials error at render time); grep-based reference checks missed nested calls (post-comment, posts-list).
 - [2026-10-12] Some content files use CRLF line endings. Edit them byte-wise (or with sed) so endings are preserved; Python text-mode read/write silently converts to LF and rewrites the whole file in the diff.
+- [2026-10-12] In .bib files write percent signs as `\%`: a bare `%` starts a LaTeX comment and the parser silently drops the rest of the value. Separate authors with ` and `, never commas (some ASEE exports use commas).
 
 ## Decision Log
 
@@ -39,3 +40,5 @@ budget_tokens: 2000
 - [2026-10-12] Theme vendored into repo (no submodules); SCSS compiled once to plain CSS in assets/css (m10c palette as --color-* custom properties) so any Hugo edition builds it and resources/_gen is gone. Verified pixel-identical (28 screenshots).
 - [2026-10-10] Legacy content -> archive.russfeld.me (pre-rendered PHP site, fresh pruned repo, frozen + banner, 301s from all old URLs).
 - [2026-10-12] Recipes use flat `image`/`image_alt` front matter (chowdown layout dropped; ingredients stay as Markdown, so JSON-LD has no recipeIngredient). Blog/projects/talks keep `header.teaser`/`overlay_image`/`caption` (they differ per page); list partials take `image` first, then `header.teaser`.
+- [2026-10-12] Phase 2 decisions: bib/*.bib in the repo is the master copy (synced to Overleaf). CV split via custom field `cvsection = {other}` (default peer reviewed); custom fields `acceptance`, `acceptanceurl`, `award`. Consistent APA-ish citations, own name bolded via `author+an` highlight. Unpublished papers show their `note`. Only grants move to YAML (awards/teaching/service stay Markdown). /research/ gets a sidebar menu item. Talks move deferred until talks.bib exists.
+- [2026-10-12] Phase 2 built: `npm run bib` (scripts/bib2json.mjs, @retorquere/bibtex-parser 11.0.0, sentence-casing off) -> data/bib/*.json; partials cite.html/cite-names.html; shortcodes cv/bib (HTML) and cv/grants (Markdown, call with {{% %}} so tocbot gets heading ids); research subpages via `bibkey:`/`grant:` front matter + partials/research-entry.html hook in page-single/content.html.
