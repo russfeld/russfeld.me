@@ -1,0 +1,8 @@
+{{- /* GitHub-style alerts (> [!TIP]) render as notice boxes; plain blockquotes are unchanged. */ -}}
+{{- if eq .Type "alert" -}}
+{{- partial "notice.html" (dict "type" .AlertType "title" .AlertTitle "content" .Text) -}}
+{{- else -}}
+<blockquote>
+{{ .Text }}
+</blockquote>
+{{- end -}}

@@ -1,0 +1,5 @@
+{{- /* Relearn-compatible callout:
+       {{% notice tip %}}...{{% /notice %}}  or  {{% notice style="warning" title="Heads up" %}}...{{% /notice %}} */ -}}
+{{- $type := cond .IsNamedParams (.Get "style") (.Get 0) -}}
+{{- $title := cond .IsNamedParams (.Get "title") (.Get 1) -}}
+{{- partial "notice.html" (dict "type" $type "title" $title "content" (.InnerDeindent | strings.TrimSpace | .Page.RenderString (dict "display" "block"))) -}}

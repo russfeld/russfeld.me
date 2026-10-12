@@ -1,11 +1,9 @@
 baseURL = "https://russfeld.me"
 languageCode = "en-us"
 title = "Russell Feldhausen"
-theme = ["hyde-hyde"]
 
 ## Hugo Built-in Features
 # disqusShortname = "your-disqus-shortname"
-# googleAnalytics = "UA-72698101-1"
 # enableRobotsTXT = true
 
 summarylength = 30
@@ -38,9 +36,6 @@ summarylength = 30
     licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
     showBuiltWith = true
 
-    # https://highlightjs.org
-    highlightjs = true
-    highlightjsstyle = "github"
 
     # please choose either GraphComment or Disqus or Utterances
     #GraphCommentId = "..."
@@ -99,16 +94,10 @@ summarylength = 30
     weight = 600
     url = "/about/"
 
-[blackfriday]
-  fractions = false
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
 
-## Plausible config
-[params.plausible]
-  enable = true  # Whether to enable plausible tracking
-  domain = "russfeld.me"  # Plausible "domain" name/id in your dashboard
-  selfhosted_domain = "plausible.russfeld.me"
+[services.googleAnalytics]
+  ID = "G-HDHZ0ZXKQQ"

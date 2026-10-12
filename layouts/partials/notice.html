@@ -1,0 +1,11 @@
+{{- /* Callout box shared by the notice shortcode and > [!TYPE] blockquote alerts.
+       Params: type (note|info|tip|important|warning|caution), title (optional), content (HTML). */ -}}
+{{- $icons := dict "note" "fa-info-circle" "info" "fa-info-circle" "tip" "fa-lightbulb" "important" "fa-star" "warning" "fa-exclamation-triangle" "caution" "fa-exclamation-circle" -}}
+{{- $type := lower (.type | default "note") -}}
+{{- if not (index $icons $type) }}{{ $type = "note" }}{{ end -}}
+{{- $title := .title | default (title $type) -}}
+<div class="notice notice--{{ $type }}">
+<p class="notice__title"><i class="fas fa-fw {{ index $icons $type }}" aria-hidden="true"></i> {{ $title }}</p>
+{{ .content }}
+</div>
+{{- /**/ -}}
