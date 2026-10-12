@@ -2,7 +2,6 @@
 title: Yellowstone Vacation
 excerpt: Chronicles and thoughts from a trip to Yellowstone
 draft: true
-flexslider: true
 tags:
 - travel
 - photography
