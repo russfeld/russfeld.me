@@ -1,27 +1,45 @@
 # Grants, newest first. `slug` links a subpage at content/research/grants/<slug>/ (front matter `grant: <slug>`).
-# `description` is Markdown.
+# `description` is Markdown. `agency` is the short funder name shown on the About page summary.
+
+- slug: ai-education
+  title: Strengthening American Competitiveness with AI Education
+  amount: "$899,663"
+  agency: U.S. Dept. of Education
+  years: 2025 - 2029
+  description: Co-PI - Subaward from Wright State University on a U.S. Department of Education grant to develop curricular materials for teaching AI, data science, and computer science at all levels and provide professional development for K-12 teachers.
 
 - slug: bpc-dp
   title: "BPC-DP: Broadening Participation of Underrepresented Groups Through the Computational Core Initiative"
   amount: "$299,998"
+  agency: NSF
   years: 2022 - 2025
   description: Co-PI - National Science Foundation grant to support developing curricula and teaching interventions targeted at rural students and other underrepresented groups.
 
+- slug: cs4ks-2024
+  title: "CS4KS: Maintaining the Cyber Pipeline"
+  amount: "$685,466"
+  agency: KSDE
+  years: 2024 - 2025
+  description: Co-PI - Second renewal of Kansas Department of Education grant to provide training for high school teachers to teach computer science and support for previous cohorts.
+
 - slug: cs4ks-2023
-  title: "CS4KS: Expanding the Cyber Pipeline Program"
+  title: "CS4KS: Continuing to Expand the Cyber Pipeline Program"
   amount: "$748,000"
+  agency: KSDE
   years: 2023 - 2024
   description: Co-PI - Renewal of Kansas Department of Education grant to provide training for high school teachers to teach computer science, including 10 graduate credit hours and support for previous cohorts.
 
 - slug: cs4ks-2022
   title: "CS4KS: Expanding the Cyber Pipeline Program"
-  amount: "$467,656"
+  amount: "$471,656"
+  agency: KSDE
   years: 2022 - 2023
   description: Co-PI - Kansas Department of Education grant to provide training for high school teachers to teach computer science, including 10 graduate credit hours.
 
 - slug: kriate
   title: "KRIATE: K-State Rural Innovation Academy for Teaching Enrichment"
   amount: "$3,099,030"
+  agency: Private Donor
   years: 2022 - 2027
   description: Co-PI - Private grant to support rural Kansas K-12 teachers who teach computer science.
 

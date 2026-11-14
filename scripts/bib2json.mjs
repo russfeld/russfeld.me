@@ -21,7 +21,7 @@ const highlighted = an => new Set((an || '').split(';')
   .map(s => s.trim().match(/^(\d+)\s*=\s*.*highlight/)).filter(Boolean).map(m => Number(m[1]) - 1))
 
 // Site-only fields are dropped from the BibTeX shown on subpages
-const PRIVATE = /^\s*(author\+an|cvsection|acceptance|acceptanceurl|award)\s*=.*\n/gm
+const PRIVATE = /^\s*(author\+an|cvsection|acceptance|acceptanceurl|award|selected)\s*=.*\n/gm
 
 const people = (list, an) => {
   const hl = highlighted(an)
@@ -57,11 +57,12 @@ function convert(entry, index) {
     acceptance: text(f.acceptance),
     acceptanceurl: text(f.acceptanceurl),
     award: text(f.award),
+    selected: text(f.selected) === 'true' || undefined,
     bibtex: entry.input.replace(PRIVATE, '').trim(),
     order: index,
   }
   for (const [k, v] of Object.entries(out)) {
-    if (v === '' || (Array.isArray(v) && v.length === 0)) delete out[k]
+    if (v === '' || v === undefined || (Array.isArray(v) && v.length === 0)) delete out[k]
   }
   return out
 }

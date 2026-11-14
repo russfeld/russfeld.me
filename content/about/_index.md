@@ -25,7 +25,7 @@ Outside of work, I enjoy volunteering with the 4-H program during the summer as 
 
 ### Education
 
-* **Ph.D. Computer Science** - Kansas State University <i class="fas fa-fw fa-calendar-alt"></i> Expected May 2026
+* **Ph.D. Computer Science** - Kansas State University <i class="fas fa-fw fa-calendar-alt"></i> Expected 2027
 * **M.S. Computer Science** - Kansas State University <i class="fas fa-fw fa-calendar-alt"></i> May 2018  
 * **B.S. Computer Science** - Kansas State University <i class="fas fa-fw fa-calendar-alt"></i> December 2008  
 
@@ -38,12 +38,7 @@ Outside of work, I enjoy volunteering with the 4-H program during the summer as 
 
 ### Awards
 
-* **Kevin and Jacquie Elmore Cornerstone Teaching Scholar** <i class="fas fa-fw fa-calendar-alt"></i> 2020 - 2025
-* **K-State Computer Science Department Teaching Excellence Award** <i class="fas fa-fw fa-calendar-alt"></i> 2020, 2021, 2022, 2023
-* **K-State College of Engineering Team Award of Excellence** <i class="fas fa-fw fa-calendar-alt"></i> 2021
-* **Kansas 4-H Distinguished Service Award Recipient** <i class="fas fa-fw fa-calendar-alt"></i> 2013
-* **Kansas 4-H Clover Award** <i class="fas fa-fw fa-calendar-alt"></i> 2011
-* **Communications & Ag. Education Unclassified Employee of the Year** <i class="fas fa-fw fa-calendar-alt"></i> 2011
+{{% cv/awards summary="true" %}}
 
 ### Teaching
 
@@ -52,7 +47,7 @@ Outside of work, I enjoy volunteering with the 4-H program during the summer as 
 * **CIS 115: Introduction to Computing Science** <i class="fas fa-fw fa-calendar-alt"></i> 2013 - 2017, 2022
 * **CIS 190: Open House Committee** <i class="fas fa-fw fa-calendar-alt"></i> 2014 - 2017
 * **CIS 225: Personal Computer Systems Administration** <i class="fas fa-fw fa-calendar-alt"></i> 2013 - 2016
-* **CIS 526 / CC 515: Full Stack Web Development** <i class="fas fa-fw fa-calendar-alt"></i> 2022 - 2023
+* **CIS 526 / CC 515: Full Stack Web Development** <i class="fas fa-fw fa-calendar-alt"></i> 2022 - 2023, 2025
 * **CIS 527 / CC 510: Enterprise Systems Administration** <i class="fas fa-fw fa-calendar-alt"></i> 2014 - Present
 * **CC 110: Introduction to Computing** <i class="fas fa-fw fa-calendar-alt"></i> 2022  
 * **CC 210: Fundamental Computer Programming Concepts** <i class="fas fa-fw fa-calendar-alt"></i> 2019  
@@ -62,6 +57,7 @@ Outside of work, I enjoy volunteering with the 4-H program during the summer as 
 #### Co-Teaching
 
 * **CIS 115: Introduction to Computing Science** <i class="fas fa-fw fa-calendar-alt"></i> 2022
+* **CC 520: Database Essentials** <i class="fas fa-fw fa-calendar-alt"></i> 2025
 * **CC 710: Introduction to Computing for Educators** <i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present
 * **CC 711: Computer Education Programming Fundamentals** <i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present
 * **CC 730: Computer Programming for Educators** <i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present
@@ -79,14 +75,9 @@ Outside of work, I enjoy volunteering with the 4-H program during the summer as 
 
 ### Publications
 
-* [Mission to Mars: A Computer Science Curriculum for Middle School STEM Camps](http://hdl.handle.net/2097/38864) <i class="fas fa-fw fa-calendar-alt"></i> M.S. Thesis 2018 
-* [Increasing Student Self-Efficacy in Computational Thinking via STEM Outreach Programs (SIGCSE)](https://doi.org/10.1145/3159450.3159593) <i class="fas fa-fw fa-calendar-alt"></i> 2018 
-* [STEM Outreach: Assessing Computational Thinking and Problem Solving](http://peer.asee.org/28845) <i class="fas fa-fw fa-calendar-alt"></i> ASEE 2017
-* [The Impact of STEM Experiences on Student Self-Efficacy in Computational Thinking](https://doi.org/10.18260/p.26179) <i class="fas fa-fw fa-calendar-alt"></i> ASEE 2016
-* [Starting from Scratch: Developing a Pre-Service Teacher Training Program in Computational Thinking](https://doi.org/10.1109/FIE.2015.7344237) <i class="fas fa-fw fa-calendar-alt"></i> FIE 2015
-* [Scratching the Surface: First Steps in Preservice Teacher Training on Computational Thinking](http://www.aera.net/Publications/Online-Paper-Repository) <i class="fas fa-fw fa-calendar-alt"></i> AERA 2015
-* [Minimum Time, Maximum Effect: Introducing Parallel Computing in CS0 and STEM Outreach Activities Using Scratch](https://doi.org/10.1145/2616498.2616568) <i class="fas fa-fw fa-calendar-alt"></i> XSEDE 2014
-* [Introducing HPC to Young Students (Poster)](http://sc13.supercomputing.org/sites/default/files/SC13ConferenceProgram.pdf) <i class="fas fa-fw fa-calendar-alt"></i> SC 2013
+Selected publications - see my [CV](/about/cv) for the full list.
+
+{{< cv/bib file="papers" selected="true" >}}
 
 ### Curriculum
 
@@ -101,8 +92,4 @@ Outside of work, I enjoy volunteering with the 4-H program during the summer as 
 
 ### Grants
 
-* **BPC-DP: Broadening Participation of Underrepresented Groups Through the Computational Core Initiative ($299,998 - NSF)** <i class="fas fa-fw fa-calendar-alt"></i> 2022 - 2025
-* **CS4KS: Expanding the Cyber Pipeline Program ($748,000 - KSDE)** <i class="fas fa-fw fa-calendar-alt"></i> 2023 - 2024
-* **CS4KS: Expanding the Cyber Pipeline Program ($467,656 - KSDE)** <i class="fas fa-fw fa-calendar-alt"></i> 2022 - 2023
-* **KRIATE: K-State Rural Innovation Academy for Teaching Enrichment ($3,099,030 - Private Donor)** <i class="fas fa-fw fa-calendar-alt"></i> 2022 - 2027
-* **K-State Open/Alternative Textbook & K-State Global Campus Course Development Grants** <i class="fas fa-fw fa-calendar-alt"></i> 2018 - 2021
+{{% cv/grants summary="true" %}}

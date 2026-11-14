@@ -1,0 +1,42 @@
+# Honors & awards, newest first. Rendered on the CV by {{% cv/awards %}} and on the
+# About page by {{% cv/awards summary="true" %}} (only entries with `summary: true`).
+# `years` is a string, or a list of strings shown one per line. `items` are Markdown bullets.
+
+- title: Kevin and Jacquie Elmore Cornerstone Teaching Scholar
+  years: 2020 - 2025
+  summary: true
+
+- title: K-State Computer Science Department Teaching Excellence Award
+  years: 2020, 2021, 2022, 2023, 2024
+  summary: true
+  items:
+    - Recognizes [exemplary undergraduate teaching](https://www.k-state.edu/today/students/announcement/?id=55423) at K-State
+
+- title: K-State College of Engineering Team Award of Excellence
+  years: "2021"
+  summary: true
+  items:
+    - Recognizes work done as part of a team developing, teaching, and maintaining [Computational Core](https://cs.ksu.edu/academics/computational-core/) courses
+
+- title: Kansas 4-H Distinguished Service Award Recipient
+  years: "2013"
+  summary: true
+  items:
+    - Recognizes [volunteer work](https://www.k-state.edu/today/announcement/?id=8758) with the Kansas 4-H Program
+
+- title: Kansas 4-H Clover Award
+  years: "2011"
+  summary: true
+  items:
+    - Recognizes [significant contribution](https://www.ksre.k-state.edu/employee_resources/nominations_for_awards/previous_award_recipients/4_h%20clover%20awards.html) to Kansas 4-H by non-4-H staff
+
+- title: Communications & Ag. Education Unclassified Employee of the Year
+  years: "2011"
+  summary: true
+
+- title: K-State ACM Chapter’s Programming Contest
+  years:
+    - Fall 2009 - 2nd Place
+    - Fall 2010 - 1st Place
+    - Spring 2011 - 2nd Place
+    - Fall 2011 - 3rd Place
