@@ -5,54 +5,55 @@ budget_tokens: 1000
 # STATUS — russfeld.me
 
 > Single source of truth for resuming work. Read this FIRST when starting a session.
-> Last updated: 2026-10-12
+> Last updated: 2026-11-14
 
 Approved plan (read for phase details): `~/.claude/plans/hi-claude-review-the-hashed-stearns.md`
-Phases: 0 URL baseline ✅ · 1 lean theme ✅ · 2 data-driven CV + Research · 3 recipe cleanup · 4 archive ✅
+Phases: 0 URL baseline ✅ · 1 lean theme ✅ · 2 data-driven CV + Research ✅ (talks pending) · 3 recipe cleanup ✅ · 4 archive ✅
 
-## ✅ Done (all merged to `master`, clean tree at `6022644`)
+## ✅ Done (all merged to `master`; HEAD `724de6f`, PR #17)
 
-- **Phase 0:** `scripts/baseline-urls.txt` (1964 pre-migration paths) + `scripts/check-urls.sh <public_dir>` (exempts prefixes in `scripts/redirected-urls.txt`).
-- **Phase 4:**
-  - archive repo `russfeld/archive` (`/workspaces/archive-site`), staged at archive.dev.russfeld.me on the new droplet
-  - main site PR #13: legacy content removed, `nginx/default.conf` 301s to archive.russfeld.me (tested locally: 1960/1964 baseline URLs, 106/106 Jekyll URLs)
-- **Phase 1 (PR #14):**
-  - theme vendored into `layouts/`; submodules and `resources/_gen` gone; SCSS → plain CSS in `assets/css/` (m10c palette as `--color-*` vars); builds with non-extended Hugo
-  - removed highlight.js, jQuery, flexslider and unused partials
-  - GA4 `G-HDHZ0ZXKQQ` via `[services.googleAnalytics]` in `<head>`
-  - notice boxes: `layouts/shortcodes/notice.html`, `layouts/_markup/render-blockquote.html`, `layouts/partials/notice.html`
-  - verified: 28 screenshots pixel-identical, check-urls OK; unused deploy/Apache files deleted
+- **Live:** russfeld.me and archive.russfeld.me now serve the new sites (cutover done by the user before 2026-11-14).
+- **Phases 0/1/3/4 (PRs #13–15):** URL baseline + `scripts/check-urls.sh`; archive repo with 301s; theme vendored in `layouts/`; recipes use flat `image` + JSON-LD.
+- **Phase 2 (PR #16):** `bib/papers.bib` → `npm run bib` → `data/bib/papers.json`; `cite.html`; shortcodes `cv/bib`, `cv/grants`; `/research/` + opt-in subpages (`bibkey:`/`grant:`).
+- **Eval review (PR #17):** read annual evals 2013–2025 and synced the CV:
+  - `data/awards.yaml` + `cv/awards` shortcode
+  - `grants.yaml` gained `agency`, AI Education ($899,663, 2025–2029) and CS4KS ×3 (2022 $471,656 / 2023 $748K / 2024 $685,466)
+  - About page (`content/about/_index.md`) pulls grants, awards (`summary: true`) and bib entries with `selected = {true}`; its education/work/teaching/curriculum lists stay hand-synced yearly
+  - CV text updates: Ph.D. expected 2027 + RPE, service, outreach, presentations, professional development
 
-## 🚀 Next quest: verify the first deploy, then Phase 3 (recipe cleanup)
+## 🚀 Next quest: Student projects review
 
-1. **Deploy check (user-gated):** Watchtower is **paused** on the main site, and the floating IP still points at the old droplet (143.244.200.46); new droplet is 192.81.209.228, main site staged at `dev.russfeld.me`. When the user resumes it:
-   - confirm the GitHub Actions build succeeded. It's the first build without `resources/_gen` and submodules; the Dockerfile uses `hugomods/hugo:ci-0.148.1`.
-   - `curl -sI` on `https://russfeld.me/teaching/cis115fall2013/`, `/presentations/2016gittutorial/`, `/cv/`, `/recipes/smashburgers.html` → 301; `/projects/` → 200.
-   - check that each archive target path returns 200 on `archive.dev.russfeld.me` until cutover.
-2. **Phase 3** (needs no user input; see the plan). Recipe URLs must not change.
-   - Normalize front matter in `content/recipes/*.md` (`header.teaser`/`overlay_image` → `image`) and update the `layouts/recipes/*` and `page-single/recipe*` partials.
-   - Fix Jekyll leftover links such as `{{ site.url }}/2017/03/12/homemade-hamburgers/` (visible on smashburgers).
-   - Add a schema.org Recipe JSON-LD partial.
-   - Acceptance: `check-urls.sh` passes, screenshots match except the intended link fixes, and the JSON-LD validates.
-3. **Phase 2** is blocked until the user provides the Overleaf `.bib` files (one per category).
+- **Files:** `content/about/projects.md` (check line endings; edit byte-wise if CRLF). The page has years 2016–2023 only.
+- **Source:** gitignored `evals/cv-followups.md` ("Student mentoring" section), plus `evals/eval2024.tex` and `eval2025.tex` for the full 2024–2025 lists:
+  - CIS 598 projects (12 in 2024, 13 in 2025)
+  - ICS capstones (2 in 2024, 7 in 2025)
+  - CIS 642/643 teams
+  - graduate work: Friday James, Joshua Barron
+- **Work:** add 2024 and 2025 sections in the existing format (2023 links go to `textbooks.cs.ksu.edu/cis598/b-schedule/...#N`; check whether 2024/2025 schedule pages exist). Fill gaps for 2018–2021 from the follow-ups list where they're missing.
+- **Acceptance:** the build has no errors; `check-urls.sh` passes; the user approves the list before edits (they asked to review lists first).
+- **Open decisions:**
+  - whether to include student names for the 642/643 and ICS teams (the evals give project names only)
+  - whether the CIS 598 link anchors are still valid
 
-### Open items for the user
-- Floating-IP cutover to the new droplet. Until then, archive.russfeld.me 404s publicly; the user accepted that window.
-- Missing archive videos (`media/b3fall2014rift.mp4`, `media/lecture2/nathanbean.mp4`); readability of the resized `cis225fall2015/15cloud/images/infographic.png`.
+## Later / blocked
+
+- **Talks (rest of Phase 2):** blocked on the user's talks `.bib`. Then: a talk variant of `cite.html`; replace the CV "Invited Talks" and "Selected Presentations" sections; move `content/talks/*` → `content/research/talks/<slug>/` with aliases. The user still needs to decide:
+  - one talks bib or two
+  - custom fields for slide/video links
+  - whether the Talks menu item stays
+- **Deferred (in `evals/cv-followups.md`):** a list of unfunded grant proposals (whether to add a "Submitted Proposals" section); the 2014 CDER book chapter (the user is checking whether it was published).
+- **Other:** placeholder bib key `10.1145/newpaper`; draft subpages `content/research/papers/building-the-cyber-pipeline/` and `content/research/grants/kriate/` still need to be filled in or deleted; archive is missing two videos; curl-check the 301s on the live domain.
 
 ## Context
 
-- **Workflow:** the user commits with GPG themselves. Stage on a branch and give a suggested message; the user opens PRs and merges. Never commit for them.
-- **Tools:** the devcontainer has non-extended Hugo (now sufficient). nginx and chromium are installed for redirect tests and screenshots (sudo works). No docker, no `gh`.
-- **Scratchpad helpers** (may be gone in a new session): `shots.sh` (screenshots, 45s timeout per page), `redirtest.py`, `linkcheck.py`, `hugo-ext/`.
-- Some content files are CRLF; edit byte-wise or with sed.
-
-## 🔧 Useful commands
+- **Workflow:** the user commits with GPG and opens/merges PRs. Work on a branch, stage changes, suggest a commit message; never commit for the user.
+- **Private data:** `/evals` (eval PDFs/tex, follow-ups) is gitignored and never goes in the repo; don't publish student comments.
+- **Quirks:**
+  - `cv.md` and `_index.md` use CRLF line endings: edit with Python `newline=''`
+  - in .bib, escape `%` as `\%` and separate authors with ` and `
+- **Tools:** non-extended Hugo, Node 24, no `gh`.
 
 ```bash
+npm run bib                                                   # bib/*.bib -> data/bib/*.json (commit the JSON)
 hugo --minify -d /tmp/out && scripts/check-urls.sh /tmp/out   # zero missing baseline URLs required
 ```
-
-## 📚 References
-
-- `.wolf/cerebrum.md` (Do-Not-Repeat: never change public URLs; don't resize print images; no `pkill -f` self-match; build-verify before deleting layouts; preserve CRLF) · `.wolf/buglog.json`

@@ -50,3 +50,30 @@ description: chronological action log per session, consolidated weekly
 | 18:43 | Created scripts/bib2json.mjs | — | ~822 |
 | 18:43 | Created layouts/partials/cite.html | — | ~551 |
 | 18:44 | Created data/grants.yaml | — | ~480 |
+
+## Session: 2026-10-13 13:56
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-10-16 14:58
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-11-14 17:23
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-11-14 17:23
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-11-14 17:24
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 17:54 | Created data/awards.yaml | — | ~477 |
+| 17:54 | Created layouts/shortcodes/cv/awards.html | — | ~176 |

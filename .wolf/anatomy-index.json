@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-12T18:44:19.416Z",
-    "fileCount": 505,
+    "lastScanned": "2026-11-14T17:54:26.084Z",
+    "fileCount": 507,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "e370bb2ecd17e1361900953ec572ebf39c788470721946ea3eeeb4a82cbfedb5",
-    "storeUpdatedAt": "2026-10-12T18:44:19.441Z",
-    "rootHash": "dffdf2fecc370230"
+    "renderedHash": "5ac01c844354773a99030192eb9d2304217065879e2902e6c03d0be2b9fc4cba",
+    "storeUpdatedAt": "2026-11-14T17:54:26.102Z",
+    "rootHash": "85191b0477b5ce0a"
   },
   "files": {
     ".devcontainer/compose.yml": {
@@ -4590,6 +4590,24 @@
       "size": 1679,
       "mtimeMs": 1791830659321.712,
       "updatedAt": "2026-10-12T18:44:19.415Z",
+      "source": "hook"
+    },
+    "data/awards.yaml": {
+      "description": "Honors & awards, newest first. Rendered on the CV by {{% cv/awards %}} and on the",
+      "tokens": 477,
+      "hash": "e3b514e4daecdf0b",
+      "size": 1667,
+      "mtimeMs": 1794678865096.8877,
+      "updatedAt": "2026-11-14T17:54:25.177Z",
+      "source": "hook"
+    },
+    "layouts/shortcodes/cv/awards.html": {
+      "description": "",
+      "tokens": 176,
+      "hash": "55d86a5bd1d7e194",
+      "size": 658,
+      "mtimeMs": 1794678866004.1597,
+      "updatedAt": "2026-11-14T17:54:26.083Z",
       "source": "hook"
     }
   },
