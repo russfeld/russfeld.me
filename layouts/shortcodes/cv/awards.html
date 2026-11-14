@@ -1,0 +1,17 @@
+{{- /* Awards from data/awards.yaml. Emits Markdown (call as {{% cv/awards %}}).
+     summary="true" gives a compact bullet list of entries flagged `summary: true` (About page). */ -}}
+{{- $cal := `<i class="fas fa-fw fa-calendar-alt"></i>` -}}
+{{- if eq (.Get "summary") "true" }}
+{{ range where site.Data.awards "summary" true -}}
+* **{{ .title }}** {{ $cal | safeHTML }} {{ .years }}
+{{ end }}
+{{- else }}
+{{- range site.Data.awards }}
+### {{ .title }}
+{{ if reflect.IsSlice .years }}{{ range .years }}{{ $cal | safeHTML }} {{ . }}
+{{ end }}{{ else }}{{ $cal | safeHTML }} {{ .years }}
+{{ end }}
+{{ range .items }}* {{ . }}
+{{ end }}
+{{ end }}
+{{- end }}

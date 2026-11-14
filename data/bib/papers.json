@@ -482,6 +482,7 @@
     "month": 6,
     "monthname": "June",
     "doi": "10.18260/1-2--56467",
+    "selected": true,
     "bibtex": "@INPROCEEDINGS{asee_peer_56467,\n    author = \"Russell Feldhausen and Nathan H Bean and Joshua Levi Weese and David S. Allen\",\n    title = \"Examining Rural Identity Among High School Computer Science Students\",\n    booktitle = \"2025 ASEE Annual Conference \\& Exposition \",\n    year = \"2025\",\n    month = \"June\",\n    address = \"Montreal, Quebec, Canada \",\n    publisher = \"ASEE Conferences\",\n    doi = {10.18260/1-2--56467},\n}"
   },
   {
@@ -700,6 +701,7 @@
     "monthname": "February",
     "pages": "102–108",
     "doi": "10.1145/3641554.3701840",
+    "selected": true,
     "bibtex": "@inproceedings{10.1145/3641554.3701840,\n    author = {Bean, Nathan H. and Weese, Joshua Levi and Feldhausen, Russell and Allen, David S. and Friend, Michelle},\n    title = {Building the Cyber Pipeline: Providing CS Education For Rural K-12 Schools},\n    year = {2025},\n    month = {February},\n    isbn = {9798400705311},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3641554.3701840},\n    booktitle = {Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1},\n    pages = {102–108},\n    numpages = {7},\n    keywords = {computer science education, k-12, k-12 teachers, rural students},\n    location = {Pittsburgh, PA, USA},\n    series = {SIGCSETS 2025}\n}"
   },
   {
@@ -754,6 +756,7 @@
     "monthname": "February",
     "pages": "95–101",
     "doi": "10.1145/3641554.3701843",
+    "selected": true,
     "bibtex": "@inproceedings{10.1145/3641554.3701843,\n    author = {Bean, Nathan H. and James, Friday E. and Tucker, Timothy and Theis, Yihong and Weese, Joshua Levi and Feldhausen, Russell},\n    title = {Developing Computing Lessons for Rural High School Students},\n    year = {2025},\n    month = {February},\n    isbn = {9798400705311},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3641554.3701843},\n    booktitle = {Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1},\n    pages = {95–101},\n    numpages = {7},\n    keywords = {broadening participation, computer science education, curriculum design, intersectional identity, k-12, k-12 teachers, rural consciousness, rural identity, rural students, underrepresented groups},\n    location = {Pittsburgh, PA, USA},\n    series = {SIGCSETS 2025}\n}"
   },
   {
@@ -907,6 +910,7 @@
     "month": 5,
     "monthname": "May",
     "note": "<a href=\"http://hdl.handle.net/2097/38864\">http://hdl.handle.net/2097/38864</a>",
+    "selected": true,
     "bibtex": "@mastersthesis{missiontomars,\n    title        = {Mission to Mars: A Computer Science Curriculum for Middle School STEM Camps},\n    author       = {Russell Feldhausen},\n    year         = 2018,\n    month        = {May},\n    address      = {Manhattan, KS},\n    note         = {\\url{http://hdl.handle.net/2097/38864}},\n    school       = {Kansas State University},\n    type         = {Master's thesis}\n}"
   },
   {
@@ -945,6 +949,7 @@
     "doi": "10.1145/3159450.3159593",
     "acceptance": "35%",
     "acceptanceurl": "https://dl.acm.org/citation.cfm?id=3159450",
+    "selected": true,
     "bibtex": "@inproceedings{10.1145/3159450.3159593,\n    author = {Feldhausen, Russell and Weese, Joshua Levi and Bean, Nathan H.},\n    month = {February},\n    title = {Increasing Student Self-Efficacy in Computational Thinking via STEM Outreach Programs},\n    year = {2018},\n    isbn = {9781450351034},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/3159450.3159593},\n    booktitle = {Proceedings of the 49th ACM Technical Symposium on Computer Science Education},\n    pages = {302–307},\n    numpages = {6},\n    keywords = {K-12, STEM, middle school, outreach, pedagogy, self-efficacy},\n    location = {Baltimore, Maryland, USA},\n    series = {SIGCSE '18}\n}"
   },
   {
@@ -1047,6 +1052,7 @@
     "monthname": "October",
     "pages": "1-8",
     "doi": "10.1109/FIE.2015.7344237",
+    "selected": true,
     "bibtex": "@INPROCEEDINGS{7344237,\n    author={Bean, Nathan H. and Weese, Joshua L. and Feldhausen, Russell and Bell, R. Scott},\n    month = {October},\n    location = {El Paso, TX, USA},\n    booktitle={2015 IEEE Frontiers in Education Conference (FIE)}, \n    title={Starting from Scratch: Developing a Pre-service Teacher Training Program in Computational Thinking}, \n    year={2015},\n    volume={},\n    number={},\n    pages={1-8},\n    keywords={Sprites (computer);Programming profession;Education;Shape;Conferences;Standards;Computational Thinking;K-12;teacher professional development;Scratch},\n    doi={10.1109/FIE.2015.7344237}\n}"
   },
   {
@@ -1118,6 +1124,7 @@
     "doi": "10.1145/2616498.2616568",
     "acceptance": "67%",
     "acceptanceurl": "https://dl.acm.org/citation.cfm?id=2616498",
+    "selected": true,
     "bibtex": "@inproceedings{10.1145/2616498.2616568,\n    author = {Feldhausen, Russell and Bell, R. Scott and Andresen, Daniel A.},\n    month = {July},\n    title = {Minimum Time, Maximum Effect: Introducing Parallel Computing in CS0 and STEM Outreach Activities Using Scratch},\n    year = {2014},\n    isbn = {9781450328937},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    doi = {10.1145/2616498.2616568},\n    booktitle = {Proceedings of the 2014 Annual Conference on Extreme Science and Engineering Discovery Environment},\n    articleno = {75},\n    numpages = {7},\n    location = {Atlanta, GA, USA},\n    series = {XSEDE '14}\n}"
   },
   {
