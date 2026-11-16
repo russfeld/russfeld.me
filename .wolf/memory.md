@@ -77,3 +77,14 @@ description: chronological action log per session, consolidated weekly
 |------|--------|---------|---------|--------|
 | 17:54 | Created data/awards.yaml | — | ~477 |
 | 17:54 | Created layouts/shortcodes/cv/awards.html | — | ~176 |
+| 20:04 | Session end: 2 writes across 2 files (awards.yaml, awards.html) | 8 reads | ~4547 tok |
+
+## Session: 2026-11-16 16:27
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-11-16 16:27
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|

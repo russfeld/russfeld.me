@@ -37,6 +37,8 @@ Phases: 0 URL baseline ✅ · 1 lean theme ✅ · 2 data-driven CV + Research �
 
 ## Later / blocked
 
+- **Projects page follow-ups:** CIS 642/643 team names for 2024–2025 (user checking email); Fall 2026 CIS 598 projects once `09-fall2026` is posted. Tracked in `evals/cv-followups.md`.
+
 - **Talks (rest of Phase 2):** blocked on the user's talks `.bib`. Then: a talk variant of `cite.html`; replace the CV "Invited Talks" and "Selected Presentations" sections; move `content/talks/*` → `content/research/talks/<slug>/` with aliases. The user still needs to decide:
   - one talks bib or two
   - custom fields for slide/video links
