@@ -48,17 +48,16 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 <i class="fas fa-fw fa-map-marker-alt"></i> [Computer Science Department](https://cs.ksu.edu) - [Kansas State University](https://ksu.edu), Manhattan, KS  
 <i class="fas fa-fw fa-calendar-alt"></i> May 2018 - Present  
 
-* Coordinating the department's senior project course
-* Developing courses for new [online certificate in CS](https://cs.ksu.edu/academics/computational-core/) and [Integrated Computer Science](https://ksu.edu/ics) program
-* Developing new online programming curriculum using [Codio](http://codio.com)
-* Developing courses used for K-12 Teacher Training and [curriculum for high schools](https://cs.ksu.edu/cyber-pipeline/)
-* Recording lecture videos and creating automated project assessments
-* Adapted existing course in [system administration](http://cis527.russfeld.me) to be entirely online
-* Developing and maintaining [Hugo template](https://github.com/ksu-cs-textbooks/hugo-theme-relearn) for [Online Textbooks](https://textbooks.cs.ksu.edu) developed by faculty
-* Developed and Led Teaching Assistant training program based on materials provided by [Luther A. Tychonievich](https://www.cs.virginia.edu/luther/ta-training/)
 * Lead the [Computational Core](https://cs.ksu.edu/academics/computational-core/) program and co-lead the [Cyber Pipeline](https://cs.ksu.edu/cyber-pipeline/) program with Dr. Nathan Bean, Dr. Josh Weese, and Dr. David Allen
+* Coordinate the department's senior project course (CIS 598)
+* Developed courses for the [online certificate in CS](https://cs.ksu.edu/academics/computational-core/) and [Integrated Computer Science](https://ksu.edu/ics) program, including online programming curriculum using [Codio](http://codio.com)
+* Developed courses used for K-12 Teacher Training and [curriculum for high schools](https://cs.ksu.edu/cyber-pipeline/)
+* Record lecture videos and create automated project assessments
+* Adapted existing course in [system administration](http://cis527.russfeld.me) to be entirely online
+* Develop and maintain the [Hugo template](https://github.com/ksu-cs-textbooks/hugo-theme-relearn) for [Online Textbooks](https://textbooks.cs.ksu.edu) developed by faculty
+* Developed and led a Teaching Assistant training program based on materials provided by [Luther A. Tychonievich](https://www.cs.virginia.edu/luther/ta-training/)
 * Serve as faculty liaison to the [Integrated Computer Science](https://ksu.edu/ics) and Digital Innovation in Media (DIGIN) degree programs
-* Developing content for MC 565 "Going Mobile" for the DIGIN degree program
+* Developed content for MC 565 "Going Mobile" for the DIGIN degree program
 * Administer the server hosting the online textbooks, the department Professional Program application site, the Group Advising Queue office hours system, and the department Discord server and bot
 * Supervised department videographers producing course videos (2020 - 2023)
 
@@ -96,10 +95,6 @@ I created a curriculum for middle school students attending a summer STEM camp. 
 
 * Provided hardware and software purchase consulting, installation and maintenance
 * Designed and implemented technology solutions and backup strategies for clients
-
-## Honors & Awards
-
-{{% cv/awards %}}
 
 ## Teaching Activities
 
@@ -176,8 +171,9 @@ College Courses Taught:
 **CC 410: Advanced Programming**  
 <i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present  
 <i class="fas fa-fw fa-book"></i> [Textbook](https://textbooks.cs.ksu.edu/cc410/)  
+
 **CC 520: Database Essentials**  
-<i class="fas fa-fw fa-calendar-alt"></i> 2025 (co-taught with Dr. Josh Weese)  
+<i class="fas fa-fw fa-calendar-alt"></i> 2025 (taught second half of course while Dr. Josh Weese was on leave)  
 
 * Led development of a new set of online courses in programming and software
 development for non-CS majors
@@ -243,37 +239,27 @@ troubleshooting, and virtual machine software
   * Students build working server systems using Windows and Linux virtual machines
   * Increase students’ ability to search for problem solutions with minimal guidance
   * Explore networked environments mimicking those used in industry
-  * Students gain experience working with cloud systems and
+  * Students gain experience working with cloud systems
   * Expose students to virtual machine software and other IT tools and practices
 
 ### CIS 595: Information Systems Internship
 <i class="fas fa-fw fa-calendar-alt"></i> 2014 - 2017
 
 * Coordinated this class for students completing their required internship
-* **Course contents and objectives:**
-  * Students gain an approved internship on campus or in industry
-  * Students submit regular reports to show they are achieving their goals
-  * Students give a final presentation to the department and peers describing the
-internship and knowledge gained from the experience
+* Students reported regularly on their goals and gave a final presentation to the department describing the knowledge gained from the experience
 
 ### CIS 190: Open House Committee
 <i class="fas fa-fw fa-calendar-alt"></i> 2014 - 2017
 
 * Developed this course for students interested in presenting at open house
-* **Course contents and objectives:**
-  * Students collaborate to form teams and create displays for open house
-  * Give hands-on experience with teamwork, creativity, and communication skills
-  * Explore how to share aspects of computer science with the public
+* Student teams created displays for open house, building teamwork, creativity, and communication skills while sharing computer science with the public
 
 ### DEN 301: Creative Problem Solving in Engineering
 <i class="fas fa-fw fa-calendar-alt"></i> 2017
 
 * Co-created new curriculum materials for this course for all engineering disciplines with
 another engineering faculty member
-* **Course contents and objectives:**
-  * Explore the decision-making process within engineering and design
-  * Expose students to concepts such as neuroscience, bias, and reasoning
-  * Students collaborate on teams to design a learning experience for peers
+* Explored decision-making in engineering and design, including neuroscience, bias, and reasoning, with student teams designing a learning experience for peers
 
 ### Independent Studies
 <i class="fas fa-fw fa-calendar-alt"></i> 2015, 2019, 2022 - 2023
@@ -281,12 +267,25 @@ another engineering faculty member
 * Supervised CIS 690 implementation projects, including system administration and networking tools for CIS 225 and CIS 527 (2015, 2019)
 * Taught CC 515 as an independent study for students who needed the course to graduate on time (2022, 2023)
 
+### Student Mentoring
+<i class="fas fa-fw fa-calendar-alt"></i> 2016 - Present  
+<i class="fas fa-fw fa-list"></i> [Full list of student projects](/about/projects/)
+
+* Supervised 75+ CIS 597/598 senior projects
+* Advised 14 Integrated Computer Science (ICS) capstone projects (2023 - Present)
+* Served as customer and mentor for 13 CIS 641/642/643 software engineering team projects
+* Graduate mentoring: Joel Bland (M.S. project, autograder v2.0, with Dr. Josh Weese, 2022 - 2023), Friday James (Ph.D. research, with Dr. Josh Weese, 2024 - Present), and Joshua Barron (Ph.D. research on knowledge graphs and mastery learning, 2025 - Present)
+
 ### Tea Time Office Hours  
 <i class="fas fa-fw fa-calendar-alt"></i> 2020 - Present
 
 * Host a weekly synchronous session with several other faculty and staff where students are invited to join and discuss anything going on in their lives
 * Invited several alumni and industry guests and panels to share information about industry and transitioning to professional life
 * The intent is to provide students a safe space and a forum to discuss issues unrelated to classwork
+
+## Honors & Awards
+
+{{% cv/awards %}}
 
 ## Grants
 
@@ -356,7 +355,7 @@ Kansas MACE Conference <i class="fas fa-fw fa-calendar-alt"></i> 2024
 
 **NCWIT Aspirations in Computing Award Ceremony** Faculty Panelist <br><i class="fas fa-fw fa-calendar-alt"></i> 2022
 
-**K-State Computational Core** at _Kansas Association for Career & Technical Education (K-ACTE) Conferece_<br><i class="fas fa-fw fa-calendar-alt"></i> 2020
+**K-State Computational Core** at _Kansas Association for Career & Technical Education (K-ACTE) Conference_<br><i class="fas fa-fw fa-calendar-alt"></i> 2020
 
 **Future Learning in CS** _Online Discussion with High Schools hosted by K-State Global Campus_<br><i class="fas fa-fw fa-calendar-alt"></i> 2020
 
@@ -402,7 +401,7 @@ Kansas MACE Conference <i class="fas fa-fw fa-calendar-alt"></i> 2024
 
 ### Society Memberships
 
-* [Association for Computing Machinery - Special Interest Group on Computer Science Education (ACMSIGCSE)](https://www.sigcse.org/)
+* [Association for Computing Machinery - Special Interest Group on Computer Science Education (ACM SIGCSE)](https://www.sigcse.org/)
 * [Computer Science Teachers Association (CSTA) - Kansas Chapter](https://kansas.csteachers.org/)
 * [American Society for Engineering Education (ASEE)](https://www.asee.org/)
 * National Extension Technology Community (NETC) - past member
@@ -418,25 +417,9 @@ Kansas MACE Conference <i class="fas fa-fw fa-calendar-alt"></i> 2024
 
 ## Service Activities
 
+### Department & University
+
 **Computer Science Department Computational Core Committee Chair** <br><i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present
-
-**Kansas Core Outcomes Group (KCOG) Delegate and Faculty Co-Chair** <br><i class="fas fa-fw fa-calendar-alt"></i> 2023
-
-**Cyber Pipeline Summer Workshop & Kansas CSTA (CS4KS) Conference Organizer** <br><i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present
-
-* Co-host an annual summer workshop for Cyber Pipeline teachers and a statewide conference for the Kansas chapter of CSTA at K-State with Dr. Nathan Bean, Dr. Josh Weese, and Dr. David Allen
-* Partnered with Perla Weaver to host an AP Computer Science training for teachers (2024)
-
-**K-State Computer Science Recruiting & Outreach Events** <br><i class="fas fa-fw fa-calendar-alt"></i> 2019 - Present
-
-* Engineering Scholar Days and Senior Days presentations (2021 - 2023)
-* Kansas CTE Conference recruiting booth (2022 - Present)
-* KC STEM Alliance and Project Lead the Way CS Teacher/Mentor Days (2019, 2020, 2024)
-* NCWIT Aspirations in Computing Award Ceremony booth (2020)
-* DigiGirlz event at Johnson County Community College (2019)
-* UrbanTEC virtual event presentation (2020)
-* St. James Academy college night and engineering recruiting events (2023 - 2025)
-* K-State Digital Summit sessions and planning (2023 - 2025)
 
 **Computer Science Department Curriculum Committee** <br><i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present
 
@@ -458,45 +441,16 @@ Kansas MACE Conference <i class="fas fa-fw fa-calendar-alt"></i> 2024
 
 **Applied Computer Science Program Committee** <br><i class="fas fa-fw fa-calendar-alt"></i> 2019
 
-**Faculty Mentor for K-State Cyber Defense Team** <br><i class="fas fa-fw fa-calendar-alt"></i> 2018 - 2019
+**K-State Computer Science Recruiting & Outreach Events** <br><i class="fas fa-fw fa-calendar-alt"></i> 2019 - Present
 
-* Mentored the [K-State team](https://www.k-state.edu/media/newsreleases/2018-12/cyberdefense12518.html) competing at Argonne National Laboratory and assisted with local contests
-
-**Reviewer for ACM Special Interest Group on Computer Science Education (SIGSCE) Technical Symposium** <br><i class="fas fa-fw fa-calendar-alt"></i> 2016 - Present
-
-**Reviewer for ACM Special Interest Group on Computer Science Education (SIGSCE) ITiCSE Conference** <br><i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present
-
-**Reviewer for ACM Special Interest Group on Computer Science Education (SIGSCE) CompED Conference** <br><i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present
-
-**Reviewer for Consortium for Computing Sciences in Colleges (CCSC) Central Plains Conference**<br><i class="fas fa-fw fa-calendar-alt"></i> 2021 - 2022, 2025
-
-**Reviewer for RESPECT (Research on Equity and Sustained Participation in Engineering, Computing, and Technology) Conference**<br><i class="fas fa-fw fa-calendar-alt"></i> 2025
-
-**Reviewer for Military Behavioral Health Journal**<br><i class="fas fa-fw fa-calendar-alt"></i> 2019 - 2020
-
-**Kansas Career & Technical Education (CTE) IT Cluster Review Group**<br><i class="fas fa-fw fa-calendar-alt"></i> 2021
-
-**Career & Technical Education (CTE) Advisory Committees** <br><i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present
-
-* Kansas City Kansas Public Schools (2021 - Present)
-* Manhattan High School (2022 - Present)
-* Olathe Public Schools (2022 - Present)
-* Blue Valley School District (2023 - Present)
-* Washburn Rural High School (2024 - Present)
-* Gardner Edgerton School District (2025 - Present)
-
-**Faculty Advisor for K-State Computer Science Graduate Student Association** <br><i class="fas fa-fw fa-calendar-alt"></i> 2022 - Present
-
-**Faculty Co-Advisor for Kansas Gamma Chapter of Tau Beta Pi** <br><i class="fas fa-fw fa-calendar-alt"></i> 2016 - 2017
-
-**Faculty Advisor for K-State Web Development Club** <br><i class="fas fa-fw fa-calendar-alt"></i> 2015 - 2017, 2020 - 2022
-
-**Kansas STARBASE Program** <br><i class="fas fa-fw fa-calendar-alt"></i> 2015 - 2017
-
-* Presented sessions about computer programming for Kansas youth
-* Introduced high performance computing and led tours of the Beocat supercomputer at K-State
-
-**Faculty Co-Advisor for K-State Association for Computing Machinery (ACM) Student Chapter** <br><i class="fas fa-fw fa-calendar-alt"></i>2014 - 2017, 2021 - Present
+* Engineering Scholar Days and Senior Days presentations (2021 - 2023)
+* Kansas CTE Conference recruiting booth (2022 - Present)
+* KC STEM Alliance and Project Lead the Way CS Teacher/Mentor Days (2019, 2020, 2024)
+* NCWIT Aspirations in Computing Award Ceremony booth (2020)
+* DigiGirlz event at Johnson County Community College (2019)
+* UrbanTEC virtual event presentation (2020)
+* St. James Academy college night and engineering recruiting events (2023 - 2025)
+* K-State Digital Summit sessions and planning (2023 - 2025)
 
 **Computer Science Department Open House Advisor** <br><i class="fas fa-fw fa-calendar-alt"></i> 2013 - 2017
 
@@ -512,10 +466,63 @@ Kansas MACE Conference <i class="fas fa-fw fa-calendar-alt"></i> 2024
 
 * Served on search committees for programmer and IT leadership positions in the Department of Communications & Agricultural Education, K-MAR-105, and the Biosecurity Research Institute
 
+### Student Organizations
+
+**Faculty Mentor for K-State Cyber Defense Team** <br><i class="fas fa-fw fa-calendar-alt"></i> 2018 - 2019
+
+* Mentored the [K-State team](https://www.k-state.edu/media/newsreleases/2018-12/cyberdefense12518.html) competing at Argonne National Laboratory and assisted with local contests
+
+**Faculty Advisor for K-State Computer Science Graduate Student Association** <br><i class="fas fa-fw fa-calendar-alt"></i> 2022 - Present
+
+**Faculty Co-Advisor for Kansas Gamma Chapter of Tau Beta Pi** <br><i class="fas fa-fw fa-calendar-alt"></i> 2016 - 2017
+
+**Faculty Advisor for K-State Web Development Club** <br><i class="fas fa-fw fa-calendar-alt"></i> 2015 - 2017, 2020 - 2022
+
+**Faculty Co-Advisor for K-State Association for Computing Machinery (ACM) Student Chapter** <br><i class="fas fa-fw fa-calendar-alt"></i>2014 - 2017, 2021 - Present
+
+### Professional Service & Peer Review
+
+**Reviewer for ACM Special Interest Group on Computer Science Education (SIGCSE) Technical Symposium** <br><i class="fas fa-fw fa-calendar-alt"></i> 2016 - Present
+
+**Reviewer for ACM Special Interest Group on Computer Science Education (SIGCSE) ITiCSE Conference** <br><i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present
+
+**Reviewer for ACM Special Interest Group on Computer Science Education (SIGCSE) CompED Conference** <br><i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present
+
+**Reviewer for Consortium for Computing Sciences in Colleges (CCSC) Central Plains Conference**<br><i class="fas fa-fw fa-calendar-alt"></i> 2021 - 2022, 2025
+
+**Reviewer for RESPECT (Research on Equity and Sustained Participation in Engineering, Computing, and Technology) Conference**<br><i class="fas fa-fw fa-calendar-alt"></i> 2025
+
+**Reviewer for Military Behavioral Health Journal**<br><i class="fas fa-fw fa-calendar-alt"></i> 2019 - 2020
+
+**Kansas Core Outcomes Group (KCOG) Delegate and Faculty Co-Chair** <br><i class="fas fa-fw fa-calendar-alt"></i> 2023
+
+**Cyber Pipeline Summer Workshop & Kansas CSTA (CS4KS) Conference Organizer** <br><i class="fas fa-fw fa-calendar-alt"></i> 2023 - Present
+
+* Co-host an annual summer workshop for Cyber Pipeline teachers and a statewide conference for the Kansas chapter of CSTA at K-State with Dr. Nathan Bean, Dr. Josh Weese, and Dr. David Allen
+* Partnered with Perla Weaver to host an AP Computer Science training for teachers (2024)
+
 **National Extension Technology Conference (NETC) 2014 Planning Committee** <br><i class="fas fa-fw fa-calendar-alt"></i> 2013 - 2014
 
 * Helped plan, set up, and coordinate conference events held in Manhattan, KS
 * Co-emceed one of the conference functions
+
+### K-12 & Community Outreach
+
+**Kansas Career & Technical Education (CTE) IT Cluster Review Group**<br><i class="fas fa-fw fa-calendar-alt"></i> 2021
+
+**Career & Technical Education (CTE) Advisory Committees** <br><i class="fas fa-fw fa-calendar-alt"></i> 2021 - Present
+
+* Kansas City Kansas Public Schools (2021 - Present)
+* Manhattan High School (2022 - Present)
+* Olathe Public Schools (2022 - Present)
+* Blue Valley School District (2023 - Present)
+* Washburn Rural High School (2024 - Present)
+* Gardner Edgerton School District (2025 - Present)
+
+**Kansas STARBASE Program** <br><i class="fas fa-fw fa-calendar-alt"></i> 2015 - 2017
+
+* Presented sessions about computer programming for Kansas youth
+* Introduced high performance computing and led tours of the Beocat supercomputer at K-State
 
 **Kansas 4-H Discovery Days** <br><i class="fas fa-fw fa-calendar-alt"></i> 2014 - 2016
 

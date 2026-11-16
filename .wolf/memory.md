@@ -88,3 +88,29 @@ description: chronological action log per session, consolidated weekly
 
 | Time | Action | File(s) | Outcome | ~Tokens |
 |------|--------|---------|---------|--------|
+
+## Session: 2026-11-16 19:04
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-11-16 19:07
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-11-16 19:07
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 19:34 | Edited content/about/cv.md | 13→12 lines | ~438 |
+| 19:35 | Edited content/about/cv.md | 5→1 lines | ~6 |
+| 19:35 | Edited content/about/cv.md | 3→7 lines | ~18 |
+| 19:35 | Edited content/about/cv.md | 3→4 lines | ~62 |
+| 19:35 | Edited content/about/cv.md | 2→2 lines | ~18 |
+| 19:35 | Edited content/about/cv.md | reduced (-10 lines) | ~247 |
+| 19:35 | Edited content/about/cv.md | expanded (+9 lines) | ~199 |
+| 19:35 | Edited content/about/cv.md | inline fix | ~12 |
+| 19:38 | Created evals/cv_latex/cv.tex | — | ~6820 |
+| 19:39 | Edited evals/cv_latex/cv.tex | 2→2 lines | ~25 |
+| 19:39 | Edited evals/cv_latex/cv.tex | inline fix | ~9 |

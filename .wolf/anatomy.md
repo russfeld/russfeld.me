@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-14T17:54:26.084Z
-> Files: 507 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-16T19:39:03.593Z
+> Files: 508 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -71,7 +71,7 @@
 ## content/about/
 
 - `_index.md` — My Background (~2254 tok)
-- `cv.md` — Education (~8179 tok)
+- `cv.md` — Education (~7864 tok)
 - `projects.md` — 2023 (~1174 tok)
 
 ## content/areas/
@@ -281,6 +281,10 @@
 
 - `awards.yaml` — Honors & awards, newest first. Rendered on the CV by {{% cv/awards %}} and on the (~477 tok)
 - `grants.yaml` — Grants, newest first. `slug` links a subpage at content/research/grants/<slug>/ (front matter `grant (~480 tok)
+
+## evals/cv_latex/
+
+- `cv.tex` (~6816 tok)
 
 ## layouts/
 
